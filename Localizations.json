@@ -29,9 +29,10 @@
           "Key": "07fb0059-a29a-4d7a-8a7c-64f63311c05c"
         },
         {
-          "Name": "Australian Business Number (ABN)",
+          "Name": "ABN",
           "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273",
           "FieldSize": "Medium",
+          "Description": "Australian Business Number",
           "Key": "0fba87ee-0386-401a-8d1f-302313b663f4"
         },
         {
