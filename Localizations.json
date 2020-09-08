@@ -592,7 +592,7 @@
           "{% assign G3 = gst_free.totalSales | reversesign | hyperlink %}",
           "{% assign G4 = input_taxed.totalSales | reversesign | hyperlink %}",
           "{% assign G10 = gst_10_capex.totalPurchases | hyperlink %}",
-          "{% assign G11 = gst_10.totalPurchases | merge: gst_free.totalPurchases | merge: input_taxed.totalPurchases | merge: gst_free_import_export.totalPurchases | hyperlink %}",
+          "{% assign G11 = gst_10.totalPurchases | merge: gst_free.totalPurchases | merge: input_taxed.totalPurchases | merge: gst_free_import_export.totalPurchases | merge: gst_on_imports.totalPurchases | hyperlink %}",
           "{% assign 1A = gst_10.taxOnSales | merge: gst_10_capex.taxOnSales | merge: gst_on_imports.taxOnSales | reversesign | hyperlink %}",
           "{% assign 7A = deferred_gst_10.taxOnSales | reversesign | hyperlink %}",
           "{% assign 8A = gst_10.taxOnSales | merge: gst_10_capex.taxOnSales | merge: gst_on_imports.taxOnSales | merge: deferred_gst_10.taxOnSales | reversesign | hyperlink %}",
