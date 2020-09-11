@@ -772,7 +772,6 @@
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "CustomSalesInvoiceTitle": true,
         "SalesInvoiceTitle": "Tax Invoice",
-        "CustomFields": {},
         "Key": "1731afd8-40df-484c-8335-81a1451ab8f8"
       },
       {
@@ -859,7 +858,7 @@
           "{% assign 1b_grondslag = period | taxcode: BTW_6, BTW_9 | issale: true | istaxtransaction: false | reversesign | hyperlink %}",
           "{% assign 1b_omzetbelasting = period | taxcode: BTW_6, BTW_9 | issale: true | istaxtransaction: true | reversesign | hyperlink %}",
           "{% assign 1d_omzetbelasting = period | taxcode: BTW_privegebruik | issale: true | istaxtransaction: true | reversesign | hyperlink %}",
-          "{% assign 1e_grondslag = period | taxcode: BTW_0_verlegd, BTW_0_vrijgesteld, BTW_21_verlegd, BTW_6_verlegd, BTW_9_verlegd] | issale: true | reversesign | hyperlink %}",
+          "{% assign 1e_grondslag = period | taxcode: BTW_0_verlegd, BTW_0_vrijgesteld, BTW_21_verlegd, BTW_6_verlegd, BTW_9_verlegd] | issale: true | istaxtransaction: false | reversesign | hyperlink %}",
           "",
           "{% assign 2a_grondslag = period | taxcode: BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd | issale: false | istaxtransaction: false | hyperlink %}",
           "{% assign 2a_omzetbelasting = period | taxcode: BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd | issale: false | istaxtransaction: true | hyperlink %}",
@@ -885,11 +884,9 @@
     "TaxCodes": [
       {
         "Name": "BTW 6% EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 6.0,
-        "CustomFields": {},
         "Key": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b"
       },
       {
@@ -908,20 +905,16 @@
       },
       {
         "Name": "BTW 21% non-EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 21.0,
-        "CustomFields": {},
         "Key": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
       },
       {
         "Name": "BTW 9% EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 9.0,
-        "CustomFields": {},
         "Key": "4d895b0c-a40c-44ff-b441-9620c7619699"
       },
       {
@@ -931,20 +924,16 @@
       },
       {
         "Name": "BTW 9% non-EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 9.0,
-        "CustomFields": {},
         "Key": "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
       },
       {
         "Name": "BTW 21% EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 21.0,
-        "CustomFields": {},
         "Key": "93cdbadc-4a15-41ff-bf68-4ed927915680"
       },
       {
@@ -967,11 +956,9 @@
       },
       {
         "Name": "BTW 6% non-EU",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 6.0,
-        "CustomFields": {},
         "Key": "bddb4876-fd25-49bf-ac71-5365878268ef"
       },
       {
@@ -981,11 +968,9 @@
       },
       {
         "Name": "BTW 21% verlegd",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 21.0,
-        "CustomFields": {},
         "Key": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
       },
       {
@@ -995,20 +980,16 @@
       },
       {
         "Name": "BTW 9% verlegd",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 9.0,
-        "CustomFields": {},
         "Key": "dd28f171-7422-44a3-937a-432e8d2970ea"
       },
       {
         "Name": "BTW 6% verlegd",
-        "Components": [],
         "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
         "IsReverseCharged": true,
         "ReverseChargedRate": 6.0,
-        "CustomFields": {},
         "Key": "e5f20470-dffa-4453-a0a9-42a403c04e23"
       }
     ]
