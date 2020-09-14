@@ -1,0 +1,17 @@
+image: Visual Studio 2019
+version: "1.0.{build}"
+shallow_clone: true
+
+build_script:
+  - cmd: dotnet --version
+  - cmd: dotnet run --configuration Release
+  
+artifacts:
+  - path: Localizations.json
+    name: Localizations.json
+
+deploy:
+  tag: $(appveyor_build_version)
+  release: Localizations $(appveyor_build_version)
+  provider: GitHub
+  artifact: Localizations.json
