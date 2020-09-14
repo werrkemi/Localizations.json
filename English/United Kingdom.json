@@ -1,0 +1,88 @@
+{
+  "BalanceSheetAccounts": [
+    {
+      "Name": "Tax payable",
+      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
+      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "NameWithCode": "Tax payable",
+      "AbstractName": "Tax payable",
+      "AbstractDescription": "Starting balance"
+    }
+  ],
+  "CustomFields": [
+    {
+      "Name": "Contact",
+      "FieldSize": "Medium",
+      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8"
+    }
+  ],
+  "ReportTransformations": [
+    {
+      "Name": "VAT Calculation Worksheet",
+      "Spreadsheet": "{\"colWidths\":[537,32,149,109],\"data\":[[\"{{ business.Name }}\",null,null,null],[\"VAT Calculation Worksheet\",null,null,null],[\"For the period from {{ report.From }} until {{ report.To }}\",null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null],[null,null,null,null],[\"VAT Calculations\",null,null,null],[\"VAT due in this period on sales and other outputs\",\"£\",\"{{ G1 }}\",\"#1 on the VAT Return\"],[\"VAT due in this period on acquisitions from other EC Member States\",\"£\",\"0.00\",\"#2 on the VAT Return\"],[\"Total VAT due (the sum of boxes 1 and 2)\",\"£\",\"{{ G3 }}\",\"#3 on the VAT Return\"],[\"VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)\",\"£\",\"{{ G4 }}\",\"#4 on the VAT Return\"],[\"Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)\",\"£\",\"{{ G5 }}\",\"#5 on the VAT Return\"],[\"Sales and Purchases Excluding VAT\",null,null,null],[\"Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.\",\"£\",\"{{ G6 }}\",\"#6 on the VAT Return\"],[\"Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure.\",\"£\",\"{{ G7 }}\",\"#7 on the VAT Return\"],[\"Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States.\",\"£\",\"{{ G8 }}\",\"#8 on the VAT Return\"],[\"Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States.\",\"£\",\"{{ G9 }}\",\"#9 on the VAT Return\"],[null,null,null,null],[\"<form method=\\\"POST\\\" action=\\\"download\\\">\\n<input type=\\\"hidden\\\" name=\\\"filename\\\" value=\\\"VAT Calculation Worksheet for the period from {{ report.From }} until {{ report.To }}.csv\\\">\\n<input type=\\\"hidden\\\" name=\\\"content\\\" value=\\\"{{ exportToCSV }}\\\"><input type=\\\"submit\\\" value=\\\"Export to CSV\\\" class=\\\"btn btn-warning\\\" style=\\\"font-weight: bold\\\">\\n</form>\",null,null,null],[null,null,null,null],[\"To lodge this VAT return electronically:\",null,null,null],[\"Export this report to CSV file by clicking on <b>Export to CSV</b> button\",null,null,null],[\"Go to <a href=\\\"https://www.taxoptimiser.co.uk\\\" target=\\\"_blank\\\">https://www.taxoptimiser.co.uk</a> and login\",null,null,null],[\"If this is your first lodgement, in the left navigation click on <b>HMRC</b>, then <b>VAT Settings</b> and set <b>Software Template</b> to <b>Manager.io</b>\",null,null,null],[\"In the left navigation, click on <b>HMRC</b>, then <b>VAT Returns</b>\",null,null,null],[\"Click on the period you are making lodgement for\",null,null,null],[\"Drag and drop exported CSV file to designated location\",null,null,null],[\"After upload is complete, verify the figures and click <b>Send VAT Return</b> button.\",null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":0,\"col\":1,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":0,\"col\":2,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":0,\"col\":3,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":0,\"col\":4,\"className\":\" remove_col\"},{\"row\":1,\"col\":0,\"className\":\" htCenter alignment-center font-weight-bold mergeCells font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" htCenter alignment-center font-weight-bold mergeCells font-size-x-large\"},{\"row\":1,\"col\":2,\"className\":\" htCenter alignment-center font-weight-bold mergeCells font-size-x-large\"},{\"row\":1,\"col\":3,\"className\":\" htCenter alignment-center font-weight-bold mergeCells font-size-x-large\"},{\"row\":1,\"col\":4,\"className\":\" remove_col\"},{\"row\":2,\"col\":0,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":2,\"col\":1,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":2,\"col\":2,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":2,\"col\":3,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells\"},{\"row\":2,\"col\":4,\"className\":\" remove_col\"},{\"row\":3,\"col\":0,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells remove_row\"},{\"row\":3,\"col\":1,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells remove_row\"},{\"row\":3,\"col\":2,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells remove_row\"},{\"row\":3,\"col\":3,\"className\":\" font-size-large htCenter alignment-center font-weight-bold mergeCells remove_row\"},{\"row\":4,\"col\":0,\"className\":\" row_below remove_row\"},{\"row\":4,\"col\":1,\"className\":\" remove_row\"},{\"row\":4,\"col\":2,\"className\":\" remove_row\"},{\"row\":4,\"col\":3,\"className\":\" remove_row\"},{\"row\":5,\"col\":0,\"className\":\" row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":2,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":6,\"col\":0},{\"row\":6,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":6,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":6,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":7,\"col\":0,\"className\":\" row_below\"},{\"row\":7,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":7,\"col\":4,\"className\":\" remove_col\"},{\"row\":8,\"col\":0,\"className\":\" row_below font-weight-bold\"},{\"row\":8,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":8,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":9,\"col\":0,\"className\":\" row_below\"},{\"row\":9,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":9,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":9,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":9,\"col\":4,\"className\":\" remove_col\"},{\"row\":10,\"col\":0,\"className\":\" font-weight-bold\"},{\"row\":10,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":10,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":10,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":10,\"col\":4,\"className\":\" remove_col\"},{\"row\":11,\"col\":0,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":11,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":11,\"col\":2,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":11,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":11,\"col\":4,\"className\":\" remove_col\"},{\"row\":12,\"col\":0,\"className\":\" row_below\"},{\"row\":12,\"col\":1,\"className\":\" row_below htRight alignment-right\"},{\"row\":12,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":12,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":12,\"col\":4,\"className\":\" remove_col\"},{\"row\":13,\"col\":0,\"className\":\" row_below\"},{\"row\":13,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":13,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":13,\"col\":4,\"className\":\" remove_col\"},{\"row\":14,\"col\":0},{\"row\":14,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":14,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":14,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":14,\"col\":4,\"className\":\" remove_col\"},{\"row\":15,\"col\":0,\"className\":\" row_below\"},{\"row\":15,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":15,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":15,\"col\":3,\"className\":\" htCenter alignment-center font-size-x-small\"},{\"row\":15,\"col\":4,\"className\":\" remove_col\"},{\"row\":16,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":16,\"col\":1},{\"row\":16,\"col\":2},{\"row\":16,\"col\":3},{\"row\":16,\"col\":4,\"className\":\" remove_col\"},{\"row\":17,\"col\":0},{\"row\":17,\"col\":1},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4,\"className\":\" remove_col\"},{\"row\":18,\"col\":0,\"className\":\" row_above\"},{\"row\":18,\"col\":1,\"className\":\" row_above\"},{\"row\":18,\"col\":2,\"className\":\" row_above\"},{\"row\":18,\"col\":3,\"className\":\" row_above\"},{\"row\":19,\"col\":0,\"className\":\" mergeCells font-weight-bold row_below mergeCells mergeCells font-size-normal\"},{\"row\":19,\"col\":1,\"className\":\" mergeCells font-weight-bold row_below mergeCells mergeCells font-size-normal\"},{\"row\":19,\"col\":2,\"className\":\" mergeCells font-weight-bold row_below mergeCells mergeCells font-size-normal\"},{\"row\":19,\"col\":3,\"className\":\" mergeCells font-weight-bold row_below mergeCells mergeCells font-size-normal\"},{\"row\":20,\"col\":0,\"className\":\" row_below mergeCells font-size-normal\"},{\"row\":20,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":20,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":20,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":21,\"col\":0,\"className\":\" row_below row_below row_below mergeCells font-size-normal\"},{\"row\":21,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":21,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":21,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":22,\"col\":0,\"className\":\" row_below mergeCells font-size-normal\"},{\"row\":22,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":22,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":22,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":23,\"col\":0,\"className\":\" mergeCells font-size-normal\"},{\"row\":23,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":23,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":23,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":24,\"col\":0,\"className\":\" mergeCells font-size-normal\"},{\"row\":24,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":24,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":24,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":25,\"col\":0,\"className\":\" row_below mergeCells font-size-normal\"},{\"row\":25,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":25,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":25,\"col\":3,\"className\":\" mergeCells font-size-normal\"},{\"row\":26,\"col\":0,\"className\":\" mergeCells font-size-normal\"},{\"row\":26,\"col\":1,\"className\":\" mergeCells font-size-normal\"},{\"row\":26,\"col\":2,\"className\":\" mergeCells font-size-normal\"},{\"row\":26,\"col\":3,\"className\":\" mergeCells font-size-normal\"}],\"mergeCells\":[{\"col\":0,\"row\":5,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":11,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":26,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":25,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":24,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":23,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":22,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":21,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":20,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":19,\"colspan\":4,\"rowspan\":1}]}",
+      "Script": [
+        "{% assign VAT_0 = \"6959fb01-3a48-486a-9bec-a0681a662f03\" %}",
+        "{% assign VAT_0_EU = \"70364d69-174a-4804-881e-852bdbff59e2\" %}",
+        "{% assign VAT_20 = \"b926c2d8-09e4-496c-9a2c-818c8aaa36ed\" %}",
+        "{% assign VAT_5 = \"56769971-405e-47bd-bd13-d64de0eae752\" %}",
+        "{% assign VAT_exempt = \"42a5002c-5c8f-4def-8672-4e6f3fc09654\" %}",
+        "",
+        "{% assign period = transactions | startdate: report.From | enddate: report.To %}",
+        "",
+        "{% assign G1 = period | taxcode: VAT_5, VAT_20 | tax_on_sales | reversesign %}",
+        "{% assign G3 = period | taxcode: VAT_5, VAT_20 | tax_on_sales | reversesign %}",
+        "{% assign G4 = period | taxcode: VAT_5, VAT_20 | tax_on_purchases %}",
+        "{% assign G5 = period | taxcode: VAT_5, VAT_20 | tax_amount | reversesign %}",
+        "{% assign G6 = period | taxcode: VAT_0, VAT_0_EU, VAT_exempt, VAT_5, VAT_20 | tax_exclusive_sales | reversesign %}",
+        "{% assign G7 = period | taxcode: VAT_0, VAT_0_EU, VAT_exempt, VAT_5, VAT_20 | tax_exclusive_purchases %}",
+        "{% assign G8 = period | taxcode: VAT_0_EU | tax_exclusive_sales | reversesign %}",
+        "{% assign G9 = period | taxcode: VAT_0_EU | tax_exclusive_purchases %}",
+        "",
+        "{% capture exportToCSV %}{{ G1 | balance }}",
+        "0.00",
+        "{{ G3 | balance }}",
+        "{{ G4 | balance }}",
+        "{{ G5 | balance }}",
+        "{{ G6 | balance }}",
+        "{{ G7 | balance }}",
+        "{{ G8 | balance }}",
+        "{{ G9 | balance }}",
+        "{% endcapture %}",
+        ""
+      ],
+      "Source": "https://www.manager.io/localizations/gb/12e5e9fbd8e84fceaa338ba564117550.json",
+      "Key": "12e5e9fb-d8e8-4fce-aa33-8ba564117550"
+    }
+  ],
+  "TaxCodes": [
+    {
+      "Name": "VAT Exempt",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "42a5002c-5c8f-4def-8672-4e6f3fc09654"
+    },
+    {
+      "Name": "VAT 5%",
+      "Rate": 5.0,
+      "TaxRate": "CustomRate",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "56769971-405e-47bd-bd13-d64de0eae752"
+    },
+    {
+      "Name": "VAT 0%",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "6959fb01-3a48-486a-9bec-a0681a662f03"
+    },
+    {
+      "Name": "VAT 0% (EU)",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "70364d69-174a-4804-881e-852bdbff59e2"
+    },
+    {
+      "Name": "VAT 20%",
+      "Rate": 20.0,
+      "TaxRate": "CustomRate",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+    }
+  ]
+}
