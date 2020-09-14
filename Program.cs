@@ -10,6 +10,8 @@ namespace Localizations
     {
         static void Main()
         {
+            Console.WriteLine("Working Directory: "+Directory.GetCurrentDirectory());
+
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.Parent;
 
             var output = new Dictionary<string, Dictionary<string, object>>();
