@@ -17,6 +17,7 @@ namespace Localizations
             keys.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
             keys.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
             keys.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
+            keys.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
 
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
 #if DEBUG
