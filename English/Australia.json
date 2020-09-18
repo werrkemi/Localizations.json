@@ -3,18 +3,12 @@
     {
       "Name": "GST payable",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "NameWithCode": "GST payable",
-      "AbstractName": "GST payable",
-      "AbstractDescription": "Starting balance"
+      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     {
       "Name": "Payroll liabilities",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Key": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "NameWithCode": "Payroll liabilities",
-      "AbstractName": "Payroll liabilities",
-      "AbstractDescription": "Starting balance"
+      "Key": "8a3514e3-3bac-43b8-9521-21fc59e90287"
     }
   ],
   "38cf4712-6e95-4ce1-b53a-bff03edad273": [
@@ -30,10 +24,7 @@
   "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": [
     {
       "Name": "Brilliant Customer",
-      "Key": "320b7512-852c-438b-b60f-370d5d8f620f",
-      "NameWithCode": "Brilliant Customer",
-      "AbstractName": "Brilliant Customer",
-      "AbstractDescription": "Starting balance"
+      "Key": "320b7512-852c-438b-b60f-370d5d8f620f"
     }
   ],
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
@@ -303,10 +294,7 @@
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident",
         "f6859bbb-1736-4e60-81f2-2703a9ea4686": "2010-7-6"
       },
-      "Key": "11302941-b98d-4410-9417-363ea2e84932",
-      "NameWithCode": "Generous employee",
-      "AbstractName": "Generous employee",
-      "AbstractDescription": "Starting balance"
+      "Key": "11302941-b98d-4410-9417-363ea2e84932"
     },
     {
       "Name": "Erick Walker Eaker",
@@ -319,10 +307,7 @@
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Working Holiday Maker"
       },
       "Code": "EWE",
-      "Key": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
-      "NameWithCode": "EWE - Erick Walker Eaker",
-      "AbstractName": "Erick Walker Eaker",
-      "AbstractDescription": "Starting balance"
+      "Key": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36"
     },
     {
       "Name": "Micheal Overseas",
@@ -330,10 +315,7 @@
         "6b837666-1039-4cfc-948b-5c36b30682c2": "F — Full-time",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident"
       },
-      "Key": "768f44b4-d427-47ea-bef7-d71ae87e3d8b",
-      "NameWithCode": "Micheal Overseas",
-      "AbstractName": "Micheal Overseas",
-      "AbstractDescription": "Starting balance"
+      "Key": "768f44b4-d427-47ea-bef7-d71ae87e3d8b"
     },
     {
       "Name": " Altagracia Biggerstaff",
@@ -344,10 +326,7 @@
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
       },
       "Code": "",
-      "Key": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
-      "NameWithCode": " Altagracia Biggerstaff",
-      "AbstractName": " Altagracia Biggerstaff",
-      "AbstractDescription": "Starting balance"
+      "Key": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b"
     },
     {
       "Name": " Marcel Atteberry",
@@ -357,10 +336,7 @@
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
       },
       "Code": "DDD",
-      "Key": "e3571cd1-6574-42cf-b160-9741b4d2d526",
-      "NameWithCode": "DDD -  Marcel Atteberry",
-      "AbstractName": " Marcel Atteberry",
-      "AbstractDescription": "Starting balance"
+      "Key": "e3571cd1-6574-42cf-b160-9741b4d2d526"
     },
     {
       "Name": " Luigi Flanery",
@@ -370,10 +346,7 @@
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
       },
       "Code": "XCC",
-      "Key": "fbc4be80-b181-4cb0-8244-7c059388a8ff",
-      "NameWithCode": "XCC -  Luigi Flanery",
-      "AbstractName": " Luigi Flanery",
-      "AbstractDescription": "Starting balance"
+      "Key": "fbc4be80-b181-4cb0-8244-7c059388a8ff"
     }
   ],
   "e7b3a4f4-35d7-4f92-a8fc-e9eadbc140a8": [
@@ -387,8 +360,7 @@
   "7affe9ee-731f-4936-8acf-15cae7bcacee": [
     {
       "Name": "sdaasddasdas",
-      "Key": "726af1f5-cceb-46d8-8ef3-72699a0184a1",
-      "NameWithCode": "sdaasddasdas"
+      "Key": "726af1f5-cceb-46d8-8ef3-72699a0184a1"
     }
   ],
   "1d103fa7-6fc1-4951-811e-972968b842cc": [
@@ -413,8 +385,7 @@
           "Amount": 95.0
         }
       ],
-      "Key": "4be532e1-0eae-481b-988c-64b115e2d842",
-      "AbstractName": "Payslip"
+      "Key": "4be532e1-0eae-481b-988c-64b115e2d842"
     },
     {
       "Date": "2019-07-01T00:00:00",
@@ -436,8 +407,7 @@
           "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
         }
       ],
-      "Key": "a4413f60-f60b-481b-bf7c-134d8ffa4337",
-      "AbstractName": "Payslip"
+      "Key": "a4413f60-f60b-481b-bf7c-134d8ffa4337"
     },
     {
       "Date": "2019-07-04T00:00:00",
@@ -461,8 +431,7 @@
       "Contributions": [
         {}
       ],
-      "Key": "bf89e12a-fa23-4c3d-8962-cbba70e60731",
-      "AbstractName": "Payslip"
+      "Key": "bf89e12a-fa23-4c3d-8962-cbba70e60731"
     },
     {
       "Date": "2019-07-25T00:00:00",
@@ -485,8 +454,7 @@
           "Amount": 95.0
         }
       ],
-      "Key": "c94cceeb-e66b-4bf8-b6b6-28d90e7aa097",
-      "AbstractName": "Payslip"
+      "Key": "c94cceeb-e66b-4bf8-b6b6-28d90e7aa097"
     },
     {
       "Date": "2019-07-04T00:00:00",
@@ -529,8 +497,7 @@
           "Amount": 99.0
         }
       ],
-      "Key": "d2dedd15-2a09-4e42-98da-70c0c3e96970",
-      "AbstractName": "Payslip"
+      "Key": "d2dedd15-2a09-4e42-98da-70c0c3e96970"
     }
   ],
   "73af4c68-c347-4088-8846-758f1e7bc5bb": [
@@ -712,23 +679,17 @@
     {
       "Name": "Wages & salaries",
       "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
-      "Key": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "NameWithCode": "Wages & salaries",
-      "IsProfitAndLossAccount": true
+      "Key": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1"
     },
     {
       "Name": "Sales",
       "Group": "97d40d08-0210-4b1a-aeb7-c4d12605162e",
-      "Key": "80d57fa1-79a0-41e2-b195-773eaf519f62",
-      "NameWithCode": "Sales",
-      "IsProfitAndLossAccount": true
+      "Key": "80d57fa1-79a0-41e2-b195-773eaf519f62"
     },
     {
       "Name": "Computer equipment",
       "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
-      "Key": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
-      "NameWithCode": "Computer equipment",
-      "IsProfitAndLossAccount": true
+      "Key": "af71dfe6-2946-4123-b8c6-b29d89304fc0"
     }
   ],
   "5770616c-0e01-46ca-a172-f7042275da6c": [
@@ -762,8 +723,7 @@
           "CustomerOrSupplier": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6"
         }
       ],
-      "Key": "c5873557-b4e9-461a-a4e9-5ed46ff71dca",
-      "AbstractName": "Payment"
+      "Key": "c5873557-b4e9-461a-a4e9-5ed46ff71dca"
     }
   ],
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
@@ -952,10 +912,7 @@
         "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f": "Yes",
         "9483841a-8d21-4c77-8031-614f721878fa": "111222333444555"
       },
-      "Key": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6",
-      "NameWithCode": "Brilliant Supplier",
-      "AbstractName": "Brilliant Supplier",
-      "AbstractDescription": "Starting balance"
+      "Key": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6"
     }
   ],
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
