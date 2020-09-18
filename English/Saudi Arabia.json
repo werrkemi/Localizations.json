@@ -1,5 +1,5 @@
 {
-  "BalanceSheetAccounts": [
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
       "Name": "Tax payable",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
@@ -9,14 +9,34 @@
       "AbstractDescription": "Starting balance"
     }
   ],
-  "CustomFields": [
+  "38cf4712-6e95-4ce1-b53a-bff03edad273": [
+    {
+      "Name": "Saudi Arabia",
+      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    }
+  ],
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
     {
       "Name": "Contact",
       "FieldSize": "Medium",
       "Key": "436f269c-126f-4055-847b-b8d146b7e1e8"
     }
   ],
-  "ReportTransformations": [
+  "699401fe-23fd-4b52-9699-b88b36fa6b26": [
+    {
+      "Type": "Payment",
+      "Date": "2020-09-11T00:00:00",
+      "Lines": [
+        {
+          "Amount": 1000.0,
+          "TaxCode": "1731afd8-40df-484c-8335-81a1451ab8f8"
+        }
+      ],
+      "Key": "d0593fcf-4198-4dde-b1e6-43a522dae69d",
+      "AbstractName": "Payment"
+    }
+  ],
+  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
     {
       "Name": "VAT Return Form",
       "Spreadsheet": "{\"colWidths\":[43,624,134,148],\"data\":[[\"{{ business.Name }}\",null,null,null],[\"VAT Return Form\",null,null,null],[\"For the period from {{ report.From }} to {{ report.To }}\",null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null],[\"\",null,\"Amount (SAR)\",\"VAT Amount (SAR)\"],[\"VAT on Sales\",null,null,null],[\"1\",\"Standard rated sales\",\"{{ C1 }}\",\"{{ D1 }}\"],[\"2\",\"Private Healthcare / Private Education sales to citizens\",null,null],[\"3\",\"Zero rated domestic sales\",\"{{ C3 }}\",null],[\"4\",\"Exports\",\"{{ C4 }}\",null],[\"5\",\"Exempt sales\",\"{{ C5 }}\",null],[\"6\",\"Total Sales\",\"{{ C6 }}\",\"{{ D6 }}\"],[\"VAT on Purchases\",null,null,null],[\"7\",\"Standard rated domestic purchases\",\"{{ C7 }}\",\"{{ D7 }}\"],[\"8\",\"Imports subject to VAT paid at customs\",\"\",\"\"],[\"9\",\"Imports subject to VAT accounted for through reverse charge mechanism\",null,null],[\"10\",\"Zero rated purchases\",\"{{ C10 }}\",null],[\"11\",\"Exempt purchases\",\"{{ C11 }}\",null],[\"12\",\"Total purchases\",\"{{ C12 }}\",\"{{ D12 }}\"],[\"Summary\",null,null,null],[\"13\",\"Total VAT due for current period\",null,\"{{ D13 }}\"],[\"14\",\"Corrections from previous preiod\",null,null],[\"15\",\"VAT credit carried forward from previous period(s)\",null,null],[null,\"Net VAT due (or claim)\",null,\"{{ D13 }}\"]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" row_above mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center remove_col\"},{\"row\":0,\"col\":4,\"className\":\" remove_col\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells font-weight-bold htCenter alignment-center font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells font-weight-bold htCenter alignment-center font-size-x-large\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells font-weight-bold htCenter alignment-center font-size-x-large\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells font-weight-bold htCenter alignment-center font-size-x-large remove_col\"},{\"row\":1,\"col\":4,\"className\":\" remove_col\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":2,\"col\":2,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":2,\"col\":3,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center remove_col\"},{\"row\":2,\"col\":4,\"className\":\" remove_col\"},{\"row\":3,\"col\":0,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":3,\"col\":1,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":3,\"col\":2,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center\"},{\"row\":3,\"col\":3,\"className\":\" mergeCells font-size-large font-weight-bold htCenter alignment-center remove_col\"},{\"row\":3,\"col\":4,\"className\":\" remove_col\"},{\"row\":4,\"col\":0,\"className\":\" mergeCells mergeCells\"},{\"row\":4,\"col\":1,\"className\":\" mergeCells mergeCells\"},{\"row\":4,\"col\":2,\"className\":\" mergeCells mergeCells font-weight-bold htRight alignment-right\"},{\"row\":4,\"col\":3,\"className\":\" mergeCells mergeCells font-weight-bold htRight alignment-right remove_col\"},{\"row\":4,\"col\":4,\"className\":\" remove_col\"},{\"row\":5,\"col\":0,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":2,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":3,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold remove_col\"},{\"row\":5,\"col\":4,\"className\":\" remove_col\"},{\"row\":6,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" cell-style-input htRight alignment-right font-weight-bold\"},{\"row\":6,\"col\":3,\"className\":\" cell-style-input htRight alignment-right font-weight-bold remove_col\"},{\"row\":6,\"col\":4,\"className\":\" remove_col\"},{\"row\":7,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":7,\"col\":1},{\"row\":7,\"col\":2},{\"row\":7,\"col\":3,\"className\":\" remove_col\"},{\"row\":7,\"col\":4,\"className\":\" remove_col\"},{\"row\":8,\"col\":0,\"className\":\" row_below row_below htCenter alignment-center\"},{\"row\":8,\"col\":1},{\"row\":8,\"col\":2,\"className\":\" cell-style-input font-weight-bold col_right htRight alignment-right\"},{\"row\":8,\"col\":3,\"className\":\" remove_col\"},{\"row\":8,\"col\":4,\"className\":\" remove_col\"},{\"row\":9,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":9,\"col\":1},{\"row\":9,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":9,\"col\":3,\"className\":\" remove_col\"},{\"row\":9,\"col\":4,\"className\":\" remove_col\"},{\"row\":10,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":10,\"col\":1},{\"row\":10,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":10,\"col\":3,\"className\":\" remove_col\"},{\"row\":10,\"col\":4,\"className\":\" remove_col\"},{\"row\":11,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":11,\"col\":1},{\"row\":11,\"col\":2,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":11,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":11,\"col\":4,\"className\":\" remove_col\"},{\"row\":12,\"col\":0,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":3,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold remove_col\"},{\"row\":12,\"col\":4,\"className\":\" remove_col\"},{\"row\":13,\"col\":0,\"className\":\" row_below row_below htCenter alignment-center\"},{\"row\":13,\"col\":1},{\"row\":13,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":13,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":13,\"col\":4,\"className\":\" remove_col\"},{\"row\":14,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":14,\"col\":1},{\"row\":14,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold cell-style-normal\"},{\"row\":14,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-normal\"},{\"row\":14,\"col\":4,\"className\":\" remove_col\"},{\"row\":15,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":1},{\"row\":15,\"col\":2},{\"row\":15,\"col\":3,\"className\":\" remove_col\"},{\"row\":15,\"col\":4,\"className\":\" remove_col\"},{\"row\":16,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":16,\"col\":1},{\"row\":16,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":16,\"col\":3,\"className\":\" remove_col\"},{\"row\":16,\"col\":4,\"className\":\" remove_col\"},{\"row\":17,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":17,\"col\":1},{\"row\":17,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":17,\"col\":3,\"className\":\" remove_col\"},{\"row\":17,\"col\":4,\"className\":\" remove_col\"},{\"row\":18,\"col\":0,\"className\":\" row_below row_below row_below htCenter alignment-center\"},{\"row\":18,\"col\":1},{\"row\":18,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":18,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":18,\"col\":4,\"className\":\" remove_col\"},{\"row\":19,\"col\":0,\"className\":\" row_above font-weight-bold mergeCells cell-style-dark\"},{\"row\":19,\"col\":1,\"className\":\" row_above font-weight-bold mergeCells cell-style-dark\"},{\"row\":19,\"col\":2,\"className\":\" row_above font-weight-bold mergeCells cell-style-dark\"},{\"row\":19,\"col\":3,\"className\":\" row_above font-weight-bold mergeCells cell-style-dark remove_col\"},{\"row\":19,\"col\":4,\"className\":\" remove_col\"},{\"row\":20,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":20,\"col\":1},{\"row\":20,\"col\":2},{\"row\":20,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":20,\"col\":4,\"className\":\" remove_col\"},{\"row\":21,\"col\":0,\"className\":\" row_below htCenter alignment-center\"},{\"row\":21,\"col\":1},{\"row\":21,\"col\":2},{\"row\":21,\"col\":3,\"className\":\" remove_col\"},{\"row\":21,\"col\":4,\"className\":\" remove_col\"},{\"row\":22,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":22,\"col\":1},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3,\"className\":\" remove_col\"},{\"row\":22,\"col\":4,\"className\":\" remove_col\"},{\"row\":23,\"col\":0,\"className\":\" row_below\"},{\"row\":23,\"col\":1},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\" remove_col htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":24,\"col\":0,\"className\":\" remove_row\"},{\"row\":24,\"col\":1,\"className\":\" remove_row\"},{\"row\":24,\"col\":2,\"className\":\" remove_row\"},{\"row\":24,\"col\":3,\"className\":\" remove_row\"}],\"mergeCells\":[{\"col\":0,\"row\":0,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":5,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":19,\"colspan\":4,\"rowspan\":1}]}",
@@ -54,7 +74,27 @@
       "Key": "734f9a89-b048-46c5-b792-e652057c381f"
     }
   ],
-  "TaxCodes": [
+  "bbe8c088-729b-4b56-a7d7-26555270eced": [
+    {
+      "ReportTransformation": "734f9a89-b048-46c5-b792-e652057c381f",
+      "From": "2020-09-11T00:00:00",
+      "To": "2020-09-11T00:00:00",
+      "Key": "e3c508cc-3fe7-41bf-8115-ee49011392ef"
+    }
+  ],
+  "a9a71e47-82b3-49db-8aec-898adb460a80": [
+    {
+      "Version": 242,
+      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80"
+    }
+  ],
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
+    {
+      "ReceiptsAndPayments": true,
+      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2"
+    }
+  ],
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
     {
       "Name": "VAT 15%",
       "Components": [
