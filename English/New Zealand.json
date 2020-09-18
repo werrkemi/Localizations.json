@@ -1,40 +1,37 @@
 {
   "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
-      "Name": "Tax payable",
-      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
       "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "NameWithCode": "Tax payable",
-      "AbstractName": "Tax payable",
-      "AbstractDescription": "Starting balance"
+      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
+      "Name": "Tax payable"
     }
   ],
   "38cf4712-6e95-4ce1-b53a-bff03edad273": [
     {
-      "Name": "New Zealand",
+      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273",
       "Address": "saddasdasdas\ndsasadsdadsaasdasd\nsdasadadsads",
       "CustomFields": {
         "0c782b45-f50c-4b69-bbf3-75f42d7670a7": "342423243243324"
       },
-      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+      "Name": "New Zealand"
     }
   ],
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
     {
-      "Name": "Registration number",
-      "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273",
+      "Key": "0c782b45-f50c-4b69-bbf3-75f42d7670a7",
       "FieldSize": "Medium",
-      "Key": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+      "Name": "Registration number",
+      "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     },
     {
-      "Name": "Contact",
+      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
       "FieldSize": "Medium",
-      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8"
+      "Name": "Contact"
     }
   ],
   "699401fe-23fd-4b52-9699-b88b36fa6b26": [
     {
-      "Type": "Payment",
+      "Key": "3db666b3-c4b9-4391-86b8-b4f0683280aa",
       "Date": "2019-07-20T00:00:00",
       "Lines": [
         {
@@ -42,10 +39,10 @@
           "TaxCode": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
       ],
-      "Key": "3db666b3-c4b9-4391-86b8-b4f0683280aa",
-      "AbstractName": "Payment"
+      "Type": "Payment"
     },
     {
+      "Key": "a1ccb769-fd49-4b40-8cea-9b0c1b29ff37",
       "Date": "2019-07-20T00:00:00",
       "Lines": [
         {
@@ -56,23 +53,20 @@
           "Amount": 30.0,
           "TaxCode": "705acb55-550e-458a-bf9a-c4c7021dc351"
         }
-      ],
-      "Key": "a1ccb769-fd49-4b40-8cea-9b0c1b29ff37",
-      "AbstractName": "Receipt"
+      ]
     },
     {
+      "Key": "b61ce315-6565-4263-bee9-f2020a40ecf0",
       "Date": "2018-09-11T00:00:00",
       "Lines": [
         {
           "Amount": 10000.0,
           "TaxCode": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
-      ],
-      "Key": "b61ce315-6565-4263-bee9-f2020a40ecf0",
-      "AbstractName": "Receipt"
+      ]
     },
     {
-      "Type": "Payment",
+      "Key": "e8e072e6-c49e-472c-9e25-a087801155bf",
       "Date": "2019-07-20T00:00:00",
       "Lines": [
         {
@@ -80,14 +74,13 @@
           "TaxCode": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
         }
       ],
-      "Key": "e8e072e6-c49e-472c-9e25-a087801155bf",
-      "AbstractName": "Payment"
+      "Type": "Payment"
     }
   ],
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
     {
+      "Key": "994cef79-6da3-4fa1-9998-ad029a4358f0",
       "Name": "GST Return",
-      "Spreadsheet": "{\"colWidths\":[39,299,202,166],\"data\":[[\"{{ business.Name }}\",null,null,null],[\"GST Return\",null,null,null],[\"For the period from {{ report.From}} to {{ report.To }}\",null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null],[null,null,null,null],[\"Return Details\",null,null,null],[null,null,null,null],[\"1\",\"Registration number\",\"{{ business.CustomFields[\\\"0c782b45-f50c-4b69-bbf3-75f42d7670a7\\\"] }}\",null],[\"2\",\"Period covered by the return\",\"From {{ report.From }} to {{ report.To }}\",null],[\"3\",\"Business address\",\"{{ business.Address | newline_to_br }}\",null],[\"4\",\"Phone number\",\"\",null],[null,null,null,null],[\"Sales and Income\",null,null,null],[null,null,null,null],[\"5\",\"Total sales and income\",null,\"{{ C5 }}\"],[\"6\",\"Zero-rated supplies\",null,\"{{ C6 }}\"],[\"7\",\"Net GST sales and income\",null,\"{{ C7 }}\"],[\"8\",\"Total GST collected on sales and income\",null,\"{{ C8 }}\"],[\"9\",\"Any debit adjustments\",null,\"{{ C9 }}\"],[\"10\",\"Total GST collected for the period\",null,\"{{ C10 }}\"],[\"\",null,null,null],[\"Purchases and Expenses\",null,null,null],[null,null,null,null],[\"11\",\"Total purchases and expenses\",null,\"{{ C11 }}\"],[\"12\",\"Total GST credits on purchases and expenses\",null,\"{{ C12 }}\"],[\"13\",\"Any credit adjustments\",null,\"{{ C13 }}\"],[\"14\",\"Total GST credit\",null,\"{{ C14 }}\"],[\"\",null,null,null],[\"Summary\",null,null,null],[null,null,null,null],[\"{% if total < 0 %}\",null,null,null],[\"15\",\"GST to pay\",null,\"{{ C15 | reversesign }}\"],[\"{% else %}\",null,null,null],[\"15\",\"GST refund\",null,\"{{ C15 }}\"],[\"{% endif %}\",null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":0,\"col\":2},{\"row\":0,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":2},{\"row\":1,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":2,\"col\":2},{\"row\":2,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":2},{\"row\":3,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":4,\"col\":0},{\"row\":4,\"col\":1,\"className\":\" row_below\"},{\"row\":4,\"col\":2},{\"row\":4,\"col\":3,\"className\":\" remove_col\"},{\"row\":5,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":2},{\"row\":5,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":6,\"col\":0},{\"row\":6,\"col\":1,\"className\":\" row_above\"},{\"row\":6,\"col\":2},{\"row\":6,\"col\":3},{\"row\":7,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":7,\"col\":1,\"className\":\" row_above\"},{\"row\":7,\"col\":2,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\" htRight mergeCells cell-style-input alignment-right\"},{\"row\":8,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":8,\"col\":1,\"className\":\" row_above\"},{\"row\":8,\"col\":2,\"className\":\" col_left mergeCells htRight alignment-right cell-style-input\"},{\"row\":8,\"col\":3,\"className\":\" mergeCells htRight alignment-right cell-style-input\"},{\"row\":9,\"col\":0,\"className\":\" col_left row_below htCenter alignment-center\"},{\"row\":9,\"col\":1,\"className\":\" row_above row_belowalignment-top htMiddle alignment-middle\"},{\"row\":9,\"col\":2,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":9,\"col\":3,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":10,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":10,\"col\":1,\"className\":\" row_above\"},{\"row\":10,\"col\":2,\"className\":\" mergeCells cell-style-normal\"},{\"row\":10,\"col\":3,\"className\":\" mergeCells cell-style-normal\"},{\"row\":11,\"col\":0},{\"row\":11,\"col\":1},{\"row\":11,\"col\":2},{\"row\":11,\"col\":3},{\"row\":12,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" row_above sep2 mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2},{\"row\":12,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":13,\"col\":0},{\"row\":13,\"col\":1,\"className\":\" row_above\"},{\"row\":13,\"col\":2},{\"row\":13,\"col\":3},{\"row\":14,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":14,\"col\":1,\"className\":\" row_below remove_row\"},{\"row\":14,\"col\":2},{\"row\":14,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":15,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":1,\"className\":\" row_above\"},{\"row\":15,\"col\":2},{\"row\":15,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":16,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":16,\"col\":1,\"className\":\" row_above\"},{\"row\":16,\"col\":2},{\"row\":16,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":17,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":17,\"col\":1,\"className\":\" row_above\"},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":18,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":18,\"col\":1},{\"row\":18,\"col\":2},{\"row\":18,\"col\":3,\"className\":\" htRight alignment-right cell-style-input\"},{\"row\":19,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":19,\"col\":1,\"className\":\" row_above font-weight-bold\"},{\"row\":19,\"col\":2},{\"row\":19,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":20,\"col\":0},{\"row\":20,\"col\":1,\"className\":\" row_above\"},{\"row\":20,\"col\":2},{\"row\":20,\"col\":3},{\"row\":21,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":21,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":21,\"col\":2},{\"row\":21,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":22,\"col\":0},{\"row\":22,\"col\":1,\"className\":\" row_above\"},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3},{\"row\":23,\"col\":0,\"className\":\" row_below row_below htCenter alignment-center\"},{\"row\":23,\"col\":1,\"className\":\" sep1\"},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":24,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":24,\"col\":1},{\"row\":24,\"col\":2},{\"row\":24,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":25,\"col\":0,\"className\":\" row_below row_below row_below htCenter alignment-center\"},{\"row\":25,\"col\":1},{\"row\":25,\"col\":2},{\"row\":25,\"col\":3,\"className\":\" htRight alignment-right cell-style-input\"},{\"row\":26,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":26,\"col\":1,\"className\":\" font-weight-bold\"},{\"row\":26,\"col\":2},{\"row\":26,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":27,\"col\":0},{\"row\":27,\"col\":1},{\"row\":27,\"col\":2},{\"row\":27,\"col\":3},{\"row\":28,\"col\":0,\"className\":\" row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":28,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":28,\"col\":2},{\"row\":28,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":29,\"col\":0},{\"row\":29,\"col\":1,\"className\":\" row_above\"},{\"row\":29,\"col\":2},{\"row\":29,\"col\":3},{\"row\":30,\"col\":0,\"className\":\" mergeCells\"},{\"row\":30,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":30,\"col\":2,\"className\":\" mergeCells\"},{\"row\":30,\"col\":3,\"className\":\" mergeCells\"},{\"row\":31,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":31,\"col\":1,\"className\":\" font-weight-bold row_below\"},{\"row\":31,\"col\":2},{\"row\":31,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":32,\"col\":0,\"className\":\" mergeCells\"},{\"row\":32,\"col\":1,\"className\":\" row_below row_below mergeCells\"},{\"row\":32,\"col\":2,\"className\":\" mergeCells\"},{\"row\":32,\"col\":3,\"className\":\" mergeCells\"},{\"row\":33,\"col\":0,\"className\":\"htCenter alignment-center font-weight-bold\"},{\"row\":33,\"col\":1,\"className\":\" font-weight-bold\"},{\"row\":33,\"col\":2},{\"row\":33,\"col\":3,\"className\":\" cell-style-input htRight alignment-right font-weight-bold\"},{\"row\":34,\"col\":0,\"className\":\" mergeCells\"},{\"row\":34,\"col\":1,\"className\":\" mergeCells\"},{\"row\":34,\"col\":2,\"className\":\" mergeCells\"},{\"row\":34,\"col\":3,\"className\":\" mergeCells\"}],\"mergeCells\":[{\"col\":0,\"row\":5,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":21,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":28,\"colspan\":4,\"rowspan\":1},{\"col\":2,\"row\":8,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":30,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":32,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":34,\"colspan\":4,\"rowspan\":1},{\"col\":2,\"row\":9,\"colspan\":2,\"rowspan\":1},{\"col\":2,\"row\":10,\"colspan\":2,\"rowspan\":1},{\"col\":2,\"row\":7,\"colspan\":2,\"rowspan\":1}]}",
       "Script": [
         "{% assign GST_0 = \"1a88fd08-a595-4e12-97d3-85fc165eecdc\" %}",
         "{% assign GST_15 = \"ee8cacde-58da-48ec-8aa9-aa6acba9c32f\" %}",
@@ -112,61 +105,61 @@
         "{% assign total = C15 | balance %}"
       ],
       "Source": "https://www.manager.io/localizations/nz/994cef796da34fa19998ad029a4358f0.json",
-      "Key": "994cef79-6da3-4fa1-9998-ad029a4358f0"
+      "Spreadsheet": "{\"colWidths\":[39,299,202,166],\"data\":[[\"{{ business.Name }}\",null,null,null],[\"GST Return\",null,null,null],[\"For the period from {{ report.From}} to {{ report.To }}\",null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null],[null,null,null,null],[\"Return Details\",null,null,null],[null,null,null,null],[\"1\",\"Registration number\",\"{{ business.CustomFields[\\\"0c782b45-f50c-4b69-bbf3-75f42d7670a7\\\"] }}\",null],[\"2\",\"Period covered by the return\",\"From {{ report.From }} to {{ report.To }}\",null],[\"3\",\"Business address\",\"{{ business.Address | newline_to_br }}\",null],[\"4\",\"Phone number\",\"\",null],[null,null,null,null],[\"Sales and Income\",null,null,null],[null,null,null,null],[\"5\",\"Total sales and income\",null,\"{{ C5 }}\"],[\"6\",\"Zero-rated supplies\",null,\"{{ C6 }}\"],[\"7\",\"Net GST sales and income\",null,\"{{ C7 }}\"],[\"8\",\"Total GST collected on sales and income\",null,\"{{ C8 }}\"],[\"9\",\"Any debit adjustments\",null,\"{{ C9 }}\"],[\"10\",\"Total GST collected for the period\",null,\"{{ C10 }}\"],[\"\",null,null,null],[\"Purchases and Expenses\",null,null,null],[null,null,null,null],[\"11\",\"Total purchases and expenses\",null,\"{{ C11 }}\"],[\"12\",\"Total GST credits on purchases and expenses\",null,\"{{ C12 }}\"],[\"13\",\"Any credit adjustments\",null,\"{{ C13 }}\"],[\"14\",\"Total GST credit\",null,\"{{ C14 }}\"],[\"\",null,null,null],[\"Summary\",null,null,null],[null,null,null,null],[\"{% if total < 0 %}\",null,null,null],[\"15\",\"GST to pay\",null,\"{{ C15 | reversesign }}\"],[\"{% else %}\",null,null,null],[\"15\",\"GST refund\",null,\"{{ C15 }}\"],[\"{% endif %}\",null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":0,\"col\":2},{\"row\":0,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":2},{\"row\":1,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":2,\"col\":2},{\"row\":2,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":1,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":3,\"col\":2},{\"row\":3,\"col\":3,\"className\":\" mergeCells mergeCells htCenter alignment-center font-size-large font-weight-bold\"},{\"row\":4,\"col\":0},{\"row\":4,\"col\":1,\"className\":\" row_below\"},{\"row\":4,\"col\":2},{\"row\":4,\"col\":3,\"className\":\" remove_col\"},{\"row\":5,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":5,\"col\":2},{\"row\":5,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":6,\"col\":0},{\"row\":6,\"col\":1,\"className\":\" row_above\"},{\"row\":6,\"col\":2},{\"row\":6,\"col\":3},{\"row\":7,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":7,\"col\":1,\"className\":\" row_above\"},{\"row\":7,\"col\":2,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\" htRight mergeCells cell-style-input alignment-right\"},{\"row\":8,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":8,\"col\":1,\"className\":\" row_above\"},{\"row\":8,\"col\":2,\"className\":\" col_left mergeCells htRight alignment-right cell-style-input\"},{\"row\":8,\"col\":3,\"className\":\" mergeCells htRight alignment-right cell-style-input\"},{\"row\":9,\"col\":0,\"className\":\" col_left row_below htCenter alignment-center\"},{\"row\":9,\"col\":1,\"className\":\" row_above row_belowalignment-top htMiddle alignment-middle\"},{\"row\":9,\"col\":2,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":9,\"col\":3,\"className\":\" mergeCells cell-style-input htRight alignment-right\"},{\"row\":10,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":10,\"col\":1,\"className\":\" row_above\"},{\"row\":10,\"col\":2,\"className\":\" mergeCells cell-style-normal\"},{\"row\":10,\"col\":3,\"className\":\" mergeCells cell-style-normal\"},{\"row\":11,\"col\":0},{\"row\":11,\"col\":1},{\"row\":11,\"col\":2},{\"row\":11,\"col\":3},{\"row\":12,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" row_above sep2 mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2},{\"row\":12,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":13,\"col\":0},{\"row\":13,\"col\":1,\"className\":\" row_above\"},{\"row\":13,\"col\":2},{\"row\":13,\"col\":3},{\"row\":14,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":14,\"col\":1,\"className\":\" row_below remove_row\"},{\"row\":14,\"col\":2},{\"row\":14,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":15,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":1,\"className\":\" row_above\"},{\"row\":15,\"col\":2},{\"row\":15,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":16,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":16,\"col\":1,\"className\":\" row_above\"},{\"row\":16,\"col\":2},{\"row\":16,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":17,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":17,\"col\":1,\"className\":\" row_above\"},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":18,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":18,\"col\":1},{\"row\":18,\"col\":2},{\"row\":18,\"col\":3,\"className\":\" htRight alignment-right cell-style-input\"},{\"row\":19,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":19,\"col\":1,\"className\":\" row_above font-weight-bold\"},{\"row\":19,\"col\":2},{\"row\":19,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":20,\"col\":0},{\"row\":20,\"col\":1,\"className\":\" row_above\"},{\"row\":20,\"col\":2},{\"row\":20,\"col\":3},{\"row\":21,\"col\":0,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":21,\"col\":1,\"className\":\" row_above mergeCells cell-style-dark font-weight-bold\"},{\"row\":21,\"col\":2},{\"row\":21,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":22,\"col\":0},{\"row\":22,\"col\":1,\"className\":\" row_above\"},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3},{\"row\":23,\"col\":0,\"className\":\" row_below row_below htCenter alignment-center\"},{\"row\":23,\"col\":1,\"className\":\" sep1\"},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":24,\"col\":0,\"className\":\"htCenter alignment-center\"},{\"row\":24,\"col\":1},{\"row\":24,\"col\":2},{\"row\":24,\"col\":3,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":25,\"col\":0,\"className\":\" row_below row_below row_below htCenter alignment-center\"},{\"row\":25,\"col\":1},{\"row\":25,\"col\":2},{\"row\":25,\"col\":3,\"className\":\" htRight alignment-right cell-style-input\"},{\"row\":26,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":26,\"col\":1,\"className\":\" font-weight-bold\"},{\"row\":26,\"col\":2},{\"row\":26,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":27,\"col\":0},{\"row\":27,\"col\":1},{\"row\":27,\"col\":2},{\"row\":27,\"col\":3},{\"row\":28,\"col\":0,\"className\":\" row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":28,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":28,\"col\":2},{\"row\":28,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":29,\"col\":0},{\"row\":29,\"col\":1,\"className\":\" row_above\"},{\"row\":29,\"col\":2},{\"row\":29,\"col\":3},{\"row\":30,\"col\":0,\"className\":\" mergeCells\"},{\"row\":30,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":30,\"col\":2,\"className\":\" mergeCells\"},{\"row\":30,\"col\":3,\"className\":\" mergeCells\"},{\"row\":31,\"col\":0,\"className\":\" font-weight-bold htCenter alignment-center\"},{\"row\":31,\"col\":1,\"className\":\" font-weight-bold row_below\"},{\"row\":31,\"col\":2},{\"row\":31,\"col\":3,\"className\":\" cell-style-input font-weight-bold htRight alignment-right\"},{\"row\":32,\"col\":0,\"className\":\" mergeCells\"},{\"row\":32,\"col\":1,\"className\":\" row_below row_below mergeCells\"},{\"row\":32,\"col\":2,\"className\":\" mergeCells\"},{\"row\":32,\"col\":3,\"className\":\" mergeCells\"},{\"row\":33,\"col\":0,\"className\":\"htCenter alignment-center font-weight-bold\"},{\"row\":33,\"col\":1,\"className\":\" font-weight-bold\"},{\"row\":33,\"col\":2},{\"row\":33,\"col\":3,\"className\":\" cell-style-input htRight alignment-right font-weight-bold\"},{\"row\":34,\"col\":0,\"className\":\" mergeCells\"},{\"row\":34,\"col\":1,\"className\":\" mergeCells\"},{\"row\":34,\"col\":2,\"className\":\" mergeCells\"},{\"row\":34,\"col\":3,\"className\":\" mergeCells\"}],\"mergeCells\":[{\"col\":0,\"row\":5,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":21,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":28,\"colspan\":4,\"rowspan\":1},{\"col\":2,\"row\":8,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":30,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":32,\"colspan\":4,\"rowspan\":1},{\"col\":0,\"row\":34,\"colspan\":4,\"rowspan\":1},{\"col\":2,\"row\":9,\"colspan\":2,\"rowspan\":1},{\"col\":2,\"row\":10,\"colspan\":2,\"rowspan\":1},{\"col\":2,\"row\":7,\"colspan\":2,\"rowspan\":1}]}"
     }
   ],
   "bbe8c088-729b-4b56-a7d7-26555270eced": [
     {
+      "Key": "8f49fd7b-9dd9-4c08-b7cb-b8b7fdbe44a8",
       "ReportTransformation": "994cef79-6da3-4fa1-9998-ad029a4358f0",
-      "To": "2019-07-20T00:00:00",
-      "Key": "8f49fd7b-9dd9-4c08-b7cb-b8b7fdbe44a8"
+      "To": "2019-07-20T00:00:00"
     }
   ],
   "a9a71e47-82b3-49db-8aec-898adb460a80": [
     {
-      "Version": 242,
-      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80"
+      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
+      "Version": 242
     }
   ],
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
     {
-      "ReceiptsAndPayments": true,
-      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2"
+      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2",
+      "ReceiptsAndPayments": true
     }
   ],
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
     {
-      "Name": "GST 0%",
+      "Key": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "CustomSalesInvoiceTitle": true,
-      "SalesInvoiceTitle": "Tax Invoice",
-      "Key": "1a88fd08-a595-4e12-97d3-85fc165eecdc"
+      "Name": "GST 0%",
+      "SalesInvoiceTitle": "Tax Invoice"
     },
     {
-      "Name": "GST Exempt",
+      "Key": "705acb55-550e-458a-bf9a-c4c7021dc351",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "705acb55-550e-458a-bf9a-c4c7021dc351"
+      "Name": "GST Exempt"
     },
     {
+      "Key": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Name": "GST Adjustment",
-      "TaxRate": "TotalRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      "TaxRate": "TotalRate"
     },
     {
+      "Key": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "CustomSalesInvoiceTitle": true,
       "Name": "GST 15%",
       "Rate": 15.0,
-      "TaxRate": "CustomRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle": true,
       "SalesInvoiceTitle": "Tax Invoice",
-      "Key": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+      "TaxRate": "CustomRate"
     }
   ],
   "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
     {
-      "To": "2019-07-20T00:00:00",
-      "Key": "44a4e27e-5a13-4d24-971f-424ebd82f355"
+      "Key": "44a4e27e-5a13-4d24-971f-424ebd82f355",
+      "To": "2019-07-20T00:00:00"
     }
   ]
 }
