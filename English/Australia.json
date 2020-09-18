@@ -1,11 +1,11 @@
 {
   "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
-      "Name": "Tax payable",
+      "Name": "GST payable",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
       "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "NameWithCode": "Tax payable",
-      "AbstractName": "Tax payable",
+      "NameWithCode": "GST payable",
+      "AbstractName": "GST payable",
       "AbstractDescription": "Starting balance"
     },
     {
