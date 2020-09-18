@@ -1,5 +1,5 @@
 {
-  "BalanceSheetAccounts": [
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
       "Name": "Tax payable",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
@@ -17,7 +17,26 @@
       "AbstractDescription": "Starting balance"
     }
   ],
-  "CustomFields": [
+  "38cf4712-6e95-4ce1-b53a-bff03edad273": [
+    {
+      "Name": "Brilliant Industries",
+      "Address": "1 Pitt Street\nSydney NSW 2000",
+      "CustomFields": {
+        "0fba87ee-0386-401a-8d1f-302313b663f4": "45543534534534"
+      },
+      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    }
+  ],
+  "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": [
+    {
+      "Name": "Brilliant Customer",
+      "Key": "320b7512-852c-438b-b60f-370d5d8f620f",
+      "NameWithCode": "Brilliant Customer",
+      "AbstractName": "Brilliant Customer",
+      "AbstractDescription": "Starting balance"
+    }
+  ],
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
     {
       "Name": "Ordinary Time Earnings (OTE)",
       "Type": "ab02f6ab-c91c-4fc2-b979-66a6682c200e",
@@ -104,7 +123,417 @@
       "Key": "f6859bbb-1736-4e60-81f2-2703a9ea4686"
     }
   ],
-  "PayslipContributionItems": [
+  "8653b8ac-a43d-485f-a2e3-edbc76add6a5": [
+    {
+      "Name": "Single Touch Payroll Worksheet",
+      "Select": [
+        {
+          "Name": "BaseAmount"
+        }
+      ],
+      "Where": [
+        {
+          "Name": "PayslipEarningsItem",
+          "ObjectOperator": "IsNotEmpty",
+          "InnerName": ""
+        }
+      ],
+      "OrderBy": [
+        {
+          "Name": ""
+        }
+      ],
+      "HasGroupBy": true,
+      "GroupBy": [
+        {
+          "Name": "Employee",
+          "InnerName": ""
+        },
+        {
+          "Name": "PayslipEarningsItem",
+          "InnerName": ""
+        }
+      ],
+      "CollapseGroups": true,
+      "From": "2018-06-27T00:00:00",
+      "To": "2020-06-27T00:00:00",
+      "Key": "7651ce51-a222-47fe-ab62-87a7a9059e42"
+    },
+    {
+      "Name": "GST Calculation Worksheet",
+      "Select": [
+        {
+          "Name": "TaxOnPurchases"
+        },
+        {
+          "Name": "TaxOnSales"
+        },
+        {
+          "Name": "BaseAmount"
+        }
+      ],
+      "Where": [
+        {
+          "Name": "TaxCode",
+          "ObjectOperator": "IsNotEmpty",
+          "InnerName": ""
+        }
+      ],
+      "OrderBy": [
+        {
+          "Name": "TaxableSale",
+          "SortOrder": "Descending"
+        }
+      ],
+      "HasGroupBy": true,
+      "HasOrderBy": true,
+      "GroupBy": [
+        {
+          "Name": "TaxableSale"
+        },
+        {
+          "Name": "TaxCode",
+          "InnerName": ""
+        }
+      ],
+      "CollapseGroups": true,
+      "From": "2018-06-01T00:00:00",
+      "To": "2020-06-27T00:00:00",
+      "Key": "b59fe580-2d83-4d9a-b881-7daa5f04e356"
+    },
+    {
+      "Name": "Taxable Payments Annual Report (TPAR)",
+      "Select": [
+        {
+          "Name": "TaxOnPurchases"
+        }
+      ],
+      "Where": [
+        {
+          "Name": "Supplier",
+          "StringOperator": "Contains",
+          "String": "Yes",
+          "InnerName": "CustomFields.e3f5b9ddee9a4fd09ca9750c9aad9b1f"
+        },
+        {
+          "Name": "TaxCode",
+          "ObjectOperator": "Is",
+          "Object": "8cf9d117-3142-4d9c-82ee-b57a0e22c809",
+          "InnerName": ""
+        }
+      ],
+      "OrderBy": [
+        {
+          "Name": ""
+        }
+      ],
+      "HasGroupBy": true,
+      "GroupBy": [
+        {
+          "Name": "Supplier",
+          "InnerName": ""
+        }
+      ],
+      "CollapseGroups": true,
+      "From": "2018-06-27T00:00:00",
+      "To": "2020-06-27T00:00:00",
+      "Key": "c7e21ad2-bd7e-40a1-a0ad-1dd904d8c23a"
+    },
+    {
+      "Name": "PAYG payment summary — individual non-business",
+      "Select": [
+        {
+          "Name": "BaseAmount"
+        },
+        {
+          "Name": "PayslipEarningsItem",
+          "InnerName": "CustomFields.8198caf211254f8e9469527583e3ea5e"
+        },
+        {
+          "Name": "PayslipEarningsItem",
+          "InnerName": "CustomFields.07fb0059a29a4d7a8a7c64f63311c05c"
+        },
+        {
+          "Name": "PayslipContributionItem",
+          "InnerName": "CustomFields.8ce55e79ec7a4e5da41f84c7b7b7189e"
+        },
+        {
+          "Name": "PayslipDeductionItem",
+          "InnerName": "CustomFields.e253ec721200414a941aa93f4039a045"
+        }
+      ],
+      "Where": [
+        {
+          "Name": "Employee",
+          "ObjectOperator": "Is",
+          "Object": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+          "InnerName": ""
+        },
+        {
+          "Name": "Payslip",
+          "ObjectOperator": "IsNotEmpty",
+          "InnerName": ""
+        }
+      ],
+      "OrderBy": [
+        {
+          "Name": ""
+        }
+      ],
+      "HasGroupBy": true,
+      "GroupBy": [
+        {
+          "Name": "Employee",
+          "InnerName": ""
+        }
+      ],
+      "CollapseGroups": true,
+      "From": "2018-06-27T00:00:00",
+      "To": "2020-06-27T00:00:00",
+      "ReportTransformation": "# PAYG payment summary — individual non-business\n## Payment summary for year ending 30 June {{ report.to | date: 'yyyy' }}\n\n<div style=\"background-color: #000; color: #fff; font-weight: bold; padding: 5px\">Payee details</div>\n\n**{{ report.employee.name }}**\n{{ report.employee.address | newline_to_br }}\n\n&nbsp;|Day/Month/Year\n-|-\nPeriod during which payments were made | {{ report.from | date: 'dd/MM/yyyy' }} to {{ report.to | date: 'dd/MM/yyyy' }}\nPayee's tax file number | {{ employeeTFN }}",
+      "Key": "e7883d64-6b14-4ccf-a32f-82bec8ac4963"
+    }
+  ],
+  "dadb7f95-a5dd-45c0-945d-6ad4ee28776e": [
+    {
+      "Name": "Generous employee",
+      "Address": "22 George Street\nSydney NSW 2000",
+      "CustomFields": {
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "F — Full-time",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident",
+        "f6859bbb-1736-4e60-81f2-2703a9ea4686": "2010-7-6"
+      },
+      "Key": "11302941-b98d-4410-9417-363ea2e84932",
+      "NameWithCode": "Generous employee",
+      "AbstractName": "Generous employee",
+      "AbstractDescription": "Starting balance"
+    },
+    {
+      "Name": "Erick Walker Eaker",
+      "Address": "3/9 Waratah Avenue\nWoy Woy NSW 2256",
+      "Email": "asdasdj@dgfsdf.com ",
+      "CustomFields": {
+        "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "55555555",
+        "f6859bbb-1736-4e60-81f2-2703a9ea4686": "1988-7-3",
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "S — Pension or Annuity",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Working Holiday Maker"
+      },
+      "Code": "EWE",
+      "Key": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
+      "NameWithCode": "EWE - Erick Walker Eaker",
+      "AbstractName": "Erick Walker Eaker",
+      "AbstractDescription": "Starting balance"
+    },
+    {
+      "Name": "Micheal Overseas",
+      "CustomFields": {
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "F — Full-time",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident"
+      },
+      "Key": "768f44b4-d427-47ea-bef7-d71ae87e3d8b",
+      "NameWithCode": "Micheal Overseas",
+      "AbstractName": "Micheal Overseas",
+      "AbstractDescription": "Starting balance"
+    },
+    {
+      "Name": " Altagracia Biggerstaff",
+      "Address": "1 George Street\nSydney NSW 2000",
+      "CustomFields": {
+        "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "44444444444",
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
+      },
+      "Code": "",
+      "Key": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "NameWithCode": " Altagracia Biggerstaff",
+      "AbstractName": " Altagracia Biggerstaff",
+      "AbstractDescription": "Starting balance"
+    },
+    {
+      "Name": " Marcel Atteberry",
+      "CustomFields": {
+        "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "7777777777777",
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
+      },
+      "Code": "DDD",
+      "Key": "e3571cd1-6574-42cf-b160-9741b4d2d526",
+      "NameWithCode": "DDD -  Marcel Atteberry",
+      "AbstractName": " Marcel Atteberry",
+      "AbstractDescription": "Starting balance"
+    },
+    {
+      "Name": " Luigi Flanery",
+      "CustomFields": {
+        "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "666666666666",
+        "6b837666-1039-4cfc-948b-5c36b30682c2": "",
+        "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
+      },
+      "Code": "XCC",
+      "Key": "fbc4be80-b181-4cb0-8244-7c059388a8ff",
+      "NameWithCode": "XCC -  Luigi Flanery",
+      "AbstractName": " Luigi Flanery",
+      "AbstractDescription": "Starting balance"
+    }
+  ],
+  "e7b3a4f4-35d7-4f92-a8fc-e9eadbc140a8": [
+    {
+      "From": "2019-07-01T00:00:00",
+      "To": "2019-07-06T00:00:00",
+      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Key": "0c8b91a3-80eb-4542-a875-e3b3304c5842"
+    }
+  ],
+  "7affe9ee-731f-4936-8acf-15cae7bcacee": [
+    {
+      "Name": "sdaasddasdas",
+      "Key": "726af1f5-cceb-46d8-8ef3-72699a0184a1",
+      "NameWithCode": "sdaasddasdas"
+    }
+  ],
+  "1d103fa7-6fc1-4951-811e-972968b842cc": [
+    {
+      "Date": "2019-07-04T00:00:00",
+      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Earnings": [
+        {
+          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Rate": 1000.0
+        }
+      ],
+      "Deductions": [
+        {
+          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24",
+          "Amount": 162.44
+        }
+      ],
+      "Contributions": [
+        {
+          "Item": "671ce5ca-3382-436f-8908-914279f8ea25",
+          "Amount": 95.0
+        }
+      ],
+      "Key": "4be532e1-0eae-481b-988c-64b115e2d842",
+      "AbstractName": "Payslip"
+    },
+    {
+      "Date": "2019-07-01T00:00:00",
+      "Employee": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
+      "Earnings": [
+        {
+          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Rate": 1210.0
+        }
+      ],
+      "Deductions": [
+        {
+          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24",
+          "Amount": 230.69
+        }
+      ],
+      "Contributions": [
+        {
+          "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
+        }
+      ],
+      "Key": "a4413f60-f60b-481b-bf7c-134d8ffa4337",
+      "AbstractName": "Payslip"
+    },
+    {
+      "Date": "2019-07-04T00:00:00",
+      "Employee": "11302941-b98d-4410-9417-363ea2e84932",
+      "Earnings": [
+        {
+          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Rate": 1000.0
+        }
+      ],
+      "Deductions": [
+        {
+          "Item": "aaf3c5c1-2fd4-44d8-8499-e653115cb33e",
+          "Amount": 10.0
+        },
+        {
+          "Item": "53993ce6-56ec-4ece-9c7e-8be13dc1f922",
+          "Amount": 20.0
+        }
+      ],
+      "Contributions": [
+        {}
+      ],
+      "Key": "bf89e12a-fa23-4c3d-8962-cbba70e60731",
+      "AbstractName": "Payslip"
+    },
+    {
+      "Date": "2019-07-25T00:00:00",
+      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Earnings": [
+        {
+          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Rate": 1000.0
+        }
+      ],
+      "Deductions": [
+        {
+          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24",
+          "Amount": 162.44
+        }
+      ],
+      "Contributions": [
+        {
+          "Item": "671ce5ca-3382-436f-8908-914279f8ea25",
+          "Amount": 95.0
+        }
+      ],
+      "Key": "c94cceeb-e66b-4bf8-b6b6-28d90e7aa097",
+      "AbstractName": "Payslip"
+    },
+    {
+      "Date": "2019-07-04T00:00:00",
+      "Employee": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
+      "Earnings": [
+        {
+          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Rate": 1210.0
+        },
+        {
+          "Item": "1cfbb20a-7c52-45ab-9802-0e8de056d08c",
+          "Rate": 50.0
+        },
+        {
+          "Item": "b546cf89-1c78-4ab0-abcc-25fcb50aab3e",
+          "Rate": 25.0
+        },
+        {
+          "Item": "550f13b5-24cc-473a-8aca-8158d5bcbe1f",
+          "Rate": 100.0
+        },
+        {
+          "Item": "2584a3be-475b-44d5-9ef2-defbd8044e98",
+          "Rate": 100.0
+        }
+      ],
+      "Deductions": [
+        {
+          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24",
+          "Amount": 230.69
+        }
+      ],
+      "Contributions": [
+        {
+          "Item": "671ce5ca-3382-436f-8908-914279f8ea25",
+          "Amount": 229.9
+        },
+        {
+          "Item": "15e20b83-b811-48d9-a147-4ed5d3b5c7ff",
+          "Amount": 99.0
+        }
+      ],
+      "Key": "d2dedd15-2a09-4e42-98da-70c0c3e96970",
+      "AbstractName": "Payslip"
+    }
+  ],
+  "73af4c68-c347-4088-8846-758f1e7bc5bb": [
     {
       "Name": "Salary sacrifice",
       "ExpenseAccount": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
@@ -124,7 +553,7 @@
       "Key": "671ce5ca-3382-436f-8908-914279f8ea25"
     }
   ],
-  "PayslipDeductionItems": [
+  "0444eb18-6fc5-4d1f-be8b-c114da01832c": [
     {
       "Name": "Union fees",
       "Account": "8a3514e3-3bac-43b8-9521-21fc59e90287",
@@ -150,7 +579,7 @@
       "Key": "caa9f4fb-4e4a-4366-8199-76df53161d24"
     }
   ],
-  "PayslipEarningsItems": [
+  "ab02f6ab-c91c-4fc2-b979-66a6682c200e": [
     {
       "Name": "Unused annual leave (redundancy)",
       "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
@@ -256,7 +685,88 @@
       "Key": "f7bad7d8-ab90-403c-9620-76465687f4ce"
     }
   ],
-  "ReportTransformations": [
+  "3278903e-bf63-4f6f-b04d-a9e5ebd5a055": [
+    {
+      "From": "2018-05-01T00:00:00",
+      "To": "2020-07-04T00:00:00",
+      "Key": "463bd411-529d-4499-9c7d-48204bf8dd50"
+    }
+  ],
+  "13de6e5f-cacf-46a1-adb9-2250f76d77dd": [
+    {
+      "Periods": [
+        {
+          "Start": "2020-07-08T00:00:00",
+          "End": "2020-07-08T00:00:00"
+        },
+        {
+          "Start": "2020-07-01T00:00:00",
+          "End": "2020-07-08T00:00:00"
+        }
+      ],
+      "Obsolete_From": "2020-07-08T00:00:00",
+      "Key": "f53e0f7b-d520-47d0-ad62-0e9d5619b4e7"
+    }
+  ],
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
+    {
+      "Name": "Wages & salaries",
+      "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
+      "Key": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "NameWithCode": "Wages & salaries",
+      "IsProfitAndLossAccount": true
+    },
+    {
+      "Name": "Sales",
+      "Group": "97d40d08-0210-4b1a-aeb7-c4d12605162e",
+      "Key": "80d57fa1-79a0-41e2-b195-773eaf519f62",
+      "NameWithCode": "Sales",
+      "IsProfitAndLossAccount": true
+    },
+    {
+      "Name": "Computer equipment",
+      "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
+      "Key": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
+      "NameWithCode": "Computer equipment",
+      "IsProfitAndLossAccount": true
+    }
+  ],
+  "5770616c-0e01-46ca-a172-f7042275da6c": [
+    {
+      "Name": "Income",
+      "Position": 1,
+      "Key": "97d40d08-0210-4b1a-aeb7-c4d12605162e"
+    },
+    {
+      "Name": "Expenses",
+      "IsExpense": true,
+      "Position": 2,
+      "Key": "9a3f0ec2-dce4-4a35-bee8-c9930972d964"
+    }
+  ],
+  "699401fe-23fd-4b52-9699-b88b36fa6b26": [
+    {
+      "Type": "Payment",
+      "Date": "2020-09-08T00:00:00",
+      "Lines": [
+        {
+          "Account": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
+          "Amount": 5000.0,
+          "TaxCode": "8cf9d117-3142-4d9c-82ee-b57a0e22c809",
+          "CustomerOrSupplier": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6"
+        },
+        {
+          "Account": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
+          "Amount": 500.0,
+          "TaxCode": "14f63584-be71-40ca-9028-1a60e2e2cc90",
+          "CustomerOrSupplier": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6"
+        }
+      ],
+      "Key": "c5873557-b4e9-461a-a4e9-5ed46ff71dca",
+      "AbstractName": "Payment"
+    }
+  ],
+  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
     {
       "Name": "Single Touch Payroll Worksheet",
       "Spreadsheet": "{\"colWidths\":[559,247],\"data\":[[\"Single Touch Payroll Worksheet\",null],[\"For the pay period from {{ report.From }} until {{ report.To }}\",null],[\"Employee amounts are calculated year-to-date for the period from {{ fyStart }} until {{ report.To }}\",null],[null,null],[\"{{ business.name }}\",null],[null,null],[\"Entity ABN\",\"{{ abn }}\"],[\"Pay period start date\",\"{{ report.From }}\"],[\"Pay period end date\",\"{{ report.To }}\"],[\"Period W1\",\"{{ period_W1_amount }}\"],[\"Period W2\",\"{{ period_W2_amount }}\"],[\"\",null],[\"{% for e in transactionsPerEmployee %}\",null],[\"Row #{{ forloop.index }} in CSV export\",null],[null,null],[\"{% assign employee_tfn = e.Key.CustomFields[\\\"8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7\\\"] %}\",null],[\"Employee TFN\",\"{{ employee_tfn }}\"],[\"{% assign employee_code_size = e.Key.Code | strip | size %}\",null],[\"{% if employee_code_size > 0 %}{% assign employee_payroll_number = e.Key.Code | strip %}{% else %}{% assign employee_payroll_number = e.Key.Key %}{% endif %}\",null],[\"Payroll number\",\"{{ employee_payroll_number }}\"],[\"{% assign employee_residency_status = e.Key.CustomFields[\\\"1f6483e5-5ad9-4181-a9db-117827b67a9d\\\"] %}\",null],[\"Resident code\",\"{{ employee_residency_status }}\"],[\"{% assign employee_payment_basis_code = e.Key.CustomFields[\\\"6b837666-1039-4cfc-948b-5c36b30682c2\\\"] | slice: 0 %}\",null],[\"Basis of employment code\",\"{{ employee_payment_basis_code }}\"],[\"{% assign employee_middle_name = \\\"\\\" %}\",null],[\"{% assign employee_name_parts = e.Key.Name | words %}\",null],[\"{% for employee_name_part in employee_name_parts %}\",null],[\"{% if forloop.first == true %}{% assign employee_given_name = employee_name_part %}\",null],[\"{% elsif forloop.last == true %}{% assign employee_family_name = employee_name_part %}\",null],[\"{% else %}{% capture employee_middle_name %}{{ employee_middle_name }} {{ employee_name_part }}{% endcapture %}{% endif %}\",null],[\"{% endfor %}\",null],[\"Family name\",\"{{ employee_family_name }}\"],[\"Given name\",\"{{ employee_given_name }}\"],[\"Middle name\",\"{{ employee_middle_name }}\"],[\"Date of birth\",\"{{ employee.CustomFields[\\\"f6859bbb-1736-4e60-81f2-2703a9ea4686\\\"] | date: 'd/M/yyyy' }}\"],[\"{% assign employee_address_2 = \\\"\\\" %}\",null],[\"{% assign employee_suburb_state = \\\"\\\" %}\",null],[\"{% assign employee_suburb = \\\"\\\" %}\",null],[\"{% assign employee_address_lines = e.Key.Address | lines %}\",null],[\"{% for employee_address_line in employee_address_lines %}\",null],[\"{% if forloop.first == true %}{% assign employee_address_1 = employee_address_line %}\",null],[\"{% elsif forloop.last == true %}{% assign employee_suburb_state_postcode = employee_address_line %}\",null],[\"{% else %}{% assign employee_address_2 = employee_address_2 | append: employee_address_line | append: ' ' %}{% endif %}\",null],[\"{% endfor %}\",null],[\"Address 1\",\"{{ employee_address_1 }}\"],[\"Address 2\",\"{{ employee_address_2 }}\"],[\"{% assign employee_suburb_state_postcode_parts = employee_suburb_state_postcode | words %}\",null],[\"{% for employee_suburb_state_postcode_part in employee_suburb_state_postcode_parts %}\",null],[\"{% if forloop.last == true %}{% assign employee_postcode = employee_suburb_state_postcode_part %}\",null],[\"{% else %}{% capture employee_suburb_state %}{{ employee_suburb_state }} {{ employee_suburb_state_postcode_part }}{% endcapture %}{% endif %}\",null],[\"{% endfor %}\",null],[\"{% assign employee_suburb_state_parts = employee_suburb_state | words %}\",null],[\"{% for employee_suburb_state_part in employee_suburb_state_parts %}\",null],[\"{% if forloop.last == true %}{% assign employee_state = employee_suburb_state_part %}\",null],[\"{% else %}{% capture employee_suburb %}{{ employee_suburb }} {{ employee_suburb_state_part }}{% endcapture %}{% endif %}\",null],[\"{% endfor %}\",null],[\"Suburb\",\"{{ employee_suburb }}\"],[\"State/territory\",\"{{ employee_state }}\"],[\"Postcode\",\"{{ employee_postcode }}\"],[\"Country\",\"Australia\"],[\"Email\",\"{{ e.Key.Email | strip }}\"],[\"{% assign employee_gross_pay = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Gross payments' %}\",null],[\"Employee gross pay\",\"{{ employee_gross_pay }}\"],[\"{% assign employee_cdep = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'CDEP payments' %}\",null],[\"Employee CDEP\",\"{{ employee_cdep }}\"],[\"{% assign employee_exemptForeignEmploymentIncome = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Exempt foreign employment income' %}\",null],[\"Foreign income\",\"{{ employee_exemptForeignEmploymentIncome }}\"],[\"{% assign employee_payg = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'PAYG' | reversesign %}\",null],[\"Employee tax\",\"{{ employee_payg }}\"],[\"{% assign employee_sg_amount = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Superannuation guarantee' %}\",null],[\"Super guarantee amount\",\"{{ employee_sg_amount }}\"],[\"{% assign employee_ote = e.Value | where_payslip_earnings_item: '07fb0059-a29a-4d7a-8a7c-64f63311c05c', 'Yes' %}\",null],[\"SG earnings amount\",\"{{ employee_ote }}\"],[\"{% assign employee_resc = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Reportable employer super contribution' %}\",null],[\"Reportable Employer Super Contribution (RESC)\",\"{{ employee_resc }}\"],[\"{% assign employee_carAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Car' %}\",null],[\"Car allowance\",\"{{ employee_carAllowance }}\"],[\"{% assign employee_transportAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Transport' %}\",null],[\"Transport allowance\",\"{{ employee_transportAllowance }}\"],[\"{% assign employee_laundryAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Laundry' %}\",null],[\"Laundry allowance\",\"{{ employee_laundryAllowance }}\"],[\"{% assign employee_mealAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Meals' %}\",null],[\"Meal allowance\",\"{{ employee_mealAllowance }}\"],[\"{% assign employee_travelAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Travel' %}\",null],[\"Travel allowance\",\"{{ employee_travelAllowance }}\"],[\"{% assign employee_otherAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Other' %}\",null],[\"Other allowance\",\"{{ employee_otherAllowance }}\"],[\"{% assign employee_unionFees = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Union / association fees' | reversesign %}\",null],[\"Union fees\",\"{{ employee_unionFees }}\"],[\"{% assign employee_workplaceGiving = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Workplace giving' | reversesign %}\",null],[\"Workplace giving\",\"{{ employee_workplaceGiving }}\"],[\"{% if employee_payment_basis_code == \\\"L\\\" %}\",null],[\"{% assign employee_labour_hire_gross = employee_gross_pay %}\",null],[\"{% assign employee_labour_hire_payg = employee_payg %}\",null],[\"Labour hire gross\",\"{{ employee_labour_hire_gross }}\"],[\"Labour hire PAYG\",\"{{ employee_labour_hire_payg }}\"],[\"{% endif %}\",null],[\"{% if employee_residency_status == \\\"Working Holiday Maker\\\" %}\",null],[\"{% assign employee_working_holiday_gross = employee_gross_pay %}\",null],[\"{% assign employee_working_holiday_payg = employee_payg %}\",null],[\"Working holiday maker gross\",\"{{ employee_working_holiday_gross }}\"],[\"Working holiday maker PAYG\",\"{{ employee_working_holiday_payg }}\"],[\"{% endif %}\",null],[\"{% if employee_residency_status == \\\"Non-resident\\\" %}\",null],[\"{% assign employee_non_resident_gross = employee_gross_pay %}\",null],[\"{% assign employee_non_resident_payg = employee_payg %}\",null],[\"Foreign resident gross\",\"{{ employee_non_resident_gross }}\"],[\"Foreign resident PAYG\",\"{{ employee_non_resident_payg }}\"],[\"{% endif %}\",null],[\"{% assign employee_lumpSumATermination = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum A - Termination' %}\",null],[\"{% assign employee_lumpSumATerminationBalance = employee_lumpSumATermination | balance %}\",null],[\"{% assign employee_lumpSumARedundancy = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum A - Redundancy' %}\",null],[\"{% assign employee_lumpSumARedundancyBalance = employee_lumpSumARedundancy | balance %}\",null],[\"{% assign employee_lumpSumAIndicator = \\\"\\\" %}\",null],[\"{% assign employee_lumpSumA = nil %}\",null],[\"{% if employee_lumpSumATerminationBalance != 0 %}{% assign employee_lumpSumAIndicator = \\\"T\\\" %}{% assign employee_lumpSumA = employee_lumpSumATermination %}{% endif %}\",null],[\"{% if employee_lumpSumARedundancyBalance != 0 %}{% assign employee_lumpSumAIndicator = \\\"R\\\" %}{% assign employee_lumpSumA = employee_lumpSumARedundancy %}{% endif %}\",null],[\"{% if employee_lumpSumA != nil %}\",null],[\"Lump sum A indicator\",\"{{ employee_lumpSumAIndicator }}\"],[\"Lump sum A amount\",\"{{ employee_lumpSumA }}\"],[\"{% endif %}\",null],[\"{% assign employee_lumpSumB = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum B' %}\",null],[\"Lump sum B amount\",\"{{ employee_lumpSumB }}\"],[\"{% assign employee_lumpSumD = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum D' %}\",null],[\"Lump sum D amount\",\"{{ employee_lumpSumD }}\"],[\"{% assign employee_lumpSumE = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum E' %}\",null],[\"Lump sum E amount\",\"{{ employee_lumpSumE }}\"],[null,null],[\"{% capture csv %}{{ csv }}\\n{{ abn }},{{ period_W1_amount | balance }},{{ period_W2_amount | balance }},{{ report.From | date: 'd/M/yyyy' }},{{ report.To | date: 'd/M/yyyy' }},\\\"{{ employee_tfn | strip }}\\\",\\\"{{ employee_payroll_number }}\\\",\\\"{{ employee_residency_status }}\\\",\\\"{{ employee_payment_basis_code }}\\\",\\\"{{ employee_family_name | strip }}\\\",\\\"{{ employee_given_name | strip }}\\\",\\\"{{ employee_middle_name | strip }}\\\",\\\"{{ employee.CustomFields.f6859bbb-1736-4e60-81f2-2703a9ea4686 | date: 'd/M/yyyy' }}\\\",\\\"\\\",\\\"\\\",\\\"{{ employee_address_1 | strip }}\\\",\\\"{{ employee_address_2 | strip }}\\\",\\\"{{ employee_suburb | strip }}\\\",\\\"{{ employee_state | strip }}\\\",\\\"{{ employee_postcode | strip }}\\\",\\\"\\\",\\\"{{ employee.Email | strip }}\\\",\\\"\\\",\\\"\\\",{{ employee_gross_pay | balance }},{{ employee_cdep | balance }},{{ employee_exemptForeignEmploymentIncome | balance }},{{ employee_payg | balance }},{{ employee_sg_amount | balance }},{{ employee_ote | balance }},{{ employee_resc | balance }},{{ employee_carAllowance | balance }},{{ employee_transportAllowance | balance }},{{ employee_laundryAllowance | balance }},{{ employee_mealAllowance | balance }},{{ employee_travelAllowance | balance }},\\\"Other\\\",{{ employee_otherAllowance | balance }},{{ employee_unionFees | balance }},{{ employee_workplaceGiving | balance }},{{ employee_labour_hire_gross | balance }},{{ employee_labour_hire_payg | balance }},{{ employee_working_holiday_gross | balance }},{{ employee_working_holiday_payg | balance }},{{ employee_non_resident_gross | balance }},{{ employee_non_resident_payg | balance }},\\\"{{ employee_lumpSumAIndicator }}\\\",{{ employee_lumpSumA | balance }},{{ employee_lumpSumB | balance }},{{ employee_lumpSumD | balance }},{{ employee_lumpSumE | balance }}{% endcapture %}\",null],[\"{% endfor %}\",null],[\"To lodge this Single Touch Payroll worksheet electronically:\",null],[\"\",null],[\"<form method=\\\"POST\\\" action=\\\"download\\\"> <input type=\\\"hidden\\\" name=\\\"filename\\\" value=\\\"STP Worksheet.csv\\\"> <input type=\\\"hidden\\\" name=\\\"content\\\" value=\\\"{{ csv | escape }}\\\"><input type=\\\"submit\\\" value=\\\"Export to CSV\\\" class=\\\"btn btn-warning\\\" style=\\\"font-weight: bold\\\"></form>\",null],[null,null],[\"Export this report to CSV file by clicking on <b>Export to CSV</b> button\",null],[\"Go to https://singletouch.com.au and login to \\\"Single Touch Lite\\\"\",null],[\"Upload CSV file to SingleTouch website\",null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells font-size-x-large htCenter alignment-center font-weight-bold\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells font-size-x-large htCenter alignment-center font-weight-bold\"},{\"row\":0,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":1,\"col\":0,\"className\":\" row_above mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":1,\"col\":1,\"className\":\" row_above mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":1,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":2,\"col\":0,\"className\":\" row_above mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":1,\"className\":\" row_above mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":3,\"col\":0,\"className\":\" row_below\"},{\"row\":3,\"col\":1},{\"row\":3,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":4,\"col\":0,\"className\":\" cell-style-dark font-weight-bold mergeCells remove_row\"},{\"row\":4,\"col\":1,\"className\":\" cell-style-dark font-weight-bold mergeCells remove_row\"},{\"row\":5,\"col\":0,\"className\":\" row_above\"},{\"row\":5,\"col\":1,\"className\":\" row_above\"},{\"row\":6,\"col\":0},{\"row\":6,\"col\":1},{\"row\":7,\"col\":0,\"className\":\" row_above\"},{\"row\":7,\"col\":1,\"className\":\" row_above\"},{\"row\":8,\"col\":0,\"className\":\" row_above\"},{\"row\":8,\"col\":1,\"className\":\" row_above\"},{\"row\":9,\"col\":0},{\"row\":9,\"col\":1,\"className\":\" cell-style-input htRight alignment-right font-weight-bold\"},{\"row\":10,\"col\":0,\"className\":\" row_below\"},{\"row\":10,\"col\":1,\"className\":\" row_below htRight alignment-right font-weight-bold cell-style-input\"},{\"row\":10,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":11,\"col\":0,\"className\":\" row_above remove_row\"},{\"row\":11,\"col\":1,\"className\":\" row_abovealignment-center cell-style-normal font-weight-normal htLeft alignment-left remove_row\"},{\"row\":11,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":12,\"col\":0,\"className\":\" row_below remove_row remove_row font-weight-normal\"},{\"row\":12,\"col\":1,\"className\":\" row_below remove_row remove_row font-weight-normal\"},{\"row\":12,\"col\":2,\"className\":\" remove_col remove_col remove_col\"},{\"row\":13,\"col\":0,\"className\":\" row_below cell-style-dark font-weight-bold mergeCells remove_row mergeCells remove_row remove_row\"},{\"row\":13,\"col\":1,\"className\":\" row_below cell-style-dark font-weight-bold mergeCells remove_row mergeCells remove_row remove_row\"},{\"row\":14,\"col\":0,\"className\":\" row_above\"},{\"row\":14,\"col\":1,\"className\":\" row_above\"},{\"row\":15,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":15,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":15,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":16,\"col\":0,\"className\":\" row_above remove_row remove_row remove_row\"},{\"row\":16,\"col\":1,\"className\":\" row_above remove_row remove_row\"},{\"row\":17,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":17,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":17,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":18,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":18,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":18,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":19,\"col\":0,\"className\":\" row_above\"},{\"row\":19,\"col\":1,\"className\":\" row_above\"},{\"row\":19,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":20,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":20,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":21,\"col\":0,\"className\":\" row_above\"},{\"row\":21,\"col\":1},{\"row\":21,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":22,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":22,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":23,\"col\":0,\"className\":\" row_above\"},{\"row\":23,\"col\":1,\"className\":\" row_above\"},{\"row\":23,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":24,\"col\":0,\"className\":\" row_above\"},{\"row\":24,\"col\":1,\"className\":\" row_above\"},{\"row\":24,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":25,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":25,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":25,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":26,\"col\":0,\"className\":\" row_above\"},{\"row\":26,\"col\":1,\"className\":\" row_above\"},{\"row\":26,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":27,\"col\":0,\"className\":\" row_above\"},{\"row\":27,\"col\":1,\"className\":\" row_above\"},{\"row\":27,\"col\":2,\"className\":\" remove_col remove_col\"},{\"row\":28,\"col\":0,\"className\":\" row_above\"},{\"row\":28,\"col\":1,\"className\":\" row_above\"},{\"row\":29,\"col\":0,\"className\":\" row_above\"},{\"row\":29,\"col\":1,\"className\":\" row_above\"},{\"row\":30,\"col\":0,\"className\":\" row_above\"},{\"row\":30,\"col\":1,\"className\":\" row_above\"},{\"row\":31,\"col\":0,\"className\":\" row_above\"},{\"row\":31,\"col\":1},{\"row\":32,\"col\":0,\"className\":\" row_above\"},{\"row\":32,\"col\":1},{\"row\":33,\"col\":0,\"className\":\" row_above\"},{\"row\":33,\"col\":1},{\"row\":34,\"col\":0,\"className\":\" row_above\"},{\"row\":34,\"col\":1,\"className\":\" row_abovealignment-right cell-style-normal font-weight-normal htLeft alignment-left\"},{\"row\":35,\"col\":0,\"className\":\" row_above remove_row\"},{\"row\":35,\"col\":1,\"className\":\" row_above remove_row\"},{\"row\":36,\"col\":0,\"className\":\" row_above\"},{\"row\":36,\"col\":1},{\"row\":37,\"col\":0,\"className\":\" row_above\"},{\"row\":37,\"col\":1},{\"row\":38,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":38,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":39,\"col\":0,\"className\":\" row_above\"},{\"row\":39,\"col\":1,\"className\":\" row_above\"},{\"row\":40,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":40,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":41,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":41,\"col\":1,\"className\":\" mergeCells\"},{\"row\":42,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":42,\"col\":1,\"className\":\" mergeCells\"},{\"row\":43,\"col\":0,\"className\":\" row_above\"},{\"row\":43,\"col\":1},{\"row\":44,\"col\":0,\"className\":\" row_above remove_row remove_row\"},{\"row\":44,\"col\":1,\"className\":\" row_above remove_row remove_row\"},{\"row\":45,\"col\":0,\"className\":\" row_above\"},{\"row\":45,\"col\":1,\"className\":\" row_above\"},{\"row\":46,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":46,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":47,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":47,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":48,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":48,\"col\":1,\"className\":\" mergeCells\"},{\"row\":49,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":49,\"col\":1,\"className\":\" mergeCells\"},{\"row\":50,\"col\":0,\"className\":\" row_above\"},{\"row\":50,\"col\":1},{\"row\":51,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":51,\"col\":1,\"className\":\" mergeCells\"},{\"row\":52,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":52,\"col\":1,\"className\":\" mergeCells\"},{\"row\":53,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":53,\"col\":1,\"className\":\" mergeCells\"},{\"row\":54,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":54,\"col\":1,\"className\":\" mergeCells\"},{\"row\":55,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":55,\"col\":1,\"className\":\" mergeCells\"},{\"row\":56,\"col\":0,\"className\":\" row_above\"},{\"row\":56,\"col\":1,\"className\":\" row_above\"},{\"row\":57,\"col\":0,\"className\":\" row_above\"},{\"row\":57,\"col\":1,\"className\":\" row_above\"},{\"row\":58,\"col\":0,\"className\":\" row_above\"},{\"row\":58,\"col\":1,\"className\":\" row_above\"},{\"row\":59,\"col\":0,\"className\":\" row_above\"},{\"row\":59,\"col\":1,\"className\":\" row_above\"},{\"row\":60,\"col\":0,\"className\":\" row_above\"},{\"row\":60,\"col\":1,\"className\":\" row_above\"},{\"row\":61,\"col\":0,\"className\":\" row_above mergeCells remove_row\"},{\"row\":61,\"col\":1,\"className\":\" row_above mergeCells remove_row\"},{\"row\":62,\"col\":0,\"className\":\" row_above\"},{\"row\":62,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":63,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":63,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":64,\"col\":0,\"className\":\" row_above\"},{\"row\":64,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":65,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":65,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":66,\"col\":0,\"className\":\" row_above\"},{\"row\":66,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":67,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":67,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":68,\"col\":0,\"className\":\" row_above\"},{\"row\":68,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":69,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":69,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":70,\"col\":0,\"className\":\" row_above\"},{\"row\":70,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":71,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":71,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":72,\"col\":0,\"className\":\" row_above\"},{\"row\":72,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":73,\"col\":0,\"className\":\" row_above\"},{\"row\":73,\"col\":1,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":74,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":74,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":75,\"col\":0,\"className\":\" row_above\"},{\"row\":75,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":76,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":76,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":77,\"col\":0,\"className\":\" row_above\"},{\"row\":77,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":78,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":78,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":79,\"col\":0,\"className\":\" row_above\"},{\"row\":79,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":80,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":80,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":81,\"col\":0,\"className\":\" row_above\"},{\"row\":81,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":82,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":82,\"col\":1,\"className\":\" mergeCells htRight alignment-right cell-style-input\"},{\"row\":83,\"col\":0,\"className\":\" row_above\"},{\"row\":83,\"col\":1,\"className\":\" row_above cell-style-input htRight alignment-right\"},{\"row\":84,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":84,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":85,\"col\":0,\"className\":\" row_above\"},{\"row\":85,\"col\":1,\"className\":\" row_above\"},{\"row\":86,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":86,\"col\":1,\"className\":\" mergeCells htRight alignment-right cell-style-input\"},{\"row\":87,\"col\":0,\"className\":\" row_above\"},{\"row\":87,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":88,\"col\":0,\"className\":\" row_above\"},{\"row\":88,\"col\":1,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":89,\"col\":0,\"className\":\" row_above\"},{\"row\":89,\"col\":1,\"className\":\" row_above\"},{\"row\":90,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":90,\"col\":1,\"className\":\" row_above mergeCells htRight alignment-right cell-style-input\"},{\"row\":91,\"col\":0,\"className\":\" row_above\"},{\"row\":91,\"col\":1,\"className\":\" row_above\"},{\"row\":92,\"col\":0,\"className\":\" row_above\"},{\"row\":92,\"col\":1},{\"row\":93,\"col\":0,\"className\":\" row_above\"},{\"row\":93,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":94,\"col\":0,\"className\":\" row_above\"},{\"row\":94,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":95,\"col\":0,\"className\":\" row_above\"},{\"row\":95,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":96,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":96,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":97,\"col\":0,\"className\":\" row_above\"},{\"row\":97,\"col\":1,\"className\":\" row_above\"},{\"row\":98,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":98,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":99,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":99,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-normal mergeCells\"},{\"row\":100,\"col\":0,\"className\":\" row_above\"},{\"row\":100,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":101,\"col\":0,\"className\":\" row_above\"},{\"row\":101,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":102,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":102,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":103,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":103,\"col\":1,\"className\":\" mergeCells\"},{\"row\":104,\"col\":0,\"className\":\" row_above\"},{\"row\":104,\"col\":1,\"className\":\" row_above\"},{\"row\":105,\"col\":0,\"className\":\" row_above\"},{\"row\":105,\"col\":1},{\"row\":106,\"col\":0,\"className\":\" row_above\"},{\"row\":106,\"col\":1,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":107,\"col\":0,\"className\":\" row_above\"},{\"row\":107,\"col\":1,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":108,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":108,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input mergeCells\"},{\"row\":109,\"col\":0,\"className\":\" row_above mergeCells remove_row\"},{\"row\":109,\"col\":1,\"className\":\" row_above mergeCells remove_row\"},{\"row\":110,\"col\":0,\"className\":\" row_above\"},{\"row\":110,\"col\":1,\"className\":\" row_above\"},{\"row\":111,\"col\":0,\"className\":\" row_above\"},{\"row\":111,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":112,\"col\":0,\"className\":\" row_above\"},{\"row\":112,\"col\":1,\"className\":\" row_above\"},{\"row\":113,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":113,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":114,\"col\":0,\"className\":\" row_above\"},{\"row\":114,\"col\":1,\"className\":\" row_above\"},{\"row\":115,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":115,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input mergeCells\"},{\"row\":116,\"col\":0,\"className\":\" row_above mergeCells mergeCells\"},{\"row\":116,\"col\":1,\"className\":\" row_above mergeCells mergeCells\"},{\"row\":117,\"col\":0,\"className\":\" row_above\"},{\"row\":117,\"col\":1,\"className\":\" row_above\"},{\"row\":118,\"col\":0,\"className\":\" row_above\"},{\"row\":118,\"col\":1,\"className\":\" row_abovealignment-right cell-style-normal htLeft alignment-left\"},{\"row\":119,\"col\":0,\"className\":\" row_above remove_row\"},{\"row\":119,\"col\":1,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":120,\"col\":0,\"className\":\" row_above\"},{\"row\":120,\"col\":1,\"className\":\" row_above\"},{\"row\":121,\"col\":0,\"className\":\" row_above mergeCells\"},{\"row\":121,\"col\":1,\"className\":\" row_above mergeCells\"},{\"row\":122,\"col\":0,\"className\":\" row_abovealignment-right htLeft alignment-left remove_row remove_row cell-style-normal font-weight-normal\"},{\"row\":122,\"col\":1,\"className\":\" row_above htRight remove_row remove_row font-weight-normal alignment-right cell-style-input\"},{\"row\":123,\"col\":0,\"className\":\" row_abovealignment-right htLeft alignment-left remove_row remove_row cell-style-normal font-weight-normal\"},{\"row\":123,\"col\":1,\"className\":\" row_above htRight alignment-right remove_row remove_row cell-style-normal font-weight-normal\"},{\"row\":124,\"col\":0,\"className\":\" row_abovealignment-right htLeft alignment-left remove_row\"},{\"row\":124,\"col\":1,\"className\":\" htRight remove_row alignment-right cell-style-input\"},{\"row\":125,\"col\":0,\"className\":\" row_below mergeCells\"},{\"row\":125,\"col\":1,\"className\":\" row_below mergeCells\"},{\"row\":126,\"col\":0,\"className\":\" row_abovealignment-right htLeft alignment-left remove_row\"},{\"row\":126,\"col\":1,\"className\":\" row_above htRight remove_row alignment-right cell-style-input\"},{\"row\":127,\"col\":0,\"className\":\" remove_row\"},{\"row\":127,\"col\":1,\"className\":\" remove_row\"},{\"row\":128,\"col\":0,\"className\":\" row_above\"},{\"row\":128,\"col\":1,\"className\":\" row_above\"},{\"row\":129,\"col\":0,\"className\":\" row_below mergeCells\"},{\"row\":129,\"col\":1,\"className\":\" row_below mergeCells\"},{\"row\":130,\"col\":0,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":130,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":131,\"col\":0},{\"row\":131,\"col\":1},{\"row\":132,\"col\":0},{\"row\":132,\"col\":1},{\"row\":133,\"col\":0},{\"row\":133,\"col\":1},{\"row\":134,\"col\":0},{\"row\":134,\"col\":1},{\"row\":135,\"col\":0},{\"row\":135,\"col\":1},{\"row\":136,\"col\":0},{\"row\":136,\"col\":1}],\"mergeCells\":[{\"col\":0,\"row\":0,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":134,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":135,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":136,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":4,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":129,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":132,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":13,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":130,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":61,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":15,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":17,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":18,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":20,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":22,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":63,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":65,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":67,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":69,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":71,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":73,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":87,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":89,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":75,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":77,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":79,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":81,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":83,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":85,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":91,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":93,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":97,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":103,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":121,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":123,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":125,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":109,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":111,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":128,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":25,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":98,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":99,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":108,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":115,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":116,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":46,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":42,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":41,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":40,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":38,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":47,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":48,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":49,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":51,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":52,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":53,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":54,\"colspan\":2,\"rowspan\":1},{\"col\":0,\"row\":55,\"colspan\":2,\"rowspan\":1}]}",
@@ -277,6 +787,8 @@
       ],
       "Description": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
       "Source": "https://www.manager.io/localizations/au/07332ba33e824dc194511350f5d84e24.json",
+      "From": "2020-09-01T00:00:00",
+      "To": "2020-09-16T00:00:00",
       "Key": "07332ba3-3e82-4dc1-9451-1350f5d84e24"
     },
     {
@@ -400,7 +912,94 @@
       "Key": "c4a0ccf7-9171-4e8e-b390-97f7052b1479"
     }
   ],
-  "TaxCodes": [
+  "bbe8c088-729b-4b56-a7d7-26555270eced": [
+    {
+      "ReportTransformation": "440ce81c-a34e-47eb-8025-4796c5487a5f",
+      "From": "2019-09-14T00:00:00",
+      "To": "2020-09-15T00:00:00",
+      "Key": "1ca53f44-5da3-4dc8-98d8-0c7eb67119da"
+    },
+    {
+      "ReportTransformation": "c4a0ccf7-9171-4e8e-b390-97f7052b1479",
+      "From": "2018-07-01T00:00:00",
+      "To": "2020-09-10T00:00:00",
+      "Key": "293eaed5-b01a-4d8e-bbce-629efa858141"
+    },
+    {
+      "ReportTransformation": "6163552c-3d89-4a15-bf72-ef1df6c0a6ee",
+      "From": "2018-09-08T00:00:00",
+      "To": "2020-09-08T00:00:00",
+      "Key": "485b151a-45e1-41e9-9397-afbf1029e7e3"
+    },
+    {
+      "ReportTransformation": "a197ee84-033b-4d6b-acd7-9a3cbfe02499",
+      "From": "2019-08-28T00:00:00",
+      "To": "2020-08-28T00:00:00",
+      "Key": "716bcd40-5977-46a0-a4d0-14932385bc3c"
+    },
+    {
+      "ReportTransformation": "92b38154-38fc-479a-a296-2019f656d1e2",
+      "From": "2019-07-01T00:00:00",
+      "To": "2019-07-06T00:00:00",
+      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Key": "719014d5-4e0c-4ab5-9632-9986ef85687e"
+    },
+    {
+      "ReportTransformation": "fa048564-af81-437b-8357-a2b8b1a6eb89",
+      "From": "2018-09-08T00:00:00",
+      "To": "2020-09-08T00:00:00",
+      "Key": "7d4cd797-16d2-4f05-b2ae-a3ff2d867b39"
+    },
+    {
+      "ReportTransformation": "11acbfe1-0d24-4161-b366-fe905f2bcfd9",
+      "From": "2019-07-01T00:00:00",
+      "To": "2020-09-09T00:00:00",
+      "Key": "9e64e424-673c-42d8-a65e-0cf1aa6e4356"
+    },
+    {
+      "ReportTransformation": "8f5da309-c0f3-44d4-91fd-1c3445c719d5",
+      "From": "2019-08-29T00:00:00",
+      "To": "2020-08-29T00:00:00",
+      "Key": "9f6e4005-cf9f-44fe-a663-8cfb9acb080a"
+    },
+    {
+      "ReportTransformation": "07332ba3-3e82-4dc1-9451-1350f5d84e24",
+      "From": "2019-07-01T00:00:00",
+      "To": "2020-09-12T00:00:00",
+      "Key": "d7258baf-7908-461a-8b8d-21c6f2b6c6ee"
+    }
+  ],
+  "a9a71e47-82b3-49db-8aec-898adb460a80": [
+    {
+      "Version": 242,
+      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80"
+    }
+  ],
+  "6d2dc48d-2053-4e45-8330-285ebd431242": [
+    {
+      "Name": "Brilliant Supplier",
+      "Address": "1 George Street\nSydney NSW 2000",
+      "CustomFields": {
+        "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f": "Yes",
+        "9483841a-8d21-4c77-8031-614f721878fa": "111222333444555"
+      },
+      "Key": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6",
+      "NameWithCode": "Brilliant Supplier",
+      "AbstractName": "Brilliant Supplier",
+      "AbstractDescription": "Starting balance"
+    }
+  ],
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
+    {
+      "Customers": true,
+      "Suppliers": true,
+      "Employees": true,
+      "Payslips": true,
+      "ReceiptsAndPayments": true,
+      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2"
+    }
+  ],
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
     {
       "Name": "GST Free Import Export",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
@@ -446,6 +1045,13 @@
       "Name": "Input Taxed",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Key": "f218a321-f83d-4d06-8d02-b52f595cc4fe"
+    }
+  ],
+  "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
+    {
+      "From": "2019-07-01T00:00:00",
+      "To": "2020-09-08T00:00:00",
+      "Key": "fd38911e-6902-4a29-8f18-b234fc6f8356"
     }
   ]
 }
