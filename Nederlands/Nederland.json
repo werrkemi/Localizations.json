@@ -1,189 +1,27 @@
 {
-  "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
-    {
-      "From": "2019-07-01T00:00:00",
-      "To": "2019-07-31T00:00:00",
-      "Key": "84e8e158-371f-4b1e-846a-0930bd6f38a6"
-    }
-  ],
-  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
-    {
-      "ReceiptsAndPayments": true,
-      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2"
-    }
-  ],
-  "9a441483-1a09-46d3-aecd-477c91c13ae1": [
-    {
-      "From": "2019-07-01T00:00:00",
-      "To": "2019-07-31T00:00:00",
-      "Key": "5c1f0669-c69f-47b1-8f6b-c2e34e009317"
-    }
-  ],
-  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
-    {
-      "Name": "BTW privégebruik",
-      "TaxRate": "TotalRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "9f2d06f9-0e16-4192-afa3-bff747910088"
-    },
-    {
-      "Name": "BTW 0% EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a"
-    },
-    {
-      "Name": "BTW 0% non-EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11"
-    },
-    {
-      "Name": "BTW 0% verlegd",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "ad18e082-df57-44f9-8fd0-ab3c5275d230"
-    },
-    {
-      "Name": "BTW 0% vrijgesteld",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "c6b298fa-f994-47ac-b6c0-3299fbac8306"
-    },
-    {
-      "Name": "BTW 21%",
-      "Rate": 21.0,
-      "TaxRate": "CustomRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "33855cc4-964b-44d1-be27-cf268b0ad77d"
-    },
-    {
-      "Name": "BTW 6%",
-      "Rate": 6.0,
-      "TaxRate": "CustomRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "ad40e782-1f1c-486a-91a4-266e7001c8b3"
-    },
-    {
-      "Name": "BTW 9%",
-      "Rate": 9.0,
-      "TaxRate": "CustomRate",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Key": "31dce658-cff1-4212-870b-5fd04cb83b1c"
-    },
-    {
-      "Name": "BTW 21% EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 21.0,
-      "Key": "93cdbadc-4a15-41ff-bf68-4ed927915680"
-    },
-    {
-      "Name": "BTW 21% non-EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 21.0,
-      "Key": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
-    },
-    {
-      "Name": "BTW 21% verlegd",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 21.0,
-      "Key": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
-    },
-    {
-      "Name": "BTW 6% EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 6.0,
-      "Key": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b"
-    },
-    {
-      "Name": "BTW 6% non-EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 6.0,
-      "Key": "bddb4876-fd25-49bf-ac71-5365878268ef"
-    },
-    {
-      "Name": "BTW 6% verlegd",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 6.0,
-      "Key": "e5f20470-dffa-4453-a0a9-42a403c04e23"
-    },
-    {
-      "Name": "BTW 9% EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 9.0,
-      "Key": "4d895b0c-a40c-44ff-b441-9620c7619699"
-    },
-    {
-      "Name": "BTW 9% non-EU",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 9.0,
-      "Key": "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
-    },
-    {
-      "Name": "BTW 9% verlegd",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
-      "ReverseChargedRate": 9.0,
-      "Key": "dd28f171-7422-44a3-937a-432e8d2970ea"
-    }
-  ],
   "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
-      "Name": "Tax payable",
-      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
       "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "NameWithCode": "Tax payable",
-      "AbstractName": "Tax payable",
-      "AbstractDescription": "Starting balance"
+      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
+      "Name": "Tax payable"
     }
   ],
   "38cf4712-6e95-4ce1-b53a-bff03edad273": [
     {
-      "Name": "Nederland",
-      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273"
-    }
-  ],
-  "c26047fb-f59a-42ee-9a5a-26a471c094a6": [
-    {
-      "From": "2018-08-27T00:00:00",
-      "To": "2020-08-27T00:00:00",
-      "Key": "445b5f79-2d65-4dac-9d7b-bdbb64d91ced"
-    }
-  ],
-  "bbe8c088-729b-4b56-a7d7-26555270eced": [
-    {
-      "ReportTransformation": "698cf396-d1fd-4775-adec-52c89f224b63",
-      "From": "2019-08-28T00:00:00",
-      "To": "2020-08-28T00:00:00",
-      "Key": "566f958b-2a70-4f97-8d64-175ddb9fec88"
-    },
-    {
-      "ReportTransformation": "b755a3ef-32aa-4eab-8936-0e48b057f627",
-      "From": "2019-07-01T00:00:00",
-      "To": "2020-09-11T00:00:00",
-      "Key": "d9f9ed1d-c37e-412d-97bf-59ec09c0a71c"
+      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273",
+      "Name": "Nederland"
     }
   ],
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
     {
-      "Name": "Contact",
+      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
       "FieldSize": "Medium",
-      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8"
-    }
-  ],
-  "a9a71e47-82b3-49db-8aec-898adb460a80": [
-    {
-      "Version": 242,
-      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80"
+      "Name": "Contact"
     }
   ],
   "699401fe-23fd-4b52-9699-b88b36fa6b26": [
     {
-      "Type": "Payment",
+      "Key": "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f",
       "Date": "2020-09-11T00:00:00",
       "Lines": [
         {
@@ -191,14 +29,14 @@
           "TaxCode": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
         }
       ],
-      "Key": "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f",
-      "AbstractName": "Payment"
+      "Type": "Payment"
     }
   ],
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
     {
+      "Key": "b755a3ef-32aa-4eab-8936-0e48b057f627",
+      "From": "2020-01-01T00:00:00",
       "Name": "Concept BTW Aangifte",
-      "Spreadsheet": "{\"colWidths\":[507,31,190,32,184],\"data\":[[\"{{ business.Name }}\",null,null,null,null],[\"Concept BTW Aangifte\",null,null,null,null],[\"Voor de periode van {{ report.From }} t/m {{ report.To }}\",null,null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null,null],[null,null,null,null,null],[null,null,\"Bedrag waarover omzetbelasting wordt berekend\",null,\"Omzetbelasting\"],[\"1 Prestaties binnenland\",null,null,null,null],[\"1a Leveringen/diensten belast met hoog tarief\",\"€\",\"{{ 1a_grondslag }}\",\"€\",\"{{ 1a_omzetbelasting }}\"],[\"1b Leveringen/diensten belast met laag tarief\",\"€\",\"{{ 1b_grondslag }}\",\"€\",\"{{ 1b_omzetbelasting }}\"],[\"1c Leveringen/diensten belast met overige tarieven, behalve 0%\",\"\",\"\",\"\",\"\"],[\"1d Privégebruik\",\"\",\"\",\"€\",\"{{ 1d_omzetbelasting }}\"],[\"1e Leveringen/diensten belast met 0% of niet bij u belast\",\"€\",\"{{ 1e_grondslag }}\",\"\",\"\"],[\"2 Verleggingsregelingen binnenland\",null,null,null,null],[\"2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd\",\"€\",\"{{ 2a_grondslag }}\",\"€\",\"{{ 2a_omzetbelasting }}\"],[\"3 Prestaties naar of in het buitenland\",null,null,null,null],[\"3a Leveringen naar landen buiten de EU (uitvoer)\",\"€\",\"{{ 3a_grondslag }}\",\"\",\"\"],[\"3b Leveringen naar of diensten in landen binnen de EU\",\"€\",\"{{ 3b_grondslag }}\",\"\",null],[\"3c Installatie/afstandsverkopen binnen de EU\",\"\",null,\"\",null],[\"4 Prestaties vanuit het buitenland aan u verricht\",null,null,null,null],[\"4a Leveringen/diensten uit landen buiten de EU\",\"€\",\"{{ 4a_grondslag }}\",\"€\",\"{{ 4a_omzetbelasting }}\"],[\"4b Leveringen/diensten uit landen binnen de EU\",\"€\",\"{{ 4b_grondslag }}\",\"€\",\"{{ 4b_omzetbelasting }}\"],[\"5 Voorbelasting en kleineondernemersregeling\",null,null,null,\"\"],[\"5a Omzetbelasting (rubrieken 1 t/m 4\",null,\"\",\"€\",\"{{ 5a_omzetbelasting }}\"],[\"5b Voorbelasting\",null,null,\"€\",\"{{ 5b_omzetbelasting }}\"],[\"5c Subtotaal (rubriek 5a min 5b)\",null,null,\"€\",\"{{ 5c_omzetbelasting }}\"],[\"5d Vermindering volgens de kleineondernemersregeling\",null,null,null,null],[\"5e Schatting vorige aangifte(n)\",null,null,null,null],[\"5f Schatting deze aangifte\",null,null,null,null],[\"5g Totaal\",null,null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":3,\"col\":0,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":1,\"className\":\" col_left mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":2,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":4,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":4,\"col\":0,\"className\":\" row_below row_below mergeCells remove_row\"},{\"row\":4,\"col\":1,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":2,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":3,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":4,\"className\":\" mergeCells remove_row\"},{\"row\":5,\"col\":0,\"className\":\" row_below row_below row_below\"},{\"row\":5,\"col\":1},{\"row\":5,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":5,\"col\":3},{\"row\":5,\"col\":4,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":6,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":3},{\"row\":6,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":7,\"col\":0},{\"row\":7,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":8,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":9,\"col\":0},{\"row\":9,\"col\":1},{\"row\":9,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":9,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":9,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":0},{\"row\":10,\"col\":1},{\"row\":10,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":10,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":0},{\"row\":11,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":12,\"col\":0,\"className\":\" row_below row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":4,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":13,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":13,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":13,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":14,\"col\":0,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":15,\"col\":0,\"className\":\" row_below\"},{\"row\":15,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":15,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":15,\"col\":3},{\"row\":15,\"col\":4},{\"row\":16,\"col\":0,\"className\":\" row_below\"},{\"row\":16,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":16,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":16,\"col\":3},{\"row\":16,\"col\":4},{\"row\":17,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":17,\"col\":1},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4},{\"row\":18,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":1,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":3,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":19,\"col\":0},{\"row\":19,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":19,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":0},{\"row\":20,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":21,\"col\":0,\"className\":\" sep1 row_below row_below row_below font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":22,\"col\":0},{\"row\":22,\"col\":1},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":22,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":23,\"col\":0},{\"row\":23,\"col\":1},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":23,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":24,\"col\":0,\"className\":\" row_below\"},{\"row\":24,\"col\":1},{\"row\":24,\"col\":2},{\"row\":24,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":24,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":25,\"col\":0,\"className\":\" row_below\"},{\"row\":25,\"col\":1},{\"row\":25,\"col\":2},{\"row\":25,\"col\":3},{\"row\":25,\"col\":4},{\"row\":26,\"col\":0,\"className\":\" row_below\"},{\"row\":26,\"col\":1},{\"row\":26,\"col\":2},{\"row\":26,\"col\":3},{\"row\":26,\"col\":4},{\"row\":27,\"col\":0,\"className\":\" row_below\"},{\"row\":27,\"col\":1},{\"row\":27,\"col\":2},{\"row\":27,\"col\":3},{\"row\":27,\"col\":4},{\"row\":28,\"col\":0},{\"row\":28,\"col\":1},{\"row\":28,\"col\":2},{\"row\":28,\"col\":3},{\"row\":28,\"col\":4}],\"mergeCells\":[{\"col\":0,\"row\":6,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":18,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":4,\"colspan\":5,\"rowspan\":1}]}",
       "Script": [
         "{% assign BTW_0_EU = \"d0eca2ec-e9da-40de-9be6-e2e9fb34269a\" %}",
         "{% assign BTW_0_non_EU = \"75eaae26-98a4-4e1a-9d75-91bf2b7e7b11\" %}",
@@ -245,7 +83,167 @@
         ""
       ],
       "Source": "https://www.manager.io/localizations/nl/b755a3ef32aa4eab89360e48b057f627.json",
-      "Key": "b755a3ef-32aa-4eab-8936-0e48b057f627"
+      "Spreadsheet": "{\"colWidths\":[507,31,190,32,184],\"data\":[[\"{{ business.Name }}\",null,null,null,null],[\"Concept BTW Aangifte\",null,null,null,null],[\"Voor de periode van {{ report.From }} t/m {{ report.To }}\",null,null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null,null],[null,null,null,null,null],[null,null,\"Bedrag waarover omzetbelasting wordt berekend\",null,\"Omzetbelasting\"],[\"1 Prestaties binnenland\",null,null,null,null],[\"1a Leveringen/diensten belast met hoog tarief\",\"€\",\"{{ 1a_grondslag }}\",\"€\",\"{{ 1a_omzetbelasting }}\"],[\"1b Leveringen/diensten belast met laag tarief\",\"€\",\"{{ 1b_grondslag }}\",\"€\",\"{{ 1b_omzetbelasting }}\"],[\"1c Leveringen/diensten belast met overige tarieven, behalve 0%\",\"\",\"\",\"\",\"\"],[\"1d Privégebruik\",\"\",\"\",\"€\",\"{{ 1d_omzetbelasting }}\"],[\"1e Leveringen/diensten belast met 0% of niet bij u belast\",\"€\",\"{{ 1e_grondslag }}\",\"\",\"\"],[\"2 Verleggingsregelingen binnenland\",null,null,null,null],[\"2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd\",\"€\",\"{{ 2a_grondslag }}\",\"€\",\"{{ 2a_omzetbelasting }}\"],[\"3 Prestaties naar of in het buitenland\",null,null,null,null],[\"3a Leveringen naar landen buiten de EU (uitvoer)\",\"€\",\"{{ 3a_grondslag }}\",\"\",\"\"],[\"3b Leveringen naar of diensten in landen binnen de EU\",\"€\",\"{{ 3b_grondslag }}\",\"\",null],[\"3c Installatie/afstandsverkopen binnen de EU\",\"\",null,\"\",null],[\"4 Prestaties vanuit het buitenland aan u verricht\",null,null,null,null],[\"4a Leveringen/diensten uit landen buiten de EU\",\"€\",\"{{ 4a_grondslag }}\",\"€\",\"{{ 4a_omzetbelasting }}\"],[\"4b Leveringen/diensten uit landen binnen de EU\",\"€\",\"{{ 4b_grondslag }}\",\"€\",\"{{ 4b_omzetbelasting }}\"],[\"5 Voorbelasting en kleineondernemersregeling\",null,null,null,\"\"],[\"5a Omzetbelasting (rubrieken 1 t/m 4\",null,\"\",\"€\",\"{{ 5a_omzetbelasting }}\"],[\"5b Voorbelasting\",null,null,\"€\",\"{{ 5b_omzetbelasting }}\"],[\"5c Subtotaal (rubriek 5a min 5b)\",null,null,\"€\",\"{{ 5c_omzetbelasting }}\"],[\"5d Vermindering volgens de kleineondernemersregeling\",null,null,null,null],[\"5e Schatting vorige aangifte(n)\",null,null,null,null],[\"5f Schatting deze aangifte\",null,null,null,null],[\"5g Totaal\",null,null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":3,\"col\":0,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":1,\"className\":\" col_left mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":2,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":4,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":4,\"col\":0,\"className\":\" row_below row_below mergeCells remove_row\"},{\"row\":4,\"col\":1,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":2,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":3,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":4,\"className\":\" mergeCells remove_row\"},{\"row\":5,\"col\":0,\"className\":\" row_below row_below row_below\"},{\"row\":5,\"col\":1},{\"row\":5,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":5,\"col\":3},{\"row\":5,\"col\":4,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":6,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":3},{\"row\":6,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":7,\"col\":0},{\"row\":7,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":8,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":9,\"col\":0},{\"row\":9,\"col\":1},{\"row\":9,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":9,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":9,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":0},{\"row\":10,\"col\":1},{\"row\":10,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":10,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":0},{\"row\":11,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":12,\"col\":0,\"className\":\" row_below row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":4,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":13,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":13,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":13,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":14,\"col\":0,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":15,\"col\":0,\"className\":\" row_below\"},{\"row\":15,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":15,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":15,\"col\":3},{\"row\":15,\"col\":4},{\"row\":16,\"col\":0,\"className\":\" row_below\"},{\"row\":16,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":16,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":16,\"col\":3},{\"row\":16,\"col\":4},{\"row\":17,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":17,\"col\":1},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4},{\"row\":18,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":1,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":3,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":19,\"col\":0},{\"row\":19,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":19,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":0},{\"row\":20,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":21,\"col\":0,\"className\":\" sep1 row_below row_below row_below font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":22,\"col\":0},{\"row\":22,\"col\":1},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":22,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":23,\"col\":0},{\"row\":23,\"col\":1},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":23,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":24,\"col\":0,\"className\":\" row_below\"},{\"row\":24,\"col\":1},{\"row\":24,\"col\":2},{\"row\":24,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":24,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":25,\"col\":0,\"className\":\" row_below\"},{\"row\":25,\"col\":1},{\"row\":25,\"col\":2},{\"row\":25,\"col\":3},{\"row\":25,\"col\":4},{\"row\":26,\"col\":0,\"className\":\" row_below\"},{\"row\":26,\"col\":1},{\"row\":26,\"col\":2},{\"row\":26,\"col\":3},{\"row\":26,\"col\":4},{\"row\":27,\"col\":0,\"className\":\" row_below\"},{\"row\":27,\"col\":1},{\"row\":27,\"col\":2},{\"row\":27,\"col\":3},{\"row\":27,\"col\":4},{\"row\":28,\"col\":0},{\"row\":28,\"col\":1},{\"row\":28,\"col\":2},{\"row\":28,\"col\":3},{\"row\":28,\"col\":4}],\"mergeCells\":[{\"col\":0,\"row\":6,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":18,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":4,\"colspan\":5,\"rowspan\":1}]}",
+      "To": "2020-12-31T00:00:00"
+    }
+  ],
+  "bbe8c088-729b-4b56-a7d7-26555270eced": [
+    {
+      "Key": "566f958b-2a70-4f97-8d64-175ddb9fec88",
+      "From": "2019-08-28T00:00:00",
+      "ReportTransformation": "698cf396-d1fd-4775-adec-52c89f224b63",
+      "To": "2020-08-28T00:00:00"
+    },
+    {
+      "Key": "d9f9ed1d-c37e-412d-97bf-59ec09c0a71c",
+      "From": "2019-07-01T00:00:00",
+      "ReportTransformation": "b755a3ef-32aa-4eab-8936-0e48b057f627",
+      "To": "2020-09-11T00:00:00"
+    }
+  ],
+  "a9a71e47-82b3-49db-8aec-898adb460a80": [
+    {
+      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
+      "Version": 242
+    }
+  ],
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
+    {
+      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2",
+      "ReceiptsAndPayments": true
+    }
+  ],
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
+    {
+      "Key": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 6% EU",
+      "ReverseChargedRate": 6.0
+    },
+    {
+      "Key": "31dce658-cff1-4212-870b-5fd04cb83b1c",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 9%",
+      "Rate": 9.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "33855cc4-964b-44d1-be27-cf268b0ad77d",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 21%",
+      "Rate": 21.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 21% non-EU",
+      "ReverseChargedRate": 21.0
+    },
+    {
+      "Key": "4d895b0c-a40c-44ff-b441-9620c7619699",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 9% EU",
+      "ReverseChargedRate": 9.0
+    },
+    {
+      "Key": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 0% non-EU"
+    },
+    {
+      "Key": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 9% non-EU",
+      "ReverseChargedRate": 9.0
+    },
+    {
+      "Key": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 21% EU",
+      "ReverseChargedRate": 21.0
+    },
+    {
+      "Key": "9f2d06f9-0e16-4192-afa3-bff747910088",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW privégebruik",
+      "TaxRate": "TotalRate"
+    },
+    {
+      "Key": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 0% verlegd"
+    },
+    {
+      "Key": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 6%",
+      "Rate": 6.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "bddb4876-fd25-49bf-ac71-5365878268ef",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 6% non-EU",
+      "ReverseChargedRate": 6.0
+    },
+    {
+      "Key": "c6b298fa-f994-47ac-b6c0-3299fbac8306",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 0% vrijgesteld"
+    },
+    {
+      "Key": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 21% verlegd",
+      "ReverseChargedRate": 21.0
+    },
+    {
+      "Key": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "BTW 0% EU"
+    },
+    {
+      "Key": "dd28f171-7422-44a3-937a-432e8d2970ea",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 9% verlegd",
+      "ReverseChargedRate": 9.0
+    },
+    {
+      "Key": "e5f20470-dffa-4453-a0a9-42a403c04e23",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "IsReverseCharged": true,
+      "Name": "BTW 6% verlegd",
+      "ReverseChargedRate": 6.0
+    }
+  ],
+  "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
+    {
+      "Key": "84e8e158-371f-4b1e-846a-0930bd6f38a6",
+      "From": "2019-07-01T00:00:00",
+      "To": "2019-07-31T00:00:00"
+    }
+  ],
+  "c26047fb-f59a-42ee-9a5a-26a471c094a6": [
+    {
+      "Key": "445b5f79-2d65-4dac-9d7b-bdbb64d91ced",
+      "From": "2018-08-27T00:00:00",
+      "To": "2020-08-27T00:00:00"
+    }
+  ],
+  "9a441483-1a09-46d3-aecd-477c91c13ae1": [
+    {
+      "Key": "5c1f0669-c69f-47b1-8f6b-c2e34e009317",
+      "From": "2019-07-01T00:00:00",
+      "To": "2019-07-31T00:00:00"
     }
   ]
 }
