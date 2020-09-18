@@ -10,10 +10,21 @@ namespace Localizations
     {
         static void Main()
         {
+            var keys = new HashSet<Guid>();
+            keys.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
+            keys.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
+            keys.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
+            keys.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
+            keys.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
+            keys.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
+
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
+#if DEBUG
+            projectDir = projectDir.Parent.Parent.Parent;
+#endif
             Console.WriteLine("Project Directory: " + projectDir.FullName);
 
-            var output = new Dictionary<string, Dictionary<string, object>>();
+            var output = new Dictionary<string, Dictionary<string, object>>();            
 
             foreach (var e in projectDir.GetDirectories().OrderBy(x => x.Name))
             {
@@ -27,7 +38,9 @@ namespace Localizations
                 {
                     Console.WriteLine("Input: "+e2.FullName);
 
-                    var json = JsonConvert.DeserializeObject(File.ReadAllText(e2.FullName));
+                    var json = JsonConvert.DeserializeObject<Dictionary<Guid, object[]>>(File.ReadAllText(e2.FullName))
+                        .Where(x => keys.Contains(x.Key))
+                        .ToDictionary(x => x.Key, x => x.Value);
 
                     var name = Path.GetFileNameWithoutExtension(e2.Name);
                     output[e.Name].Add(name, json);
