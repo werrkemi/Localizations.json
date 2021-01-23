@@ -38,13 +38,13 @@ Then click `Report Transformations`
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/f/4/f47a7226858ba13111a5d88d7dcfa95a08f73580.png)
 
-Then click on `Copy to clipboard` button in bottom-right corner.
+Then click on `Export` button in bottom-right corner.
 
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/3/6/368c24e259825fc9a18b08e493dd29cb5ae215ac.png)
+![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/b/6/b6a6f7f71d0a693396cc464f1d81b9f7acbf399f.png)
 
 This will reveal screen with `JSON` content. Click `Copy to clipboard` button again so the `JSON` content is in your clipboard.
 
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/7/c/7cdbec092a89821ce993dbc9294dff77bd81ae93.png)
+![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/f/5f3803ff6e9e560ff4128b1be2343dee4e28136a.png)
 
 Now come back to GitHub to the same screen where you had `New Zealand.json` open with `Raw` button. But this time, click on the little pencil pencil to `Edit` (second last icon).
 
