@@ -8,17 +8,9 @@ Anybody can contribute. Try the following tutorial to learn the workflow.
 
 In this tutorial, we are in New Zealand and would like to rename balance sheet account `GST payable` to `GST liability`.
 
-Go to `English` directory of this repository and click on `New Zealand.json` which represents Manager database for New Zealand in JSON format.
+Download the latest version of this repository in [ZIP format](https://github.com/Manager-io/Localizations.json/archive/master.zip). Then unzip the archive.
 
-Obtain URL of `Raw` button.
-
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/b/c/bc940c6a615642b6b343aadd21f164b8a61933d5.png)
-
-Then open Manager, click `Add Business` button. Then `Import Business` and select `Import business from a URL` tab. Then paste URL obtained from `Raw` button above into Manager.
-
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/3/4/345bfd73b0234a0089b1703aa2a40143fb3b6245.png)
-
-Then click `Import Business` button. After importing, you will be taken to the list of businesses and `New Zealand.json` should appear.
+Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive. In this case, we want to import `New Zealand.json` which is in `English` directory. After importing, you will be taken to the list of businesses and `New Zealand.json` should appear.
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/e/e/ee34f8d8a9907b96c5f70cae4d42fef53c60cd1d.png)
 
