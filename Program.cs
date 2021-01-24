@@ -10,6 +10,8 @@ namespace Localizations
     {
         static void Main()
         {
+            Console.OutputEncoding = System.Text.UTF8Encoding.UTF8;
+
             var keys = new HashSet<Guid>();
             keys.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
             keys.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
