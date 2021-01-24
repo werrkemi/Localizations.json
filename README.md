@@ -8,7 +8,7 @@ Anybody can contribute. Try the following tutorial to learn the workflow.
 
 In this tutorial, we are in New Zealand and would like to rename balance sheet account `GST payable` to `GST liability`.
 
-Download the latest version of this repository in [ZIP format](https://github.com/Manager-io/Localizations.json/archive/master.zip). Then unzip the archive.
+[Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format. Then unzip the archive.
 
 Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive. In this case, we want to import `New Zealand.json` which is in `English` directory. After importing, you will be taken to the list of businesses and `New Zealand.json` should appear.
 
