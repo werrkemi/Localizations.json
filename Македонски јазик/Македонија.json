@@ -1,498 +1,497 @@
 {
-    "6ef13e42-ad89-4d42-9480-546e0c04a411": [
-      {
-        "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-        "Name": "Tax payable"
-      }
-    ],
-    "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
-      {
-        "Key": "2d15fd3a-2063-489d-be8a-d620f44bc21c",
-        "DisplayOnView": true,
-        "FieldType": "ParagraphText",
-        "Name": "ЕДБ: ",
-        "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273"
-      },
-      {
-        "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
-        "FieldSize": "Medium",
-        "Name": "Contact"
-      },
-      {
-        "Key": "67a99165-f78b-4e57-a076-0868f04e0ed1",
-        "FieldType": "ParagraphText",
-        "Name": "ЕМБГ на лицето што ја составува ДДВ пријавата:",
-        "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273"
-      }
-    ],
-    "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
-      {
-        "Key": "13da724c-7a45-4572-8ffb-a07a3335481e",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Motor vehicle expenses"
-      },
-      {
-        "Key": "2b713346-e670-4e79-bd4e-81398efe1c4a",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Telephone"
-      },
-      {
-        "Key": "32173d04-eb9a-4123-9ad8-4aa8eb618174",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Rent"
-      },
-      {
-        "Key": "42d8aefb-f9e8-4c56-9bed-b9535cf6c324",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Legal fees"
-      },
-      {
-        "Key": "511e259f-2cd0-4a52-bcaa-55d6d9fe918f",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Computer equipment"
-      },
-      {
-        "Key": "60351a07-44e3-451e-b723-1292b68b985c",
-        "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
-        "Name": "Interest received"
-      },
-      {
-        "Key": "610fb23e-1332-43ce-bbae-b61b08c77218",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Advertising and promotion"
-      },
-      {
-        "Key": "74ddb63b-2bad-4fbe-9467-73fe523489a7",
-        "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
-        "Name": "Sales"
-      },
-      {
-        "Key": "84ca24fd-ece2-415b-a2d2-6641371c7229",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Entertainment"
-      },
-      {
-        "Key": "a1574064-4cf5-40b1-b22e-b6b9a5c1cbfe",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Printing and stationery"
-      },
-      {
-        "Key": "a61fab5a-3f0a-4635-ab1b-ac70ba1407f8",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Donations"
-      },
-      {
-        "Key": "ba938879-38d1-4437-a2ed-1d1fd3f8484f",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Electricity"
-      },
-      {
-        "Key": "d150ec0e-1c75-4da1-9a74-efe63a75d287",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Bank charges"
-      },
-      {
-        "Key": "d51069be-1c8f-4701-a611-9c8c156ca47a",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Accounting fees"
-      },
-      {
-        "Key": "d69fef19-8812-401f-81cf-4df07f752416",
-        "Group": "fd003045-876e-439e-b923-1904453f5c30",
-        "Name": "Repairs and maintenance"
-      }
-    ],
-    "5770616c-0e01-46ca-a172-f7042275da6c": [
-      {
-        "Key": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
-        "Name": "Income",
-        "Obsolete_Code": 1,
-        "Position": 1
-      },
-      {
-        "Key": "fd003045-876e-439e-b923-1904453f5c30",
-        "IsExpense": true,
-        "Name": "Expenses",
-        "Obsolete_Code": 2,
-        "Position": 2
-      }
-    ],
-    "699401fe-23fd-4b52-9699-b88b36fa6b26": [
-      {
-        "Key": "699401fe-23fd-4b52-9699-b88b36fa6b26",
-        "AmountsIncludeTax": true,
-        "BankClearStatus": "Cleared"
-      }
-    ],
-    "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
-      {
-        "Key": "3c7e1105-c3ef-4aa0-9c9e-282c548dd29e",
-        "Description": "Даночна пријава на данокот на додадена вредност",
-        "From": "2021-01-01T00:00:00",
-        "Name": "ДДВ-04",
-        "Obsolete_Type": "68e0d57b-4a59-453e-b8d4-6166f097eacd",
-        "Script": [
-          "{% assign EDB = business.CustomFields[\"2d15fd3a-2063-489d-be8a-d620f44bc21c\"] %} ",
-          "",
-          "{% assign EMBG = business.CustomFields[\"67a99165-f78b-4e57-a076-0868f04e0ed1\"] %}",
-          "",
-          "{% assign period = transactions | between: report.From, report.To %}",
-          "{% if report.To | date: 'MM' = 12 %}",
-          "{% assign dueMonth =  1 %}",
-          "{% else %}",
-          "{% assign dueMonth =  report.To | date: 'MM' | times: 1 | plus: 1 %}",
-          "{% endif %}",
-          "{% assign dueDate = report.To | set_day: 25 | set_month: dueMonth | date: \"dd/MM/yyyy\" %}",
-          "",
-          "{% assign DDV_0_Bez_pravo_na_odbivka = \"a0af1cab-581e-41bc-b711-59390b68a767\" %}",
-          "{% assign DDV_0_So_pravo_na_odbivka = \"2f69dae6-c85d-4f70-98a1-574428fe7095\" %}",
-          "{% assign DDV_0_Izvoz = \"e141987c-19f2-4982-84ee-a45b94e68c93\" %}",
-          "{% assign DDV_0_Nemaat_sediste_vo_zemjata = \"f7a7d590-3354-459b-a786-3730ea70de8a\" %}",
-          "{% assign DDV_5 = \"8fad8a0f-f932-454e-b90b-7b48b6a02e1a\" %}",
-          "{% assign DDV_5_Clen_32_4 = \"115e658e-84f8-4c46-8d0a-e9b28f317d35\" %}",
-          "{% assign DDV_5_Clen_32_a = \"d40ac9e4-f58a-4ca8-837f-266ff1ce504b\" %}",
-          "{% assign DDV_5_Uvoz = \"5a254e38-7b2a-474d-9ab0-8777e37d7d56\" %}",
-          "{% assign DDV_5_Ostanati_danoci = \"fe1aa167-d121-412d-97f2-4d69d2c748c5\" %}",
-          "{% assign DDV_10 = \"ba184918-bbf2-4585-b388-6ad7a743ac46\" %}",
-          "{% assign DDV_18 = \"d7eba1a0-d27c-465c-94ca-38e7b480266a\" %}",
-          "{% assign DDV_18_Clen_32_4 = \"9201a831-7cf6-4963-a33d-fd404c6f02dc\" %}",
-          "{% assign DDV_18_Clen_32_a = \"17b4df47-2148-40bd-a2c6-56d426d44ca0\" %}",
-          "{% assign DDV_18_Uvoz = \"31a9a48c-5733-40bf-b135-9422f3c0592e\" %}",
-          "{% assign DDV_18_Ostanati_danoci = \"72e73474-87e3-4dfc-a673-8c9066d89203\" %}",
-          "",
-          "",
-          "{% assign V1 = period | taxcode: DDV_18 | tax_exclusive_sales | reversesign | balance | round %}",
-          "{% assign V2 = period | taxcode: DDV_18 | tax_on_sales | reversesign | balance | round %}",
-          "{% assign V3 = period | taxcode: DDV_10 | tax_exclusive_sales | reversesign | balance | round %}",
-          "{% assign V4 = period | taxcode: DDV_10 | tax_on_sales | reversesign | balance | round %}",
-          "{% assign V5 = period | taxcode: DDV_5 | tax_exclusive_sales | reversesign |  balance | round %}",
-          "{% assign V6 = period | taxcode: DDV_5 | tax_on_sales | reversesign | balance | round %}",
-          "{% assign V7 = period | taxcode: DDV_0_Izvoz | tax_inclusive_sales | reversesign | balance | round %}",
-          "{% assign V8 = period | taxcode: DDV_0_So_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
-          "{% assign V9 = period | taxcode: DDV_0_Bez_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
-          "{% assign V10 = period | taxcode: DDV_0_Nemaat_sediste_vo_zemjata | tax_inclusive_sales | reversesign | balance | round %}",
-          "{% assign V11 = period | taxcode: DDV_5_Clen_32_a, DDV_18_Clen_32_a | tax_exclusive_sales | reversesign | balance | round %}",
-          "{% assign V12 = period | taxcode: DDV_18_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-          "{% assign V13 = period | taxcode: DDV_18_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-          "{% assign V14 = period | taxcode: DDV_5_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-          "{% assign V15 = period | taxcode: DDV_5_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-          "{% assign V16 = period | taxcode: DDV_18_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-          "{% assign V17 = period | taxcode: DDV_18_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
-          "{% assign V18 = period | taxcode: DDV_5_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-          "{% assign V19 = period | taxcode: DDV_5_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
-          "{% assign V20 = V2 | plus: V4 | plus: V6 | plus: V13  | plus: V15 | plus: V17 | plus: V19 %}",
-          "",
-          "{% assign V21 = period | taxcode: DDV_18, DDV_5 | tax_exclusive_purchases  | balance | round %}",
-          "{% assign V22 = period | taxcode: DDV_18, DDV_5 | tax_on_purchases | balance | round %}",
-          "{% assign V23 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_exclusive_purchases | balance | round %}",
-          "{% assign V24 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_on_purchases | balance | round %}",
-          "{% assign V25 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_exclusive_purchases | balance | round %}",
-          "{% assign V26 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_on_purchases | balance | round %}",
-          "{% assign V27 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_exclusive_purchases |  balance | round %}",
-          "{% assign V28 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_on_purchases | balance | round %}",
-          "{% assign V29 = V22 | plus: V24 | plus: V26 | plus: V28 %}",
-          "{% assign V30 = period | taxcode: DDV_18_Ostanati_danoci, DDV_5_Ostanati_danoci | tax_on_purchases | balance | round %}",
-          "{% assign V31 = V29 | plus: V30 %}",
-          "{% assign V32 = 0 %}",
-          "",
-          "{% capture exportToXML %}{{ \"<?xml version='1.0' encoding='UTF-8'?> \" | escape }}",
-          "<ddv_04_2021>",
-          "    <danocen_mk>MK</danocen_mk>",
-          "    <edb>{{ EDB }}</edb>",
-          "    <datumpriem></datumpriem>",
-          "    <ujp_prijava_broj></ujp_prijava_broj>",
-          "    <naziv></naziv>",
-          "    <telefon></telefon>",
-          "    <email></email>",
-          "    <datumod>{{ report.From | date: 'dd/MM/yyyy' }}</datumod>",
-          "    <datumdo>{{ report.To | date: 'dd/MM/yyyy' }}</datumdo>",
-          "    <rok_podnesuvanje>{{ dueDate }}</rok_podnesuvanje>",
-          "    <ispravka></ispravka>",
-          "    <broj_ispravka></broj_ispravka>",
-          "    <input01>{{ V1 }}</input01>",
-          "    <input02>{{ V2 }}</input02>",
-          "    <input03>{{ V3 }}</input03>",
-          "    <input04>{{ V4 }}</input04>",
-          "    <input05>{{ V5 }}</input05>",
-          "    <input06>{{ V6 }}</input06>",
-          "    <input07>{{ V7 }}</input07>",
-          "    <input08>{{ V8 }}</input08>",
-          "    <input09>{{ V9 }}</input09>",
-          "    <input10>{{ V10 }}</input10>",
-          "    <input11>{{ V11 }}</input11>",
-          "    <input12>{{ V12 }}</input12>",
-          "    <input13>{{ V13 }}</input13>",
-          "    <input14>{{ V14 }}</input14>",
-          "    <input15>{{ V15 }}</input15>",
-          "    <input16>{{ V16 }}</input16>",
-          "    <input17>{{ V17 }}</input17>",
-          "    <input18>{{ V18 }}</input18>",
-          "    <input19>{{ V19 }}</input19>",
-          "    <input20>{{ V20 }}</input20>",
-          "    <input21>{{ V21 }}</input21>",
-          "    <input22>{{ V22 }}</input22>",
-          "    <input23>{{ V23 }}</input23>",
-          "    <input24>{{ V24 }}</input24>",
-          "    <input25>{{ V25 }}</input25>",
-          "    <input26>{{ V26 }}</input26>",
-          "    <input27>{{ V27 }}</input27>",
-          "    <input28>{{ V28 }}</input28>",
-          "    <input29>{{ V29 }}</input29>",
-          "    <input30>{{ V30 }}</input30>",
-          "    <input31>{{ V31 }}</input31>",
-          "    <input32>{{ V32 }}</input32>",
-          "    <vrakanje></vrakanje>",
-          "    <otstapuvanje></otstapuvanje>",
-          "    <input1></input1>",
-          "    <input2></input2>",
-          "    <input3></input3>",
-          "    <input4></input4>",
-          "    <input5></input5>",
-          "    <input6></input6>",
-          "    <drugo_opis></drugo_opis>",
-          "    <drugo_iznos></drugo_iznos>",
-          "    <vkupno_tabela></vkupno_tabela>",
-          "    <sostojba_na></sostojba_na>",
-          "    <vkupno_dinamicka></vkupno_dinamicka>",
-          "    <vkupno_neto></vkupno_neto>",
-          "    <sostavuvac_ime></sostavuvac_ime>",
-          "    <sostavuvac_prezime></sostavuvac_prezime>",
-          "    <sostavuvac_edb>{{ EMBG }}</sostavuvac_edb>",
-          "    <popolnuvac_svojstvo></popolnuvac_svojstvo>",
-          "    <odgovoren_ime></odgovoren_ime>",
-          "    <odgovoren_prezime></odgovoren_prezime>",
-          "    <odgovoren_edb></odgovoren_edb>",
-          "    <odgovoren_svojstvo></odgovoren_svojstvo>",
-          "    <pecat></pecat>",
-          "    <zabeleska></zabeleska>",
-          "</ddv_04_2021>{% endcapture %}",
-          ""
-        ],
-        "Spreadsheet": "{\"colWidths\":[448,34,207,35,211],\"data\":[[\"Даночна пријава на данокот на додадена вредност\",null,null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null,null],[null,null,null,null,null],[null,null,null,null,null],[\"Даночен број за ДДВ: MK {{ EDB }}\",null,null,null,\"*Пополнува УЈП\"],[\"Скратен назив: {{ business.Name }}\",null,\"Датум и број на прием:\",null,null],[\"Адреса и вистинско седиште за контакт: {{ business.Address }}\",null,\"Даночен период\",null,null],[\"Телефон:\",\"од\",\"{{ report.From | date: 'dd/MM/yyyy' }}\",\"до\",\"{{ report.To | date: 'dd/MM/yyyy' }}\"],[\"Е-пошта:\",null,\"Рок за поднесување\",null,\"{{ dueDate }}\"],[\"\",null,\"Исправка на ДДВ-04\",null,\"\"],[\"\",null,null,null,\"\"],[\"\",\"\",\"\",\"\",null],[\"ПРОМЕТ НА ДОБРА И УСЛУГИ\",\"\",null,null,null],[null,null,\"Даночна основа без ДДВ\",null,\"ДДВ\"],[\"Оданочив промет по општа даночна стапка\",\"01\",\"{{ V1 }}\",\"02\",\"{{ V2 }}\"],[\"Оданочив промет по повластена даночна стапка 10%\",\"03\",\"{{ V3 }}\",\"04\",\"{{ V4 }}\"],[\"Оданочив промет по повластена даночна стапка 5%\",\"05\",\"{{ V5 }}\",\"06\",\"{{ V6 }}\"],[\"Извоз\",\"07\",\"{{ V7 }}\",null,null],[\"Промет ослободен од данок со право на одбивка на претходен данок\",\"08\",\"{{ V8 }}\",null,null],[\"Промет ослободен од данок без право на одбивка на претходен данок\",\"09\",\"{{ V9 }}\",null,null],[\"Промет извршен спрема даночни обврзници кои немаат седиште во земјата, кој не е предмет на оданочување во земјата\",\"10\",\"{{ V10 }}\",null,null],[\"Промет во земјата за кој данокот го пресметува примателот на прометот (пренесување на даночна обврска согласно член 32-а)\",\"11\",\"{{ V11 }}\",null,null],[\"Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по општа даночна стапка (член 32-4)\",\"12\",\"{{ V12 }}\",\"13\",\"{{ V13 }}\"],[\"Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по повластена даночна стапка (член 32-4)\",\"14\",\"{{ V14 }}\",\"15\",\"{{ V15 }}\"],[\"Примен промет во земјата за кој данокот го пресметува примателот на прометот по општа даночна стапка (член 32-а)\",\"16\",\"{{ V16 }}\",\"17\",\"{{ V17 }}\"],[\"Примен промет во земјата за кој данокот го пресметува примателот на прометот по повластена даночна стапка (член 32-а)\",\"18\",\"{{ V18 }}\",\"19\",\"{{ V19 }}\"],[\"Вкупен ДДВ (02+04+06+13+15+17+19)\",null,null,\"20\",\"{{ V20 }}\"],[null,null,null,null,null],[\"ВЛЕЗНИ ИСПОЛНУВАЊА СО ПРАВО НА ОДБИВКА\",null,null,null,null],[null,null,\"Даночна основа без ДДВ\",null,\"ДДВ\"],[\"Влезен промет\",\"21\",\"{{ V21 }}\",\"22\",\"{{ V22 }}\"],[\"Влезен промет за кој данокот го пресметува примателот на прометот (член 32-4)\",\"23\",\"{{ V23 }}\",\"24\",\"{{ V24 }}\"],[\"Влезен промет во земјата за кој данокот го пресметува примателот на прометот (член 32-а)\",\"25\",\"{{ V25 }}\",\"26\",\"{{ V26 }}\"],[\"Увоз\",\"27\",\"{{ V27 }}\",\"28\",\"{{ V28 }}\"],[\"Претходни даноци за одбивање (22+24+26+28)\",null,null,\"29\",\"{{ V29 }}\"],[\"Останати даноци, претходни даноци и износи на одбивање\",null,null,\"30\",\"{{ V30 }}\"],[\"Даночен долг/побарување (Ако барате враќање на данок внесете „X“ пред поле 31)\",\"\",\"\",\"31\",\"{{ V31 }}\"],[\"Oтстапување на побарување   (Ако отстапувате побарување, внесете „Х“ пред поле 32)\",null,null,\"32\",\"{{ V32 }}\"],[null,null,null,null,null],[\"<form method=\\\"POST\\\" action=\\\"download\\\">\\n\\t\\t            <input type=\\\"hidden\\\" name=\\\"filename\\\" value=\\\"ДДВ-04-{{ report.From | date: 'dd.MM.yyyy' }}-{{ report.To | date: 'dd.MM.yyyy' }}.xml\\\">\\n\\t\\t            <input type=\\\"hidden\\\" name=\\\"content\\\" value=\\\"{{ exportToXML }}\\\"><input type=\\\"submit\\\" value=\\\"Сними како XML\\\" class=\\\"btn btn-warning\\\" style=\\\"font-weight: bold\\\"></form>\",null,null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":2,\"col\":0,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":1,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":2,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":3,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":4,\"className\":\" row_above borders-top\"},{\"row\":3,\"col\":0,\"className\":\" row_above\"},{\"row\":3,\"col\":1,\"className\":\" row_above\"},{\"row\":3,\"col\":2,\"className\":\" row_above\"},{\"row\":3,\"col\":3,\"className\":\" row_above\"},{\"row\":3,\"col\":4,\"className\":\" row_above\"},{\"row\":4,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":4,\"col\":1},{\"row\":4,\"col\":2},{\"row\":4,\"col\":3},{\"row\":4,\"col\":4},{\"row\":5,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":5,\"col\":1,\"className\":\" row_above\"},{\"row\":5,\"col\":2,\"className\":\" row_above cell-style-dark\"},{\"row\":5,\"col\":3,\"className\":\" row_above\"},{\"row\":5,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":6,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":6,\"col\":3,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":6,\"col\":4,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":7,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":7,\"col\":1,\"className\":\" row_above htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" row_above cell-style-input\"},{\"row\":7,\"col\":3,\"className\":\" row_above htRight alignment-right\"},{\"row\":7,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":8,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":8,\"col\":1},{\"row\":8,\"col\":2},{\"row\":8,\"col\":3},{\"row\":8,\"col\":4,\"className\":\" cell-style-input\"},{\"row\":9,\"col\":0,\"className\":\" row_above cell-style-normal\"},{\"row\":9,\"col\":1,\"className\":\" row_above\"},{\"row\":9,\"col\":2,\"className\":\" row_above\"},{\"row\":9,\"col\":3,\"className\":\" row_above cell-style-input\"},{\"row\":9,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":10,\"col\":0,\"className\":\" row_above cell-style-normal\"},{\"row\":10,\"col\":1,\"className\":\" row_above\"},{\"row\":10,\"col\":2,\"className\":\" row_above\"},{\"row\":10,\"col\":3,\"className\":\" row_above\"},{\"row\":10,\"col\":4,\"className\":\" row_above\"},{\"row\":11,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":11,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":3,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":4,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":0,\"className\":\" remove_row font-weight-bold borders-no_borders\"},{\"row\":12,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":3,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":4,\"className\":\" borders-no_borders\"},{\"row\":13,\"col\":0,\"className\":\" remove_row borders-top\"},{\"row\":13,\"col\":1,\"className\":\" borders-top\"},{\"row\":13,\"col\":2,\"className\":\"htCenter alignment-center font-weight-bold borders-top\"},{\"row\":13,\"col\":3,\"className\":\" borders-top\"},{\"row\":13,\"col\":4,\"className\":\"htCenter alignment-center font-weight-bold borders-top\"},{\"row\":14,\"col\":0,\"className\":\" remove_row borders-no_borders row_below\"},{\"row\":14,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders row_below\"},{\"row\":14,\"col\":2,\"className\":\"htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":14,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders row_below\"},{\"row\":14,\"col\":4,\"className\":\"htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":15,\"col\":0},{\"row\":15,\"col\":1,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":2,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":15,\"col\":3,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":4,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":16,\"col\":0,\"className\":\" remove_row remove_row borders-no_borders row_below\"},{\"row\":16,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders row_below\"},{\"row\":16,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":16,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders row_below\"},{\"row\":16,\"col\":4,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":17,\"col\":0},{\"row\":17,\"col\":1,\"className\":\"htCenter alignment-center\"},{\"row\":17,\"col\":2,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4},{\"row\":18,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":18,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":18,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":18,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":18,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":19,\"col\":0,\"className\":\" mergeCells font-size-x-smallalignment-rightalignment-center remove_row htLeft alignment-left font-weight-normal borders-no_borders\"},{\"row\":19,\"col\":1,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter remove_row alignment-center font-weight-normal borders-no_borders\"},{\"row\":19,\"col\":2,\"className\":\" mergeCells font-size-x-smallalignment-rightfont-weight-bold remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":19,\"col\":3,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter font-weight-bold remove_row alignment-center borders-no_borders\"},{\"row\":19,\"col\":4,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter alignment-center font-weight-bold remove_row borders-no_borders\"},{\"row\":20,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":20,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":20,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":20,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":20,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":21,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":21,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":21,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":21,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":21,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":22,\"col\":0,\"className\":\" remove_col remove_row font-weight-normal borders-no_borders\"},{\"row\":22,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":22,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":22,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":22,\"col\":4,\"className\":\"htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":23,\"col\":0,\"className\":\" row_above borders-no_borders\"},{\"row\":23,\"col\":1,\"className\":\" row_above htCenter alignment-center borders-no_borders\"},{\"row\":23,\"col\":2,\"className\":\" row_abovealignment-center font-weight-normal htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":23,\"col\":3,\"className\":\" row_above htCenter alignment-center font-weight-normal borders-no_borders\"},{\"row\":23,\"col\":4,\"className\":\" row_abovealignment-center font-weight-normal htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":24,\"col\":0,\"className\":\" remove_col borders-no_borders\"},{\"row\":24,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":24,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":24,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":24,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":25,\"col\":0,\"className\":\" remove_col borders-no_borders\"},{\"row\":25,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":25,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":25,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":25,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":26,\"col\":0,\"className\":\" row_below row_below remove_col borders-bottom\"},{\"row\":26,\"col\":1,\"className\":\"htCenter alignment-center borders-bottom\"},{\"row\":26,\"col\":2,\"className\":\" htCenter alignment-center font-weight-bold borders-bottom\"},{\"row\":26,\"col\":3,\"className\":\"htCenter alignment-center borders-bottom\"},{\"row\":26,\"col\":4,\"className\":\"cell-style-input htRight alignment-right borders-bottom font-weight-normal\"},{\"row\":27,\"col\":0,\"className\":\" row_below row_below remove_col row_below borders-no_borders\"},{\"row\":27,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":27,\"col\":2,\"className\":\" htRight alignment-right borders-no_borders cell-style-normal\"},{\"row\":27,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders cell-style-normal\"},{\"row\":27,\"col\":4,\"className\":\" htRight alignment-right borders-no_borders cell-style-normal\"},{\"row\":28,\"col\":0,\"className\":\" font-weight-bold borders-no_borders\"},{\"row\":28,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":28,\"col\":2,\"className\":\" htRight alignment-right cell-style-normal borders-no_borders\"},{\"row\":28,\"col\":3,\"className\":\"htCenter alignment-center cell-style-normal borders-no_borders\"},{\"row\":28,\"col\":4,\"className\":\" htRight alignment-right cell-style-normal borders-no_borders\"},{\"row\":29,\"col\":0,\"className\":\" remove_col borders-top\"},{\"row\":29,\"col\":1,\"className\":\"htCenter alignment-center borders-top\"},{\"row\":29,\"col\":2,\"className\":\" htRight alignment-right cell-style-normal font-weight-bold borders-top\"},{\"row\":29,\"col\":3,\"className\":\"htCenter alignment-center cell-style-normal borders-top\"},{\"row\":29,\"col\":4,\"className\":\" htRight alignment-right cell-style-normal font-weight-bold borders-top\"},{\"row\":30,\"col\":0,\"className\":\" remove_col row_below borders-no_borders\"},{\"row\":30,\"col\":1,\"className\":\"htCenter row_below alignment-center borders-no_borders\"},{\"row\":30,\"col\":2,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":30,\"col\":3,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":30,\"col\":4,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":31,\"col\":0,\"className\":\" row_below row_below borders-no_borders\"},{\"row\":31,\"col\":1,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":31,\"col\":2,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":31,\"col\":3,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":31,\"col\":4,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":32,\"col\":0,\"className\":\" row_below borders-no_borders\"},{\"row\":32,\"col\":1,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":32,\"col\":2,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":32,\"col\":3,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":32,\"col\":4,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":33,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":33,\"col\":1,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":33,\"col\":2,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":33,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":33,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":34,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":34,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":35,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":3,\"className\":\" borders-no_borders htCenter alignment-center\"},{\"row\":35,\"col\":4,\"className\":\" cell-style-input htRight alignment-right borders-no_borders\"},{\"row\":36,\"col\":0,\"className\":\" row_above\"},{\"row\":36,\"col\":1,\"className\":\" row_above\"},{\"row\":36,\"col\":2,\"className\":\" row_above\"},{\"row\":36,\"col\":3,\"className\":\" row_above htCenter alignment-center\"},{\"row\":36,\"col\":4,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":37,\"col\":0,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":1,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":2,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":3,\"className\":\" borders-bottom htCenter alignment-center row_below\"},{\"row\":37,\"col\":4,\"className\":\" cell-style-input htRight alignment-right borders-bottom row_below\"},{\"row\":38,\"col\":0,\"className\":\" row_below\"},{\"row\":38,\"col\":1,\"className\":\" row_below\"},{\"row\":38,\"col\":2,\"className\":\" row_below\"},{\"row\":38,\"col\":3,\"className\":\" row_below\"},{\"row\":38,\"col\":4,\"className\":\" row_below\"},{\"row\":39,\"col\":0},{\"row\":39,\"col\":1},{\"row\":39,\"col\":2},{\"row\":39,\"col\":3},{\"row\":39,\"col\":4}],\"mergeCells\":[{\"col\":0,\"row\":0,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":5,\"rowspan\":1},{\"col\":2,\"row\":6,\"colspan\":3,\"rowspan\":1}]}",
-        "To": "2021-03-31T00:00:00"
-      }
-    ],
-    "a9a71e47-82b3-49db-8aec-898adb460a80": [
-      {
-        "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
-        "Version": 242
-      }
-    ],
-    "f361339b-932a-4436-b56e-a337c1587c72": [
-      {
-        "Key": "2414f2aa-ca50-4fc8-8fce-c9492345e36f",
-        "Name": "Share of profit"
-      },
-      {
-        "Key": "c77595b1-a9fe-4f23-be9e-d9a4aaa13248",
-        "Name": "Funds contributed"
-      },
-      {
-        "Key": "ca042edd-2792-461e-ada8-a2d7cffcfdad",
-        "Name": "Drawings"
-      }
-    ],
-    "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
-      {
-        "Key": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "IsReverseCharged": true,
-        "Name": "ДДВ 5% (Член 32-4)",
-        "Rate": 5.0,
-        "ReverseChargedRate": 5.0
-      },
-      {
-        "Key": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "IsReverseCharged": true,
-        "Name": "ДДВ 18% (Член 32-а)",
-        "ReverseChargedRate": 18.0
-      },
-      {
-        "Key": "31a9a48c-5733-40bf-b135-9422f3c0592e",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 18% (Увоз)",
-        "Rate": 18.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "5a254e38-7b2a-474d-9ab0-8777e37d7d56",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 5% (Увоз)",
-        "Rate": 5.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "72e73474-87e3-4dfc-a673-8c9066d89203",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 18% (Останати даноци)",
-        "Rate": 18.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Name": "ДДВ 5%",
-        "Rate": 5.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "IsReverseCharged": true,
-        "Name": "ДДВ 18% (Член 32-4)",
-        "Rate": 18.0,
-        "ReverseChargedRate": 18.0
-      },
-      {
-        "Key": "a0af1cab-581e-41bc-b711-59390b68a767",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 0%"
-      },
-      {
-        "Key": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "IsReverseCharged": true,
-        "Name": "ДДВ 5% (Член 32-а)",
-        "ReverseChargedRate": 5.0
-      },
-      {
-        "Key": "ba184918-bbf2-4585-b388-6ad7a743ac46",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Name": "ДДВ 18%",
-        "Rate": 18.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Name": "ДДВ 10%",
-        "Rate": 10.0,
-        "TaxRate": "CustomRate"
-      },
-      {
-        "Key": "e141987c-19f2-4982-84ee-a45b94e68c93",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 0% (Извоз)"
-      },
-      {
-        "Key": "f7a7d590-3354-459b-a786-3730ea70de8a",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 0% (Немаат седиште во земјата)"
-      },
-      {
-        "Key": "fe1aa167-d121-412d-97f2-4d69d2c748c5",
-        "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-        "Archived": true,
-        "Components": [
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          },
-          {
-            "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-          }
-        ],
-        "Name": "ДДВ 5% (Останати даноци)",
-        "Rate": 5.0,
-        "TaxRate": "CustomRate"
-      }
-    ],
-    "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
-      {
-        "Key": "aab77aca-9ac2-44c3-b535-1066cfc9bad8",
-        "Description": "ДДВ Q1 2019",
-        "From": "2019-01-01T00:00:00",
-        "To": "2019-03-31T00:00:00"
-      }
-    ]
-  }
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": [
+    {
+      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
+      "Name": "Tax payable"
+    }
+  ],
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
+    {
+      "Key": "2d15fd3a-2063-489d-be8a-d620f44bc21c",
+      "DisplayOnView": true,
+      "FieldType": "ParagraphText",
+      "Name": "ЕДБ: ",
+      "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    },
+    {
+      "Key": "67a99165-f78b-4e57-a076-0868f04e0ed1",
+      "FieldType": "ParagraphText",
+      "Name": "ЕМБГ на лицето што ја составува ДДВ пријавата:",
+      "Type": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    }
+  ],
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
+    {
+      "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c",
+      "EncodedNumberFormat": "CgEsEgEuGAM=",
+      "FirstDayOfWeek": 1,
+      "ShortDatePattern": "dd.M.yyyy",
+      "TimeFormat": "HH:mm:ss"
+    }
+  ],
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
+    {
+      "Key": "09c016d5-01b8-4ffc-a154-1f67ab1af709",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Донации"
+    },
+    {
+      "Key": "14cc7306-1424-4715-ab39-4acf88ee2292",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Поправки и одржување"
+    },
+    {
+      "Key": "1a861da4-8c34-46c7-ae31-c8c59988d967",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Компјутерска опрема"
+    },
+    {
+      "Key": "4a2897c8-24c3-4027-978c-a04539c8d4cc",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Телефон"
+    },
+    {
+      "Key": "57ebc0f5-310f-4b89-a3a2-11db9e6eb7d8",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Закупнина"
+    },
+    {
+      "Key": "60d21772-0983-4300-ae11-87a3ce332dcf",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Банкарски трошоци"
+    },
+    {
+      "Key": "7228a6ab-d821-4d4d-b721-503ee21583f0",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Забава"
+    },
+    {
+      "Key": "90881b10-9e37-4979-872d-7a2fd671c546",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Штампарска и канцелариска опрема"
+    },
+    {
+      "Key": "b170d1e0-3535-490d-bf4f-aa8de63d1f04",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Правни трошоци"
+    },
+    {
+      "Key": "bc42e10e-d254-46e1-8fd4-199992841c24",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Струја"
+    },
+    {
+      "Key": "c5b2612f-6d52-4298-933f-9b9f9e459ca9",
+      "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
+      "Name": "Камати"
+    },
+    {
+      "Key": "e3e5fc72-ce29-4dc7-9397-9874986bf9c3",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Сметководствени расходи"
+    },
+    {
+      "Key": "ea261c61-f481-49c9-a207-478bf7647a45",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Трошоци за моторни возила"
+    },
+    {
+      "Key": "efc04687-65c4-44e8-908c-faa945dc735d",
+      "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
+      "Name": "Продажба"
+    },
+    {
+      "Key": "fa23b9d7-1559-432a-a1bf-5566bf8d768d",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Рекламирање и промоција"
+    }
+  ],
+  "5770616c-0e01-46ca-a172-f7042275da6c": [
+    {
+      "Key": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
+      "Name": "Приходи",
+      "Position": 1
+    },
+    {
+      "Key": "fd003045-876e-439e-b923-1904453f5c30",
+      "IsExpense": true,
+      "Name": "Трошоци",
+      "Position": 2
+    }
+  ],
+  "699401fe-23fd-4b52-9699-b88b36fa6b26": [
+    {
+      "Key": "699401fe-23fd-4b52-9699-b88b36fa6b26",
+      "AmountsIncludeTax": true,
+      "BankClearStatus": "Cleared"
+    }
+  ],
+  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
+    {
+      "Key": "3c7e1105-c3ef-4aa0-9c9e-282c548dd29e",
+      "Description": "Даночна пријава на данокот на додадена вредност",
+      "From": "2021-01-01T00:00:00",
+      "Name": "ДДВ-04",
+      "Obsolete_Type": "68e0d57b-4a59-453e-b8d4-6166f097eacd",
+      "Script": [
+        "{% assign EDB = business.CustomFields[\"2d15fd3a-2063-489d-be8a-d620f44bc21c\"] %} ",
+        "",
+        "{% assign EMBG = business.CustomFields[\"67a99165-f78b-4e57-a076-0868f04e0ed1\"] %}",
+        "",
+        "{% assign period = transactions | between: report.From, report.To %}",
+        "{% if report.To | date: 'MM' = 12 %}",
+        "{% assign dueMonth =  1 %}",
+        "{% else %}",
+        "{% assign dueMonth =  report.To | date: 'MM' | times: 1 | plus: 1 %}",
+        "{% endif %}",
+        "{% assign dueDate = report.To | set_day: 25 | set_month: dueMonth | date: \"dd/MM/yyyy\" %}",
+        "",
+        "{% assign DDV_0_Bez_pravo_na_odbivka = \"a0af1cab-581e-41bc-b711-59390b68a767\" %}",
+        "{% assign DDV_0_So_pravo_na_odbivka = \"2f69dae6-c85d-4f70-98a1-574428fe7095\" %}",
+        "{% assign DDV_0_Izvoz = \"e141987c-19f2-4982-84ee-a45b94e68c93\" %}",
+        "{% assign DDV_0_Nemaat_sediste_vo_zemjata = \"f7a7d590-3354-459b-a786-3730ea70de8a\" %}",
+        "{% assign DDV_5 = \"8fad8a0f-f932-454e-b90b-7b48b6a02e1a\" %}",
+        "{% assign DDV_5_Clen_32_4 = \"115e658e-84f8-4c46-8d0a-e9b28f317d35\" %}",
+        "{% assign DDV_5_Clen_32_a = \"d40ac9e4-f58a-4ca8-837f-266ff1ce504b\" %}",
+        "{% assign DDV_5_Uvoz = \"5a254e38-7b2a-474d-9ab0-8777e37d7d56\" %}",
+        "{% assign DDV_5_Ostanati_danoci = \"fe1aa167-d121-412d-97f2-4d69d2c748c5\" %}",
+        "{% assign DDV_10 = \"ba184918-bbf2-4585-b388-6ad7a743ac46\" %}",
+        "{% assign DDV_18 = \"d7eba1a0-d27c-465c-94ca-38e7b480266a\" %}",
+        "{% assign DDV_18_Clen_32_4 = \"9201a831-7cf6-4963-a33d-fd404c6f02dc\" %}",
+        "{% assign DDV_18_Clen_32_a = \"17b4df47-2148-40bd-a2c6-56d426d44ca0\" %}",
+        "{% assign DDV_18_Uvoz = \"31a9a48c-5733-40bf-b135-9422f3c0592e\" %}",
+        "{% assign DDV_18_Ostanati_danoci = \"72e73474-87e3-4dfc-a673-8c9066d89203\" %}",
+        "",
+        "",
+        "{% assign V1 = period | taxcode: DDV_18 | tax_exclusive_sales | reversesign | balance | round %}",
+        "{% assign V2 = period | taxcode: DDV_18 | tax_on_sales | reversesign | balance | round %}",
+        "{% assign V3 = period | taxcode: DDV_10 | tax_exclusive_sales | reversesign | balance | round %}",
+        "{% assign V4 = period | taxcode: DDV_10 | tax_on_sales | reversesign | balance | round %}",
+        "{% assign V5 = period | taxcode: DDV_5 | tax_exclusive_sales | reversesign |  balance | round %}",
+        "{% assign V6 = period | taxcode: DDV_5 | tax_on_sales | reversesign | balance | round %}",
+        "{% assign V7 = period | taxcode: DDV_0_Izvoz | tax_inclusive_sales | reversesign | balance | round %}",
+        "{% assign V8 = period | taxcode: DDV_0_So_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
+        "{% assign V9 = period | taxcode: DDV_0_Bez_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
+        "{% assign V10 = period | taxcode: DDV_0_Nemaat_sediste_vo_zemjata | tax_inclusive_sales | reversesign | balance | round %}",
+        "{% assign V11 = period | taxcode: DDV_5_Clen_32_a, DDV_18_Clen_32_a | tax_exclusive_sales | reversesign | balance | round %}",
+        "{% assign V12 = period | taxcode: DDV_18_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
+        "{% assign V13 = period | taxcode: DDV_18_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
+        "{% assign V14 = period | taxcode: DDV_5_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
+        "{% assign V15 = period | taxcode: DDV_5_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
+        "{% assign V16 = period | taxcode: DDV_18_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
+        "{% assign V17 = period | taxcode: DDV_18_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
+        "{% assign V18 = period | taxcode: DDV_5_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
+        "{% assign V19 = period | taxcode: DDV_5_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
+        "{% assign V20 = V2 | plus: V4 | plus: V6 | plus: V13  | plus: V15 | plus: V17 | plus: V19 %}",
+        "",
+        "{% assign V21 = period | taxcode: DDV_18, DDV_5 | tax_exclusive_purchases  | balance | round %}",
+        "{% assign V22 = period | taxcode: DDV_18, DDV_5 | tax_on_purchases | balance | round %}",
+        "{% assign V23 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_exclusive_purchases | balance | round %}",
+        "{% assign V24 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_on_purchases | balance | round %}",
+        "{% assign V25 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_exclusive_purchases | balance | round %}",
+        "{% assign V26 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_on_purchases | balance | round %}",
+        "{% assign V27 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_exclusive_purchases |  balance | round %}",
+        "{% assign V28 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_on_purchases | balance | round %}",
+        "{% assign V29 = V22 | plus: V24 | plus: V26 | plus: V28 %}",
+        "{% assign V30 = period | taxcode: DDV_18_Ostanati_danoci, DDV_5_Ostanati_danoci | tax_on_purchases | balance | round %}",
+        "{% assign V31 = V29 | plus: V30 %}",
+        "{% assign V32 = 0 %}",
+        "",
+        "{% capture exportToXML %}{{ \"<?xml version='1.0' encoding='UTF-8'?> \" | escape }}",
+        "<ddv_04_2021>",
+        "    <danocen_mk>MK</danocen_mk>",
+        "    <edb>{{ EDB }}</edb>",
+        "    <datumpriem></datumpriem>",
+        "    <ujp_prijava_broj></ujp_prijava_broj>",
+        "    <naziv></naziv>",
+        "    <telefon></telefon>",
+        "    <email></email>",
+        "    <datumod>{{ report.From | date: 'dd/MM/yyyy' }}</datumod>",
+        "    <datumdo>{{ report.To | date: 'dd/MM/yyyy' }}</datumdo>",
+        "    <rok_podnesuvanje>{{ dueDate }}</rok_podnesuvanje>",
+        "    <ispravka></ispravka>",
+        "    <broj_ispravka></broj_ispravka>",
+        "    <input01>{{ V1 }}</input01>",
+        "    <input02>{{ V2 }}</input02>",
+        "    <input03>{{ V3 }}</input03>",
+        "    <input04>{{ V4 }}</input04>",
+        "    <input05>{{ V5 }}</input05>",
+        "    <input06>{{ V6 }}</input06>",
+        "    <input07>{{ V7 }}</input07>",
+        "    <input08>{{ V8 }}</input08>",
+        "    <input09>{{ V9 }}</input09>",
+        "    <input10>{{ V10 }}</input10>",
+        "    <input11>{{ V11 }}</input11>",
+        "    <input12>{{ V12 }}</input12>",
+        "    <input13>{{ V13 }}</input13>",
+        "    <input14>{{ V14 }}</input14>",
+        "    <input15>{{ V15 }}</input15>",
+        "    <input16>{{ V16 }}</input16>",
+        "    <input17>{{ V17 }}</input17>",
+        "    <input18>{{ V18 }}</input18>",
+        "    <input19>{{ V19 }}</input19>",
+        "    <input20>{{ V20 }}</input20>",
+        "    <input21>{{ V21 }}</input21>",
+        "    <input22>{{ V22 }}</input22>",
+        "    <input23>{{ V23 }}</input23>",
+        "    <input24>{{ V24 }}</input24>",
+        "    <input25>{{ V25 }}</input25>",
+        "    <input26>{{ V26 }}</input26>",
+        "    <input27>{{ V27 }}</input27>",
+        "    <input28>{{ V28 }}</input28>",
+        "    <input29>{{ V29 }}</input29>",
+        "    <input30>{{ V30 }}</input30>",
+        "    <input31>{{ V31 }}</input31>",
+        "    <input32>{{ V32 }}</input32>",
+        "    <vrakanje></vrakanje>",
+        "    <otstapuvanje></otstapuvanje>",
+        "    <input1></input1>",
+        "    <input2></input2>",
+        "    <input3></input3>",
+        "    <input4></input4>",
+        "    <input5></input5>",
+        "    <input6></input6>",
+        "    <drugo_opis></drugo_opis>",
+        "    <drugo_iznos></drugo_iznos>",
+        "    <vkupno_tabela></vkupno_tabela>",
+        "    <sostojba_na></sostojba_na>",
+        "    <vkupno_dinamicka></vkupno_dinamicka>",
+        "    <vkupno_neto></vkupno_neto>",
+        "    <sostavuvac_ime></sostavuvac_ime>",
+        "    <sostavuvac_prezime></sostavuvac_prezime>",
+        "    <sostavuvac_edb>{{ EMBG }}</sostavuvac_edb>",
+        "    <popolnuvac_svojstvo></popolnuvac_svojstvo>",
+        "    <odgovoren_ime></odgovoren_ime>",
+        "    <odgovoren_prezime></odgovoren_prezime>",
+        "    <odgovoren_edb></odgovoren_edb>",
+        "    <odgovoren_svojstvo></odgovoren_svojstvo>",
+        "    <pecat></pecat>",
+        "    <zabeleska></zabeleska>",
+        "</ddv_04_2021>{% endcapture %}",
+        ""
+      ],
+      "Spreadsheet": "{\"colWidths\":[448,34,207,35,211],\"data\":[[\"Даночна пријава на данокот на додадена вредност\",null,null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null,null],[null,null,null,null,null],[null,null,null,null,null],[\"Даночен број за ДДВ: MK {{ EDB }}\",null,null,null,\"*Пополнува УЈП\"],[\"Скратен назив: {{ business.Name }}\",null,\"Датум и број на прием:\",null,null],[\"Адреса и вистинско седиште за контакт: {{ business.Address }}\",null,\"Даночен период\",null,null],[\"Телефон:\",\"од\",\"{{ report.From | date: 'dd/MM/yyyy' }}\",\"до\",\"{{ report.To | date: 'dd/MM/yyyy' }}\"],[\"Е-пошта:\",null,\"Рок за поднесување\",null,\"{{ dueDate }}\"],[\"\",null,\"Исправка на ДДВ-04\",null,\"\"],[\"\",null,null,null,\"\"],[\"\",\"\",\"\",\"\",null],[\"ПРОМЕТ НА ДОБРА И УСЛУГИ\",\"\",null,null,null],[null,null,\"Даночна основа без ДДВ\",null,\"ДДВ\"],[\"Оданочив промет по општа даночна стапка\",\"01\",\"{{ V1 }}\",\"02\",\"{{ V2 }}\"],[\"Оданочив промет по повластена даночна стапка 10%\",\"03\",\"{{ V3 }}\",\"04\",\"{{ V4 }}\"],[\"Оданочив промет по повластена даночна стапка 5%\",\"05\",\"{{ V5 }}\",\"06\",\"{{ V6 }}\"],[\"Извоз\",\"07\",\"{{ V7 }}\",null,null],[\"Промет ослободен од данок со право на одбивка на претходен данок\",\"08\",\"{{ V8 }}\",null,null],[\"Промет ослободен од данок без право на одбивка на претходен данок\",\"09\",\"{{ V9 }}\",null,null],[\"Промет извршен спрема даночни обврзници кои немаат седиште во земјата, кој не е предмет на оданочување во земјата\",\"10\",\"{{ V10 }}\",null,null],[\"Промет во земјата за кој данокот го пресметува примателот на прометот (пренесување на даночна обврска согласно член 32-а)\",\"11\",\"{{ V11 }}\",null,null],[\"Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по општа даночна стапка (член 32-4)\",\"12\",\"{{ V12 }}\",\"13\",\"{{ V13 }}\"],[\"Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по повластена даночна стапка (член 32-4)\",\"14\",\"{{ V14 }}\",\"15\",\"{{ V15 }}\"],[\"Примен промет во земјата за кој данокот го пресметува примателот на прометот по општа даночна стапка (член 32-а)\",\"16\",\"{{ V16 }}\",\"17\",\"{{ V17 }}\"],[\"Примен промет во земјата за кој данокот го пресметува примателот на прометот по повластена даночна стапка (член 32-а)\",\"18\",\"{{ V18 }}\",\"19\",\"{{ V19 }}\"],[\"Вкупен ДДВ (02+04+06+13+15+17+19)\",null,null,\"20\",\"{{ V20 }}\"],[null,null,null,null,null],[\"ВЛЕЗНИ ИСПОЛНУВАЊА СО ПРАВО НА ОДБИВКА\",null,null,null,null],[null,null,\"Даночна основа без ДДВ\",null,\"ДДВ\"],[\"Влезен промет\",\"21\",\"{{ V21 }}\",\"22\",\"{{ V22 }}\"],[\"Влезен промет за кој данокот го пресметува примателот на прометот (член 32-4)\",\"23\",\"{{ V23 }}\",\"24\",\"{{ V24 }}\"],[\"Влезен промет во земјата за кој данокот го пресметува примателот на прометот (член 32-а)\",\"25\",\"{{ V25 }}\",\"26\",\"{{ V26 }}\"],[\"Увоз\",\"27\",\"{{ V27 }}\",\"28\",\"{{ V28 }}\"],[\"Претходни даноци за одбивање (22+24+26+28)\",null,null,\"29\",\"{{ V29 }}\"],[\"Останати даноци, претходни даноци и износи на одбивање\",null,null,\"30\",\"{{ V30 }}\"],[\"Даночен долг/побарување (Ако барате враќање на данок внесете „X“ пред поле 31)\",\"\",\"\",\"31\",\"{{ V31 }}\"],[\"Oтстапување на побарување   (Ако отстапувате побарување, внесете „Х“ пред поле 32)\",null,null,\"32\",\"{{ V32 }}\"],[null,null,null,null,null],[\"<form method=\\\"POST\\\" action=\\\"download\\\">\\n\\t\\t            <input type=\\\"hidden\\\" name=\\\"filename\\\" value=\\\"ДДВ-04-{{ report.From | date: 'dd.MM.yyyy' }}-{{ report.To | date: 'dd.MM.yyyy' }}.xml\\\">\\n\\t\\t            <input type=\\\"hidden\\\" name=\\\"content\\\" value=\\\"{{ exportToXML }}\\\"><input type=\\\"submit\\\" value=\\\"Сними како XML\\\" class=\\\"btn btn-warning\\\" style=\\\"font-weight: bold\\\"></form>\",null,null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":0,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":1,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-size-large font-weight-bold borders-no_borders remove_row\"},{\"row\":2,\"col\":0,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":1,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":2,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":3,\"className\":\" row_above borders-top\"},{\"row\":2,\"col\":4,\"className\":\" row_above borders-top\"},{\"row\":3,\"col\":0,\"className\":\" row_above\"},{\"row\":3,\"col\":1,\"className\":\" row_above\"},{\"row\":3,\"col\":2,\"className\":\" row_above\"},{\"row\":3,\"col\":3,\"className\":\" row_above\"},{\"row\":3,\"col\":4,\"className\":\" row_above\"},{\"row\":4,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":4,\"col\":1},{\"row\":4,\"col\":2},{\"row\":4,\"col\":3},{\"row\":4,\"col\":4},{\"row\":5,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":5,\"col\":1,\"className\":\" row_above\"},{\"row\":5,\"col\":2,\"className\":\" row_above cell-style-dark\"},{\"row\":5,\"col\":3,\"className\":\" row_above\"},{\"row\":5,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":6,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":6,\"col\":3,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":6,\"col\":4,\"className\":\" mergeCells htCenter alignment-center\"},{\"row\":7,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":7,\"col\":1,\"className\":\" row_above htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" row_above cell-style-input\"},{\"row\":7,\"col\":3,\"className\":\" row_above htRight alignment-right\"},{\"row\":7,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":8,\"col\":0,\"className\":\" row_above cell-style-input\"},{\"row\":8,\"col\":1},{\"row\":8,\"col\":2},{\"row\":8,\"col\":3},{\"row\":8,\"col\":4,\"className\":\" cell-style-input\"},{\"row\":9,\"col\":0,\"className\":\" row_above cell-style-normal\"},{\"row\":9,\"col\":1,\"className\":\" row_above\"},{\"row\":9,\"col\":2,\"className\":\" row_above\"},{\"row\":9,\"col\":3,\"className\":\" row_above cell-style-input\"},{\"row\":9,\"col\":4,\"className\":\" row_above cell-style-input\"},{\"row\":10,\"col\":0,\"className\":\" row_above cell-style-normal\"},{\"row\":10,\"col\":1,\"className\":\" row_above\"},{\"row\":10,\"col\":2,\"className\":\" row_above\"},{\"row\":10,\"col\":3,\"className\":\" row_above\"},{\"row\":10,\"col\":4,\"className\":\" row_above\"},{\"row\":11,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":11,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":3,\"className\":\" borders-no_borders\"},{\"row\":11,\"col\":4,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":0,\"className\":\" remove_row font-weight-bold borders-no_borders\"},{\"row\":12,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":3,\"className\":\" borders-no_borders\"},{\"row\":12,\"col\":4,\"className\":\" borders-no_borders\"},{\"row\":13,\"col\":0,\"className\":\" remove_row borders-top\"},{\"row\":13,\"col\":1,\"className\":\" borders-top\"},{\"row\":13,\"col\":2,\"className\":\"htCenter alignment-center font-weight-bold borders-top\"},{\"row\":13,\"col\":3,\"className\":\" borders-top\"},{\"row\":13,\"col\":4,\"className\":\"htCenter alignment-center font-weight-bold borders-top\"},{\"row\":14,\"col\":0,\"className\":\" remove_row borders-no_borders row_below\"},{\"row\":14,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders row_below\"},{\"row\":14,\"col\":2,\"className\":\"htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":14,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders row_below\"},{\"row\":14,\"col\":4,\"className\":\"htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":15,\"col\":0},{\"row\":15,\"col\":1,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":2,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":15,\"col\":3,\"className\":\"htCenter alignment-center\"},{\"row\":15,\"col\":4,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":16,\"col\":0,\"className\":\" remove_row remove_row borders-no_borders row_below\"},{\"row\":16,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders row_below\"},{\"row\":16,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":16,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders row_below\"},{\"row\":16,\"col\":4,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders row_below\"},{\"row\":17,\"col\":0},{\"row\":17,\"col\":1,\"className\":\"htCenter alignment-center\"},{\"row\":17,\"col\":2,\"className\":\"htRight alignment-right cell-style-input\"},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4},{\"row\":18,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":18,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":18,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":18,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":18,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":19,\"col\":0,\"className\":\" mergeCells font-size-x-smallalignment-rightalignment-center remove_row htLeft alignment-left font-weight-normal borders-no_borders\"},{\"row\":19,\"col\":1,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter remove_row alignment-center font-weight-normal borders-no_borders\"},{\"row\":19,\"col\":2,\"className\":\" mergeCells font-size-x-smallalignment-rightfont-weight-bold remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":19,\"col\":3,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter font-weight-bold remove_row alignment-center borders-no_borders\"},{\"row\":19,\"col\":4,\"className\":\" mergeCells font-size-x-smallalignment-right htCenter alignment-center font-weight-bold remove_row borders-no_borders\"},{\"row\":20,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":20,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":20,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":20,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":20,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":21,\"col\":0,\"className\":\" remove_row borders-no_borders\"},{\"row\":21,\"col\":1,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":21,\"col\":2,\"className\":\" remove_row htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":21,\"col\":3,\"className\":\" remove_row htCenter alignment-center borders-no_borders\"},{\"row\":21,\"col\":4,\"className\":\" remove_row borders-no_borders\"},{\"row\":22,\"col\":0,\"className\":\" remove_col remove_row font-weight-normal borders-no_borders\"},{\"row\":22,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":22,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":22,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":22,\"col\":4,\"className\":\"htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":23,\"col\":0,\"className\":\" row_above borders-no_borders\"},{\"row\":23,\"col\":1,\"className\":\" row_above htCenter alignment-center borders-no_borders\"},{\"row\":23,\"col\":2,\"className\":\" row_abovealignment-center font-weight-normal htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":23,\"col\":3,\"className\":\" row_above htCenter alignment-center font-weight-normal borders-no_borders\"},{\"row\":23,\"col\":4,\"className\":\" row_abovealignment-center font-weight-normal htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":24,\"col\":0,\"className\":\" remove_col borders-no_borders\"},{\"row\":24,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":24,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":24,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":24,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":25,\"col\":0,\"className\":\" remove_col borders-no_borders\"},{\"row\":25,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":25,\"col\":2,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":25,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":25,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":26,\"col\":0,\"className\":\" row_below row_below remove_col borders-bottom\"},{\"row\":26,\"col\":1,\"className\":\"htCenter alignment-center borders-bottom\"},{\"row\":26,\"col\":2,\"className\":\" htCenter alignment-center font-weight-bold borders-bottom\"},{\"row\":26,\"col\":3,\"className\":\"htCenter alignment-center borders-bottom\"},{\"row\":26,\"col\":4,\"className\":\"cell-style-input htRight alignment-right borders-bottom font-weight-normal\"},{\"row\":27,\"col\":0,\"className\":\" row_below row_below remove_col row_below borders-no_borders\"},{\"row\":27,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":27,\"col\":2,\"className\":\" htRight alignment-right borders-no_borders cell-style-normal\"},{\"row\":27,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders cell-style-normal\"},{\"row\":27,\"col\":4,\"className\":\" htRight alignment-right borders-no_borders cell-style-normal\"},{\"row\":28,\"col\":0,\"className\":\" font-weight-bold borders-no_borders\"},{\"row\":28,\"col\":1,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":28,\"col\":2,\"className\":\" htRight alignment-right cell-style-normal borders-no_borders\"},{\"row\":28,\"col\":3,\"className\":\"htCenter alignment-center cell-style-normal borders-no_borders\"},{\"row\":28,\"col\":4,\"className\":\" htRight alignment-right cell-style-normal borders-no_borders\"},{\"row\":29,\"col\":0,\"className\":\" remove_col borders-top\"},{\"row\":29,\"col\":1,\"className\":\"htCenter alignment-center borders-top\"},{\"row\":29,\"col\":2,\"className\":\" htRight alignment-right cell-style-normal font-weight-bold borders-top\"},{\"row\":29,\"col\":3,\"className\":\"htCenter alignment-center cell-style-normal borders-top\"},{\"row\":29,\"col\":4,\"className\":\" htRight alignment-right cell-style-normal font-weight-bold borders-top\"},{\"row\":30,\"col\":0,\"className\":\" remove_col row_below borders-no_borders\"},{\"row\":30,\"col\":1,\"className\":\"htCenter row_below alignment-center borders-no_borders\"},{\"row\":30,\"col\":2,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":30,\"col\":3,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":30,\"col\":4,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":31,\"col\":0,\"className\":\" row_below row_below borders-no_borders\"},{\"row\":31,\"col\":1,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":31,\"col\":2,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":31,\"col\":3,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":31,\"col\":4,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":32,\"col\":0,\"className\":\" row_below borders-no_borders\"},{\"row\":32,\"col\":1,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":32,\"col\":2,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":32,\"col\":3,\"className\":\" row_below htCenter alignment-center borders-no_borders\"},{\"row\":32,\"col\":4,\"className\":\" row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":33,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":33,\"col\":1,\"className\":\" row_below row_below htCenter alignment-center borders-no_borders\"},{\"row\":33,\"col\":2,\"className\":\" row_below row_below htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":33,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":33,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":34,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":34,\"col\":3,\"className\":\"htCenter alignment-center borders-no_borders\"},{\"row\":34,\"col\":4,\"className\":\" htRight alignment-right cell-style-input borders-no_borders\"},{\"row\":35,\"col\":0,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":1,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":2,\"className\":\" borders-no_borders\"},{\"row\":35,\"col\":3,\"className\":\" borders-no_borders htCenter alignment-center\"},{\"row\":35,\"col\":4,\"className\":\" cell-style-input htRight alignment-right borders-no_borders\"},{\"row\":36,\"col\":0,\"className\":\" row_above\"},{\"row\":36,\"col\":1,\"className\":\" row_above\"},{\"row\":36,\"col\":2,\"className\":\" row_above\"},{\"row\":36,\"col\":3,\"className\":\" row_above htCenter alignment-center\"},{\"row\":36,\"col\":4,\"className\":\" row_above htRight alignment-right cell-style-input\"},{\"row\":37,\"col\":0,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":1,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":2,\"className\":\" borders-bottom row_below\"},{\"row\":37,\"col\":3,\"className\":\" borders-bottom htCenter alignment-center row_below\"},{\"row\":37,\"col\":4,\"className\":\" cell-style-input htRight alignment-right borders-bottom row_below\"},{\"row\":38,\"col\":0,\"className\":\" row_below\"},{\"row\":38,\"col\":1,\"className\":\" row_below\"},{\"row\":38,\"col\":2,\"className\":\" row_below\"},{\"row\":38,\"col\":3,\"className\":\" row_below\"},{\"row\":38,\"col\":4,\"className\":\" row_below\"},{\"row\":39,\"col\":0},{\"row\":39,\"col\":1},{\"row\":39,\"col\":2},{\"row\":39,\"col\":3},{\"row\":39,\"col\":4}],\"mergeCells\":[{\"col\":0,\"row\":0,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":5,\"rowspan\":1},{\"col\":2,\"row\":6,\"colspan\":3,\"rowspan\":1}]}",
+      "To": "2021-03-31T00:00:00"
+    }
+  ],
+  "a9a71e47-82b3-49db-8aec-898adb460a80": [
+    {
+      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
+      "Version": 246
+    }
+  ],
+  "f361339b-932a-4436-b56e-a337c1587c72": [
+    {
+      "Key": "c75c027f-942c-4e5f-8e49-f7ea52367f41",
+      "Name": "Распоред на профитот"
+    },
+    {
+      "Key": "f1bbcd1f-46e4-433d-ad43-f80125ed72fd",
+      "Name": "Сметка на сопственици"
+    },
+    {
+      "Key": "f9db25cf-639b-472c-927d-427f62ac8970",
+      "Name": "Влог"
+    }
+  ],
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
+    {
+      "Key": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "IsReverseCharged": true,
+      "Name": "ДДВ 5% (Член 32-4)",
+      "Rate": 5.0,
+      "ReverseChargedRate": 5.0
+    },
+    {
+      "Key": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "IsReverseCharged": true,
+      "Name": "ДДВ 18% (Член 32-а)",
+      "ReverseChargedRate": 18.0
+    },
+    {
+      "Key": "31a9a48c-5733-40bf-b135-9422f3c0592e",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 18% (Увоз)",
+      "Rate": 18.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "5a254e38-7b2a-474d-9ab0-8777e37d7d56",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 5% (Увоз)",
+      "Rate": 5.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "72e73474-87e3-4dfc-a673-8c9066d89203",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 18% (Останати даноци)",
+      "Rate": 18.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Name": "ДДВ 5%",
+      "Rate": 5.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "IsReverseCharged": true,
+      "Name": "ДДВ 18% (Член 32-4)",
+      "Rate": 18.0,
+      "ReverseChargedRate": 18.0
+    },
+    {
+      "Key": "a0af1cab-581e-41bc-b711-59390b68a767",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 0%"
+    },
+    {
+      "Key": "ba184918-bbf2-4585-b388-6ad7a743ac46",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [],
+      "CustomFields": {},
+      "Name": "ДДВ 10%",
+      "Rate": 10.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "IsReverseCharged": true,
+      "Name": "ДДВ 5% (Член 32-а)",
+      "ReverseChargedRate": 5.0
+    },
+    {
+      "Key": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Components": [],
+      "CustomFields": {},
+      "Name": "ДДВ 18%",
+      "Rate": 18.0,
+      "TaxRate": "CustomRate"
+    },
+    {
+      "Key": "e141987c-19f2-4982-84ee-a45b94e68c93",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 0% (Извоз)"
+    },
+    {
+      "Key": "f7a7d590-3354-459b-a786-3730ea70de8a",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 0% (Немаат седиште во земјата)"
+    },
+    {
+      "Key": "fe1aa167-d121-412d-97f2-4d69d2c748c5",
+      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Archived": true,
+      "Components": [
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        },
+        {
+          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+        }
+      ],
+      "Name": "ДДВ 5% (Останати даноци)",
+      "Rate": 5.0,
+      "TaxRate": "CustomRate"
+    }
+  ]
+}
