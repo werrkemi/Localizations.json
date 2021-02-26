@@ -15,8 +15,13 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
     {
       "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
-      "FieldSize": "Medium",
-      "Name": "Contact"
+      "Name": "Contact",
+      "Size": "Medium"
+    }
+  ],
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
+    {
+      "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c"
     }
   ],
   "699401fe-23fd-4b52-9699-b88b36fa6b26": [
@@ -35,9 +40,9 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
     {
       "Key": "b755a3ef-32aa-4eab-8936-0e48b057f627",
-      "From": "2020-01-01T00:00:00",
+      "FromDate": "2020-01-01T00:00:00",
       "Name": "Concept BTW Aangifte",
-      "Script": [
+      "Template": [
         "{% assign BTW_0_EU = \"d0eca2ec-e9da-40de-9be6-e2e9fb34269a\" %}",
         "{% assign BTW_0_non_EU = \"75eaae26-98a4-4e1a-9d75-91bf2b7e7b11\" %}",
         "{% assign BTW_0_verlegd = \"ad18e082-df57-44f9-8fd0-ab3c5275d230\" %}",
@@ -80,31 +85,30 @@
         "{% assign 5a_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_on_sales | reversesign %}",
         "{% assign 5b_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_on_purchases %}",
         "{% assign 5c_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_amount | reversesign %}",
-        ""
+        "",
+        "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 31px\"></td><td style=\"width: 190px\"></td><td style=\"width: 32px\"></td><td style=\"width: 184px\"></td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">{{ business.Name }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 24px\">Concept BTW Aangifte</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">Voor de periode van {{ report.From }} t/m {{ report.To }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px;remove_row\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;mergeCells;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">Bedrag waarover omzetbelasting wordt berekend</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">Omzetbelasting</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000;mergeCells;font-weight: bold\">1 Prestaties binnenland</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1a Leveringen/diensten belast met hoog tarief</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">1b Leveringen/diensten belast met laag tarief</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1c Leveringen/diensten belast met overige tarieven, behalve 0%</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1d Privégebruik</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1d_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1e Leveringen/diensten belast met 0% of niet bij u belast</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1e_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;mergeCells;color: #fff; background-color: #000;font-weight: bold\">2 Verleggingsregelingen binnenland</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 2a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 2a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\">3 Prestaties naar of in het buitenland</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">3a Leveringen naar landen buiten de EU (uitvoer)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 3a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">3b Leveringen naar of diensten in landen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 3b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">3c Installatie/afstandsverkopen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000;mergeCells;font-weight: bold\">4 Prestaties vanuit het buitenland aan u verricht</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">4a Leveringen/diensten uit landen buiten de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">4b Leveringen/diensten uit landen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;sep1;row_below;row_below;row_below;font-weight: bold;color: #fff; background-color: #000\">5 Voorbelasting en kleineondernemersregeling</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5a Omzetbelasting (rubrieken 1 t/m 4</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5b Voorbelasting</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5c Subtotaal (rubriek 5a min 5b)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5c_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5d Vermindering volgens de kleineondernemersregeling</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5e Schatting vorige aangifte(n)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5f Schatting deze aangifte</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5g Totaal</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr></table>"
       ],
-      "Source": "https://www.manager.io/localizations/nl/b755a3ef32aa4eab89360e48b057f627.json",
-      "Spreadsheet": "{\"colWidths\":[507,31,190,32,184],\"data\":[[\"{{ business.Name }}\",null,null,null,null],[\"Concept BTW Aangifte\",null,null,null,null],[\"Voor de periode van {{ report.From }} t/m {{ report.To }}\",null,null,null,null],[\"{{ report.AccountingBasis }}\",null,null,null,null],[null,null,null,null,null],[null,null,\"Bedrag waarover omzetbelasting wordt berekend\",null,\"Omzetbelasting\"],[\"1 Prestaties binnenland\",null,null,null,null],[\"1a Leveringen/diensten belast met hoog tarief\",\"€\",\"{{ 1a_grondslag }}\",\"€\",\"{{ 1a_omzetbelasting }}\"],[\"1b Leveringen/diensten belast met laag tarief\",\"€\",\"{{ 1b_grondslag }}\",\"€\",\"{{ 1b_omzetbelasting }}\"],[\"1c Leveringen/diensten belast met overige tarieven, behalve 0%\",\"\",\"\",\"\",\"\"],[\"1d Privégebruik\",\"\",\"\",\"€\",\"{{ 1d_omzetbelasting }}\"],[\"1e Leveringen/diensten belast met 0% of niet bij u belast\",\"€\",\"{{ 1e_grondslag }}\",\"\",\"\"],[\"2 Verleggingsregelingen binnenland\",null,null,null,null],[\"2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd\",\"€\",\"{{ 2a_grondslag }}\",\"€\",\"{{ 2a_omzetbelasting }}\"],[\"3 Prestaties naar of in het buitenland\",null,null,null,null],[\"3a Leveringen naar landen buiten de EU (uitvoer)\",\"€\",\"{{ 3a_grondslag }}\",\"\",\"\"],[\"3b Leveringen naar of diensten in landen binnen de EU\",\"€\",\"{{ 3b_grondslag }}\",\"\",null],[\"3c Installatie/afstandsverkopen binnen de EU\",\"\",null,\"\",null],[\"4 Prestaties vanuit het buitenland aan u verricht\",null,null,null,null],[\"4a Leveringen/diensten uit landen buiten de EU\",\"€\",\"{{ 4a_grondslag }}\",\"€\",\"{{ 4a_omzetbelasting }}\"],[\"4b Leveringen/diensten uit landen binnen de EU\",\"€\",\"{{ 4b_grondslag }}\",\"€\",\"{{ 4b_omzetbelasting }}\"],[\"5 Voorbelasting en kleineondernemersregeling\",null,null,null,\"\"],[\"5a Omzetbelasting (rubrieken 1 t/m 4\",null,\"\",\"€\",\"{{ 5a_omzetbelasting }}\"],[\"5b Voorbelasting\",null,null,\"€\",\"{{ 5b_omzetbelasting }}\"],[\"5c Subtotaal (rubriek 5a min 5b)\",null,null,\"€\",\"{{ 5c_omzetbelasting }}\"],[\"5d Vermindering volgens de kleineondernemersregeling\",null,null,null,null],[\"5e Schatting vorige aangifte(n)\",null,null,null,null],[\"5f Schatting deze aangifte\",null,null,null,null],[\"5g Totaal\",null,null,null,null]],\"cell\":[{\"row\":0,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":0,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":1,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":1,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-x-large\"},{\"row\":2,\"col\":0,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":1,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":2,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":2,\"col\":4,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large\"},{\"row\":3,\"col\":0,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":1,\"className\":\" col_left mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":2,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":3,\"className\":\" mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":3,\"col\":4,\"className\":\" row_below mergeCells htCenter alignment-center font-weight-bold font-size-large remove_row\"},{\"row\":4,\"col\":0,\"className\":\" row_below row_below mergeCells remove_row\"},{\"row\":4,\"col\":1,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":2,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":3,\"className\":\" mergeCells remove_row\"},{\"row\":4,\"col\":4,\"className\":\" mergeCells remove_row\"},{\"row\":5,\"col\":0,\"className\":\" row_below row_below row_below\"},{\"row\":5,\"col\":1},{\"row\":5,\"col\":2,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":5,\"col\":3},{\"row\":5,\"col\":4,\"className\":\"htRight alignment-right font-weight-bold\"},{\"row\":6,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":1},{\"row\":6,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":6,\"col\":3},{\"row\":6,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":7,\"col\":0},{\"row\":7,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":7,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":7,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":8,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":8,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":8,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":9,\"col\":0},{\"row\":9,\"col\":1},{\"row\":9,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":9,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":9,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":0},{\"row\":10,\"col\":1},{\"row\":10,\"col\":2,\"className\":\" cell-style-normal\"},{\"row\":10,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":10,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":0},{\"row\":11,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":11,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":11,\"col\":4,\"className\":\" cell-style-normal\"},{\"row\":12,\"col\":0,\"className\":\" row_below row_below mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":1,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":2,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":3,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":12,\"col\":4,\"className\":\" mergeCells cell-style-dark font-weight-bold\"},{\"row\":13,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":13,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":13,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":13,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":14,\"col\":0,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":14,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":15,\"col\":0,\"className\":\" row_below\"},{\"row\":15,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":15,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":15,\"col\":3},{\"row\":15,\"col\":4},{\"row\":16,\"col\":0,\"className\":\" row_below\"},{\"row\":16,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":16,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":16,\"col\":3},{\"row\":16,\"col\":4},{\"row\":17,\"col\":0,\"className\":\" row_below row_below\"},{\"row\":17,\"col\":1},{\"row\":17,\"col\":2},{\"row\":17,\"col\":3},{\"row\":17,\"col\":4},{\"row\":18,\"col\":0,\"className\":\" row_below cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":1,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":2,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":3,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":18,\"col\":4,\"className\":\" cell-style-dark mergeCells font-weight-bold\"},{\"row\":19,\"col\":0},{\"row\":19,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":19,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":19,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":0},{\"row\":20,\"col\":1,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":2,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":20,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":20,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":21,\"col\":0,\"className\":\" sep1 row_below row_below row_below font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":1,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":2,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":3,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":21,\"col\":4,\"className\":\" font-weight-bold cell-style-dark\"},{\"row\":22,\"col\":0},{\"row\":22,\"col\":1},{\"row\":22,\"col\":2},{\"row\":22,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":22,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":23,\"col\":0},{\"row\":23,\"col\":1},{\"row\":23,\"col\":2},{\"row\":23,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":23,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":24,\"col\":0,\"className\":\" row_below\"},{\"row\":24,\"col\":1},{\"row\":24,\"col\":2},{\"row\":24,\"col\":3,\"className\":\"htRight alignment-right\"},{\"row\":24,\"col\":4,\"className\":\" cell-style-input htRight alignment-right\"},{\"row\":25,\"col\":0,\"className\":\" row_below\"},{\"row\":25,\"col\":1},{\"row\":25,\"col\":2},{\"row\":25,\"col\":3},{\"row\":25,\"col\":4},{\"row\":26,\"col\":0,\"className\":\" row_below\"},{\"row\":26,\"col\":1},{\"row\":26,\"col\":2},{\"row\":26,\"col\":3},{\"row\":26,\"col\":4},{\"row\":27,\"col\":0,\"className\":\" row_below\"},{\"row\":27,\"col\":1},{\"row\":27,\"col\":2},{\"row\":27,\"col\":3},{\"row\":27,\"col\":4},{\"row\":28,\"col\":0},{\"row\":28,\"col\":1},{\"row\":28,\"col\":2},{\"row\":28,\"col\":3},{\"row\":28,\"col\":4}],\"mergeCells\":[{\"col\":0,\"row\":6,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":12,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":18,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":0,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":1,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":2,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":3,\"colspan\":5,\"rowspan\":1},{\"col\":0,\"row\":4,\"colspan\":5,\"rowspan\":1}]}",
-      "To": "2020-12-31T00:00:00"
+      "ToDate": "2020-12-31T00:00:00"
     }
   ],
   "bbe8c088-729b-4b56-a7d7-26555270eced": [
     {
       "Key": "566f958b-2a70-4f97-8d64-175ddb9fec88",
-      "From": "2019-08-28T00:00:00",
+      "FromDate": "2019-08-28T00:00:00",
       "ReportTransformation": "698cf396-d1fd-4775-adec-52c89f224b63",
-      "To": "2020-08-28T00:00:00"
+      "ToDate": "2020-08-28T00:00:00"
     },
     {
       "Key": "d9f9ed1d-c37e-412d-97bf-59ec09c0a71c",
-      "From": "2019-07-01T00:00:00",
+      "FromDate": "2019-07-01T00:00:00",
       "ReportTransformation": "b755a3ef-32aa-4eab-8936-0e48b057f627",
-      "To": "2020-09-11T00:00:00"
+      "ToDate": "2020-09-11T00:00:00"
     }
   ],
   "a9a71e47-82b3-49db-8aec-898adb460a80": [
     {
       "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
-      "Version": 242
+      "Version": 260
     }
   ],
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
@@ -117,8 +121,8 @@
     {
       "Key": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 6% EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 6.0
     },
     {
@@ -138,15 +142,15 @@
     {
       "Key": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 21% non-EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 21.0
     },
     {
       "Key": "4d895b0c-a40c-44ff-b441-9620c7619699",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 9% EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 9.0
     },
     {
@@ -157,15 +161,15 @@
     {
       "Key": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 9% non-EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 9.0
     },
     {
       "Key": "93cdbadc-4a15-41ff-bf68-4ed927915680",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 21% EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 21.0
     },
     {
@@ -189,8 +193,8 @@
     {
       "Key": "bddb4876-fd25-49bf-ac71-5365878268ef",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 6% non-EU",
+      "ReverseCharged": true,
       "ReverseChargedRate": 6.0
     },
     {
@@ -201,8 +205,8 @@
     {
       "Key": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 21% verlegd",
+      "ReverseCharged": true,
       "ReverseChargedRate": 21.0
     },
     {
@@ -213,37 +217,30 @@
     {
       "Key": "dd28f171-7422-44a3-937a-432e8d2970ea",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 9% verlegd",
+      "ReverseCharged": true,
       "ReverseChargedRate": 9.0
     },
     {
       "Key": "e5f20470-dffa-4453-a0a9-42a403c04e23",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "IsReverseCharged": true,
       "Name": "BTW 6% verlegd",
+      "ReverseCharged": true,
       "ReverseChargedRate": 6.0
     }
   ],
   "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
     {
       "Key": "84e8e158-371f-4b1e-846a-0930bd6f38a6",
-      "From": "2019-07-01T00:00:00",
-      "To": "2019-07-31T00:00:00"
-    }
-  ],
-  "c26047fb-f59a-42ee-9a5a-26a471c094a6": [
-    {
-      "Key": "445b5f79-2d65-4dac-9d7b-bdbb64d91ced",
-      "From": "2018-08-27T00:00:00",
-      "To": "2020-08-27T00:00:00"
+      "FromDate": "2019-07-01T00:00:00",
+      "ToDate": "2019-07-31T00:00:00"
     }
   ],
   "9a441483-1a09-46d3-aecd-477c91c13ae1": [
     {
       "Key": "5c1f0669-c69f-47b1-8f6b-c2e34e009317",
-      "From": "2019-07-01T00:00:00",
-      "To": "2019-07-31T00:00:00"
+      "FromDate": "2019-07-01T00:00:00",
+      "ToDate": "2019-07-31T00:00:00"
     }
   ]
 }
