@@ -41,7 +41,7 @@ namespace Localizations
                 {
                     Console.WriteLine("Input: "+e2.FullName);
 
-                    var json = JsonConvert.DeserializeObject<Dictionary<Guid, object[]>>(File.ReadAllText(e2.FullName))
+                    var json = JsonConvert.DeserializeObject<Dictionary<Guid, Dictionary<Guid, object>>>(File.ReadAllText(e2.FullName))
                         .Where(x => keys.Contains(x.Key))
                         .ToDictionary(x => x.Key, x => x.Value);
 

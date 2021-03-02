@@ -1,589 +1,521 @@
 {
-  "6ef13e42-ad89-4d42-9480-546e0c04a411": [
-    {
-      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Name": "GST payable"
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": {
+    "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71": {
+      "Name@1": "GST payable",
+      "Group@3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
     },
-    {
-      "Key": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Name": "Payroll liabilities"
+    "8a3514e3-3bac-43b8-9521-21fc59e90287": {
+      "Name@1": "Payroll liabilities",
+      "Group@3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
     }
-  ],
-  "38cf4712-6e95-4ce1-b53a-bff03edad273": [
-    {
-      "Key": "38cf4712-6e95-4ce1-b53a-bff03edad273",
-      "Address": "1 Pitt Street\nSydney NSW 2000",
-      "CustomFields": {
+  },
+  "38cf4712-6e95-4ce1-b53a-bff03edad273": {
+    "38cf4712-6e95-4ce1-b53a-bff03edad273": {
+      "Name@1": "Brilliant Industries",
+      "Address@2": "1 Pitt Street\nSydney NSW 2000",
+      "CustomFields@5": {
         "0fba87ee-0386-401a-8d1f-302313b663f4": "45543534534534"
-      },
-      "Name": "Brilliant Industries"
+      }
     }
-  ],
-  "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": [
-    {
-      "Key": "320b7512-852c-438b-b60f-370d5d8f620f",
-      "Name": "Brilliant Customer"
+  },
+  "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": {
+    "320b7512-852c-438b-b60f-370d5d8f620f": {
+      "Name@1": "Brilliant Customer"
     }
-  ],
-  "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
-    {
-      "Key": "07fb0059-a29a-4d7a-8a7c-64f63311c05c",
-      "Description": "Indicate whether this payslip earnings item is considered part of ordinary time earnings (OTE) for super guarantee purposes. https://www.ato.gov.au/Business/Super-for-employers/How-much-to-pay/Checklist--salary-or-wages-and-ordinary-time-earnings/",
-      "FormType": "ab02f6ab-c91c-4fc2-b979-66a6682c200e",
-      "Name": "Ordinary Time Earnings (OTE)",
-      "OptionsForDropdownList": "Yes\nNo",
-      "Type": "DropdownList"
+  },
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
+    "07fb0059-a29a-4d7a-8a7c-64f63311c05c": {
+      "Name@1": "Ordinary Time Earnings (OTE)",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "Yes\nNo",
+      "Description@11": "Indicate whether this payslip earnings item is considered part of ordinary time earnings (OTE) for super guarantee purposes. https://www.ato.gov.au/Business/Super-for-employers/How-much-to-pay/Checklist--salary-or-wages-and-ordinary-time-earnings/",
+      "FormType@2": "ab02f6ab-c91c-4fc2-b979-66a6682c200e"
     },
-    {
-      "Key": "0fba87ee-0386-401a-8d1f-302313b663f4",
-      "Description": "Australian Business Number",
-      "FormType": "38cf4712-6e95-4ce1-b53a-bff03edad273",
-      "Name": "ABN",
-      "Size": "Medium"
+    "0fba87ee-0386-401a-8d1f-302313b663f4": {
+      "Name@1": "ABN",
+      "Size@4": "Medium",
+      "Description@11": "Australian Business Number",
+      "FormType@2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     },
-    {
-      "Key": "1f6483e5-5ad9-4181-a9db-117827b67a9d",
-      "Description": "Single Touch Payroll requires to report residency status of each employee. https://www.ato.gov.au/Individuals/international-tax-for-individuals/work-out-your-tax-residency/",
-      "FormType": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e",
-      "Name": "Residency Status",
-      "OptionsForDropdownList": "Resident\nWorking Holiday Maker\nNon-Resident",
-      "Type": "DropdownList"
+    "1f6483e5-5ad9-4181-a9db-117827b67a9d": {
+      "Name@1": "Residency Status",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "Resident\nWorking Holiday Maker\nNon-Resident",
+      "Description@11": "Single Touch Payroll requires to report residency status of each employee. https://www.ato.gov.au/Individuals/international-tax-for-individuals/work-out-your-tax-residency/",
+      "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
-    {
-      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
-      "Name": "Contact",
-      "Size": "Medium"
+    "436f269c-126f-4055-847b-b8d146b7e1e8": {
+      "Name@1": "Contact",
+      "Size@4": "Medium"
     },
-    {
-      "Key": "6b837666-1039-4cfc-948b-5c36b30682c2",
-      "Description": "Single Touch Payroll requires to report on what payment basis each employee is. https://www.ato.gov.au/business/employee-or-contractor/how-to-work-it-out--employee-or-contractor/",
-      "FormType": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e",
-      "Name": "Payment Basis",
-      "OptionsForDropdownList": "F ⁠— Full-time\nP ⁠— Part-time\nC ⁠— Casual\nL ⁠— Labour Hire\nS ⁠— Pension or Annuity",
-      "Type": "DropdownList"
+    "6b837666-1039-4cfc-948b-5c36b30682c2": {
+      "Name@1": "Payment Basis",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "F ⁠— Full-time\nP ⁠— Part-time\nC ⁠— Casual\nL ⁠— Labour Hire\nS ⁠— Pension or Annuity",
+      "Description@11": "Single Touch Payroll requires to report on what payment basis each employee is. https://www.ato.gov.au/business/employee-or-contractor/how-to-work-it-out--employee-or-contractor/",
+      "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
-    {
-      "Key": "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7",
-      "FormType": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e",
-      "Name": "Tax File Number (TFN)",
-      "Size": "Medium"
+    "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": {
+      "Name@1": "Tax File Number (TFN)",
+      "Size@4": "Medium",
+      "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
-    {
-      "Key": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-      "Description": "For employee earnings to be properly reported to ATO, you need to specific ATO reporting category. https://www.ato.gov.au/Forms/PAYG-payment-summary---individual-non-business/?page=4",
-      "FormType": "ab02f6ab-c91c-4fc2-b979-66a6682c200e",
-      "Name": "ATO reporting category",
-      "OptionsForDropdownList": "Gross payments\nCDEP payments\nAllowance - Car\nAllowance - Transport\nAllowance - Travel\nAllowance - Meals\nAllowance - Laundry\nAllowance - Other\nLump sum A - Termination\nLump sum A - Redundancy\nLump sum B\nLump sum D\nLump sum E\nExempt foreign employment income",
-      "Type": "DropdownList"
+    "8198caf2-1125-4f8e-9469-527583e3ea5e": {
+      "Name@1": "ATO reporting category",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "Gross payments\nCDEP payments\nAllowance - Car\nAllowance - Transport\nAllowance - Travel\nAllowance - Meals\nAllowance - Laundry\nAllowance - Other\nLump sum A - Termination\nLump sum A - Redundancy\nLump sum B\nLump sum D\nLump sum E\nExempt foreign employment income",
+      "Description@11": "For employee earnings to be properly reported to ATO, you need to specific ATO reporting category. https://www.ato.gov.au/Forms/PAYG-payment-summary---individual-non-business/?page=4",
+      "FormType@2": "ab02f6ab-c91c-4fc2-b979-66a6682c200e"
     },
-    {
-      "Key": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e",
-      "Description": "Indicate whether this contribution is compulsory superannuation guarantee or reportable employer super contribution (RESC) https://www.ato.gov.au/Business/Super-for-employers/In-detail/Salary-sacrifice/Salary-sacrificing-super---information-for-employers/",
-      "FormType": "73af4c68-c347-4088-8846-758f1e7bc5bb",
-      "Name": "ATO reporting category",
-      "OptionsForDropdownList": "Superannuation guarantee\nReportable employer super contribution",
-      "Type": "DropdownList"
+    "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e": {
+      "Name@1": "ATO reporting category",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "Superannuation guarantee\nReportable employer super contribution",
+      "Description@11": "Indicate whether this contribution is compulsory superannuation guarantee or reportable employer super contribution (RESC) https://www.ato.gov.au/Business/Super-for-employers/In-detail/Salary-sacrifice/Salary-sacrificing-super---information-for-employers/",
+      "FormType@2": "73af4c68-c347-4088-8846-758f1e7bc5bb"
     },
-    {
-      "Key": "9483841a-8d21-4c77-8031-614f721878fa",
-      "FormType": "6d2dc48d-2053-4e45-8330-285ebd431242",
-      "Name": "Australian Business Number (ABN)",
-      "Size": "Medium"
+    "9483841a-8d21-4c77-8031-614f721878fa": {
+      "Name@1": "Australian Business Number (ABN)",
+      "Size@4": "Medium",
+      "FormType@2": "6d2dc48d-2053-4e45-8330-285ebd431242"
     },
-    {
-      "Key": "e253ec72-1200-414a-941a-a93f4039a045",
-      "FormType": "0444eb18-6fc5-4d1f-be8b-c114da01832c",
-      "Name": "ATO reporting category",
-      "OptionsForDropdownList": "PAYG\nWorkplace giving\nUnion / association fees",
-      "Type": "DropdownList"
+    "e253ec72-1200-414a-941a-a93f4039a045": {
+      "Name@1": "ATO reporting category",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "PAYG\nWorkplace giving\nUnion / association fees",
+      "FormType@2": "0444eb18-6fc5-4d1f-be8b-c114da01832c"
     },
-    {
-      "Key": "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f",
-      "Description": "This is to indicate whether supplier is a contractor providing building and construction services.\nhttps://www.ato.gov.au/Business/Reports-and-returns/In-detail/Examples-of-building-and-construction-services/?anchor=Whatarebuildingandconstructionservices#Whatarebuildingandconstructionservices",
-      "FormType": "6d2dc48d-2053-4e45-8330-285ebd431242",
-      "Name": "Include this supplier in Taxable Payments Annual Report (TPAR)",
-      "OptionsForDropdownList": "Yes\nNo",
-      "Type": "DropdownList"
+    "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f": {
+      "Name@1": "Include this supplier in Taxable Payments Annual Report (TPAR)",
+      "Type@3": "DropdownList",
+      "OptionsForDropdownList@9": "Yes\nNo",
+      "Description@11": "This is to indicate whether supplier is a contractor providing building and construction services.\nhttps://www.ato.gov.au/Business/Reports-and-returns/In-detail/Examples-of-building-and-construction-services/?anchor=Whatarebuildingandconstructionservices#Whatarebuildingandconstructionservices",
+      "FormType@2": "6d2dc48d-2053-4e45-8330-285ebd431242"
     },
-    {
-      "Key": "f6859bbb-1736-4e60-81f2-2703a9ea4686",
-      "FormType": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e",
-      "Name": "Date of Birth",
-      "Type": "Date"
+    "f6859bbb-1736-4e60-81f2-2703a9ea4686": {
+      "Name@1": "Date of Birth",
+      "Type@3": "Date",
+      "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     }
-  ],
-  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
-    {
-      "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c"
-    }
-  ],
-  "dadb7f95-a5dd-45c0-945d-6ad4ee28776e": [
-    {
-      "Key": "11302941-b98d-4410-9417-363ea2e84932",
-      "Address": "22 George Street\nSydney NSW 2000",
-      "CustomFields": {
+  },
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+    "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
+  },
+  "dadb7f95-a5dd-45c0-945d-6ad4ee28776e": {
+    "11302941-b98d-4410-9417-363ea2e84932": {
+      "Name@1": "Generous employee",
+      "Address@2": "22 George Street\nSydney NSW 2000",
+      "CustomFields@8": {
         "6b837666-1039-4cfc-948b-5c36b30682c2": "F — Full-time",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident",
         "f6859bbb-1736-4e60-81f2-2703a9ea4686": "2010-7-6"
-      },
-      "Name": "Generous employee"
+      }
     },
-    {
-      "Key": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
-      "Address": "3/9 Waratah Avenue\nWoy Woy NSW 2256",
-      "Code": "EWE",
-      "CustomFields": {
+    "4b16f77c-7cf6-4ff5-bf78-6800f4481e36": {
+      "Name@1": "Erick Walker Eaker",
+      "Code@14": "EWE",
+      "Address@2": "3/9 Waratah Avenue\nWoy Woy NSW 2256",
+      "Email@3": "asdasdj@dgfsdf.com ",
+      "CustomFields@8": {
         "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "55555555",
         "f6859bbb-1736-4e60-81f2-2703a9ea4686": "1988-7-3",
         "6b837666-1039-4cfc-948b-5c36b30682c2": "S — Pension or Annuity",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Working Holiday Maker"
-      },
-      "Email": "asdasdj@dgfsdf.com ",
-      "Name": "Erick Walker Eaker"
+      }
     },
-    {
-      "Key": "768f44b4-d427-47ea-bef7-d71ae87e3d8b",
-      "CustomFields": {
+    "768f44b4-d427-47ea-bef7-d71ae87e3d8b": {
+      "Name@1": "Micheal Overseas",
+      "CustomFields@8": {
         "6b837666-1039-4cfc-948b-5c36b30682c2": "F — Full-time",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Resident"
-      },
-      "Name": "Micheal Overseas"
+      }
     },
-    {
-      "Key": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
-      "Address": "1 George Street\nSydney NSW 2000",
-      "Code": "",
-      "CustomFields": {
+    "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b": {
+      "Name@1": " Altagracia Biggerstaff",
+      "Code@14": "",
+      "Address@2": "1 George Street\nSydney NSW 2000",
+      "CustomFields@8": {
         "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "44444444444",
         "6b837666-1039-4cfc-948b-5c36b30682c2": "",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
-      },
-      "Name": " Altagracia Biggerstaff"
+      }
     },
-    {
-      "Key": "e3571cd1-6574-42cf-b160-9741b4d2d526",
-      "Code": "DDD",
-      "CustomFields": {
+    "e3571cd1-6574-42cf-b160-9741b4d2d526": {
+      "Name@1": " Marcel Atteberry",
+      "Code@14": "DDD",
+      "CustomFields@8": {
         "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "7777777777777",
         "6b837666-1039-4cfc-948b-5c36b30682c2": "",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
-      },
-      "Name": " Marcel Atteberry"
+      }
     },
-    {
-      "Key": "fbc4be80-b181-4cb0-8244-7c059388a8ff",
-      "Code": "XCC",
-      "CustomFields": {
+    "fbc4be80-b181-4cb0-8244-7c059388a8ff": {
+      "Name@1": " Luigi Flanery",
+      "Code@14": "XCC",
+      "CustomFields@8": {
         "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": "666666666666",
         "6b837666-1039-4cfc-948b-5c36b30682c2": "",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": ""
-      },
-      "Name": " Luigi Flanery"
+      }
     }
-  ],
-  "e7b3a4f4-35d7-4f92-a8fc-e9eadbc140a8": [
-    {
-      "Key": "0c8b91a3-80eb-4542-a875-e3b3304c5842",
-      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
-      "FromDate": "2019-07-01T00:00:00",
-      "ToDate": "2019-07-06T00:00:00"
+  },
+  "e7b3a4f4-35d7-4f92-a8fc-e9eadbc140a8": {
+    "0c8b91a3-80eb-4542-a875-e3b3304c5842": {
+      "Employee@3": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "FromDate@1": "2019-07-01T00:00:00",
+      "ToDate@2": "2019-07-06T00:00:00"
     }
-  ],
-  "7affe9ee-731f-4936-8acf-15cae7bcacee": [
-    {
-      "Key": "726af1f5-cceb-46d8-8ef3-72699a0184a1",
-      "Name": "sdaasddasdas"
+  },
+  "7affe9ee-731f-4936-8acf-15cae7bcacee": {
+    "726af1f5-cceb-46d8-8ef3-72699a0184a1": {
+      "Name@2": "sdaasddasdas"
     }
-  ],
-  "1d103fa7-6fc1-4951-811e-972968b842cc": [
-    {
-      "Key": "4be532e1-0eae-481b-988c-64b115e2d842",
-      "Contributions": [
+  },
+  "1d103fa7-6fc1-4951-811e-972968b842cc": {
+    "4be532e1-0eae-481b-988c-64b115e2d842": {
+      "Date@1": "2019-07-04T00:00:00",
+      "Employee@2": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Earnings@3": [
         {
-          "Amount": 95.0,
-          "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
+          "Item@4": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Units@7": 1.0,
+          "Rate@3": 1000.0
         }
       ],
-      "Date": "2019-07-04T00:00:00",
-      "Deductions": [
+      "Deductions@4": [
         {
-          "Amount": 162.44,
-          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24"
+          "Item@3": "caa9f4fb-4e4a-4366-8199-76df53161d24"
         }
       ],
-      "Earnings": [
+      "Contributions@5": [
         {
-          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
-          "Rate": 1000.0,
-          "Units": 1.0
+          "Item@3": "671ce5ca-3382-436f-8908-914279f8ea25"
         }
-      ],
-      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b"
+      ]
     },
-    {
-      "Key": "a4413f60-f60b-481b-bf7c-134d8ffa4337",
-      "Contributions": [
+    "a4413f60-f60b-481b-bf7c-134d8ffa4337": {
+      "Date@1": "2019-07-01T00:00:00",
+      "Employee@2": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
+      "Earnings@3": [
         {
-          "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
+          "Item@4": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Units@7": 1.0,
+          "Rate@3": 1210.0
         }
       ],
-      "Date": "2019-07-01T00:00:00",
-      "Deductions": [
+      "Deductions@4": [
         {
-          "Amount": 230.69,
-          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24"
+          "Item@3": "caa9f4fb-4e4a-4366-8199-76df53161d24"
         }
       ],
-      "Earnings": [
+      "Contributions@5": [
         {
-          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
-          "Rate": 1210.0,
-          "Units": 1.0
+          "Item@3": "671ce5ca-3382-436f-8908-914279f8ea25"
         }
-      ],
-      "Employee": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36"
+      ]
     },
-    {
-      "Key": "bf89e12a-fa23-4c3d-8962-cbba70e60731",
-      "Contributions": [
+    "bf89e12a-fa23-4c3d-8962-cbba70e60731": {
+      "Date@1": "2019-07-04T00:00:00",
+      "Employee@2": "11302941-b98d-4410-9417-363ea2e84932",
+      "Earnings@3": [
+        {
+          "Item@4": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Units@7": 1.0,
+          "Rate@3": 1000.0
+        }
+      ],
+      "Deductions@4": [
+        {
+          "Item@3": "aaf3c5c1-2fd4-44d8-8499-e653115cb33e"
+        },
+        {
+          "Item@3": "53993ce6-56ec-4ece-9c7e-8be13dc1f922"
+        }
+      ],
+      "Contributions@5": [
         {}
-      ],
-      "Date": "2019-07-04T00:00:00",
-      "Deductions": [
-        {
-          "Amount": 10.0,
-          "Item": "aaf3c5c1-2fd4-44d8-8499-e653115cb33e"
-        },
-        {
-          "Amount": 20.0,
-          "Item": "53993ce6-56ec-4ece-9c7e-8be13dc1f922"
-        }
-      ],
-      "Earnings": [
-        {
-          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
-          "Rate": 1000.0,
-          "Units": 1.0
-        }
-      ],
-      "Employee": "11302941-b98d-4410-9417-363ea2e84932"
+      ]
     },
-    {
-      "Key": "c94cceeb-e66b-4bf8-b6b6-28d90e7aa097",
-      "Contributions": [
+    "c94cceeb-e66b-4bf8-b6b6-28d90e7aa097": {
+      "Date@1": "2020-07-25T00:00:00",
+      "Employee@2": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b",
+      "Earnings@3": [
         {
-          "Amount": 95.0,
-          "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
+          "Item@4": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Units@7": 1.0,
+          "Rate@3": 1000.0
         }
       ],
-      "Date": "2020-07-25T00:00:00",
-      "Deductions": [
+      "Deductions@4": [
         {
-          "Amount": 162.44,
-          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24"
+          "Item@3": "caa9f4fb-4e4a-4366-8199-76df53161d24"
         }
       ],
-      "Earnings": [
+      "Contributions@5": [
         {
-          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
-          "Rate": 1000.0,
-          "Units": 1.0
+          "Item@3": "671ce5ca-3382-436f-8908-914279f8ea25"
         }
-      ],
-      "Employee": "7b2aed25-d5f9-4fb6-9c2b-0a1de1f7fb5b"
+      ]
     },
-    {
-      "Key": "d2dedd15-2a09-4e42-98da-70c0c3e96970",
-      "Contributions": [
+    "d2dedd15-2a09-4e42-98da-70c0c3e96970": {
+      "Date@1": "2019-07-04T00:00:00",
+      "Employee@2": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36",
+      "Earnings@3": [
         {
-          "Amount": 229.9,
-          "Item": "671ce5ca-3382-436f-8908-914279f8ea25"
+          "Item@4": "353768ad-424f-4e08-afe2-f0f40aec1366",
+          "Units@7": 1.0,
+          "Rate@3": 1210.0
         },
         {
-          "Amount": 99.0,
-          "Item": "15e20b83-b811-48d9-a147-4ed5d3b5c7ff"
+          "Item@4": "1cfbb20a-7c52-45ab-9802-0e8de056d08c",
+          "Units@7": 1.0,
+          "Rate@3": 50.0
+        },
+        {
+          "Item@4": "b546cf89-1c78-4ab0-abcc-25fcb50aab3e",
+          "Units@7": 1.0,
+          "Rate@3": 25.0
+        },
+        {
+          "Item@4": "550f13b5-24cc-473a-8aca-8158d5bcbe1f",
+          "Units@7": 1.0,
+          "Rate@3": 100.0
+        },
+        {
+          "Item@4": "2584a3be-475b-44d5-9ef2-defbd8044e98",
+          "Units@7": 1.0,
+          "Rate@3": 100.0
         }
       ],
-      "Date": "2019-07-04T00:00:00",
-      "Deductions": [
+      "Deductions@4": [
         {
-          "Amount": 230.69,
-          "Item": "caa9f4fb-4e4a-4366-8199-76df53161d24"
+          "Item@3": "caa9f4fb-4e4a-4366-8199-76df53161d24"
         }
       ],
-      "Earnings": [
+      "Contributions@5": [
         {
-          "Item": "353768ad-424f-4e08-afe2-f0f40aec1366",
-          "Rate": 1210.0,
-          "Units": 1.0
+          "Item@3": "671ce5ca-3382-436f-8908-914279f8ea25"
         },
         {
-          "Item": "1cfbb20a-7c52-45ab-9802-0e8de056d08c",
-          "Rate": 50.0,
-          "Units": 1.0
-        },
-        {
-          "Item": "b546cf89-1c78-4ab0-abcc-25fcb50aab3e",
-          "Rate": 25.0,
-          "Units": 1.0
-        },
-        {
-          "Item": "550f13b5-24cc-473a-8aca-8158d5bcbe1f",
-          "Rate": 100.0,
-          "Units": 1.0
-        },
-        {
-          "Item": "2584a3be-475b-44d5-9ef2-defbd8044e98",
-          "Rate": 100.0,
-          "Units": 1.0
+          "Item@3": "15e20b83-b811-48d9-a147-4ed5d3b5c7ff"
         }
-      ],
-      "Employee": "4b16f77c-7cf6-4ff5-bf78-6800f4481e36"
+      ]
     }
-  ],
-  "73af4c68-c347-4088-8846-758f1e7bc5bb": [
-    {
-      "Key": "15e20b83-b811-48d9-a147-4ed5d3b5c7ff",
-      "CustomFields": {
+  },
+  "73af4c68-c347-4088-8846-758f1e7bc5bb": {
+    "15e20b83-b811-48d9-a147-4ed5d3b5c7ff": {
+      "Name@1": "Salary sacrifice",
+      "ExpenseAccount@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "LiabilityAccount@4": "8a3514e3-3bac-43b8-9521-21fc59e90287",
+      "CustomFields@5": {
         "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e": "Reportable employer super contribution"
-      },
-      "ExpenseAccount": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "LiabilityAccount": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "Name": "Salary sacrifice"
+      }
     },
-    {
-      "Key": "671ce5ca-3382-436f-8908-914279f8ea25",
-      "CustomFields": {
+    "671ce5ca-3382-436f-8908-914279f8ea25": {
+      "Name@1": "Superannuation guarantee",
+      "ExpenseAccount@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "LiabilityAccount@4": "8a3514e3-3bac-43b8-9521-21fc59e90287",
+      "CustomFields@5": {
         "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e": "Superannuation guarantee"
-      },
-      "ExpenseAccount": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "LiabilityAccount": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "Name": "Superannuation guarantee"
+      }
     }
-  ],
-  "0444eb18-6fc5-4d1f-be8b-c114da01832c": [
-    {
-      "Key": "53993ce6-56ec-4ece-9c7e-8be13dc1f922",
-      "Account": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "CustomFields": {
+  },
+  "0444eb18-6fc5-4d1f-be8b-c114da01832c": {
+    "53993ce6-56ec-4ece-9c7e-8be13dc1f922": {
+      "Name@1": "Union fees",
+      "Account@3": "8a3514e3-3bac-43b8-9521-21fc59e90287",
+      "CustomFields@4": {
         "e253ec72-1200-414a-941a-a93f4039a045": "Union / association fees"
-      },
-      "Name": "Union fees"
+      }
     },
-    {
-      "Key": "aaf3c5c1-2fd4-44d8-8499-e653115cb33e",
-      "Account": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "CustomFields": {
+    "aaf3c5c1-2fd4-44d8-8499-e653115cb33e": {
+      "Name@1": "Charitable donation",
+      "Account@3": "8a3514e3-3bac-43b8-9521-21fc59e90287",
+      "CustomFields@4": {
         "e253ec72-1200-414a-941a-a93f4039a045": "Workplace giving"
-      },
-      "Name": "Charitable donation"
+      }
     },
-    {
-      "Key": "caa9f4fb-4e4a-4366-8199-76df53161d24",
-      "Account": "8a3514e3-3bac-43b8-9521-21fc59e90287",
-      "CustomFields": {
+    "caa9f4fb-4e4a-4366-8199-76df53161d24": {
+      "Name@1": "PAYG withholding",
+      "Account@3": "8a3514e3-3bac-43b8-9521-21fc59e90287",
+      "CustomFields@4": {
         "e253ec72-1200-414a-941a-a93f4039a045": "PAYG"
-      },
-      "Name": "PAYG withholding"
+      }
     }
-  ],
-  "ab02f6ab-c91c-4fc2-b979-66a6682c200e": [
-    {
-      "Key": "0ae29fdb-1321-48f2-a07d-1e9cc343f80e",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+  },
+  "ab02f6ab-c91c-4fc2-b979-66a6682c200e": {
+    "0ae29fdb-1321-48f2-a07d-1e9cc343f80e": {
+      "Name@1": "Unused annual leave (redundancy)",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Lump sum A - Redundancy",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Unused annual leave (redundancy)"
+      }
     },
-    {
-      "Key": "1cfbb20a-7c52-45ab-9802-0e8de056d08c",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "1cfbb20a-7c52-45ab-9802-0e8de056d08c": {
+      "Name@1": "Travel expense",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Allowance - Travel",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Travel expense"
+      }
     },
-    {
-      "Key": "2584a3be-475b-44d5-9ef2-defbd8044e98",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "2584a3be-475b-44d5-9ef2-defbd8044e98": {
+      "Name@1": "Unused annual leave (termination)",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Lump sum A - Termination",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Unused annual leave (termination)"
+      }
     },
-    {
-      "Key": "353768ad-424f-4e08-afe2-f0f40aec1366",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "353768ad-424f-4e08-afe2-f0f40aec1366": {
+      "Name@1": "Salary",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Gross payments",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": "Yes"
-      },
-      "Name": "Salary"
+      }
     },
-    {
-      "Key": "36286793-b7d7-4022-aee2-125e6557c582",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "36286793-b7d7-4022-aee2-125e6557c582": {
+      "Name@1": "Bonus",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Gross payments"
-      },
-      "Name": "Bonus"
+      }
     },
-    {
-      "Key": "4c63a2ad-4f45-4f17-b3c0-1ca1b1049643",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "4c63a2ad-4f45-4f17-b3c0-1ca1b1049643": {
+      "Name@1": "Overtime",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Gross payments"
-      },
-      "Name": "Overtime"
+      }
     },
-    {
-      "Key": "550f13b5-24cc-473a-8aca-8158d5bcbe1f",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "550f13b5-24cc-473a-8aca-8158d5bcbe1f": {
+      "Name@1": "Unused long service leave (termination)",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Lump sum A - Termination",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Unused long service leave (termination)"
+      }
     },
-    {
-      "Key": "70423c5d-8062-41ae-8eea-a442652f0d08",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "70423c5d-8062-41ae-8eea-a442652f0d08": {
+      "Name@1": "Commission",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Gross payments"
-      },
-      "Name": "Commission"
+      }
     },
-    {
-      "Key": "7898a69d-4b8c-4d61-bd27-dd2ae462d0cd",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "7898a69d-4b8c-4d61-bd27-dd2ae462d0cd": {
+      "Name@1": "Back pay",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Lump sum E"
-      },
-      "Name": "Back pay"
+      }
     },
-    {
-      "Key": "969e5175-b959-4019-8dce-1e475a70eca3",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "969e5175-b959-4019-8dce-1e475a70eca3": {
+      "Name@1": "Unused long service leave (redundancy)",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Lump sum A - Redundancy",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Unused long service leave (redundancy)"
+      }
     },
-    {
-      "Key": "b546cf89-1c78-4ab0-abcc-25fcb50aab3e",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "b546cf89-1c78-4ab0-abcc-25fcb50aab3e": {
+      "Name@1": "Meal expense",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Allowance - Meals",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": ""
-      },
-      "Name": "Meal expense"
+      }
     },
-    {
-      "Key": "f7bad7d8-ab90-403c-9620-76465687f4ce",
-      "Account": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "CustomFields": {
+    "f7bad7d8-ab90-403c-9620-76465687f4ce": {
+      "Name@1": "Ordinary hours",
+      "Account@3": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
+      "CustomFields@4": {
         "8198caf2-1125-4f8e-9469-527583e3ea5e": "Gross payments",
         "07fb0059-a29a-4d7a-8a7c-64f63311c05c": "Yes"
-      },
-      "Name": "Ordinary hours"
+      }
     }
-  ],
-  "3278903e-bf63-4f6f-b04d-a9e5ebd5a055": [
-    {
-      "Key": "463bd411-529d-4499-9c7d-48204bf8dd50",
-      "FromDate": "2018-05-01T00:00:00",
-      "ToDate": "2020-07-04T00:00:00"
+  },
+  "3278903e-bf63-4f6f-b04d-a9e5ebd5a055": {
+    "463bd411-529d-4499-9c7d-48204bf8dd50": {
+      "FromDate@1": "2018-05-01T00:00:00",
+      "ToDate@2": "2020-07-04T00:00:00"
     }
-  ],
-  "13de6e5f-cacf-46a1-adb9-2250f76d77dd": [
-    {
-      "Key": "f53e0f7b-d520-47d0-ad62-0e9d5619b4e7",
-      "Periods": [
+  },
+  "13de6e5f-cacf-46a1-adb9-2250f76d77dd": {
+    "f53e0f7b-d520-47d0-ad62-0e9d5619b4e7": {
+      "Periods@4": [
         {
-          "FromDate": "2020-07-08T00:00:00",
-          "ToDate": "2020-07-08T00:00:00"
+          "FromDate@1": "2020-07-08T00:00:00",
+          "ToDate@2": "2020-07-08T00:00:00"
         },
         {
-          "FromDate": "2020-07-01T00:00:00",
-          "ToDate": "2020-07-08T00:00:00"
+          "FromDate@1": "2020-07-01T00:00:00",
+          "ToDate@2": "2020-07-08T00:00:00"
         }
       ]
     }
-  ],
-  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
-    {
-      "Key": "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1",
-      "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
-      "Name": "Wages & salaries"
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "2be9dcbd-4c7c-40f0-9e7f-ceb3352740c1": {
+      "Name@1": "Wages & salaries",
+      "Group@3": "9a3f0ec2-dce4-4a35-bee8-c9930972d964"
     },
-    {
-      "Key": "80d57fa1-79a0-41e2-b195-773eaf519f62",
-      "Group": "97d40d08-0210-4b1a-aeb7-c4d12605162e",
-      "Name": "Sales"
+    "80d57fa1-79a0-41e2-b195-773eaf519f62": {
+      "Name@1": "Sales",
+      "Group@3": "97d40d08-0210-4b1a-aeb7-c4d12605162e"
     },
-    {
-      "Key": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
-      "Group": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
-      "Name": "Computer equipment"
+    "af71dfe6-2946-4123-b8c6-b29d89304fc0": {
+      "Name@1": "Computer equipment",
+      "Group@3": "9a3f0ec2-dce4-4a35-bee8-c9930972d964"
     }
-  ],
-  "5770616c-0e01-46ca-a172-f7042275da6c": [
-    {
-      "Key": "97d40d08-0210-4b1a-aeb7-c4d12605162e",
-      "Name": "Income",
-      "Position": 1
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "97d40d08-0210-4b1a-aeb7-c4d12605162e": {
+      "Name@1": "Income",
+      "Position@5": 1
     },
-    {
-      "Key": "9a3f0ec2-dce4-4a35-bee8-c9930972d964",
-      "Name": "Expenses",
-      "Position": 2,
-      "Type": "ExpenseGroup"
+    "9a3f0ec2-dce4-4a35-bee8-c9930972d964": {
+      "Name@1": "Expenses",
+      "Type@6": "ExpenseGroup",
+      "Position@5": 2
     }
-  ],
-  "699401fe-23fd-4b52-9699-b88b36fa6b26": [
-    {
-      "Key": "81b85a78-6721-42ae-a868-c487d628db3d",
-      "Date": "2020-09-24T00:00:00",
-      "Lines": [
+  },
+  "699401fe-23fd-4b52-9699-b88b36fa6b26": {
+    "81b85a78-6721-42ae-a868-c487d628db3d": {
+      "Date@1": "2020-09-24T00:00:00",
+      "Lines@4": [
         {
-          "Account": "80d57fa1-79a0-41e2-b195-773eaf519f62",
-          "Amount": 20000.0,
-          "TaxCode": "8cf9d117-3142-4d9c-82ee-b57a0e22c809"
+          "Account@2": "80d57fa1-79a0-41e2-b195-773eaf519f62",
+          "Amount@12": 20000.0,
+          "TaxCode@5": "8cf9d117-3142-4d9c-82ee-b57a0e22c809"
         }
       ]
     },
-    {
-      "Key": "c5873557-b4e9-461a-a4e9-5ed46ff71dca",
-      "Date": "2020-09-08T00:00:00",
-      "Lines": [
+    "c5873557-b4e9-461a-a4e9-5ed46ff71dca": {
+      "Type@19": "Payment",
+      "Date@1": "2020-09-08T00:00:00",
+      "Lines@4": [
         {
-          "Account": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
-          "Amount": 500000.0,
-          "TaxCode": "8cf9d117-3142-4d9c-82ee-b57a0e22c809"
+          "Account@2": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
+          "Amount@12": 500000.0,
+          "TaxCode@5": "8cf9d117-3142-4d9c-82ee-b57a0e22c809"
         },
         {
-          "Account": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
-          "Amount": 500.0,
-          "TaxCode": "14f63584-be71-40ca-9028-1a60e2e2cc90"
+          "Account@2": "af71dfe6-2946-4123-b8c6-b29d89304fc0",
+          "Amount@12": 500.0,
+          "TaxCode@5": "14f63584-be71-40ca-9028-1a60e2e2cc90"
         }
-      ],
-      "Type": "Payment"
+      ]
     }
-  ],
-  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
-    {
-      "Key": "07332ba3-3e82-4dc1-9451-1350f5d84e24",
-      "Description": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
-      "FromDate": "2019-09-01T00:00:00",
-      "Name": "Single Touch Payroll Worksheet",
-      "Template": [
+  },
+  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
+    "07332ba3-3e82-4dc1-9451-1350f5d84e24": {
+      "Name@1": "Single Touch Payroll Worksheet",
+      "FromDate@9": "2019-09-01T00:00:00",
+      "ToDate@10": "2020-09-16T00:00:00",
+      "Template@5": [
         "{% assign abn = business.CustomFields[\"0fba87ee-0386-401a-8d1f-302313b663f4\"] %}",
         "",
         "{% assign period = transactions | between: report.From, report.To %}",
@@ -604,14 +536,13 @@
         "",
         "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 247px\"></td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 24px;text-align: center;alignment-center;font-weight: bold\">Single Touch Payroll Worksheet</td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">For the pay period from {{ report.From }} until {{ report.To }}</td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">Employee amounts are calculated year-to-date for the period from {{ fyStart }} until {{ report.To }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;color: #fff; background-color: #000;font-weight: bold;mergeCells;remove_row\">{{ business.Name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Entity ABN</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ abn }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Pay period start date</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ report.From }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Pay period end date</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ report.To }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Period W1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ period_W1_amount }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">Period W2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ period_W2_amount }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-center;cell-style-normal;font-weight: normal;htLeft;alignment-left;remove_row\"> </td></tr>{% for e in transactionsPerEmployee %}<tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000;font-weight: bold;mergeCells;remove_row;mergeCells;remove_row;remove_row\">Row #{{ forloop.index }} in CSV export</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr>{% assign employee_tfn = e.Key.CustomFields[\"8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7\"] %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row;remove_row\">Employee TFN</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\">{{ employee_tfn }}</td></tr>{% assign employee_code_size = e.Key.Code | strip | size %}{% if employee_code_size > 0 %}{% assign employee_payroll_number = e.Key.Code | strip %}{% else %}{% assign employee_payroll_number = e.Key.Key %}{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Payroll number</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_payroll_number }}</td></tr>{% assign employee_residency_status = e.Key.CustomFields[\"1f6483e5-5ad9-4181-a9db-117827b67a9d\"] %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Resident code</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ employee_residency_status }}</td></tr>{% assign employee_payment_basis_code = e.Key.CustomFields[\"6b837666-1039-4cfc-948b-5c36b30682c2\"] | slice: 0 %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Basis of employment code</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_payment_basis_code }}</td></tr>{% assign employee_middle_name = \"\" %}{% assign employee_name_parts = e.Key.Name | words %}{% for employee_name_part in employee_name_parts %}{% if forloop.first == true %}{% assign employee_given_name = employee_name_part %}{% elsif forloop.last == true %}{% assign employee_family_name = employee_name_part %}{% else %}{% capture employee_middle_name %}{{ employee_middle_name }} {{ employee_name_part }}{% endcapture %}{% endif %}{% endfor %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Family name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ employee_family_name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Given name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ employee_given_name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Middle name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ employee_middle_name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Date of birth</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;cell-style-normal;font-weight: normal;htLeft;alignment-left\">{{ e.Key.CustomFields[\"f6859bbb-1736-4e60-81f2-2703a9ea4686\"] | date: 'd/M/yyyy' }}</td></tr>{% assign employee_address_2 = \"\" %}{% assign employee_suburb_state = \"\" %}{% assign employee_suburb = \"\" %}{% assign employee_address_lines = e.Key.Address | lines %}{% for employee_address_line in employee_address_lines %}{% if forloop.first == true %}{% assign employee_address_1 = employee_address_line %}{% elsif forloop.last == true %}{% assign employee_suburb_state_postcode = employee_address_line %}{% else %}{% assign employee_address_2 = employee_address_2 | append: employee_address_line | append: ' ' %}{% endif %}{% endfor %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\">Address 1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\">{{ employee_address_1 }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Address 2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_address_2 }}</td></tr>{% assign employee_suburb_state_postcode_parts = employee_suburb_state_postcode | words %}{% for employee_suburb_state_postcode_part in employee_suburb_state_postcode_parts %}{% if forloop.last == true %}{% assign employee_postcode = employee_suburb_state_postcode_part %}{% else %}{% capture employee_suburb_state %}{{ employee_suburb_state }} {{ employee_suburb_state_postcode_part }}{% endcapture %}{% endif %}{% endfor %}{% assign employee_suburb_state_parts = employee_suburb_state | words %}{% for employee_suburb_state_part in employee_suburb_state_parts %}{% if forloop.last == true %}{% assign employee_state = employee_suburb_state_part %}{% else %}{% capture employee_suburb %}{{ employee_suburb }} {{ employee_suburb_state_part }}{% endcapture %}{% endif %}{% endfor %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Suburb</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_suburb }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">State/territory</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_state }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Postcode</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ employee_postcode }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Country</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Australia</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Email</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">{{ e.Key.Email | strip }}</td></tr>{% assign employee_gross_pay = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Gross payments' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Employee gross pay</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_gross_pay }}</div></td></tr>{% assign employee_cdep = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'CDEP payments' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Employee CDEP</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_cdep }}</div></td></tr>{% assign employee_exemptForeignEmploymentIncome = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Exempt foreign employment income' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Foreign income</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_exemptForeignEmploymentIncome }}</div></td></tr>{% assign employee_payg = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'PAYG' | reversesign %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Employee tax</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_payg }}</div></td></tr>{% assign employee_sg_amount = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Superannuation guarantee' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Super guarantee amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_sg_amount }}</div></td></tr>{% assign employee_ote = e.Value | where_payslip_earnings_item: '07fb0059-a29a-4d7a-8a7c-64f63311c05c', 'Yes' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">SG earnings amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_ote }}</div></td></tr>{% assign employee_resc = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Reportable employer super contribution' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Reportable Employer Super Contribution (RESC)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_resc }}</div></td></tr>{% assign employee_carAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Car' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Car allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_carAllowance }}</div></td></tr>{% assign employee_transportAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Transport' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Transport allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_transportAllowance }}</div></td></tr>{% assign employee_laundryAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Laundry' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Laundry allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_laundryAllowance }}</div></td></tr>{% assign employee_mealAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Meals' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Meal allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_mealAllowance }}</div></td></tr>{% assign employee_travelAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Travel' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Travel allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_travelAllowance }}</div></td></tr>{% assign employee_otherAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Other' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Other allowance</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_otherAllowance }}</div></td></tr>{% assign employee_unionFees = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Union / association fees' | reversesign %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Union fees</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_unionFees }}</div></td></tr>{% assign employee_workplaceGiving = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Workplace giving' | reversesign %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\">Workplace giving</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_workplaceGiving }}</div></td></tr>{% if employee_payment_basis_code == \"L\" %}{% assign employee_labour_hire_gross = employee_gross_pay %}{% assign employee_labour_hire_payg = employee_payg %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Labour hire gross</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_labour_hire_gross }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Labour hire PAYG</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_labour_hire_payg }}</div></td></tr>{% endif %}{% if employee_residency_status == \"Working Holiday Maker\" %}{% assign employee_working_holiday_gross = employee_gross_pay %}{% assign employee_working_holiday_payg = employee_payg %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Working holiday maker gross</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_working_holiday_gross }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Working holiday maker PAYG</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_working_holiday_payg }}</div></td></tr>{% endif %}{% if employee_residency_status == \"Non-resident\" %}{% assign employee_non_resident_gross = employee_gross_pay %}{% assign employee_non_resident_payg = employee_payg %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Foreign resident gross</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_non_resident_gross }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Foreign resident PAYG</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_non_resident_payg }}</div></td></tr>{% endif %}{% assign employee_lumpSumATermination = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum A - Termination' %}{% assign employee_lumpSumATerminationBalance = employee_lumpSumATermination | balance %}{% assign employee_lumpSumARedundancy = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum A - Redundancy' %}{% assign employee_lumpSumARedundancyBalance = employee_lumpSumARedundancy | balance %}{% assign employee_lumpSumAIndicator = \"\" %}{% assign employee_lumpSumA = nil %}{% if employee_lumpSumATerminationBalance != 0 %}{% assign employee_lumpSumAIndicator = \"T\" %}{% assign employee_lumpSumA = employee_lumpSumATermination %}{% endif %}{% if employee_lumpSumARedundancyBalance != 0 %}{% assign employee_lumpSumAIndicator = \"R\" %}{% assign employee_lumpSumA = employee_lumpSumARedundancy %}{% endif %}{% if employee_lumpSumA != nil %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Lump sum A indicator</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;cell-style-normal;htLeft;alignment-left\">{{ employee_lumpSumAIndicator }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Lump sum A amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_lumpSumA }}</div></td></tr>{% endif %}{% assign employee_lumpSumB = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum B' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;htLeft;alignment-left;remove_row;remove_row;cell-style-normal;font-weight: normal\">Lump sum B amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;remove_row;remove_row;font-weight: normal;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_lumpSumB }}</div></td></tr>{% assign employee_lumpSumD = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum D' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;htLeft;alignment-left;remove_row\">Lump sum D amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;remove_row;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_lumpSumD }}</div></td></tr>{% assign employee_lumpSumE = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum E' %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;htLeft;alignment-left;remove_row\">Lump sum E amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;remove_row;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ employee_lumpSumE }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td></tr>{% capture csv %}{{ csv }}{{ newLine }}{{ abn }},{{ period_W1_amount | balance }},{{ period_W2_amount | balance }},{{ report.From | date: 'd/M/yyyy' }},{{ report.To | date: 'd/M/yyyy' }},\"{{ employee_tfn | strip }}\",\"{{ employee_payroll_number }}\",\"{{ employee_residency_status }}\",\"{{ employee_payment_basis_code }}\",\"{{ employee_family_name | strip }}\",\"{{ employee_given_name | strip }}\",\"{{ employee_middle_name | strip }}\",\"{{ e.Key.CustomFields.f6859bbb-1736-4e60-81f2-2703a9ea4686 | date: 'd/M/yyyy' }}\",\"\",\"\",\"{{ employee_address_1 | strip }}\",\"{{ employee_address_2 | strip }}\",\"{{ employee_suburb | strip }}\",\"{{ employee_state | strip }}\",\"{{ employee_postcode | strip }}\",\"\",\"{{ employee.Email | strip }}\",\"\",\"\",{{ employee_gross_pay | balance }},{{ employee_cdep | balance }},{{ employee_exemptForeignEmploymentIncome | balance }},{{ employee_payg | balance }},{{ employee_sg_amount | balance }},{{ employee_ote | balance }},{{ employee_resc | balance }},{{ employee_carAllowance | balance }},{{ employee_transportAllowance | balance }},{{ employee_laundryAllowance | balance }},{{ employee_mealAllowance | balance }},{{ employee_travelAllowance | balance }},\"Other\",{{ employee_otherAllowance | balance }},{{ employee_unionFees | balance }},{{ employee_workplaceGiving | balance }},{{ employee_labour_hire_gross | balance }},{{ employee_labour_hire_payg | balance }},{{ employee_working_holiday_gross | balance }},{{ employee_working_holiday_payg | balance }},{{ employee_non_resident_gross | balance }},{{ employee_non_resident_payg | balance }},\"{{ employee_lumpSumAIndicator }}\",{{ employee_lumpSumA | balance }},{{ employee_lumpSumB | balance }},{{ employee_lumpSumD | balance }},{{ employee_lumpSumE | balance }}{% endcapture %}{% endfor %}<tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\">To lodge this Single Touch Payroll worksheet electronically:</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; \"><form method=\"POST\" action=\"download\"> <input type=\"hidden\" name=\"filename\" value=\"STP Worksheet.csv\"> <input type=\"hidden\" name=\"content\" value=\"{{ csv | escape }}\"><input type=\"submit\" value=\"Export to CSV\" class=\"btn btn-warning\" style=\"font-weight: bold\"></form></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; \">Export this report to CSV file by clicking on <b>Export to CSV</b> button</td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; \">Go to https://singletouch.com.au and login to \"Single Touch Lite\"</td></tr><tr><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; \">Upload CSV file to SingleTouch website</td></tr></table>"
       ],
-      "ToDate": "2020-09-16T00:00:00"
+      "Description@6": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year."
     },
-    {
-      "Key": "11acbfe1-0d24-4161-b366-fe905f2bcfd9",
-      "Description": "If your GST turnover is $10 million or more, you must report using the full reporting method.",
-      "FromDate": "2020-01-01T00:00:00",
-      "Name": "Business Activity Statement — Full",
-      "Template": [
+    "11acbfe1-0d24-4161-b366-fe905f2bcfd9": {
+      "Name@1": "Business Activity Statement — Full",
+      "FromDate@9": "2020-01-01T00:00:00",
+      "ToDate@10": "2020-09-24T00:00:00",
+      "Template@5": [
         "{% assign period = transactions | between: report.From, report.To %}",
         "",
         "{% assign gst_10 = \"8cf9d117-3142-4d9c-82ee-b57a0e22c809\" %}",
@@ -642,14 +573,13 @@
         "{% assign amountOwingToATO = W2 | balance | plus: amountOwingToATO %}",
         "<table style=\"padding: 30px\"><tr><td style=\"width: 50px\"></td><td></td><td style=\"width: 27px\"></td><td style=\"width: 164px\"></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 16px;font-weight: bold\">{{ business.Name }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 24px;font-weight: bold\">Business Activity Statement — Full</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 16px;font-weight: bold\">For the period from {{ report.From }} to {{ report.To }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;background-color-black;color-white;font-weight: bold;color: #fff; background-color: #000\">Sales</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders\">G1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total sales (including any GST)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G1 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders\">G2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Export sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G2 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders\">G3</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Other GST-free sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G3 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders\">G4</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Input taxed sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G4 }}</div></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;background-color-black;color-white;font-weight: bold;color: #fff; background-color: #000;remove_row\">Purchases</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center\">G10</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Capital purchases (including any GST)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G10 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center\">G11</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Non-capital purchases (including any GST)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G11 }}</div></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;background-color-black;color-white;font-weight: bold;color: #fff; background-color: #000;remove_row\">Summary</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center\">1A</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">GST on sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1A }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;remove_row\">7A</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\">Deferred GST</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_col;remove_col;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 7A }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center\">8A</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total amount you owe the ATO (1A + 7A)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 8A }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;remove_row;row_below\">1B</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;row_below\">GST on purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_col;remove_col;remove_row;row_below\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input;remove_row;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1B }}</div></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;color: #fff; background-color: #000;row_below\">PAYG tax withheld</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells;text-align: center;alignment-center\">W1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells\">Total salary, wages and other payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells;text-align: right;alignment-right\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ W1 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;row_below\">W2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;row_below\">Amount withheld from payments shown at W1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;row_below\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;font-weight: bold;cell-style-input;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ W2 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr>{% if amountOwingToATO >= 0 %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;font-weight: bold;font-size-normal;row_below\">Amount owing to ATO</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;row_below\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;cell-style-input;text-align: right;alignment-right;font-size-normal;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ amountOwingToATO | format: \"n2\" }}</div></td></tr>{% else %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;font-weight: bold\">Amount owed by ATO</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;cell-style-input;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ amountOwingToATO | times: -1 | format: \"n2\" }}</div></td></tr>{% endif %}</table>"
       ],
-      "ToDate": "2020-09-24T00:00:00"
+      "Description@6": "If your GST turnover is $10 million or more, you must report using the full reporting method."
     },
-    {
-      "Key": "6163552c-3d89-4a15-bf72-ef1df6c0a6ee",
-      "Description": "Simpler BAS is the default reporting method for small businesses with a GST turnover of less than $10 million:\n\n- you don't need to complete a GST calculation worksheet\n- if you lodge a paper BAS or annual GST return, the sections where information is no longer needed can be left blank.",
-      "FromDate": "2020-09-24T00:00:00",
-      "Name": "Business Activity Statement — Simpler",
-      "Template": [
+    "6163552c-3d89-4a15-bf72-ef1df6c0a6ee": {
+      "Name@1": "Business Activity Statement — Simpler",
+      "FromDate@9": "2020-09-24T00:00:00",
+      "ToDate@10": "2020-09-24T00:00:00",
+      "Template@5": [
         "{% assign period = transactions | between: report.From, report.To %}",
         "",
         "{% assign gst_10 = \"8cf9d117-3142-4d9c-82ee-b57a0e22c809\" %}",
@@ -668,13 +598,11 @@
         "{% assign amountOwingToATO = W2 | balance | plus: amountOwingToATO %}",
         "<table style=\"padding: 30px\"><tr><td style=\"width: 50px\"></td><td></td><td style=\"width: 27px\"></td><td style=\"width: 164px\"></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 16px;font-weight: bold\">{{ business.Name }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 24px;font-weight: bold\">Business Activity Statement — Simpler</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; text-align: center;font-size: 16px;font-weight: bold\">For the period from {{ report.From }} to {{ report.To }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders;remove_row\">G1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\">Total sales (including any GST)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_row;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input;borders-no_borders;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G1 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;borders-no_borders;remove_row;remove_row;remove_row\">1A</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_row;remove_row\">GST on sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;remove_row;remove_row;remove_row;remove_col;remove_col\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;font-weight: bold;cell-style-input;remove_row;remove_row;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1A }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;remove_row;row_below\">1B</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;row_below\">GST on purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_col;remove_col;text-align: right;alignment-right;row_below\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;cell-style-input;font-weight: bold;text-align: right;alignment-right;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1B }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;remove_row;remove_row\">W1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_row\">Total salary, wages and other payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_row;text-align: right;alignment-right\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_row;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ W1 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;row_below\">W2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">Amount withheld from payments shown at W1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;row_below\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: right;alignment-right;cell-style-input;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ W2 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td></tr>{% if amountOwingToATO >= 0 %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;font-weight: bold\">Amount owing to ATO</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ amountOwingToATO | format: \"n2\" }}</div></td></tr>{% else %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;font-weight: bold\">Amount owed by ATO</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ amountOwingToATO | times: -1 | format: \"n2\" }}</div></td></tr>{% endif %}</table>"
       ],
-      "ToDate": "2020-09-24T00:00:00"
+      "Description@6": "Simpler BAS is the default reporting method for small businesses with a GST turnover of less than $10 million:\n\n- you don't need to complete a GST calculation worksheet\n- if you lodge a paper BAS or annual GST return, the sections where information is no longer needed can be left blank."
     },
-    {
-      "Key": "92b38154-38fc-479a-a296-2019f656d1e2",
-      "Description": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
-      "Name": "PAYG payment summary — individual non-business",
-      "Template": [
+    "92b38154-38fc-479a-a296-2019f656d1e2": {
+      "Name@1": "PAYG payment summary — individual non-business",
+      "Template@5": [
         "{% assign dayMonthFrom = report.From | date: 'dd/MM' %}",
         "{% assign dayMonthTo = report.To | date: 'dd/MM' %}",
         "",
@@ -720,134 +648,118 @@
         "{% if report.Employee.CustomFields[\"1f6483e5-5ad9-4181-a9db-117827b67a9d\"] == \"Working Holiday Maker\" %}{% assign grossPaymentsType = 'H' %}{% endif %}",
         "{% if report.Employee.CustomFields.[\"6b837666-1039-4cfc-948b-5c36b30682c2\"] == \"S ⁠— Pension or Annuity\" %}{% assign grossPaymentsType = 'P' %}{% endif %}",
         "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 38px\"></td><td style=\"width: 167px\"></td><td style=\"width: 20px\"></td><td style=\"width: 39px\"></td><td style=\"width: 30px\"></td><td style=\"width: 127px\"></td><td style=\"width: 20px\"></td><td style=\"width: 40px\"></td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;text-align: center;alignment-center;mergeCells;font-size: 24px\">PAYG payment summary — individual non-business</td></tr>{% if dayMonthFrom == \"01/07\" and dayMonthTo == \"30/06\" %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;mergeCells;font-weight: bold;font-size: 16px\">Payment summary for year ending 30 June {{ report.To | date: 'yyyy' }}</td></tr>{% else %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;text-align: center;alignment-center;mergeCells;font-size: 16px;font-weight: bold\">Payment summary for the period from {{ report.From }} until {{ report.To }}</td></tr>{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000;mergeCells\">Payee details</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">{{ report.Employee.Name }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ report.Employee.Address | newline_to_br }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;font-size: 10px;remove_row;col_right;mergeCells;mergeCells;mergeCells\">Day/Month/Year</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Period during which payments were made</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;col_right;mergeCells;mergeCells;mergeCells\">{{ report.From }} to {{ report.To }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\">Payee's tax file number</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;remove_row;col_right;mergeCells;mergeCells\">{{ report.Employee.CustomFields[\"8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7\"] }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"6\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;font-weight: bold;text-align: right;alignment-right\">TOTAL TAX WITHHELD $</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;cell-style-input;text-align: right;alignment-right;font-size-normal\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ totalTaxWithheld }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_colalignment-right;text-align: center;alignment-center\">Type</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Lump sum payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">Type</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Gross Payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ grossPayments }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;cell-style-input;text-align: center;alignment-center;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ grossPaymentsType }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">A $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentA }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: center;alignment-center\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumAIndicator }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">CDEP payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ cdepPayments }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">B $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentB }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Reportable fringe benefits amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">0</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">D $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentD }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Reportable employer superannuation contributions</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ reportableEmployerSuperannuationContribution }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">E $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentE }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total allowances</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ totalAllowances }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr>{% if totalAllowances != 0 %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;remove_row\"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;mergeCells\">Allowances</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Car</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ carAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Transport</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ transportAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Travel</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ travelAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Meals</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ mealsAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Laundry</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ laundryAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Other</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ otherAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr>{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;row_below;mergeCells;color: #fff; background-color: #000;remove_row\">Payer details</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells\">Payer's ABN</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;col_right;mergeCells\">{{ business.CustomFields[\"0fba87ee-0386-401a-8d1f-302313b663f4\"] }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells\">Payer's name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells;col_right;mergeCells\">{{ business.Name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td></tr><tr><td colSpan=\"6\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: right;alignment-right;mergeCells;mergeCells\">Signature of authorized person:</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;mergeCells;mergeCells;border-bottom: 1px solid #000;cell-style-normal\"> </td></tr></table>"
-      ]
+      ],
+      "Description@6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension."
     },
-    {
-      "Key": "c4a0ccf7-9171-4e8e-b390-97f7052b1479",
-      "Description": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations.",
-      "Name": "Taxable Payments Annual Report (TPAR)",
-      "Template": [
+    "c4a0ccf7-9171-4e8e-b390-97f7052b1479": {
+      "Name@1": "Taxable Payments Annual Report (TPAR)",
+      "Template@5": [
         "{% assign gst_10 = \"8cf9d117-3142-4d9c-82ee-b57a0e22c809\" %}",
         "{% assign gst_10_capex = \"3e2cb830-e229-4525-8794-2e38761b3cfd\" %}",
         "{% assign gst_free = \"14f63584-be71-40ca-9028-1a60e2e2cc90\" %}",
         "",
         "{% assign taxTransactionsPerSupplier = transactions | between: report.From, report.To | taxcode: gst_10, gst_10_capex, gst_free | group_by_supplier %}",
         "<table style=\"padding: 30px\"><tr><td style=\"width: 187px\"></td><td style=\"width: 116px\"></td><td></td><td style=\"width: 164px\"></td><td style=\"width: 147px\"></td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;font-size: 24px;mergeCells;font-weight: bold\">Taxable Payments Annual Report</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;font-size: 16px;mergeCells;text-align: center;alignment-center;font-weight: bold\">For the period from {{ report.From }} until {{ report.To }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;font-weight: bold;font-size: 16px;text-align: center;alignment-center\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;color: #fff; background-color: #000;font-weight: bold;mergeCells\">Section A: Payer details - this is the business that made the payment</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Payer name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Payer ABN</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;font-weight: bold\">Payer address</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\">{{ business.Name }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\">{{ business.CustomFields[\"0fba87ee-0386-401a-8d1f-302313b663f4\"] }}</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;cell-style-normal\">{{ business.Address | newline_to_br }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000;mergeCells\">Section B: Declaration - this section must be completed by an individual authorised by the payer.</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold\">Before you sign this report</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below\">Check that you have provided accurate and complete information.</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;mergeCells\">Penalties</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;sep4;mergeCells\">Be aware that penalties may be imposed for giving false or misleading information.</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;mergeCells\">Privacy</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells\">The law authorises us to collect information and disclose it to other government agencies.</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;row_below\">This includes personal information of the person authorised to sign the declaration.</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells\">For information about your privacy, go to ato.gov.au/privacy</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;color: #fff; background-color: #000;row_below;font-weight: bold\">Section C: Payee details - there are the businesses or people you have paid</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Payee's name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;font-weight: bold\">Payee's ABN</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Payee's address</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: right;alignment-right\">Total GST</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: right;alignment-right\">Gross amount paid</td></tr>{% for e in taxTransactionsPerSupplier %}{% if e.Key.CustomFields.e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f != \"Yes\" %}{% continue %}{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;remove_row\">{{ e.Key.Name }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;remove_row\">{{ e.Key.CustomFields.9483841a-8d21-4c77-8031-614f721878fa }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;remove_row\">{{ e.Key.Address | newline_to_br }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;remove_row;text-align: right;alignment-right;cell-style-input;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ e.Value | tax_on_purchases | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;remove_row;text-align: right;alignment-right;cell-style-input;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ e.Value | hyperlink }}</div></td></tr>{% endfor %}</table>"
-      ]
+      ],
+      "Description@6": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations."
     }
-  ],
-  "bbe8c088-729b-4b56-a7d7-26555270eced": [
-    {
-      "Key": "1ca53f44-5da3-4dc8-98d8-0c7eb67119da",
-      "FromDate": "2019-09-14T00:00:00",
-      "ReportTransformation": "440ce81c-a34e-47eb-8025-4796c5487a5f",
-      "ToDate": "2020-09-15T00:00:00"
+  },
+  "bbe8c088-729b-4b56-a7d7-26555270eced": {
+    "1ca53f44-5da3-4dc8-98d8-0c7eb67119da": {
+      "ReportTransformation@1": "440ce81c-a34e-47eb-8025-4796c5487a5f",
+      "FromDate@4": "2019-09-14T00:00:00",
+      "ToDate@5": "2020-09-15T00:00:00"
     },
-    {
-      "Key": "35386d69-75d8-4e77-a532-1e3836ef9380",
-      "FromDate": "2020-12-01T00:00:00",
-      "ReportTransformation": "07332ba3-3e82-4dc1-9451-1350f5d84e24",
-      "ToDate": "2020-12-14T00:00:00"
+    "35386d69-75d8-4e77-a532-1e3836ef9380": {
+      "ReportTransformation@1": "07332ba3-3e82-4dc1-9451-1350f5d84e24",
+      "FromDate@4": "2020-12-01T00:00:00",
+      "ToDate@5": "2020-12-14T00:00:00"
     },
-    {
-      "Key": "716bcd40-5977-46a0-a4d0-14932385bc3c",
-      "FromDate": "2019-08-28T00:00:00",
-      "ReportTransformation": "a197ee84-033b-4d6b-acd7-9a3cbfe02499",
-      "ToDate": "2020-08-28T00:00:00"
+    "716bcd40-5977-46a0-a4d0-14932385bc3c": {
+      "ReportTransformation@1": "a197ee84-033b-4d6b-acd7-9a3cbfe02499",
+      "FromDate@4": "2019-08-28T00:00:00",
+      "ToDate@5": "2020-08-28T00:00:00"
     },
-    {
-      "Key": "7d4cd797-16d2-4f05-b2ae-a3ff2d867b39",
-      "FromDate": "2018-09-08T00:00:00",
-      "ReportTransformation": "fa048564-af81-437b-8357-a2b8b1a6eb89",
-      "ToDate": "2020-09-08T00:00:00"
+    "7d4cd797-16d2-4f05-b2ae-a3ff2d867b39": {
+      "ReportTransformation@1": "fa048564-af81-437b-8357-a2b8b1a6eb89",
+      "FromDate@4": "2018-09-08T00:00:00",
+      "ToDate@5": "2020-09-08T00:00:00"
     },
-    {
-      "Key": "9f6e4005-cf9f-44fe-a663-8cfb9acb080a",
-      "FromDate": "2019-08-29T00:00:00",
-      "ReportTransformation": "8f5da309-c0f3-44d4-91fd-1c3445c719d5",
-      "ToDate": "2020-08-29T00:00:00"
+    "9f6e4005-cf9f-44fe-a663-8cfb9acb080a": {
+      "ReportTransformation@1": "8f5da309-c0f3-44d4-91fd-1c3445c719d5",
+      "FromDate@4": "2019-08-29T00:00:00",
+      "ToDate@5": "2020-08-29T00:00:00"
     }
-  ],
-  "a9a71e47-82b3-49db-8aec-898adb460a80": [
-    {
-      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
-      "Version": 260
+  },
+  "a9a71e47-82b3-49db-8aec-898adb460a80": {
+    "a9a71e47-82b3-49db-8aec-898adb460a80": {
+      "Version@1": 260
     }
-  ],
-  "6d2dc48d-2053-4e45-8330-285ebd431242": [
-    {
-      "Key": "1718cc39-b8e0-47b8-84a2-04bd7e4732a6",
-      "Address": "1 George Street\nSydney NSW 2000",
-      "CustomFields": {
+  },
+  "6d2dc48d-2053-4e45-8330-285ebd431242": {
+    "1718cc39-b8e0-47b8-84a2-04bd7e4732a6": {
+      "Name@1": "Brilliant Supplier",
+      "Address@7": "1 George Street\nSydney NSW 2000",
+      "CustomFields@9": {
         "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f": "Yes",
         "9483841a-8d21-4c77-8031-614f721878fa": "111222333444555"
-      },
-      "Name": "Brilliant Supplier"
+      }
     }
-  ],
-  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
-    {
-      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2",
-      "Customers": true,
-      "Employees": true,
-      "Payslips": true,
-      "ReceiptsAndPayments": true,
-      "Suppliers": true
+  },
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+      "ReceiptsAndPayments@36": true,
+      "Customers@14": true,
+      "Suppliers@15": true,
+      "Employees@18": true,
+      "Payslips@19": true
     }
-  ],
-  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
-    {
-      "Key": "10d8f9dc-db1e-4c87-9480-a696f59aeddf",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "GST Free Import Export"
+  },
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
+    "10d8f9dc-db1e-4c87-9480-a696f59aeddf": {
+      "Name@1": "GST Free Import Export",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
-    {
-      "Key": "14f63584-be71-40ca-9028-1a60e2e2cc90",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "GST Free"
+    "14f63584-be71-40ca-9028-1a60e2e2cc90": {
+      "Name@1": "GST Free",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
-    {
-      "Key": "3e2cb830-e229-4525-8794-2e38761b3cfd",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle": true,
-      "Name": "GST 10% (CAPEX)",
-      "Rate": 10.0,
-      "SalesInvoiceTitle": "Tax Invoice",
-      "TaxRate": "CustomRate"
+    "3e2cb830-e229-4525-8794-2e38761b3cfd": {
+      "Name@1": "GST 10% (CAPEX)",
+      "TaxRate@5": "CustomRate",
+      "Rate@4": 10.0,
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "CustomSalesInvoiceTitle@13": true,
+      "SalesInvoiceTitle@14": "Tax Invoice"
     },
-    {
-      "Key": "73952f89-6139-4fd0-a937-165b8ed66ba8",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "GST 10% (Deferred)",
-      "ReverseCharged": true,
-      "ReverseChargedRate": 10.0
+    "73952f89-6139-4fd0-a937-165b8ed66ba8": {
+      "Name@1": "GST 10% (Deferred)",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "ReverseCharged@11": true,
+      "ReverseChargedRate@12": 10.0
     },
-    {
-      "Key": "8cf9d117-3142-4d9c-82ee-b57a0e22c809",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle": true,
-      "Name": "GST 10%",
-      "Rate": 10.0,
-      "SalesInvoiceTitle": "Tax Invoice",
-      "TaxRate": "CustomRate"
+    "8cf9d117-3142-4d9c-82ee-b57a0e22c809": {
+      "Name@1": "GST 10%",
+      "TaxRate@5": "CustomRate",
+      "Rate@4": 10.0,
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "CustomSalesInvoiceTitle@13": true,
+      "SalesInvoiceTitle@14": "Tax Invoice"
     },
-    {
-      "Key": "9fe15ead-2138-4f4b-b3f5-398857d08503",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "GST on Imports",
-      "TaxRate": "TotalRate"
+    "9fe15ead-2138-4f4b-b3f5-398857d08503": {
+      "Name@1": "GST on Imports",
+      "TaxRate@5": "TotalRate",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
-    {
-      "Key": "f218a321-f83d-4d06-8d02-b52f595cc4fe",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "Input Taxed"
+    "f218a321-f83d-4d06-8d02-b52f595cc4fe": {
+      "Name@1": "Input Taxed",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     }
-  ],
-  "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
-    {
-      "Key": "fd38911e-6902-4a29-8f18-b234fc6f8356",
-      "FromDate": "2019-07-01T00:00:00",
-      "ToDate": "2020-09-08T00:00:00"
+  },
+  "68e0d57b-4a59-453e-b8d4-6166f097eacd": {
+    "fd38911e-6902-4a29-8f18-b234fc6f8356": {
+      "FromDate@1": "2019-07-01T00:00:00",
+      "ToDate@2": "2020-09-08T00:00:00"
     }
-  ]
+  }
 }

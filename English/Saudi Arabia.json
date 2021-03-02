@@ -1,28 +1,23 @@
 {
-  "6ef13e42-ad89-4d42-9480-546e0c04a411": [
-    {
-      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Name": "Tax payable"
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": {
+    "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71": {
+      "Name@1": "Tax payable",
+      "Group@3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
     }
-  ],
-  "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
-    {
-      "Key": "436f269c-126f-4055-847b-b8d146b7e1e8",
-      "Name": "Contact",
-      "Size": "Medium"
+  },
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
+    "436f269c-126f-4055-847b-b8d146b7e1e8": {
+      "Name@1": "Contact",
+      "Size@4": "Medium"
     }
-  ],
-  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
-    {
-      "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c"
-    }
-  ],
-  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": [
-    {
-      "Key": "734f9a89-b048-46c5-b792-e652057c381f",
-      "Name": "VAT Return Form",
-      "Template": [
+  },
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+    "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
+  },
+  "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
+    "734f9a89-b048-46c5-b792-e652057c381f": {
+      "Name@1": "VAT Return Form",
+      "Template@5": [
         "{% assign VAT_0 = \"46712241-b20a-42e8-a29a-876f15e50f94\" %}",
         "{% assign VAT_5 = \"574a0647-25c3-4aff-886b-c7d64b641a1c\" %}",
         "{% assign VAT_15 = \"1731afd8-40df-484c-8335-81a1451ab8f8\" %}",
@@ -54,58 +49,52 @@
         "<table style=\"padding: 30px\"><tr><td style=\"width: 43px\"></td><td></td><td style=\"width: 134px\"></td><td style=\"width: 148px\"></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;font-size: 16px;font-weight: bold;text-align: center;alignment-center\">{{ business.Name }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;text-align: center;alignment-center;font-size: 24px\">VAT Return Form</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 16px;font-weight: bold;text-align: center;alignment-center\">For the period from {{ report.From }} to {{ report.To }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 16px;font-weight: bold;text-align: center;alignment-center\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;font-weight: bold;text-align: right;alignment-right\">Amount (SAR)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;font-weight: bold;text-align: right;alignment-right;remove_col\">VAT Amount (SAR)</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;color: #fff; background-color: #000;font-weight: bold\">VAT on Sales</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Standard rated sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C1 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;font-weight: bold;remove_col\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D1 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Private Healthcare / Private Education sales to citizens</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center\">3</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Zero rated domestic sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;col_right;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C3 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">4</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Exports</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C4 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">5</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Exempt sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C5 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">6</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total Sales</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C6 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D6 }}</div></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;color: #fff; background-color: #000;font-weight: bold\">VAT on Purchases</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center\">7</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Standard rated domestic purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C7 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D7 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">8</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Imports subject to VAT paid at customs</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-normal\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">9</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Imports subject to VAT accounted for through reverse charge mechanism</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">10</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Zero rated purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C10 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">11</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Exempt purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C11 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;row_below;text-align: center;alignment-center\">12</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total purchases</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C12 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D12 }}</div></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;mergeCells;color: #fff; background-color: #000\">Summary</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">13</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total VAT due for current period</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D13 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center\">14</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Corrections from previous preiod</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">15</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">VAT credit carried forward from previous period(s)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Net VAT due (or claim)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;text-align: right;alignment-right;font-weight: bold;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ D13 }}</div></td></tr></table>"
       ]
     }
-  ],
-  "a9a71e47-82b3-49db-8aec-898adb460a80": [
-    {
-      "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
-      "Version": 260
+  },
+  "a9a71e47-82b3-49db-8aec-898adb460a80": {
+    "a9a71e47-82b3-49db-8aec-898adb460a80": {
+      "Version@1": 260
     }
-  ],
-  "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
-    {
-      "Key": "1731afd8-40df-484c-8335-81a1451ab8f8",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Components": [
+  },
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
+    "1731afd8-40df-484c-8335-81a1451ab8f8": {
+      "Name@1": "VAT 15%",
+      "TaxRate@5": "CustomRate",
+      "Rate@4": 15.0,
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Components@2": [
         {},
         {}
       ],
-      "CustomSalesInvoiceTitle": true,
-      "Name": "VAT 15%",
-      "Rate": 15.0,
-      "SalesInvoiceTitle": "Tax Invoice",
-      "TaxRate": "CustomRate"
+      "CustomSalesInvoiceTitle@13": true,
+      "SalesInvoiceTitle@14": "Tax Invoice"
     },
-    {
-      "Key": "45da7b65-f249-4ac3-a171-4a888276d237",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Components": [
+    "45da7b65-f249-4ac3-a171-4a888276d237": {
+      "Name@1": "VAT Free Exports",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Components@2": [
         {
-          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         },
         {
-          "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
-      ],
-      "Name": "VAT Free Exports"
+      ]
     },
-    {
-      "Key": "46712241-b20a-42e8-a29a-876f15e50f94",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "VAT 0%"
+    "46712241-b20a-42e8-a29a-876f15e50f94": {
+      "Name@1": "VAT 0%",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
-    {
-      "Key": "574a0647-25c3-4aff-886b-c7d64b641a1c",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle": true,
-      "Name": "VAT 5%",
-      "Rate": 5.0,
-      "SalesInvoiceTitle": "Tax Invoice",
-      "TaxRate": "CustomRate"
+    "574a0647-25c3-4aff-886b-c7d64b641a1c": {
+      "Name@1": "VAT 5%",
+      "TaxRate@5": "CustomRate",
+      "Rate@4": 5.0,
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "CustomSalesInvoiceTitle@13": true,
+      "SalesInvoiceTitle@14": "Tax Invoice"
     },
-    {
-      "Key": "cc862e5b-a055-43f7-b585-4c70f041bc19",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Name": "VAT Exempt"
+    "cc862e5b-a055-43f7-b585-4c70f041bc19": {
+      "Name@1": "VAT Exempt",
+      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     }
-  ]
+  }
 }
