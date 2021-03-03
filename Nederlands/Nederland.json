@@ -13,7 +13,7 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "436f269c-126f-4055-847b-b8d146b7e1e8": {
       "Name@1": "Contact",
-      "Size@4": "Medium"
+      "Size@4": 1
     }
   },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
@@ -21,7 +21,7 @@
   },
   "699401fe-23fd-4b52-9699-b88b36fa6b26": {
     "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f": {
-      "Type@19": "Payment",
+      "Type@19": 1,
       "Date@1": "2020-09-11T00:00:00",
       "Lines@4": [
         {
@@ -98,7 +98,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 260
+      "Version@1": 264
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
@@ -115,13 +115,13 @@
     },
     "31dce658-cff1-4212-870b-5fd04cb83b1c": {
       "Name@1": "BTW 9%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 9.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     "33855cc4-964b-44d1-be27-cf268b0ad77d": {
       "Name@1": "BTW 21%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 21.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
@@ -155,7 +155,7 @@
     },
     "9f2d06f9-0e16-4192-afa3-bff747910088": {
       "Name@1": "BTW privégebruik",
-      "TaxRate@5": "TotalRate",
+      "TaxRate@5": 1,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     "ad18e082-df57-44f9-8fd0-ab3c5275d230": {
@@ -164,7 +164,7 @@
     },
     "ad40e782-1f1c-486a-91a4-266e7001c8b3": {
       "Name@1": "BTW 6%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 6.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },

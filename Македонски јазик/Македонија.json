@@ -8,13 +8,13 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "2d15fd3a-2063-489d-be8a-d620f44bc21c": {
       "Name@1": "ЕДБ: ",
-      "Type@3": "ParagraphText",
+      "Type@3": 1,
       "DisplayOnView@8": true,
       "FormType@2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     },
     "67a99165-f78b-4e57-a076-0868f04e0ed1": {
       "Name@1": "ЕМБГ на лицето што ја составува ДДВ пријавата:",
-      "Type@3": "ParagraphText",
+      "Type@3": 1,
       "FormType@2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     }
   },
@@ -22,7 +22,7 @@
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
       "DateFormat@1": "dd.M.yyyy",
       "TimeFormat@4": "HH:mm:ss",
-      "FirstDayOfWeek@2": "Monday",
+      "FirstDayOfWeek@2": 1,
       "NumberFormat@3": "CgEsEgEuGAM="
     }
   },
@@ -95,13 +95,13 @@
     },
     "fd003045-876e-439e-b923-1904453f5c30": {
       "Name@1": "Трошоци",
-      "Type@6": "ExpenseGroup",
+      "Type@6": 1,
       "Position@5": 2
     }
   },
   "699401fe-23fd-4b52-9699-b88b36fa6b26": {
     "699401fe-23fd-4b52-9699-b88b36fa6b26": {
-      "BankClearStatus@12": "Cleared",
+      "BankClearStatus@12": 1,
       "AmountsIncludeTax@16": true
     }
   },
@@ -253,7 +253,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 260
+      "Version@1": 264
     }
   },
   "f361339b-932a-4436-b56e-a337c1587c72": {
@@ -301,7 +301,7 @@
     },
     "31a9a48c-5733-40bf-b135-9422f3c0592e": {
       "Name@1": "ДДВ 18% (Увоз)",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
@@ -316,7 +316,7 @@
     },
     "5a254e38-7b2a-474d-9ab0-8777e37d7d56": {
       "Name@1": "ДДВ 5% (Увоз)",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
@@ -331,7 +331,7 @@
     },
     "72e73474-87e3-4dfc-a673-8c9066d89203": {
       "Name@1": "ДДВ 18% (Останати даноци)",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
@@ -346,7 +346,7 @@
     },
     "8fad8a0f-f932-454e-b90b-7b48b6a02e1a": {
       "Name@1": "ДДВ 5%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
@@ -380,7 +380,7 @@
     },
     "ba184918-bbf2-4585-b388-6ad7a743ac46": {
       "Name@1": "ДДВ 10%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 10.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Inactive@10": true
@@ -402,7 +402,7 @@
     },
     "d7eba1a0-d27c-465c-94ca-38e7b480266a": {
       "Name@1": "ДДВ 18%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
@@ -434,7 +434,7 @@
     },
     "fe1aa167-d121-412d-97f2-4d69d2c748c5": {
       "Name@1": "ДДВ 5% (Останати даноци)",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [

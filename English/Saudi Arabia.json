@@ -8,7 +8,7 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "436f269c-126f-4055-847b-b8d146b7e1e8": {
       "Name@1": "Contact",
-      "Size@4": "Medium"
+      "Size@4": 1
     }
   },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
@@ -52,13 +52,13 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 260
+      "Version@1": 264
     }
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "1731afd8-40df-484c-8335-81a1451ab8f8": {
       "Name@1": "VAT 15%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 15.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
@@ -86,7 +86,7 @@
     },
     "574a0647-25c3-4aff-886b-c7d64b641a1c": {
       "Name@1": "VAT 5%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "CustomSalesInvoiceTitle@13": true,

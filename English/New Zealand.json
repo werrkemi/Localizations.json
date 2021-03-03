@@ -17,12 +17,12 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "0c782b45-f50c-4b69-bbf3-75f42d7670a7": {
       "Name@1": "Registration number",
-      "Size@4": "Medium",
+      "Size@4": 1,
       "FormType@2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     },
     "436f269c-126f-4055-847b-b8d146b7e1e8": {
       "Name@1": "Contact",
-      "Size@4": "Medium"
+      "Size@4": 1
     }
   },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
@@ -30,7 +30,7 @@
   },
   "699401fe-23fd-4b52-9699-b88b36fa6b26": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
-      "Type@19": "Payment",
+      "Type@19": 1,
       "Date@1": "2019-07-20T00:00:00",
       "Lines@4": [
         {
@@ -62,7 +62,7 @@
       ]
     },
     "e8e072e6-c49e-472c-9e25-a087801155bf": {
-      "Type@19": "Payment",
+      "Type@19": 1,
       "Date@1": "2019-07-20T00:00:00",
       "Lines@4": [
         {
@@ -109,7 +109,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 260
+      "Version@1": 264
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
@@ -130,12 +130,12 @@
     },
     "d865c9b1-17b9-488b-b29b-b15c0b3c3246": {
       "Name@1": "GST Adjustment",
-      "TaxRate@5": "TotalRate",
+      "TaxRate@5": 1,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     "ee8cacde-58da-48ec-8aa9-aa6acba9c32f": {
       "Name@1": "GST 15%",
-      "TaxRate@5": "CustomRate",
+      "TaxRate@5": 2,
       "Rate@4": 15.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "CustomSalesInvoiceTitle@13": true,
