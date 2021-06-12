@@ -10,7 +10,7 @@
       "Name@1": "New Zealand",
       "Address@2": "saddasdasdas\ndsasadsdadsaasdasd\nsdasadadsads",
       "CustomFields@5": {
-        "0c782b45-f50c-4b69-bbf3-75f42d7670a7": "342423243243324"
+        "0c782b45-f50c-4b69-bbf3-75f42d7670a7": "34432243AAA"
       }
     }
   },
@@ -28,46 +28,46 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "699401fe-23fd-4b52-9699-b88b36fa6b26": {
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
-      "Type@19": 1,
       "Date@1": "2019-07-20T00:00:00",
-      "Lines@4": [
+      "Lines@11": [
         {
-          "Amount@12": 1000.0,
-          "TaxCode@5": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          "UnitPrice@18": 1000.0,
+          "TaxCode@20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
       ]
     },
+    "e8e072e6-c49e-472c-9e25-a087801155bf": {
+      "Date@1": "2019-07-20T00:00:00",
+      "Lines@11": [
+        {
+          "UnitPrice@18": 100.0,
+          "TaxCode@20": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+        }
+      ]
+    }
+  },
+  "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
     "a1ccb769-fd49-4b40-8cea-9b0c1b29ff37": {
       "Date@1": "2019-07-20T00:00:00",
-      "Lines@4": [
+      "Lines@11": [
         {
-          "Amount@12": 20.0,
-          "TaxCode@5": "1a88fd08-a595-4e12-97d3-85fc165eecdc"
+          "UnitPrice@18": 20.0,
+          "TaxCode@20": "1a88fd08-a595-4e12-97d3-85fc165eecdc"
         },
         {
-          "Amount@12": 30.0,
-          "TaxCode@5": "705acb55-550e-458a-bf9a-c4c7021dc351"
+          "UnitPrice@18": 30.0,
+          "TaxCode@20": "705acb55-550e-458a-bf9a-c4c7021dc351"
         }
       ]
     },
     "b61ce315-6565-4263-bee9-f2020a40ecf0": {
       "Date@1": "2018-09-11T00:00:00",
-      "Lines@4": [
+      "Lines@11": [
         {
-          "Amount@12": 10000.0,
-          "TaxCode@5": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-        }
-      ]
-    },
-    "e8e072e6-c49e-472c-9e25-a087801155bf": {
-      "Type@19": 1,
-      "Date@1": "2019-07-20T00:00:00",
-      "Lines@4": [
-        {
-          "Amount@12": 100.0,
-          "TaxCode@5": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          "UnitPrice@18": 10000.0,
+          "TaxCode@20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
       ]
     }
@@ -75,29 +75,342 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "994cef79-6da3-4fa1-9998-ad029a4358f0": {
       "Name@1": "GST Return",
+      "FromDate@9": "2021-06-11T00:00:00",
+      "ToDate@10": "2021-06-11T00:00:00",
       "Template@5": [
-        "{% assign GST_0 = \"1a88fd08-a595-4e12-97d3-85fc165eecdc\" %}",
-        "{% assign GST_15 = \"ee8cacde-58da-48ec-8aa9-aa6acba9c32f\" %}",
-        "{% assign GST_Exempt = \"705acb55-550e-458a-bf9a-c4c7021dc351\" %}",
-        "{% assign GST_Adjustment = \"d865c9b1-17b9-488b-b29b-b15c0b3c3246\" %}",
-        "",
-        "{% assign period = transactions | between: report.From, report.To %}",
-        "",
-        "{% assign C5 = period | taxcode: GST_15, GST_0, GST_Exempt | tax_inclusive_sales | reversesign %}",
-        "{% assign C6 = period | taxcode: GST_0, GST_Exempt | tax_exclusive_sales | reversesign %}",
-        "{% assign C7 = period | taxcode: GST_15 | tax_inclusive_sales | reversesign %}",
-        "{% assign C8 = period | taxcode: GST_15 | tax_on_sales | reversesign %}",
-        "{% assign C9 = period | taxcode: GST_Adjustment | tax_on_sales | reversesign %}",
-        "{% assign C10 = period | taxcode: GST_15, GST_Adjustment | tax_on_sales | reversesign %}",
-        "",
-        "{% assign C11 = period | taxcode: GST_15, GST_0, GST_Exempt | tax_inclusive_purchases %}",
-        "{% assign C12 = period | taxcode: GST_15 | tax_on_purchases %}",
-        "{% assign C13 = period | taxcode: GST_Adjustment | tax_on_purchases %}",
-        "{% assign C14 = period | taxcode: GST_15, GST_Adjustment | tax_on_purchases %}",
-        "",
-        "{% assign C15 = period | taxcode: GST_15, GST_Adjustment | tax_amount %}",
-        "{% assign total = C15 | balance %}",
-        "<table style=\"padding: 30px\"><tr><td style=\"width: 39px\"></td><td></td><td style=\"width: 202px\"></td><td style=\"width: 166px\"></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-size: 16px;font-weight: bold\">{{ business.Name }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 24px\">GST Return</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-size: 16px;font-weight: bold\">For the period from {{ report.From}} to {{ report.To }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-size: 16px;font-weight: bold\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;color: #fff; background-color: #000;font-weight: bold\">Return Details</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">1</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Registration number</td><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ business.CustomFields[\"0c782b45-f50c-4b69-bbf3-75f42d7670a7\"] }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">2</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Period covered by the return</td><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;col_left;mergeCells;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">From {{ report.From }} to {{ report.To }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_left;row_below;text-align: center;alignment-center\">3</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;row_belowalignment-top;htMiddle;alignment-middle\">Business address</td><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ business.Address | newline_to_br }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">4</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Phone number</td><td colSpan=\"2\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;cell-style-normal\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;color: #fff; background-color: #000;font-weight: bold\">Sales and Income</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">5</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;remove_row\">Total sales and income</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C5 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">6</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Zero-rated supplies</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C6 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">7</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Net GST sales and income</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C7 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">8</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Total GST collected on sales and income</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C8 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">9</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Any debit adjustments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C9 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: center;alignment-center\">10</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold\">Total GST collected for the period</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C10 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;color: #fff; background-color: #000;font-weight: bold\">Purchases and Expenses</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center\">11</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;sep1\">Total purchases and expenses</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C11 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">12</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total GST credits on purchases and expenses</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C12 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;row_below;text-align: center;alignment-center\">13</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Any credit adjustments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C13 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: center;alignment-center\">14</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Total GST credit</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C14 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;color: #fff; background-color: #000;font-weight: bold\">Summary</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr>{% if total < 0 %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;text-align: center;alignment-center\">15</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;row_below\">GST to pay</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C15 | reversesign }}</div></td></tr>{% else %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;font-weight: bold\">15</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">GST refund</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;font-weight: bold\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ C15 }}</div></td></tr>{% endif %}</table>"
+        "<p>report.AccountingBasis<br data-mce-bogus=\"1\">",
+        "</p>",
+        "<p>report.From<br data-mce-bogus=\"1\">",
+        "</p>",
+        "<p>report.To</p>"
+      ],
+      "NoCodeExperimental@13": true,
+      "Items@12": [
+        {
+          "Placement@1": "A1",
+          "Type@2": 3,
+          "Text@3": "Return Details",
+          "Header@9": "Return Details",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A2",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A3",
+          "Text@3": "1",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B3",
+          "Text@3": "Registration number",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C3",
+          "Type@2": 2,
+          "TaxCodes@4": [],
+          "BusinessDetailsField@6": {
+            "Key@1": "Manager.Model.BusinessDetails.CustomFields"
+          },
+          "BusinessDetailsCustomField@7": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+        },
+        {
+          "Placement@1": "A4",
+          "Text@3": "2",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B4",
+          "Text@3": "Period covered by the return",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A5",
+          "Text@3": "3",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B5",
+          "Text@3": "Business address",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C5",
+          "Type@2": 2,
+          "TaxCodes@4": [],
+          "BusinessDetailsField@6": {
+            "Key@1": "Manager.Model.BusinessDetails.Address"
+          }
+        },
+        {
+          "Placement@1": "A6",
+          "Text@3": "4",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B6",
+          "Text@3": "Phone number",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A7",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A8",
+          "Type@2": 3,
+          "Text@3": "",
+          "Header@9": "Sales and Income",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A9",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A10",
+          "Text@3": "5",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B10",
+          "Text@3": "Total sales and income",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C10",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+            "705acb55-550e-458a-bf9a-c4c7021dc351"
+          ],
+          "TaxSummaryColumn@5": 2
+        },
+        {
+          "Placement@1": "A11",
+          "Text@3": "6",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B11",
+          "Text@3": "Zero-rated supplies",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C11",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+            "705acb55-550e-458a-bf9a-c4c7021dc351"
+          ],
+          "TaxSummaryColumn@5": 2
+        },
+        {
+          "Placement@1": "A12",
+          "Text@3": "7",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B12",
+          "Text@3": "Net GST sales and income",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C12",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          ],
+          "TaxSummaryColumn@5": 2
+        },
+        {
+          "Placement@1": "A13",
+          "Text@3": "8",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B13",
+          "Text@3": "Total GST collected on sales and income",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C13",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          ]
+        },
+        {
+          "Placement@1": "A14",
+          "Text@3": "9",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B14",
+          "Text@3": "Any debit adjustments",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C14",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          ]
+        },
+        {
+          "Placement@1": "A15",
+          "Text@3": "10",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "B15",
+          "Text@3": "Total GST collected for the period",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "C15",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          ],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "A16",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A17",
+          "Type@2": 3,
+          "Text@3": "Purchases and Expenses",
+          "Header@9": "Purchases and Expenses",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A18",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A19",
+          "Text@3": "11",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B19",
+          "Text@3": "Total purchases and expenses",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C19",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+            "705acb55-550e-458a-bf9a-c4c7021dc351"
+          ],
+          "TaxSummaryColumn@5": 5
+        },
+        {
+          "Placement@1": "A20",
+          "Text@3": "12",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B20",
+          "Text@3": "Total GST credits on purchases and expenses",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C20",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          ],
+          "TaxSummaryColumn@5": 3
+        },
+        {
+          "Placement@1": "A21",
+          "Text@3": "13",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "B21",
+          "Text@3": "Any credit adjustments",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "C21",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          ],
+          "TaxSummaryColumn@5": 3
+        },
+        {
+          "Placement@1": "A22",
+          "Text@3": "14",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "B22",
+          "Text@3": "Total GST credit",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "C22",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          ],
+          "TaxSummaryColumn@5": 3,
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "A23",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A24",
+          "Type@2": 3,
+          "Text@3": "Summary",
+          "Header@9": "Summary",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A25",
+          "TaxCodes@4": []
+        },
+        {
+          "Placement@1": "A26",
+          "Text@3": "15",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "B26",
+          "Text@3": "GST to pay",
+          "TaxCodes@4": [],
+          "FontWeight@8": 1
+        },
+        {
+          "Placement@1": "C26",
+          "Type@2": 1,
+          "TaxCodes@4": [
+            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          ],
+          "TaxSummaryColumn@5": 6,
+          "FontWeight@8": 1
+        }
       ]
     }
   },
@@ -109,13 +422,11 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 264
+      "Version@1": 292
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-      "ReceiptsAndPayments@36": true
-    }
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {}
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "1a88fd08-a595-4e12-97d3-85fc165eecdc": {
