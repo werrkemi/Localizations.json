@@ -20,6 +20,7 @@ namespace Localizations
             keys.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
             keys.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
             keys.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
+            keys.Add(new Guid("9f669c59-5b9e-476b-93b0-116d8b8dcf9e")); // Figure
 
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
 #if DEBUG

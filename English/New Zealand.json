@@ -28,6 +28,116 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "180df8fd-2e1e-45c6-bde6-1c483701d2b5": {
+      "Name@1": "Total Sales - GST 0%, GST Exempt",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+        "705acb55-550e-458a-bf9a-c4c7021dc351"
+      ],
+      "TaxSummaryColumn@4": 2
+    },
+    "1cb50dba-7093-4a20-bc5b-38a647140abd": {
+      "Name@1": "Tax on Purchases - GST 15%, GST Adjustment",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "29c6cc1e-64f1-4bd3-a576-31e0202ab86f": {
+      "Name@1": "Business details - Address",
+      "Type@2": 2,
+      "BusinessDetailsField@5": {
+        "Key@1": "Manager.Model.BusinessDetails.Address"
+      }
+    },
+    "3131826c-c3a7-477f-a7f0-cc61c59eb1dd": {
+      "Name@1": "Business details - Registration number",
+      "Type@2": 2,
+      "BusinessDetailsField@5": {
+        "Key@1": "Manager.Model.BusinessDetails.CustomFields"
+      },
+      "BusinessDetailsCustomField@6": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+    },
+    "382f9482-243d-4cdf-b9ca-9ba4f364ab4e": {
+      "Name@1": "Tax on Sales - GST Adjustment",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      ]
+    },
+    "5600fb05-d75e-4495-9b84-11e8b3f50188": {
+      "Name@1": "Tax on Sales - GST 15%, GST Adjustment",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      ]
+    },
+    "5eb3dd14-1d0e-49b7-879c-b7a4770f501b": {
+      "Name@1": "Total Purchases - GST 15%",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+      ],
+      "TaxSummaryColumn@4": 5
+    },
+    "63979e7f-d987-4141-9da2-088e119c0010": {
+      "Name@1": "Tax on Purchases - GST Adjustment",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "7326c6a7-fcae-45bb-8f78-3d15e01c3b65": {
+      "Name@1": "Total Sales - GST 15%",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+      ],
+      "TaxSummaryColumn@4": 2
+    },
+    "93abd2c4-e144-4571-9fc5-2acebd94d43b": {
+      "Name@1": "Total Sales - GST 0%, GST 15%, GST Exempt",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+        "705acb55-550e-458a-bf9a-c4c7021dc351"
+      ],
+      "TaxSummaryColumn@4": 2
+    },
+    "c207df9f-eeb1-452d-8f56-b7bf0cc791e7": {
+      "Name@1": "Total Purchases - GST 0%, GST 15%, GST Exempt",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+        "705acb55-550e-458a-bf9a-c4c7021dc351"
+      ],
+      "TaxSummaryColumn@4": 5
+    },
+    "e990928b-fe1a-4cca-8b04-57912f4c82f3": {
+      "Name@1": "Tax liability - GST 15%, GST Adjustment",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+      ],
+      "TaxSummaryColumn@4": 6
+    },
+    "fec411a6-c434-4f8a-b0d0-2871e91f2e40": {
+      "Name@1": "Tax on Sales - GST 15%",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+      ]
+    }
+  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
       "Date@1": "2019-07-20T00:00:00",
@@ -84,332 +194,78 @@
         "</p>",
         "<p>report.To</p>"
       ],
-      "NoCodeExperimental@13": true,
-      "Items@12": [
+      "NoCodeExperimental@14": true,
+      "Items@15": [
         {
-          "Placement@1": "A1",
-          "Type@2": 3,
-          "Text@3": "Return Details",
-          "Header@9": "Return Details",
-          "TaxCodes@4": []
+          "Name@1": "Return Details"
+        },
+        {},
+        {
+          "Name@1": "Registration number",
+          "Figure@2": "3131826c-c3a7-477f-a7f0-cc61c59eb1dd"
         },
         {
-          "Placement@1": "A2",
-          "TaxCodes@4": []
+          "Name@1": "Business address",
+          "Figure@2": "29c6cc1e-64f1-4bd3-a576-31e0202ab86f"
+        },
+        {},
+        {
+          "Name@1": "Sales and Income"
+        },
+        {},
+        {
+          "Name@1": "Total sales and income",
+          "Figure@2": "93abd2c4-e144-4571-9fc5-2acebd94d43b"
         },
         {
-          "Placement@1": "A3",
-          "Text@3": "1",
-          "TaxCodes@4": []
+          "Name@1": "Zero-rated supplies",
+          "Figure@2": "180df8fd-2e1e-45c6-bde6-1c483701d2b5"
         },
         {
-          "Placement@1": "B3",
-          "Text@3": "Registration number",
-          "TaxCodes@4": []
+          "Name@1": "Net GST sales and income",
+          "Figure@2": "7326c6a7-fcae-45bb-8f78-3d15e01c3b65"
         },
         {
-          "Placement@1": "C3",
-          "Type@2": 2,
-          "TaxCodes@4": [],
-          "BusinessDetailsField@6": {
-            "Key@1": "Manager.Model.BusinessDetails.CustomFields"
-          },
-          "BusinessDetailsCustomField@7": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+          "Name@1": "Total GST collected on sales and income",
+          "Figure@2": "fec411a6-c434-4f8a-b0d0-2871e91f2e40"
         },
         {
-          "Placement@1": "A4",
-          "Text@3": "2",
-          "TaxCodes@4": []
+          "Name@1": "Any debit adjustments",
+          "Figure@2": "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
         },
         {
-          "Placement@1": "B4",
-          "Text@3": "Period covered by the return",
-          "TaxCodes@4": []
+          "Name@1": "Total GST collected for the period",
+          "Figure@2": "5600fb05-d75e-4495-9b84-11e8b3f50188"
+        },
+        {},
+        {
+          "Name@1": "Purchases and Expenses"
+        },
+        {},
+        {
+          "Name@1": "Total purchases and expenses",
+          "Figure@2": "c207df9f-eeb1-452d-8f56-b7bf0cc791e7"
         },
         {
-          "Placement@1": "A5",
-          "Text@3": "3",
-          "TaxCodes@4": []
+          "Name@1": "Total GST credits on purchases and expenses \t",
+          "Figure@2": "5eb3dd14-1d0e-49b7-879c-b7a4770f501b"
         },
         {
-          "Placement@1": "B5",
-          "Text@3": "Business address",
-          "TaxCodes@4": []
+          "Name@1": "Any credit adjustments",
+          "Figure@2": "63979e7f-d987-4141-9da2-088e119c0010"
         },
         {
-          "Placement@1": "C5",
-          "Type@2": 2,
-          "TaxCodes@4": [],
-          "BusinessDetailsField@6": {
-            "Key@1": "Manager.Model.BusinessDetails.Address"
-          }
+          "Name@1": "Total GST credit",
+          "Figure@2": "1cb50dba-7093-4a20-bc5b-38a647140abd"
         },
+        {},
         {
-          "Placement@1": "A6",
-          "Text@3": "4",
-          "TaxCodes@4": []
+          "Name@1": "Summary"
         },
+        {},
         {
-          "Placement@1": "B6",
-          "Text@3": "Phone number",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A7",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A8",
-          "Type@2": 3,
-          "Text@3": "",
-          "Header@9": "Sales and Income",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A9",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A10",
-          "Text@3": "5",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B10",
-          "Text@3": "Total sales and income",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C10",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-            "705acb55-550e-458a-bf9a-c4c7021dc351"
-          ],
-          "TaxSummaryColumn@5": 2
-        },
-        {
-          "Placement@1": "A11",
-          "Text@3": "6",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B11",
-          "Text@3": "Zero-rated supplies",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C11",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-            "705acb55-550e-458a-bf9a-c4c7021dc351"
-          ],
-          "TaxSummaryColumn@5": 2
-        },
-        {
-          "Placement@1": "A12",
-          "Text@3": "7",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B12",
-          "Text@3": "Net GST sales and income",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C12",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-          ],
-          "TaxSummaryColumn@5": 2
-        },
-        {
-          "Placement@1": "A13",
-          "Text@3": "8",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B13",
-          "Text@3": "Total GST collected on sales and income",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C13",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-          ]
-        },
-        {
-          "Placement@1": "A14",
-          "Text@3": "9",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B14",
-          "Text@3": "Any debit adjustments",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C14",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-          ]
-        },
-        {
-          "Placement@1": "A15",
-          "Text@3": "10",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "B15",
-          "Text@3": "Total GST collected for the period",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "C15",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-          ],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "A16",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A17",
-          "Type@2": 3,
-          "Text@3": "Purchases and Expenses",
-          "Header@9": "Purchases and Expenses",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A18",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A19",
-          "Text@3": "11",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B19",
-          "Text@3": "Total purchases and expenses",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C19",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-            "705acb55-550e-458a-bf9a-c4c7021dc351"
-          ],
-          "TaxSummaryColumn@5": 5
-        },
-        {
-          "Placement@1": "A20",
-          "Text@3": "12",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B20",
-          "Text@3": "Total GST credits on purchases and expenses",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C20",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-          ],
-          "TaxSummaryColumn@5": 3
-        },
-        {
-          "Placement@1": "A21",
-          "Text@3": "13",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "B21",
-          "Text@3": "Any credit adjustments",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "C21",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-          ],
-          "TaxSummaryColumn@5": 3
-        },
-        {
-          "Placement@1": "A22",
-          "Text@3": "14",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "B22",
-          "Text@3": "Total GST credit",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "C22",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-          ],
-          "TaxSummaryColumn@5": 3,
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "A23",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A24",
-          "Type@2": 3,
-          "Text@3": "Summary",
-          "Header@9": "Summary",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A25",
-          "TaxCodes@4": []
-        },
-        {
-          "Placement@1": "A26",
-          "Text@3": "15",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "B26",
-          "Text@3": "GST to pay",
-          "TaxCodes@4": [],
-          "FontWeight@8": 1
-        },
-        {
-          "Placement@1": "C26",
-          "Type@2": 1,
-          "TaxCodes@4": [
-            "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-            "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-          ],
-          "TaxSummaryColumn@5": 6,
-          "FontWeight@8": 1
+          "Name@1": "GST to pay",
+          "Figure@2": "e990928b-fe1a-4cca-8b04-57912f4c82f3"
         }
       ]
     }
@@ -422,7 +278,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 292
+      "Version@1": 293
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
