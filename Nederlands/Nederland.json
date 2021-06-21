@@ -19,14 +19,289 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "699401fe-23fd-4b52-9699-b88b36fa6b26": {
+  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "13a5d724-abcb-4c97-9683-9dff804a038a": {
+      "Name@1": "2a_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23",
+        "dd28f171-7422-44a3-937a-432e8d2970ea"
+      ],
+      "TaxSummaryColumn@4": 4
+    },
+    "15ca34fb-8e64-4060-8f8a-ea92187e2a10": {
+      "Name@1": "5c_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "33855cc4-964b-44d1-be27-cf268b0ad77d",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23",
+        "31dce658-cff1-4212-870b-5fd04cb83b1c",
+        "4d895b0c-a40c-44ff-b441-9620c7619699",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+        "dd28f171-7422-44a3-937a-432e8d2970ea",
+        "9f2d06f9-0e16-4192-afa3-bff747910088"
+      ],
+      "TaxSummaryColumn@4": 6
+    },
+    "1e469243-436f-49fa-9f01-0373a8baee9a": {
+      "Name@1": "4b Leveringen/diensten uit landen binnen de EU"
+    },
+    "1f23d631-e857-4309-b359-a5388f8775b1": {
+      "Name@1": "1a_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "33855cc4-964b-44d1-be27-cf268b0ad77d"
+      ],
+      "TaxSummaryColumn@4": 1
+    },
+    "24ab1ffb-fe06-4aa7-a0e5-1cb8d6ce13cc": {
+      "Name@1": "2 Verleggingsregelingen binnenland",
+      "Type@2": 3
+    },
+    "271f43de-95ce-47e9-8f47-0cb3c1b151c1": {
+      "Name@1": "5a_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "33855cc4-964b-44d1-be27-cf268b0ad77d",
+        "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+        "31dce658-cff1-4212-870b-5fd04cb83b1c",
+        "9f2d06f9-0e16-4192-afa3-bff747910088",
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23",
+        "dd28f171-7422-44a3-937a-432e8d2970ea",
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "4d895b0c-a40c-44ff-b441-9620c7619699"
+      ]
+    },
+    "38c4fcaf-4c54-43e4-ae3c-8b0ccc11267b": {
+      "Name@1": "1 Prestaties binnenland",
+      "Type@2": 3
+    },
+    "38de6589-4067-4c9b-ac4f-ce5158770235": {
+      "Name@1": "5 Voorbelasting en kleineondernemersregeling",
+      "Type@2": 3
+    },
+    "42f5df74-7105-42a4-9e46-ab470591ac36": {
+      "Name@1": "3a Leveringen naar landen buiten de EU (uitvoer)"
+    },
+    "476bc4d2-75a2-44df-896b-38e5c9707ca9": {
+      "Name@1": "1a Leveringen/diensten belast met hoog tarief"
+    },
+    "49ab4cf7-7e9a-4750-b071-545dbe806144": {
+      "Name@1": "5a Omzetbelasting (rubrieken 1 t/m 4"
+    },
+    "4bbba65d-b63f-4b00-bb87-d4b3c42db652": {
+      "Name@1": "Omzetbelasting"
+    },
+    "4c1e93d2-7c96-472c-9f8e-124f4371d1ec": {
+      "Name@1": "5c Subtotaal (rubriek 5a min 5b)"
+    },
+    "560024be-ba69-41dc-8314-db683f9b7f1d": {
+      "Name@1": "4a_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "57a0d906-5867-4797-a7e3-bac6758237da": {
+      "Name@1": "1e Leveringen/diensten belast met 0% of niet bij u belast"
+    },
+    "5eb8f453-ef79-4b06-9e08-a7d28ad3c17b": {
+      "Name@1": "2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd"
+    },
+    "656a40e7-1aec-4880-9e27-7c2a3c14e1dc": {
+      "Name@1": "3c Installatie/afstandsverkopen binnen de EU"
+    },
+    "6b2d4474-f08b-48e5-a208-19c00c6ab12b": {
+      "Name@1": "1b Leveringen/diensten belast met laag tarief"
+    },
+    "755629fd-45c5-49bd-8e04-9aeb86f22344": {
+      "Name@1": "3b Leveringen naar of diensten in landen binnen de EU"
+    },
+    "8a683758-c5c1-48d3-8ad8-68ae4db81506": {
+      "Name@1": "4a Leveringen/diensten uit landen buiten de EU"
+    },
+    "8a7576ac-e8ce-4a7e-9343-338e8848b7db": {
+      "Name@1": "4b_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "4d895b0c-a40c-44ff-b441-9620c7619699"
+      ],
+      "TaxSummaryColumn@4": 4
+    },
+    "90de5c7b-ab82-4805-9e90-20f14509fb91": {
+      "Name@1": "3b_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "4d895b0c-a40c-44ff-b441-9620c7619699"
+      ],
+      "TaxSummaryColumn@4": 1
+    },
+    "956a58c6-cc4f-49ba-ae0e-a26912f32cf9": {
+      "Name@1": "1c Leveringen/diensten belast met overige tarieven, behalve 0%"
+    },
+    "a1450927-bcea-4eed-bbc7-4e4da291b156": {
+      "Name@1": "3 Prestaties naar of in het buitenland",
+      "Type@2": 3
+    },
+    "a929075b-9ba7-4f61-bdc7-c0d03790f5a3": {
+      "Name@1": "1a_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "33855cc4-964b-44d1-be27-cf268b0ad77d"
+      ]
+    },
+    "aa6554b5-be4e-4aad-9c2a-2ca8be6b35c8": {
+      "Name@1": "5b_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "33855cc4-964b-44d1-be27-cf268b0ad77d",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23",
+        "31dce658-cff1-4212-870b-5fd04cb83b1c",
+        "4d895b0c-a40c-44ff-b441-9620c7619699",
+        "dd28f171-7422-44a3-937a-432e8d2970ea",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+        "9f2d06f9-0e16-4192-afa3-bff747910088"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "b3059faf-1991-4ea7-88f9-e6a114dbfe24": {
+      "Name@1": "4a_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
+      ],
+      "TaxSummaryColumn@4": 4
+    },
+    "b43e5876-beda-453c-a135-c4a75c92f548": {
+      "Name@1": "5b Voorbelasting"
+    },
+    "c25c8dbe-3751-4b3b-9061-a3533716eaa4": {
+      "Name@1": "1d_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "9f2d06f9-0e16-4192-afa3-bff747910088"
+      ]
+    },
+    "c93eb406-1073-49ff-9ea6-dc786793639c": {
+      "Name@1": "1e_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23",
+        "dd28f171-7422-44a3-937a-432e8d2970ea",
+        "c6b298fa-f994-47ac-b6c0-3299fbac8306"
+      ]
+    },
+    "cb99cfae-4ff7-441d-b251-5a594b92cb21": {
+      "Name@1": "1b_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+        "31dce658-cff1-4212-870b-5fd04cb83b1c"
+      ]
+    },
+    "cec6d30c-169f-49fa-9131-58c26b271552": {
+      "Name@1": "1b_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+        "31dce658-cff1-4212-870b-5fd04cb83b1c"
+      ],
+      "TaxSummaryColumn@4": 1
+    },
+    "d60a40ef-b0e5-4191-98c6-6ebb2c4939e7": {
+      "Name@1": "4b_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+        "93cdbadc-4a15-41ff-bf68-4ed927915680",
+        "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+        "4d895b0c-a40c-44ff-b441-9620c7619699"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "da61421d-5c0e-4ef6-917c-e92f16a2034f": {
+      "Name@1": "4 Prestaties vanuit het buitenland aan u verricht",
+      "Type@2": 3
+    },
+    "e237d2fd-d777-42f9-b32a-c19361704f2f": {
+      "Name@1": "3a_grondslag",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+        "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+        "bddb4876-fd25-49bf-ac71-5365878268ef",
+        "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
+      ],
+      "TaxSummaryColumn@4": 1
+    },
+    "e48ce40e-cb98-44ce-ac00-2c402ed273f9": {
+      "Name@1": "Bedrag waarover omzetbelasting wordt berekend"
+    },
+    "fa23428a-c157-4226-b25e-01a26482c7af": {
+      "Name@1": "2a_omzetbelasting",
+      "Type@2": 1,
+      "TaxCodes@3": [
+        "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+        "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+        "dd28f171-7422-44a3-937a-432e8d2970ea",
+        "e5f20470-dffa-4453-a0a9-42a403c04e23"
+      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "fb2c9d86-e0bb-4116-9316-e99a295f6bf7": {
+      "Name@1": "1d Privégebruik"
+    }
+  },
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f": {
-      "Type@19": 1,
       "Date@1": "2020-09-11T00:00:00",
-      "Lines@4": [
+      "Lines@11": [
         {
-          "Amount@12": 1000.0,
-          "TaxCode@5": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
+          "UnitPrice@18": 1000.0,
+          "TaxCode@20": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
         }
       ]
     }
@@ -37,50 +312,91 @@
       "FromDate@9": "2020-01-01T00:00:00",
       "ToDate@10": "2020-12-31T00:00:00",
       "Template@5": [
-        "{% assign BTW_0_EU = \"d0eca2ec-e9da-40de-9be6-e2e9fb34269a\" %}",
-        "{% assign BTW_0_non_EU = \"75eaae26-98a4-4e1a-9d75-91bf2b7e7b11\" %}",
-        "{% assign BTW_0_verlegd = \"ad18e082-df57-44f9-8fd0-ab3c5275d230\" %}",
-        "{% assign BTW_0_vrijgesteld = \"c6b298fa-f994-47ac-b6c0-3299fbac8306\" %}",
-        "{% assign BTW_21 = \"33855cc4-964b-44d1-be27-cf268b0ad77d\" %}",
-        "{% assign BTW_21_EU = \"93cdbadc-4a15-41ff-bf68-4ed927915680\" %}",
-        "{% assign BTW_21_non_EU = \"3a57686a-7ce6-43e7-aa2a-dc5e98ad931b\" %}",
-        "{% assign BTW_21_verlegd = \"ce2c6c96-4364-42a8-8cf3-8315d1a4b246\" %}",
-        "{% assign BTW_6 = \"ad40e782-1f1c-486a-91a4-266e7001c8b3\" %}",
-        "{% assign BTW_6_EU = \"1f681bc9-93fd-4e09-815f-2f1c6bc5044b\" %}",
-        "{% assign BTW_6_non_EU = \"bddb4876-fd25-49bf-ac71-5365878268ef\" %}",
-        "{% assign BTW_6_verlegd = \"e5f20470-dffa-4453-a0a9-42a403c04e23\" %}",
-        "{% assign BTW_9 = \"31dce658-cff1-4212-870b-5fd04cb83b1c\" %}",
-        "{% assign BTW_9_EU = \"4d895b0c-a40c-44ff-b441-9620c7619699\" %}",
-        "{% assign BTW_9_non_EU = \"815852ae-5a5d-4688-aa9b-0b06f3982ef2\" %}",
-        "{% assign BTW_9_verlegd = \"dd28f171-7422-44a3-937a-432e8d2970ea\" %}",
-        "{% assign BTW_privegebruik = \"9f2d06f9-0e16-4192-afa3-bff747910088\" %}",
-        "",
-        "{% assign period = transactions | between: report.From, report.To %}",
-        "",
-        "{% assign 1a_grondslag = period | taxcode: BTW_21 | tax_exclusive_sales | reversesign %}",
-        "{% assign 1a_omzetbelasting = period | taxcode: BTW_21 | tax_on_sales | reversesign %}",
-        "{% assign 1b_grondslag = period | taxcode: BTW_6, BTW_9 | tax_exclusive_sales | reversesign %}",
-        "{% assign 1b_omzetbelasting = period | taxcode: BTW_6, BTW_9 | tax_on_sales | reversesign %}",
-        "{% assign 1d_omzetbelasting = period | taxcode: BTW_privegebruik | tax_on_sales | reversesign %}",
-        "{% assign 1e_grondslag = period | taxcode: BTW_0_verlegd, BTW_0_vrijgesteld, BTW_21_verlegd, BTW_6_verlegd, BTW_9_verlegd | tax_exclusive_sales | reversesign %}",
-        "",
-        "{% assign 2a_grondslag = period | taxcode: BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd | tax_exclusive_purchases %}",
-        "{% assign 2a_omzetbelasting = period | taxcode: BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd | tax_on_purchases %}",
-        "",
-        "{% assign 3a_grondslag = period | taxcode: BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU | tax_exclusive_sales | reversesign %}",
-        "{% assign 3b_grondslag = period | taxcode: BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_exclusive_sales | reversesign %}",
-        "",
-        "{% assign 4a_grondslag = period | taxcode: BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU | tax_exclusive_purchases %}",
-        "{% assign 4a_omzetbelasting = period | taxcode: BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU | tax_on_purchases %}",
-        "",
-        "{% assign 4b_grondslag = period | taxcode: BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_exclusive_purchases %}",
-        "{% assign 4b_omzetbelasting = period | taxcode: BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_on_purchases %}",
-        "",
-        "{% assign 5a_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_on_sales | reversesign %}",
-        "{% assign 5b_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_on_purchases %}",
-        "{% assign 5c_omzetbelasting = period | taxcode: BTW_21, BTW_6, BTW_9, BTW_privegebruik, BTW_0_verlegd, BTW_6_verlegd, BTW_9_verlegd, BTW_21_verlegd, BTW_0_non_EU, BTW_6_non_EU, BTW_9_non_EU, BTW_21_non_EU, BTW_0_EU, BTW_6_EU, BTW_9_EU, BTW_21_EU | tax_amount | reversesign %}",
-        "",
-        "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 31px\"></td><td style=\"width: 190px\"></td><td style=\"width: 32px\"></td><td style=\"width: 184px\"></td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">{{ business.Name }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 24px\">Concept BTW Aangifte</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px\">Voor de periode van {{ report.From }} t/m {{ report.To }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;text-align: center;alignment-center;font-weight: bold;font-size: 16px;remove_row\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;mergeCells;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">Bedrag waarover omzetbelasting wordt berekend</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">Omzetbelasting</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000;mergeCells;font-weight: bold\">1 Prestaties binnenland</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1a Leveringen/diensten belast met hoog tarief</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">1b Leveringen/diensten belast met laag tarief</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1c Leveringen/diensten belast met overige tarieven, behalve 0%</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1d Privégebruik</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1d_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">1e Leveringen/diensten belast met 0% of niet bij u belast</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 1e_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-normal\"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;mergeCells;color: #fff; background-color: #000;font-weight: bold\">2 Verleggingsregelingen binnenland</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 2a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 2a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\">3 Prestaties naar of in het buitenland</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">3a Leveringen naar landen buiten de EU (uitvoer)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 3a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">3b Leveringen naar of diensten in landen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 3b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\">3c Installatie/afstandsverkopen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000;mergeCells;font-weight: bold\">4 Prestaties vanuit het buitenland aan u verricht</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">4a Leveringen/diensten uit landen buiten de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4a_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">4b Leveringen/diensten uit landen binnen de EU</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4b_grondslag }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 4b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;sep1;row_below;row_below;row_below;font-weight: bold;color: #fff; background-color: #000\">5 Voorbelasting en kleineondernemersregeling</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5a Omzetbelasting (rubrieken 1 t/m 4</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5a_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5b Voorbelasting</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5b_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5c Subtotaal (rubriek 5a min 5b)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">€</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ 5c_omzetbelasting }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5d Vermindering volgens de kleineondernemersregeling</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5e Schatting vorige aangifte(n)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">5f Schatting deze aangifte</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">5g Totaal</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr></table>"
+        "<p>report.From</p>",
+        "<p>report.To</p>",
+        "<p>report.AccountingBasis</p>"
+      ],
+      "NoCodeExperimental@14": true,
+      "Columns@16": 2,
+      "Items@15": [
+        {
+          "Column2@3": "e48ce40e-cb98-44ce-ac00-2c402ed273f9",
+          "Column3@4": "4bbba65d-b63f-4b00-bb87-d4b3c42db652"
+        },
+        {
+          "Column1@2": "38c4fcaf-4c54-43e4-ae3c-8b0ccc11267b"
+        },
+        {
+          "Column1@2": "476bc4d2-75a2-44df-896b-38e5c9707ca9",
+          "Column2@3": "1f23d631-e857-4309-b359-a5388f8775b1",
+          "Column3@4": "a929075b-9ba7-4f61-bdc7-c0d03790f5a3"
+        },
+        {
+          "Column1@2": "6b2d4474-f08b-48e5-a208-19c00c6ab12b",
+          "Column2@3": "cec6d30c-169f-49fa-9131-58c26b271552",
+          "Column3@4": "a929075b-9ba7-4f61-bdc7-c0d03790f5a3"
+        },
+        {
+          "Column1@2": "956a58c6-cc4f-49ba-ae0e-a26912f32cf9"
+        },
+        {
+          "Column1@2": "fb2c9d86-e0bb-4116-9316-e99a295f6bf7",
+          "Column3@4": "c25c8dbe-3751-4b3b-9061-a3533716eaa4"
+        },
+        {
+          "Column1@2": "57a0d906-5867-4797-a7e3-bac6758237da",
+          "Column2@3": "c93eb406-1073-49ff-9ea6-dc786793639c"
+        },
+        {
+          "Column1@2": "24ab1ffb-fe06-4aa7-a0e5-1cb8d6ce13cc"
+        },
+        {
+          "Column1@2": "5eb8f453-ef79-4b06-9e08-a7d28ad3c17b",
+          "Column2@3": "13a5d724-abcb-4c97-9683-9dff804a038a",
+          "Column3@4": "fa23428a-c157-4226-b25e-01a26482c7af"
+        },
+        {
+          "Column1@2": "a1450927-bcea-4eed-bbc7-4e4da291b156"
+        },
+        {
+          "Column1@2": "42f5df74-7105-42a4-9e46-ab470591ac36",
+          "Column2@3": "e237d2fd-d777-42f9-b32a-c19361704f2f"
+        },
+        {
+          "Column1@2": "755629fd-45c5-49bd-8e04-9aeb86f22344",
+          "Column2@3": "90de5c7b-ab82-4805-9e90-20f14509fb91"
+        },
+        {
+          "Column1@2": "656a40e7-1aec-4880-9e27-7c2a3c14e1dc"
+        },
+        {
+          "Column1@2": "da61421d-5c0e-4ef6-917c-e92f16a2034f"
+        },
+        {
+          "Column1@2": "8a683758-c5c1-48d3-8ad8-68ae4db81506",
+          "Column2@3": "b3059faf-1991-4ea7-88f9-e6a114dbfe24",
+          "Column3@4": "560024be-ba69-41dc-8314-db683f9b7f1d"
+        },
+        {
+          "Column1@2": "1e469243-436f-49fa-9f01-0373a8baee9a",
+          "Column2@3": "8a7576ac-e8ce-4a7e-9343-338e8848b7db",
+          "Column3@4": "d60a40ef-b0e5-4191-98c6-6ebb2c4939e7"
+        },
+        {
+          "Column1@2": "38de6589-4067-4c9b-ac4f-ce5158770235"
+        },
+        {
+          "Column1@2": "49ab4cf7-7e9a-4750-b071-545dbe806144",
+          "Column3@4": "271f43de-95ce-47e9-8f47-0cb3c1b151c1"
+        },
+        {
+          "Column1@2": "b43e5876-beda-453c-a135-c4a75c92f548",
+          "Column3@4": "aa6554b5-be4e-4aad-9c2a-2ca8be6b35c8"
+        },
+        {
+          "Column1@2": "4c1e93d2-7c96-472c-9f8e-124f4371d1ec",
+          "Column3@4": "15ca34fb-8e64-4060-8f8a-ea92187e2a10"
+        }
       ]
     }
   },
@@ -98,13 +414,11 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 264
+      "Version@1": 293
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-      "ReceiptsAndPayments@36": true
-    }
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {}
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "1f681bc9-93fd-4e09-815f-2f1c6bc5044b": {
