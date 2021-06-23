@@ -15,216 +15,303 @@
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
   "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "0078e524-0934-4333-980c-e7b6e8a11055": {
+      "Name@1": "TaxOnSales - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c"
+    },
     "014fdb04-7524-493b-a2fb-2ad0214587d9": {
       "Name@1": "C5",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "cc862e5b-a055-43f7-b585-4c70f041bc19"
-      ],
       "TaxSummaryColumn@4": 2
+    },
+    "0b96b36e-9ffb-476f-99ff-ed17dc01ef92": {
+      "Name@1": "NetPurchases - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 4
+    },
+    "0fa4e558-e83c-4954-b265-f990c9340496": {
+      "Name@1": "TaxLiability - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 6
+    },
+    "101e6285-c78e-46e9-bcd9-b557c1323d16": {
+      "Name@1": "NetSales - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 1
     },
     "11bedfcf-ce14-4dcb-87b2-50b806e97fa7": {
       "Name@1": "C1",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "574a0647-25c3-4aff-886b-c7d64b641a1c",
-        "1731afd8-40df-484c-8335-81a1451ab8f8"
-      ],
       "TaxSummaryColumn@4": 1
     },
+    "14d1c53a-f5e9-4e1e-bddb-16995671d606": {
+      "Name@1": "NetPurchases - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 4
+    },
     "1b31e60b-7846-465f-8e34-81820948431c": {
-      "Name@1": "8 Imports subject to VAT paid at customs",
-      "TaxCodes@3": []
+      "Name@1": "8 Imports subject to VAT paid at customs"
     },
     "1dfade59-46b0-4a76-b893-962a32c1f78a": {
-      "Name@1": "Net VAT due (or claim)",
-      "TaxCodes@3": []
+      "Name@1": "Net VAT due (or claim)"
     },
     "1eaa80a5-6171-4329-87b5-d9a788c75ef2": {
-      "Name@1": "3 Zero rated domestic sales",
-      "TaxCodes@3": []
+      "Name@1": "3 Zero rated domestic sales"
     },
     "202a30f2-3354-4e9d-aed5-ea38025d4bc6": {
-      "Name@1": "6 Total Sales",
-      "TaxCodes@3": []
+      "Name@1": "6 Total Sales"
     },
     "20ed8cbf-324d-4554-aeb5-eff2005441cd": {
       "Name@1": "C11",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "cc862e5b-a055-43f7-b585-4c70f041bc19"
-      ],
       "TaxSummaryColumn@4": 5
     },
     "28867c88-ed57-461e-a06b-f81f7e3a38d9": {
-      "Name@1": "4 Exports",
-      "TaxCodes@3": []
+      "Name@1": "4 Exports"
     },
     "2be912ad-31aa-48b0-b1c3-6cb1e91e45d2": {
       "Name@1": "D7",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ],
       "TaxSummaryColumn@4": 3
     },
+    "30b37364-badb-4444-a2fe-fc0b94a54614": {
+      "Name@1": "NetSales - VAT Free Exports",
+      "Type@2": 1,
+      "TaxCode@9": "45da7b65-f249-4ac3-a171-4a888276d237",
+      "TaxSummaryColumn@4": 1
+    },
     "37b59ad4-41e0-4a19-bcdd-9adb47745360": {
-      "Name@1": "13 Total VAT due for current period",
-      "TaxCodes@3": []
+      "Name@1": "13 Total VAT due for current period"
     },
     "402f32d5-8f2a-4fd4-9656-abfa5950f103": {
-      "Name@1": "2 Private Healthcare / Private Education sales to citizens",
-      "TaxCodes@3": []
+      "Name@1": "2 Private Healthcare / Private Education sales to citizens"
     },
     "404256ad-eb5c-4166-9a4c-2b941802eb99": {
       "Name@1": "Summary",
-      "Type@2": 3,
-      "TaxCodes@3": []
+      "Type@2": 3
     },
     "4858306f-8271-421d-b568-90a2908c55a7": {
-      "Name@1": "11 Exempt purchases",
-      "TaxCodes@3": []
+      "Name@1": "11 Exempt purchases"
     },
     "4f6e8eef-b7ed-42a7-b92e-4dd53d212035": {
       "Name@1": "C3",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "46712241-b20a-42e8-a29a-876f15e50f94"
-      ],
       "TaxSummaryColumn@4": 2
     },
     "5480d4de-50aa-4342-a452-5b9613e81711": {
-      "Name@1": "14 Corrections from previous preiod",
-      "TaxCodes@3": []
+      "Name@1": "14 Corrections from previous preiod"
     },
     "5e8ac049-2683-431d-9c5f-80a20ee16529": {
       "Name@1": "D13",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ],
       "TaxSummaryColumn@4": 6
     },
+    "600a8b6d-b116-44b3-a48e-178079948777": {
+      "Name@1": "NetSales - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "cc862e5b-a055-43f7-b585-4c70f041bc19",
+      "TaxSummaryColumn@4": 1
+    },
+    "62bd75c8-b96e-4291-a0bd-87ddf0ebceab": {
+      "Name@1": "TotalSales - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "46712241-b20a-42e8-a29a-876f15e50f94",
+      "TaxSummaryColumn@4": 2
+    },
     "65149731-88d2-4346-8b2c-5ff8d13f0516": {
-      "Name@1": "12 Total purchases",
-      "TaxCodes@3": []
+      "Name@1": "12 Total purchases"
+    },
+    "6b353636-5df0-4fce-b3fd-e01c94196ecb": {
+      "Name@1": "NetPurchases - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "46712241-b20a-42e8-a29a-876f15e50f94",
+      "TaxSummaryColumn@4": 4
+    },
+    "6fe0b99a-0a5f-49aa-8b8b-b695c314b934": {
+      "Name@1": "NetPurchases - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 4
     },
     "7440cf03-2729-4942-aa7f-644fcfd60c2b": {
       "Name@1": "C4",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "45da7b65-f249-4ac3-a171-4a888276d237"
-      ],
       "TaxSummaryColumn@4": 2
     },
     "76324a51-9112-4fda-8cc1-42022e058225": {
       "Name@1": "C7",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ],
       "TaxSummaryColumn@4": 4
+    },
+    "78271199-f61b-48a5-9360-964d8aa36f22": {
+      "Name@1": "TotalSales - VAT Free Exports",
+      "Type@2": 1,
+      "TaxCode@9": "45da7b65-f249-4ac3-a171-4a888276d237",
+      "TaxSummaryColumn@4": 2
     },
     "7a2be737-5231-4cb6-8572-235d47a085fa": {
       "Name@1": "C6",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "46712241-b20a-42e8-a29a-876f15e50f94",
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c",
-        "cc862e5b-a055-43f7-b585-4c70f041bc19",
-        "45da7b65-f249-4ac3-a171-4a888276d237"
-      ],
       "TaxSummaryColumn@4": 1
     },
     "7b2300bf-b5a7-4209-ab8c-021b75255d4c": {
       "Name@1": "VAT on Sales",
-      "Type@2": 3,
-      "TaxCodes@3": []
+      "Type@2": 3
+    },
+    "8ca45f07-73a4-4221-ab3e-35a9b7042565": {
+      "Name@1": "TotalPurchases - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "46712241-b20a-42e8-a29a-876f15e50f94",
+      "TaxSummaryColumn@4": 5
     },
     "901ef709-e19f-4ec4-942f-03bc702401fa": {
-      "Name@1": "5 Exempt sales",
-      "TaxCodes@3": []
+      "Name@1": "5 Exempt sales"
     },
     "93c983da-62c0-42ba-9bcb-cbc2c1c7b61d": {
-      "Name@1": "10 Zero rated purchases",
-      "TaxCodes@3": []
+      "Name@1": "10 Zero rated purchases"
+    },
+    "94f12a5b-d27b-42e7-b35b-1e101f7110fa": {
+      "Name@1": "TaxOnPurchases - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 3
+    },
+    "990a0894-ad29-46e0-9c67-6c524854d854": {
+      "Name@1": "TaxOnSales - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8"
+    },
+    "9b4f08ef-d4ba-4111-81ed-e0b08f5de65d": {
+      "Name@1": "NetSales - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "46712241-b20a-42e8-a29a-876f15e50f94",
+      "TaxSummaryColumn@4": 1
+    },
+    "9caecd6a-7639-49ef-a65b-00ec1e40a674": {
+      "Name@1": "TaxOnSales - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8"
     },
     "9dd277b5-7a34-4fc3-9a18-fd08435136ae": {
-      "Name@1": "9 Imports subject to VAT accounted for through reverse charge mechanism",
-      "TaxCodes@3": []
+      "Name@1": "9 Imports subject to VAT accounted for through reverse charge mechanism"
     },
     "ac5159fe-882e-466b-a6c6-492087fe4c6d": {
-      "Name@1": "1 Standard rated sales",
-      "TaxCodes@3": []
+      "Name@1": "1 Standard rated sales"
+    },
+    "acebd54e-0deb-45d2-b124-15ff5c3af78d": {
+      "Name@1": "NetPurchases - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "cc862e5b-a055-43f7-b585-4c70f041bc19",
+      "TaxSummaryColumn@4": 4
     },
     "afc8c260-be0d-47b9-a04e-76aaf3afddef": {
       "Name@1": "C12",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "46712241-b20a-42e8-a29a-876f15e50f94",
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c",
-        "cc862e5b-a055-43f7-b585-4c70f041bc19"
-      ],
       "TaxSummaryColumn@4": 4
     },
     "b424260e-a747-4251-8bfa-c55cd151cb29": {
       "Name@1": "VAT on Purchases",
-      "Type@2": 3,
-      "TaxCodes@3": []
+      "Type@2": 3
     },
     "b6e849da-3035-468d-840f-39a1cc8842e7": {
       "Name@1": "D6",
+      "Type@2": 1
+    },
+    "bfc4933c-0949-4669-a692-268389b2d649": {
+      "Name@1": "NetPurchases - VAT 5%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ]
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 4
     },
     "c17ea9dd-b13c-485c-82f8-a86a11e5f008": {
-      "Name@1": "7 Standard rated domestic purchases",
-      "TaxCodes@3": []
+      "Name@1": "7 Standard rated domestic purchases"
+    },
+    "cb24c5e9-2255-42a0-b04a-efee4103ff3f": {
+      "Name@1": "TaxOnSales - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c"
     },
     "cefc7eff-87b0-4948-ae00-45914a38882e": {
-      "Name@1": "VAT Amount",
-      "TaxCodes@3": []
+      "Name@1": "VAT Amount"
+    },
+    "d80b5dc6-6548-49a4-85e9-e0546c4ce5a2": {
+      "Name@1": "NetSales - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 1
+    },
+    "e110ed85-6fd1-4c79-ab5a-f0d8167b34df": {
+      "Name@1": "TaxLiability - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 6
+    },
+    "e264ab36-a869-476c-9669-35a8f63936e4": {
+      "Name@1": "TaxOnPurchases - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 3
+    },
+    "e2959fcf-d715-441f-b284-f88670946672": {
+      "Name@1": "NetSales - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 1
     },
     "e3970d0a-a44a-4c6d-8029-0ee1c61ec62f": {
       "Name@1": "D12",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ],
+      "TaxSummaryColumn@4": 3
+    },
+    "ebb55363-0300-490f-98f2-4ee1e3a4092a": {
+      "Name@1": "TotalPurchases - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "cc862e5b-a055-43f7-b585-4c70f041bc19",
+      "TaxSummaryColumn@4": 5
+    },
+    "ebcb6476-258f-4731-bad1-fd26dfce3b66": {
+      "Name@1": "TaxOnPurchases - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
       "TaxSummaryColumn@4": 3
     },
     "ed145d6a-f259-43ea-ad07-bf3ca99de3cf": {
-      "Name@1": "15 VAT credit carried forward from previous period(s)",
-      "TaxCodes@3": []
+      "Name@1": "15 VAT credit carried forward from previous period(s)"
+    },
+    "ed808da5-ccb0-469a-a6b3-ee70e54a0dea": {
+      "Name@1": "TaxOnPurchases - VAT 15%",
+      "Type@2": 1,
+      "TaxCode@9": "1731afd8-40df-484c-8335-81a1451ab8f8",
+      "TaxSummaryColumn@4": 3
+    },
+    "eeb6ecc4-99c4-4dbf-bf6b-8e366142227c": {
+      "Name@1": "TotalSales - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "cc862e5b-a055-43f7-b585-4c70f041bc19",
+      "TaxSummaryColumn@4": 2
     },
     "f3407348-4426-41f2-8238-f15edc519b88": {
       "Name@1": "C10",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "46712241-b20a-42e8-a29a-876f15e50f94"
-      ],
       "TaxSummaryColumn@4": 5
     },
     "f53492b3-0f18-463a-9d5e-f822a062f35b": {
-      "Name@1": "Amount",
-      "TaxCodes@3": []
+      "Name@1": "Amount"
     },
     "f7abc02e-2a37-4345-89e1-9aec5e0ec127": {
       "Name@1": "D1",
+      "Type@2": 1
+    },
+    "fec0b989-2445-43a7-8d88-8433535997d2": {
+      "Name@1": "NetSales - VAT 5%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1731afd8-40df-484c-8335-81a1451ab8f8",
-        "574a0647-25c3-4aff-886b-c7d64b641a1c"
-      ]
+      "TaxCode@9": "574a0647-25c3-4aff-886b-c7d64b641a1c",
+      "TaxSummaryColumn@4": 1
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
@@ -239,79 +326,157 @@
       ],
       "NoCodeExperimental@14": true,
       "Columns@16": 2,
-      "Items@15": [
+      "Items2@17": [
         {
-          "Column2@3": "f53492b3-0f18-463a-9d5e-f822a062f35b",
-          "Column3@4": "cefc7eff-87b0-4948-ae00-45914a38882e"
+          "Column2@2": [
+            "f53492b3-0f18-463a-9d5e-f822a062f35b"
+          ],
+          "Column3@3": [
+            "cefc7eff-87b0-4948-ae00-45914a38882e"
+          ]
         },
         {
-          "Column1@2": "7b2300bf-b5a7-4209-ab8c-021b75255d4c"
+          "Column1@1": [
+            "7b2300bf-b5a7-4209-ab8c-021b75255d4c"
+          ]
         },
         {
-          "Column1@2": "ac5159fe-882e-466b-a6c6-492087fe4c6d",
-          "Column2@3": "11bedfcf-ce14-4dcb-87b2-50b806e97fa7",
-          "Column3@4": "f7abc02e-2a37-4345-89e1-9aec5e0ec127"
+          "Column1@1": [
+            "ac5159fe-882e-466b-a6c6-492087fe4c6d"
+          ],
+          "Column2@2": [
+            "fec0b989-2445-43a7-8d88-8433535997d2",
+            "d80b5dc6-6548-49a4-85e9-e0546c4ce5a2"
+          ],
+          "Column3@3": [
+            "990a0894-ad29-46e0-9c67-6c524854d854",
+            "0078e524-0934-4333-980c-e7b6e8a11055"
+          ]
         },
         {
-          "Column1@2": "402f32d5-8f2a-4fd4-9656-abfa5950f103"
+          "Column1@1": [
+            "402f32d5-8f2a-4fd4-9656-abfa5950f103"
+          ]
         },
         {
-          "Column1@2": "1eaa80a5-6171-4329-87b5-d9a788c75ef2",
-          "Column2@3": "4f6e8eef-b7ed-42a7-b92e-4dd53d212035"
+          "Column1@1": [
+            "1eaa80a5-6171-4329-87b5-d9a788c75ef2"
+          ],
+          "Column2@2": [
+            "62bd75c8-b96e-4291-a0bd-87ddf0ebceab"
+          ]
         },
         {
-          "Column1@2": "28867c88-ed57-461e-a06b-f81f7e3a38d9",
-          "Column2@3": "7440cf03-2729-4942-aa7f-644fcfd60c2b"
+          "Column1@1": [
+            "28867c88-ed57-461e-a06b-f81f7e3a38d9"
+          ],
+          "Column2@2": [
+            "78271199-f61b-48a5-9360-964d8aa36f22"
+          ]
         },
         {
-          "Column1@2": "901ef709-e19f-4ec4-942f-03bc702401fa",
-          "Column2@3": "014fdb04-7524-493b-a2fb-2ad0214587d9"
+          "Column1@1": [
+            "901ef709-e19f-4ec4-942f-03bc702401fa"
+          ],
+          "Column2@2": [
+            "eeb6ecc4-99c4-4dbf-bf6b-8e366142227c"
+          ]
         },
         {
-          "Column1@2": "202a30f2-3354-4e9d-aed5-ea38025d4bc6",
-          "Column2@3": "7a2be737-5231-4cb6-8572-235d47a085fa",
-          "Column3@4": "b6e849da-3035-468d-840f-39a1cc8842e7"
+          "Column1@1": [
+            "202a30f2-3354-4e9d-aed5-ea38025d4bc6"
+          ],
+          "Column2@2": [
+            "9b4f08ef-d4ba-4111-81ed-e0b08f5de65d",
+            "101e6285-c78e-46e9-bcd9-b557c1323d16",
+            "e2959fcf-d715-441f-b284-f88670946672",
+            "600a8b6d-b116-44b3-a48e-178079948777",
+            "30b37364-badb-4444-a2fe-fc0b94a54614"
+          ],
+          "Column3@3": [
+            "9caecd6a-7639-49ef-a65b-00ec1e40a674",
+            "cb24c5e9-2255-42a0-b04a-efee4103ff3f"
+          ]
         },
         {
-          "Column1@2": "b424260e-a747-4251-8bfa-c55cd151cb29"
+          "Column1@1": [
+            "b424260e-a747-4251-8bfa-c55cd151cb29"
+          ]
         },
         {
-          "Column1@2": "c17ea9dd-b13c-485c-82f8-a86a11e5f008",
-          "Column2@3": "76324a51-9112-4fda-8cc1-42022e058225",
-          "Column3@4": "2be912ad-31aa-48b0-b1c3-6cb1e91e45d2"
+          "Column1@1": [
+            "c17ea9dd-b13c-485c-82f8-a86a11e5f008"
+          ],
+          "Column2@2": [
+            "0b96b36e-9ffb-476f-99ff-ed17dc01ef92",
+            "bfc4933c-0949-4669-a692-268389b2d649"
+          ],
+          "Column3@3": [
+            "ed808da5-ccb0-469a-a6b3-ee70e54a0dea",
+            "e264ab36-a869-476c-9669-35a8f63936e4"
+          ]
         },
         {
-          "Column1@2": "1b31e60b-7846-465f-8e34-81820948431c"
+          "Column1@1": [
+            "1b31e60b-7846-465f-8e34-81820948431c"
+          ]
         },
         {
-          "Column1@2": "9dd277b5-7a34-4fc3-9a18-fd08435136ae"
+          "Column1@1": [
+            "9dd277b5-7a34-4fc3-9a18-fd08435136ae"
+          ]
         },
         {
-          "Column1@2": "93c983da-62c0-42ba-9bcb-cbc2c1c7b61d",
-          "Column2@3": "f3407348-4426-41f2-8238-f15edc519b88"
+          "Column1@1": [
+            "93c983da-62c0-42ba-9bcb-cbc2c1c7b61d"
+          ],
+          "Column2@2": [
+            "8ca45f07-73a4-4221-ab3e-35a9b7042565"
+          ]
         },
         {
-          "Column1@2": "4858306f-8271-421d-b568-90a2908c55a7",
-          "Column2@3": "20ed8cbf-324d-4554-aeb5-eff2005441cd"
+          "Column1@1": [
+            "4858306f-8271-421d-b568-90a2908c55a7"
+          ],
+          "Column2@2": [
+            "ebb55363-0300-490f-98f2-4ee1e3a4092a"
+          ]
         },
         {
-          "Column1@2": "65149731-88d2-4346-8b2c-5ff8d13f0516",
-          "Column2@3": "afc8c260-be0d-47b9-a04e-76aaf3afddef",
-          "Column3@4": "e3970d0a-a44a-4c6d-8029-0ee1c61ec62f"
+          "Column1@1": [
+            "65149731-88d2-4346-8b2c-5ff8d13f0516"
+          ],
+          "Column2@2": [
+            "6b353636-5df0-4fce-b3fd-e01c94196ecb",
+            "14d1c53a-f5e9-4e1e-bddb-16995671d606",
+            "6fe0b99a-0a5f-49aa-8b8b-b695c314b934",
+            "acebd54e-0deb-45d2-b124-15ff5c3af78d"
+          ],
+          "Column3@3": [
+            "94f12a5b-d27b-42e7-b35b-1e101f7110fa",
+            "ebcb6476-258f-4731-bad1-fd26dfce3b66"
+          ]
         },
         {
-          "Column1@2": "404256ad-eb5c-4166-9a4c-2b941802eb99"
+          "Column1@1": [
+            "404256ad-eb5c-4166-9a4c-2b941802eb99"
+          ]
         },
         {
-          "Column1@2": "37b59ad4-41e0-4a19-bcdd-9adb47745360",
-          "Column3@4": "5e8ac049-2683-431d-9c5f-80a20ee16529"
+          "Column1@1": [
+            "37b59ad4-41e0-4a19-bcdd-9adb47745360"
+          ],
+          "Column3@3": [
+            "0fa4e558-e83c-4954-b265-f990c9340496",
+            "e110ed85-6fd1-4c79-ab5a-f0d8167b34df"
+          ]
         }
       ]
     }
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 264
+      "Version@1": 293
     }
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {

@@ -29,25 +29,25 @@
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
   "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd": {
+      "Name@1": "Total Sales - GST Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+      "TaxSummaryColumn@4": 2
+    },
     "150ec832-d816-42fd-a744-f4195abd4d16": {
       "Name@1": "Net GST sales and income"
     },
-    "180df8fd-2e1e-45c6-bde6-1c483701d2b5": {
-      "Name@1": "Total Sales - GST 0%, GST Exempt",
+    "19b06665-c58e-4193-934a-d3add213cedb": {
+      "Name@1": "Total Purchases - GST Exempt",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-        "705acb55-550e-458a-bf9a-c4c7021dc351"
-      ],
-      "TaxSummaryColumn@4": 2
+      "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+      "TaxSummaryColumn@4": 5
     },
     "1cb50dba-7093-4a20-bc5b-38a647140abd": {
-      "Name@1": "Tax on Purchases - GST 15%, GST Adjustment",
+      "Name@1": "Tax on Purchases - GST 15%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-      ],
+      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
       "TaxSummaryColumn@4": 3
     },
     "29c6cc1e-64f1-4bd3-a576-31e0202ab86f": {
@@ -68,9 +68,7 @@
     "382f9482-243d-4cdf-b9ca-9ba4f364ab4e": {
       "Name@1": "Tax on Sales - GST Adjustment",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-      ]
+      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
     },
     "3a39446b-3fa4-407f-a601-65120ba54aab": {
       "Name@1": "Total GST collected on sales and income"
@@ -88,14 +86,6 @@
     "491ca9cb-1e46-4758-9782-0d7c8944f709": {
       "Name@1": "Registration number"
     },
-    "5600fb05-d75e-4495-9b84-11e8b3f50188": {
-      "Name@1": "Tax on Sales - GST 15%, GST Adjustment",
-      "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-      ]
-    },
     "56637f15-b68b-4197-9bd9-b8342b0e25c8": {
       "Name@1": "Any credit adjustments"
     },
@@ -105,17 +95,13 @@
     "5eb3dd14-1d0e-49b7-879c-b7a4770f501b": {
       "Name@1": "Total Purchases - GST 15%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-      ],
+      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
       "TaxSummaryColumn@4": 5
     },
     "63979e7f-d987-4141-9da2-088e119c0010": {
       "Name@1": "Tax on Purchases - GST Adjustment",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-      ],
+      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
       "TaxSummaryColumn@4": 3
     },
     "69ac0500-bb99-43e3-9537-f6571a0826fa": {
@@ -127,13 +113,17 @@
     "7326c6a7-fcae-45bb-8f78-3d15e01c3b65": {
       "Name@1": "Total Sales - GST 15%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-      ],
+      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
       "TaxSummaryColumn@4": 2
     },
     "76e74cbd-59a6-4ded-98d9-c58e019e1448": {
       "Name@1": "Total GST credit"
+    },
+    "818d1ba1-311c-47a9-b1be-2c6f262f28a1": {
+      "Name@1": "Tax liability - GST Adjustment",
+      "Type@2": 1,
+      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+      "TaxSummaryColumn@4": 6
     },
     "8278e54e-ed0a-41e2-8774-83de9f7cb803": {
       "Name@1": "Zero-rated supplies"
@@ -146,13 +136,9 @@
       "Type@2": 3
     },
     "93abd2c4-e144-4571-9fc5-2acebd94d43b": {
-      "Name@1": "Total Sales - GST 0%, GST 15%, GST Exempt",
+      "Name@1": "Total Sales - GST 0%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-        "705acb55-550e-458a-bf9a-c4c7021dc351"
-      ],
+      "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
       "TaxSummaryColumn@4": 2
     },
     "b176de46-e9e8-40d7-89eb-d7c0a64464a0": {
@@ -160,22 +146,15 @@
       "Type@2": 3
     },
     "c207df9f-eeb1-452d-8f56-b7bf0cc791e7": {
-      "Name@1": "Total Purchases - GST 0%, GST 15%, GST Exempt",
+      "Name@1": "Total Purchases - GST 0%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-        "705acb55-550e-458a-bf9a-c4c7021dc351"
-      ],
+      "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
       "TaxSummaryColumn@4": 5
     },
     "e990928b-fe1a-4cca-8b04-57912f4c82f3": {
-      "Name@1": "Tax liability - GST 15%, GST Adjustment",
+      "Name@1": "Tax liability - GST 15%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-        "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-      ],
+      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
       "TaxSummaryColumn@4": 6
     },
     "f9d44fb5-51ec-4abe-9751-7e876279b0d0": {
@@ -188,9 +167,7 @@
     "fec411a6-c434-4f8a-b0d0-2871e91f2e40": {
       "Name@1": "Tax on Sales - GST 15%",
       "Type@2": 1,
-      "TaxCodes@3": [
-        "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-      ]
+      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
     }
   },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
@@ -240,7 +217,7 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "994cef79-6da3-4fa1-9998-ad029a4358f0": {
       "Name@1": "GST Return",
-      "FromDate@9": "2021-06-11T00:00:00",
+      "FromDate@9": "2000-06-11T00:00:00",
       "ToDate@10": "2021-06-11T00:00:00",
       "Template@5": [
         "<p>report.AccountingBasis<br data-mce-bogus=\"1\">",
@@ -252,69 +229,161 @@
       "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items@15": [
+        {}
+      ],
+      "Items2@17": [
         {
-          "Column1@2": "3c27cc41-3ee5-4f5d-bb6c-dce6190f27b5"
+          "Column1@1": [
+            "3c27cc41-3ee5-4f5d-bb6c-dce6190f27b5"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Column1@2": "491ca9cb-1e46-4758-9782-0d7c8944f709",
-          "Column2@3": "3131826c-c3a7-477f-a7f0-cc61c59eb1dd"
+          "Column1@1": [
+            "491ca9cb-1e46-4758-9782-0d7c8944f709"
+          ],
+          "Column2@2": [
+            "3131826c-c3a7-477f-a7f0-cc61c59eb1dd"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "69ac0500-bb99-43e3-9537-f6571a0826fa",
-          "Column2@3": "29c6cc1e-64f1-4bd3-a576-31e0202ab86f"
+          "Column1@1": [
+            "69ac0500-bb99-43e3-9537-f6571a0826fa"
+          ],
+          "Column2@2": [
+            "29c6cc1e-64f1-4bd3-a576-31e0202ab86f"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "92f60c7f-6aea-475e-988f-433e75304c3f"
+          "Column1@1": [
+            "92f60c7f-6aea-475e-988f-433e75304c3f"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Column1@2": "f9d44fb5-51ec-4abe-9751-7e876279b0d0",
-          "Column2@3": "93abd2c4-e144-4571-9fc5-2acebd94d43b"
+          "Column1@1": [
+            "f9d44fb5-51ec-4abe-9751-7e876279b0d0"
+          ],
+          "Column2@2": [
+            "7326c6a7-fcae-45bb-8f78-3d15e01c3b65",
+            "93abd2c4-e144-4571-9fc5-2acebd94d43b",
+            "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "8278e54e-ed0a-41e2-8774-83de9f7cb803",
-          "Column2@3": "180df8fd-2e1e-45c6-bde6-1c483701d2b5"
+          "Column1@1": [
+            "8278e54e-ed0a-41e2-8774-83de9f7cb803"
+          ],
+          "Column2@2": [
+            "93abd2c4-e144-4571-9fc5-2acebd94d43b",
+            "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "150ec832-d816-42fd-a744-f4195abd4d16",
-          "Column2@3": "7326c6a7-fcae-45bb-8f78-3d15e01c3b65"
+          "Column1@1": [
+            "150ec832-d816-42fd-a744-f4195abd4d16"
+          ],
+          "Column2@2": [
+            "7326c6a7-fcae-45bb-8f78-3d15e01c3b65"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "3a39446b-3fa4-407f-a601-65120ba54aab",
-          "Column2@3": "fec411a6-c434-4f8a-b0d0-2871e91f2e40"
+          "Column1@1": [
+            "3a39446b-3fa4-407f-a601-65120ba54aab"
+          ],
+          "Column2@2": [
+            "fec411a6-c434-4f8a-b0d0-2871e91f2e40"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "3aa46c63-e695-4bfb-92bd-92404a52d648",
-          "Column2@3": "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
+          "Column1@1": [
+            "3aa46c63-e695-4bfb-92bd-92404a52d648"
+          ],
+          "Column2@2": [
+            "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "4120288a-479b-426d-8ff5-047a1392284b",
-          "Column2@3": "5600fb05-d75e-4495-9b84-11e8b3f50188"
+          "Column1@1": [
+            "4120288a-479b-426d-8ff5-047a1392284b"
+          ],
+          "Column2@2": [
+            "fec411a6-c434-4f8a-b0d0-2871e91f2e40",
+            "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "b176de46-e9e8-40d7-89eb-d7c0a64464a0"
+          "Column1@1": [
+            "b176de46-e9e8-40d7-89eb-d7c0a64464a0"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Column1@2": "72838cc4-2e57-4572-bcbe-f79a907bc552",
-          "Column2@3": "c207df9f-eeb1-452d-8f56-b7bf0cc791e7"
+          "Column1@1": [
+            "72838cc4-2e57-4572-bcbe-f79a907bc552"
+          ],
+          "Column2@2": [
+            "5eb3dd14-1d0e-49b7-879c-b7a4770f501b",
+            "c207df9f-eeb1-452d-8f56-b7bf0cc791e7",
+            "19b06665-c58e-4193-934a-d3add213cedb"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "59f77183-b299-4c54-a181-9164858c6984",
-          "Column2@3": "5eb3dd14-1d0e-49b7-879c-b7a4770f501b"
+          "Column1@1": [
+            "59f77183-b299-4c54-a181-9164858c6984"
+          ],
+          "Column2@2": [
+            "1cb50dba-7093-4a20-bc5b-38a647140abd"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "56637f15-b68b-4197-9bd9-b8342b0e25c8",
-          "Column2@3": "63979e7f-d987-4141-9da2-088e119c0010"
+          "Column1@1": [
+            "56637f15-b68b-4197-9bd9-b8342b0e25c8"
+          ],
+          "Column2@2": [
+            "63979e7f-d987-4141-9da2-088e119c0010"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "76e74cbd-59a6-4ded-98d9-c58e019e1448",
-          "Column2@3": "1cb50dba-7093-4a20-bc5b-38a647140abd"
+          "Column1@1": [
+            "76e74cbd-59a6-4ded-98d9-c58e019e1448"
+          ],
+          "Column2@2": [
+            "1cb50dba-7093-4a20-bc5b-38a647140abd",
+            "63979e7f-d987-4141-9da2-088e119c0010"
+          ],
+          "Column3@3": []
         },
         {
-          "Column1@2": "fb820d7c-62da-4da1-8090-dccb4ea34c2d"
+          "Column1@1": [
+            "fb820d7c-62da-4da1-8090-dccb4ea34c2d"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Column1@2": "83369c5d-0814-427b-9a36-c2854b0a5613",
-          "Column2@3": "e990928b-fe1a-4cca-8b04-57912f4c82f3"
+          "Column1@1": [
+            "83369c5d-0814-427b-9a36-c2854b0a5613"
+          ],
+          "Column2@2": [
+            "e990928b-fe1a-4cca-8b04-57912f4c82f3",
+            "818d1ba1-311c-47a9-b1be-2c6f262f28a1"
+          ],
+          "Column3@3": []
         }
       ]
     }
