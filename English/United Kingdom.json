@@ -19,20 +19,142 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "699401fe-23fd-4b52-9699-b88b36fa6b26": {
-    "bc8d4bfd-edf4-4f89-b52d-07d0a7131d85": {
-      "Date@1": "2020-09-11T00:00:00",
-      "Lines@4": [
-        {
-          "Amount@12": 10000.0,
-          "TaxCode@5": "42a5002c-5c8f-4def-8672-4e6f3fc09654"
-        }
-      ]
+  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "11974707-e3bd-416d-ad4e-5264dcb6b26d": {
+      "Name@1": "#8 Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States."
+    },
+    "1218d7ad-dec6-4f3c-a5fd-152bfde203bc": {
+      "Name@1": "#1 VAT due in this period on sales and other outputs"
+    },
+    "15260a89-aa83-4d50-a30d-7d9cf812b142": {
+      "Name@1": "Tax on Purchases - VAT 20%",
+      "Type@2": 1,
+      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+      "TaxSummaryColumn@4": 3
+    },
+    "1c415bc0-8035-4c48-8894-c5b24e8cf849": {
+      "Name@1": "Tax on Sales - VAT 20%",
+      "Type@2": 1,
+      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+    },
+    "1cca08b2-ef64-4ecd-ada8-7b08131dc07e": {
+      "Name@1": "#2 VAT due in this period on acquisitions from other EC Member States"
+    },
+    "29fe2105-737d-40e3-8b3c-b7566c4b183e": {
+      "Name@1": "Net Sales - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
+      "TaxSummaryColumn@4": 1
+    },
+    "3d0f009b-3997-4a78-85f9-ae351a8cce0b": {
+      "Name@1": "#5 Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)"
+    },
+    "432ef35a-3f2f-4820-ad58-bd579ad140f6": {
+      "Name@1": "#4 VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)"
+    },
+    "5266f0f6-5160-4f18-8726-680efde52cf1": {
+      "Name@1": "#7 Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure."
+    },
+    "5b0401d7-d921-4629-ae17-6e97f8d45761": {
+      "Name@1": "VAT Calculations",
+      "Type@2": 3
+    },
+    "64f808b3-e08e-43c8-9704-2ff45323bca0": {
+      "Name@1": "Net Purchases - VAT 0%",
+      "Type@2": 1,
+      "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
+      "TaxSummaryColumn@4": 4
+    },
+    "6b87284f-7e15-41b3-a669-1a78c18896fa": {
+      "Name@1": "Tax liability - VAT 20%",
+      "Type@2": 1,
+      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+      "TaxSummaryColumn@4": 6
+    },
+    "7aeb3f77-855f-40d5-b925-890373cb6e5c": {
+      "Name@1": "Net Sales - VAT 0% (EU)",
+      "Type@2": 1,
+      "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+      "TaxSummaryColumn@4": 1
+    },
+    "865f0b2b-5d10-4852-9c14-dfcb29fa7811": {
+      "Name@1": "Sales and Purchases Excluding VAT",
+      "Type@2": 3
+    },
+    "8ad7f442-a5d0-43fa-b48d-b35fc4f94f17": {
+      "Name@1": "Net Sales - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
+      "TaxSummaryColumn@4": 1
+    },
+    "92d4316c-a171-4614-bd13-630dbb678c50": {
+      "Name@1": "Net Sales - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+      "TaxSummaryColumn@4": 1
+    },
+    "967b13d6-87fc-4f23-8476-2d8b35b2d1e3": {
+      "Name@1": "#3 Total VAT due (the sum of boxes 1 and 2)"
+    },
+    "a032177e-1924-4100-b4e9-faecfa5edf50": {
+      "Name@1": "#9 Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States."
+    },
+    "b1bed20b-1556-4b6a-8e34-2791a68e11f6": {
+      "Name@1": "Tax liability - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+      "TaxSummaryColumn@4": 6
+    },
+    "b75c0205-5e16-4e7a-986a-dfcfb923834e": {
+      "Name@1": "#6 Total value of sales and all other outputs excluding any VAT. Include your box 8 figure."
+    },
+    "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2": {
+      "Name@1": "Tax on Sales - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752"
+    },
+    "c8f1a9ec-134c-4b8e-a93f-6b2e90d9e83e": {
+      "Name@1": "Net Sales - VAT 20%",
+      "Type@2": 1,
+      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+      "TaxSummaryColumn@4": 1
+    },
+    "ce8c526e-bd3a-4a70-a4ee-005e57ed2192": {
+      "Name@1": "Tax on Purchases - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+      "TaxSummaryColumn@4": 3
+    },
+    "dcdc2602-d666-4aab-89a3-0644bfb39dc8": {
+      "Name@1": "Net Purchases - VAT 20%",
+      "Type@2": 1,
+      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+      "TaxSummaryColumn@4": 4
+    },
+    "e70aa0ae-6614-4d12-a64c-47b7722473c9": {
+      "Name@1": "Net Purchases - VAT 0% (EU)",
+      "Type@2": 1,
+      "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+      "TaxSummaryColumn@4": 4
+    },
+    "f5222ab1-e973-47ba-99a9-4640d4864d3f": {
+      "Name@1": "Net Purchases - VAT Exempt",
+      "Type@2": 1,
+      "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
+      "TaxSummaryColumn@4": 4
+    },
+    "f619ad34-d587-4d95-b374-9d581ac3a010": {
+      "Name@1": "Net Purchases - VAT 5%",
+      "Type@2": 1,
+      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+      "TaxSummaryColumn@4": 4
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "12e5e9fb-d8e8-4fce-aa33-8ba564117550": {
       "Name@1": "VAT Calculation Worksheet",
+      "FromDate@9": "2021-06-23T00:00:00",
+      "ToDate@10": "2021-06-23T00:00:00",
       "Template@5": [
         "{% assign VAT_0 = \"6959fb01-3a48-486a-9bec-a0681a662f03\" %}",
         "{% assign VAT_0_EU = \"70364d69-174a-4804-881e-852bdbff59e2\" %}",
@@ -63,6 +185,115 @@
         "{% endcapture %}",
         "",
         "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 32px\"></td><td style=\"width: 149px\"></td><td style=\"width: 109px\"></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;font-size: 16px;text-align: center;alignment-center;font-weight: bold;mergeCells\">{{ business.Name }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-weight: bold;mergeCells;font-size: 24px\">VAT Calculation Worksheet</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;font-size: 16px;text-align: center;alignment-center;font-weight: bold;mergeCells\">For the period from {{ report.From }} until {{ report.To }}</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;font-size: 16px;text-align: center;alignment-center;font-weight: bold;mergeCells;remove_row\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;color: #fff; background-color: #000;font-weight: bold\">VAT Calculations</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">VAT due in this period on sales and other outputs</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G1 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#1 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">VAT due in this period on acquisitions from other EC Member States</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">0.00</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#2 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;font-weight: bold\">Total VAT due (the sum of boxes 1 and 2)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G3 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#3 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G4 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#4 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G5 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#5 on the VAT Return</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;color: #fff; background-color: #000;font-weight: bold\">Sales and Purchases Excluding VAT</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G6 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#6 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure.</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G7 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#7 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States.</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G8 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#8 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\">Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States.</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right\">£</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;font-weight: bold;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ G9 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-size: 8px\">#9 on the VAT Return</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"><form method=\"POST\" action=\"download\">\n<input type=\"hidden\" name=\"filename\" value=\"VAT Calculation Worksheet for the period from {{ report.From }} until {{ report.To }}.csv\">\n<input type=\"hidden\" name=\"content\" value=\"{{ exportToCSV }}\"><input type=\"submit\" value=\"Export to CSV\" class=\"btn btn-warning\" style=\"font-weight: bold\">\n</form></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;row_below;mergeCells;mergeCells;font-size-normal\">To lodge this VAT return electronically:</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;font-size-normal\">Export this report to CSV file by clicking on <b>Export to CSV</b> button</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;row_below;mergeCells;font-size-normal\">Go to <a href=\"https://www.taxoptimiser.co.uk\" target=\"_blank\">https://www.taxoptimiser.co.uk</a> and login</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;font-size-normal\">If this is your first lodgement, in the left navigation click on <b>HMRC</b>, then <b>VAT Settings</b> and set <b>Software Template</b> to <b>Manager.io</b></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size-normal\">In the left navigation, click on <b>HMRC</b>, then <b>VAT Returns</b></td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size-normal\">Click on the period you are making lodgement for</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;font-size-normal\">Drag and drop exported CSV file to designated location</td></tr><tr><td colSpan=\"4\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size-normal\">After upload is complete, verify the figures and click <b>Send VAT Return</b> button.</td></tr></table>"
+      ],
+      "NoCodeExperimental@14": true,
+      "Columns@16": 1,
+      "Items2@17": [
+        {
+          "Column1@1": [
+            "5b0401d7-d921-4629-ae17-6e97f8d45761"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "1218d7ad-dec6-4f3c-a5fd-152bfde203bc"
+          ],
+          "Column2@2": [
+            "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
+            "1c415bc0-8035-4c48-8894-c5b24e8cf849"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "1cca08b2-ef64-4ecd-ada8-7b08131dc07e"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "967b13d6-87fc-4f23-8476-2d8b35b2d1e3"
+          ],
+          "Column2@2": [
+            "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
+            "1c415bc0-8035-4c48-8894-c5b24e8cf849"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "432ef35a-3f2f-4820-ad58-bd579ad140f6"
+          ],
+          "Column2@2": [
+            "ce8c526e-bd3a-4a70-a4ee-005e57ed2192",
+            "15260a89-aa83-4d50-a30d-7d9cf812b142"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "3d0f009b-3997-4a78-85f9-ae351a8cce0b"
+          ],
+          "Column2@2": [
+            "b1bed20b-1556-4b6a-8e34-2791a68e11f6",
+            "6b87284f-7e15-41b3-a669-1a78c18896fa"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "865f0b2b-5d10-4852-9c14-dfcb29fa7811"
+          ],
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "b75c0205-5e16-4e7a-986a-dfcfb923834e"
+          ],
+          "Column2@2": [
+            "7aeb3f77-855f-40d5-b925-890373cb6e5c",
+            "29fe2105-737d-40e3-8b3c-b7566c4b183e",
+            "c8f1a9ec-134c-4b8e-a93f-6b2e90d9e83e",
+            "92d4316c-a171-4614-bd13-630dbb678c50",
+            "8ad7f442-a5d0-43fa-b48d-b35fc4f94f17"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "5266f0f6-5160-4f18-8726-680efde52cf1"
+          ],
+          "Column2@2": [
+            "e70aa0ae-6614-4d12-a64c-47b7722473c9",
+            "64f808b3-e08e-43c8-9704-2ff45323bca0",
+            "dcdc2602-d666-4aab-89a3-0644bfb39dc8",
+            "f619ad34-d587-4d95-b374-9d581ac3a010",
+            "f5222ab1-e973-47ba-99a9-4640d4864d3f"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "11974707-e3bd-416d-ad4e-5264dcb6b26d"
+          ],
+          "Column2@2": [
+            "7aeb3f77-855f-40d5-b925-890373cb6e5c"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Column1@1": [
+            "a032177e-1924-4100-b4e9-faecfa5edf50"
+          ],
+          "Column2@2": [
+            "e70aa0ae-6614-4d12-a64c-47b7722473c9"
+          ],
+          "Column3@3": []
+        }
       ]
     }
   },
@@ -79,9 +310,7 @@
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
-      "ReceiptsAndPayments@36": true
-    }
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {}
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "42a5002c-5c8f-4def-8672-4e6f3fc09654": {
