@@ -412,6 +412,20 @@
       },
       "EmployeeCustomField@15": "ce735064-e907-478f-83b0-f319b2a9a7fb"
     },
+    "95933efa-132c-4cd0-9a18-87901e354a2f": {
+      "Name@1": "Employee - Name",
+      "Type@2": 8,
+      "EmployeeField@14": {
+        "Key@1": "Manager.Model.Employee.Name"
+      }
+    },
+    "99a6fec5-7603-4cf1-8b1f-76753fc5e1e4": {
+      "Name@1": "Employee - Address",
+      "Type@2": 8,
+      "EmployeeField@14": {
+        "Key@1": "Manager.Model.Employee.Address"
+      }
+    },
     "9df1d064-fa3e-4e49-bc1c-0ee5d4930d66": {
       "Name@1": "Tax on Purchases - GST 10% (CAPEX)",
       "Type@2": 1,
@@ -1442,54 +1456,143 @@
     },
     "92b38154-38fc-479a-a296-2019f656d1e2": {
       "Name@1": "PAYG payment summary — individual non-business",
+      "FromDate@9": "2021-06-24T00:00:00",
+      "ToDate@10": "2021-06-24T00:00:00",
       "Template@5": [
-        "{% assign dayMonthFrom = report.From | date: 'dd/MM' %}",
-        "{% assign dayMonthTo = report.To | date: 'dd/MM' %}",
-        "",
-        "{% assign period = transactions | between: report.From, report.To %}",
-        "",
-        "{% assign totalTaxWithheld = period | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'PAYG' | reversesign %}",
-        "{% assign grossPayments = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Gross payments' %}",
-        "{% assign cdepPayments = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'CDEP payments' %}",
-        "{% assign reportableEmployerSuperannuationContribution = period | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Reportable employer super contribution' %}",
-        "",
-        "{% assign carAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Car' %}",
-        "{% assign transportAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Transport' %}",
-        "{% assign travelAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Travel' %}",
-        "{% assign mealsAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Meals' %}",
-        "{% assign laundryAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Laundry' %}",
-        "{% assign otherAllowance = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Other' %}",
-        "",
-        "{% assign totalAllowances = 0 %}",
-        "{% assign totalAllowances = carAllowance | balance | plus: totalAllowances %}",
-        "{% assign totalAllowances = transportAllowance | balance | plus: totalAllowances %}",
-        "{% assign totalAllowances = travelAllowance | balance | plus: totalAllowances %}",
-        "{% assign totalAllowances = mealsAllowance | balance | plus: totalAllowances %}",
-        "{% assign totalAllowances = laundryAllowance | balance | plus: totalAllowances %}",
-        "{% assign totalAllowances = otherAllowance | balance | plus: totalAllowances %}",
-        "",
-        "{% assign lumpSumPaymentATermination = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum A - Termination' %}",
-        "{% assign lumpSumPaymentARedundancy = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum A - Redundancy' %}",
-        "",
-        "{% assign lumpSumPaymentA = '0.00' %}",
-        "{% assign lumpSumAIndicator = '-' %}",
-        "",
-        "{% assign lumpSumPaymentATerminationBalance = lumpSumPaymentATermination | balance %}",
-        "{% assign lumpSumPaymentARedundancyBalance = lumpSumPaymentARedundancy | balance %}",
-        "",
-        "{% if lumpSumPaymentATerminationBalance != 0 %}{% assign lumpSumAIndicator = \"T\" %}{% assign lumpSumPaymentA = lumpSumPaymentATermination %}{% endif %}",
-        "{% if lumpSumPaymentARedundancyBalance != 0 %}{% assign lumpSumAIndicator = \"R\" %}{% assign lumpSumPaymentA = lumpSumPaymentARedundancy %}{% endif %}",
-        "",
-        "{% assign lumpSumPaymentB = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum B' %}",
-        "{% assign lumpSumPaymentD = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum D' %}",
-        "{% assign lumpSumPaymentE = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum E' %}",
-        "",
-        "{% assign grossPaymentsType = 'S' %}",
-        "{% if report.Employee.CustomFields[\"1f6483e5-5ad9-4181-a9db-117827b67a9d\"] == \"Working Holiday Maker\" %}{% assign grossPaymentsType = 'H' %}{% endif %}",
-        "{% if report.Employee.CustomFields.[\"6b837666-1039-4cfc-948b-5c36b30682c2\"] == \"S ⁠— Pension or Annuity\" %}{% assign grossPaymentsType = 'P' %}{% endif %}",
-        "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 38px\"></td><td style=\"width: 167px\"></td><td style=\"width: 20px\"></td><td style=\"width: 39px\"></td><td style=\"width: 30px\"></td><td style=\"width: 127px\"></td><td style=\"width: 20px\"></td><td style=\"width: 40px\"></td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;text-align: center;alignment-center;mergeCells;font-size: 24px\">PAYG payment summary — individual non-business</td></tr>{% if dayMonthFrom == \"01/07\" and dayMonthTo == \"30/06\" %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;mergeCells;font-weight: bold;font-size: 16px\">Payment summary for year ending 30 June {{ report.To | date: 'yyyy' }}</td></tr>{% else %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;text-align: center;alignment-center;mergeCells;font-size: 16px;font-weight: bold\">Payment summary for the period from {{ report.From }} until {{ report.To }}</td></tr>{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;color: #fff; background-color: #000;mergeCells\">Payee details</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold\">{{ report.Employee.Name }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">{{ report.Employee.Address | newline_to_br }}</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;font-size: 10px;remove_row;col_right;mergeCells;mergeCells;mergeCells\">Day/Month/Year</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Period during which payments were made</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;col_right;mergeCells;mergeCells;mergeCells\">{{ report.From }} to {{ report.To }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\">Payee's tax file number</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;remove_row;col_right;mergeCells;mergeCells\">{{ report.Employee.CustomFields[\"8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7\"] }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"6\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;font-weight: bold;text-align: right;alignment-right\">TOTAL TAX WITHHELD $</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-weight: bold;cell-style-input;text-align: right;alignment-right;font-size-normal\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ totalTaxWithheld }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_colalignment-right;text-align: center;alignment-center\">Type</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Lump sum payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">Type</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Gross Payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ grossPayments }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;cell-style-input;text-align: center;alignment-center;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ grossPaymentsType }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">A $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentA }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: center;alignment-center\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumAIndicator }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">CDEP payments</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ cdepPayments }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">B $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentB }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Reportable fringe benefits amount</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">0</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">D $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentD }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Reportable employer superannuation contributions</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ reportableEmployerSuperannuationContribution }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">E $</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ lumpSumPaymentE }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Total allowances</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;font-weight: bold\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;col_right\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ totalAllowances }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr>{% if totalAllowances != 0 %}<tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergeCells;remove_row\"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;mergeCells\">Allowances</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Car</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ carAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Transport</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ transportAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Travel</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ travelAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Meals</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ mealsAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Laundry</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ laundryAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\">Other</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;font-weight: bold;text-align: right;alignment-right;remove_row\">$</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input;font-weight: normal;remove_row\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ otherAllowance | hyperlink }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row\"> </td></tr>{% endif %}<tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;remove_row;remove_row\"> </td></tr><tr><td colSpan=\"9\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;row_below;mergeCells;color: #fff; background-color: #000;remove_row\">Payer details</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;mergeCells;mergeCells\">Payer's ABN</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;col_right;mergeCells\">{{ business.CustomFields[\"0fba87ee-0386-401a-8d1f-302313b663f4\"] }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells\">Payer's name</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells\"> </td><td colSpan=\"7\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;row_below;mergeCells;col_right;mergeCells\">{{ business.Name }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;col_right;col_right\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td></tr><tr><td colSpan=\"6\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: right;alignment-right;mergeCells;mergeCells\">Signature of authorized person:</td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;mergeCells;mergeCells;mergeCells;border-bottom: 1px solid #000;cell-style-normal\"> </td></tr></table>"
+        "<p>report.From</p>",
+        "<p>report.To</p>",
+        "<p>report.Employee</p>"
       ],
-      "Description@6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension."
+      "Description@6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
+      "NoCodeExperimental@14": true,
+      "Columns@16": 1,
+      "Items2@17": [
+        {
+          "Name@4": "Payee details",
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Name",
+          "Column2@2": [
+            "95933efa-132c-4cd0-9a18-87901e354a2f"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Address",
+          "Column2@2": [
+            "99a6fec5-7603-4cf1-8b1f-76753fc5e1e4"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "TFN",
+          "Column2@2": [
+            "ed2c80b3-930f-4100-8fdd-722605bde079"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Total tax withheld",
+          "Column2@2": [
+            "e01c6a94-73ea-4cdb-823f-9064ea986040"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Gross Payments",
+          "Column2@2": [
+            "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "CDEP payments",
+          "Column2@2": [
+            "029977a8-e39f-4092-ae12-7cbdd026bd35"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Reportable employer superannuation contributions",
+          "Column2@2": [
+            "e49a0fae-7c78-445b-836a-6bde9bf3826f"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Total allowances",
+          "Column2@2": [
+            "0cd95fe1-59c1-4a1a-9878-7ad4636650e3",
+            "cce53d8b-65b7-422a-b693-d2d6efe22eb1",
+            "148b7600-1449-466e-80c2-498358d08e6a",
+            "2337614c-5081-428c-bede-14abf7505585",
+            "1e1414b4-f169-42a8-81c8-198ca8f2009b",
+            "7d5cfd7a-04ae-4837-8c77-bc91aac63fbd"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Lump Sum Payment A",
+          "Column2@2": [
+            "d9bd6482-021a-4c94-80f3-1a7c0b3e73fa"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Lump Sum Payment B",
+          "Column2@2": [
+            "5228dc51-36e1-4406-8ebd-c769d9b38af7"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Lump Sum Payment D",
+          "Column2@2": [
+            "df5c4f51-b918-4f55-aeb4-f41d46484188"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Lump Sum Payment E",
+          "Column2@2": [
+            "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Payer details",
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Name",
+          "Column2@2": [
+            "89c1286b-3e9a-4c50-b3a9-70b116e30adc"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "ABN",
+          "Column2@2": [
+            "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
+          ],
+          "Column3@3": []
+        }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ]
     },
     "c4a0ccf7-9171-4e8e-b390-97f7052b1479": {
       "Name@1": "Taxable Payments Annual Report (TPAR)",
