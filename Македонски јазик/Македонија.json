@@ -26,6 +26,247 @@
       "NumberFormat@3": "CgEsEgEuGAM="
     }
   },
+  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
+    "004a221d-b006-4d2a-9122-db89232bc8ea": {
+      "Name@1": "v30a",
+      "Type@2": 1,
+      "TaxCode@9": "72e73474-87e3-4dfc-a673-8c9066d89203",
+      "TaxSummaryColumn@4": 3
+    },
+    "00ecb548-5164-4a5e-8624-d6ced258c414": {
+      "Name@1": "v25a",
+      "Type@2": 1,
+      "TaxCode@9": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "TaxSummaryColumn@4": 4
+    },
+    "024d3dcf-3dc5-427e-82d6-3a69b744f191": {
+      "Name@1": "v28a",
+      "Type@2": 1,
+      "TaxCode@9": "31a9a48c-5733-40bf-b135-9422f3c0592e",
+      "TaxSummaryColumn@4": 3
+    },
+    "07db8974-1ea0-4c3b-baf2-701e8151effe": {
+      "Name@1": "V17",
+      "Type@2": 1,
+      "TaxCode@9": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "TaxSummaryColumn@4": 3
+    },
+    "0c33bbbd-8951-420d-b253-8aa6b1ebac41": {
+      "Name@1": "V2",
+      "Type@2": 1,
+      "TaxCode@9": "d7eba1a0-d27c-465c-94ca-38e7b480266a"
+    },
+    "0e868367-23e7-4be2-919f-d3f0a7b85321": {
+      "Name@1": "V13",
+      "Type@2": 1,
+      "TaxCode@9": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
+      "TaxSummaryColumn@4": 3
+    },
+    "15940ba1-44bc-47eb-a867-77cf3d48c13c": {
+      "Name@1": "v26b",
+      "Type@2": 1,
+      "TaxCode@9": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "TaxSummaryColumn@4": 3
+    },
+    "19c9918a-c64f-4611-8ab1-1582b0566a4d": {
+      "Name@1": "v24b",
+      "Type@2": 1,
+      "TaxCode@9": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
+      "TaxSummaryColumn@4": 3
+    },
+    "1c1af4e2-c536-43c7-b346-bd0ec1490a2d": {
+      "Name@1": "V10",
+      "Type@2": 1,
+      "TaxCode@9": "f7a7d590-3354-459b-a786-3730ea70de8a",
+      "TaxSummaryColumn@4": 2
+    },
+    "20f0eb2d-f459-46f7-831f-f21427f99bd6": {
+      "Name@1": "V11b",
+      "Type@2": 1,
+      "TaxCode@9": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "TaxSummaryColumn@4": 1
+    },
+    "25fd7c7e-fc61-420f-8e7d-5703fda15a53": {
+      "Name@1": "V4",
+      "Type@2": 1,
+      "TaxCode@9": "ba184918-bbf2-4585-b388-6ad7a743ac46"
+    },
+    "2e38b053-7c80-487e-b4d3-ecc612dbbd0a": {
+      "Name@1": "v23b",
+      "Type@2": 1,
+      "TaxCode@9": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
+      "TaxSummaryColumn@4": 4
+    },
+    "32868623-a534-46ca-967a-5c863c20fddd": {
+      "Name@1": "V16",
+      "Type@2": 1,
+      "TaxCode@9": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "TaxSummaryColumn@4": 4
+    },
+    "33aec3f4-873b-48d0-82d0-6ec50a46cc76": {
+      "Name@1": "V7",
+      "Type@2": 1,
+      "TaxCode@9": "e141987c-19f2-4982-84ee-a45b94e68c93",
+      "TaxSummaryColumn@4": 2
+    },
+    "34541511-b750-42da-85f7-a6eb52ed7749": {
+      "Name@1": "V3",
+      "Type@2": 1,
+      "TaxCode@9": "ba184918-bbf2-4585-b388-6ad7a743ac46",
+      "TaxSummaryColumn@4": 1
+    },
+    "3d64eb1a-590f-471b-a78c-5df48148ec2f": {
+      "Name@1": "v28b",
+      "Type@2": 1,
+      "TaxCode@9": "5a254e38-7b2a-474d-9ab0-8777e37d7d56",
+      "TaxSummaryColumn@4": 3
+    },
+    "3dc23eed-7734-4c7c-9871-00815ce79501": {
+      "Name@1": "V21a",
+      "Type@2": 1,
+      "TaxCode@9": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
+      "TaxSummaryColumn@4": 4
+    },
+    "4ef732c5-322f-4df4-a56e-8e3e1d3878ed": {
+      "Name@1": "V5",
+      "Type@2": 1,
+      "TaxCode@9": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
+      "TaxSummaryColumn@4": 1
+    },
+    "504d91d4-8776-42b4-9ce2-98fda187e075": {
+      "Name@1": "V15",
+      "Type@2": 1,
+      "TaxCode@9": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
+      "TaxSummaryColumn@4": 3
+    },
+    "561bc5ed-252e-407b-8924-cb5283c3772c": {
+      "Name@1": "v25b",
+      "Type@2": 1,
+      "TaxCode@9": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "TaxSummaryColumn@4": 4
+    },
+    "5fff423a-d511-4233-9330-08575830438b": {
+      "Name@1": "v24a",
+      "Type@2": 1,
+      "TaxCode@9": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
+      "TaxSummaryColumn@4": 3
+    },
+    "63c369c2-7ab8-4ca9-9ffe-4290a27d1534": {
+      "Name@1": "V14",
+      "Type@2": 1,
+      "TaxCode@9": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
+      "TaxSummaryColumn@4": 4
+    },
+    "7abb67d0-af31-4448-aaf0-331f33da2c29": {
+      "Name@1": "v26a",
+      "Type@2": 1,
+      "TaxCode@9": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
+      "TaxSummaryColumn@4": 3
+    },
+    "83ee3705-075c-4157-b005-b81454e05098": {
+      "Name@1": "Business - Name",
+      "Type@2": 2,
+      "BusinessDetailsField@5": {
+        "Key@1": "Manager.Model.BusinessDetails.Name"
+      }
+    },
+    "9044b0b3-632e-4f0c-ba45-1e7ca1ab530d": {
+      "Name@1": "V12",
+      "Type@2": 1,
+      "TaxCode@9": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
+      "TaxSummaryColumn@4": 4
+    },
+    "91093203-bc05-43f3-94a0-61deb347e14d": {
+      "Name@1": "v23a",
+      "Type@2": 1,
+      "TaxCode@9": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
+      "TaxSummaryColumn@4": 4
+    },
+    "934f9791-e2ee-40e2-9807-3f3ef9532a95": {
+      "Name@1": "v22b",
+      "Type@2": 1,
+      "TaxCode@9": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
+      "TaxSummaryColumn@4": 3
+    },
+    "99a5fda4-6d8a-4e00-adfd-e6de5cf3cc98": {
+      "Name@1": "v30b",
+      "Type@2": 1,
+      "TaxCode@9": "fe1aa167-d121-412d-97f2-4d69d2c748c5",
+      "TaxSummaryColumn@4": 3
+    },
+    "9f8ac625-2dbe-461a-8105-c83789147c7b": {
+      "Name@1": "v22a",
+      "Type@2": 1,
+      "TaxCode@9": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
+      "TaxSummaryColumn@4": 3
+    },
+    "a39869df-407a-49da-857c-ff44586f6daa": {
+      "Name@1": "v21b",
+      "Type@2": 1,
+      "TaxCode@9": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
+      "TaxSummaryColumn@4": 4
+    },
+    "a717e6a3-3876-4996-9e92-3c6b48a9132d": {
+      "Name@1": "Business - Address",
+      "Type@2": 2,
+      "BusinessDetailsField@5": {
+        "Key@1": "Manager.Model.BusinessDetails.Address"
+      }
+    },
+    "b4e70254-f99b-4ef7-ade2-6f07116be1cc": {
+      "Name@1": "V18",
+      "Type@2": 1,
+      "TaxCode@9": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "TaxSummaryColumn@4": 4
+    },
+    "cc8335f5-67a8-4b97-b1e8-6adefeb78147": {
+      "Name@1": "V8",
+      "Type@2": 1,
+      "TaxCode@9": "f7a7d590-3354-459b-a786-3730ea70de8a",
+      "TaxSummaryColumn@4": 2
+    },
+    "d12896f6-44d4-464d-83d9-1b575d219e08": {
+      "Name@1": "v27b",
+      "Type@2": 1,
+      "TaxCode@9": "5a254e38-7b2a-474d-9ab0-8777e37d7d56",
+      "TaxSummaryColumn@4": 4
+    },
+    "d1da57b2-1078-4b82-99e9-c44f8619de0d": {
+      "Name@1": "V9",
+      "Type@2": 1,
+      "TaxCode@9": "a0af1cab-581e-41bc-b711-59390b68a767",
+      "TaxSummaryColumn@4": 2
+    },
+    "e44fbd65-9bfe-442d-8a77-3fbdc6fadd29": {
+      "Name@1": "V1",
+      "Type@2": 1,
+      "TaxCode@9": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
+      "TaxSummaryColumn@4": 1
+    },
+    "e5541050-958d-44f5-822a-c4a9ecb30e71": {
+      "Name@1": "V19",
+      "Type@2": 1,
+      "TaxCode@9": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "TaxSummaryColumn@4": 3
+    },
+    "e629c328-1f5a-42a0-8500-07ef6d695f49": {
+      "Name@1": "V6",
+      "Type@2": 1,
+      "TaxCode@9": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a"
+    },
+    "f409e7a9-9988-43f6-9ea2-10bbcd13a50b": {
+      "Name@1": "V11a",
+      "Type@2": 1,
+      "TaxCode@9": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
+      "TaxSummaryColumn@4": 1
+    },
+    "fb767ea5-3085-4a38-90b6-edcf5c710ae3": {
+      "Name@1": "v27a",
+      "Type@2": 1,
+      "TaxCode@9": "31a9a48c-5733-40bf-b135-9422f3c0592e",
+      "TaxSummaryColumn@4": 4
+    }
+  },
   "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
     "09c016d5-01b8-4ffc-a154-1f67ab1af709": {
       "Name@1": "Донации",
@@ -99,156 +340,253 @@
       "Position@5": 2
     }
   },
-  "699401fe-23fd-4b52-9699-b88b36fa6b26": {
-    "699401fe-23fd-4b52-9699-b88b36fa6b26": {
-      "BankClearStatus@12": 1,
-      "AmountsIncludeTax@16": true
-    }
-  },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "3c7e1105-c3ef-4aa0-9c9e-282c548dd29e": {
       "Name@1": "ДДВ-04",
-      "FromDate@9": "2021-01-01T00:00:00",
+      "FromDate@9": "2019-01-01T00:00:00",
       "ToDate@10": "2021-03-31T00:00:00",
       "Template@5": [
-        "{% assign EDB = business.CustomFields[\"2d15fd3a-2063-489d-be8a-d620f44bc21c\"] %} ",
-        "",
-        "{% assign EMBG = business.CustomFields[\"67a99165-f78b-4e57-a076-0868f04e0ed1\"] %}",
-        "",
-        "{% assign period = transactions | between: report.From, report.To %}",
-        "{% if report.To | date: 'MM' = 12 %}",
-        "{% assign dueMonth =  1 %}",
-        "{% else %}",
-        "{% assign dueMonth =  report.To | date: 'MM' | times: 1 | plus: 1 %}",
-        "{% endif %}",
-        "{% assign dueDate = report.To | set_day: 25 | set_month: dueMonth | date: \"dd/MM/yyyy\" %}",
-        "",
-        "{% assign DDV_0_Bez_pravo_na_odbivka = \"a0af1cab-581e-41bc-b711-59390b68a767\" %}",
-        "{% assign DDV_0_So_pravo_na_odbivka = \"2f69dae6-c85d-4f70-98a1-574428fe7095\" %}",
-        "{% assign DDV_0_Izvoz = \"e141987c-19f2-4982-84ee-a45b94e68c93\" %}",
-        "{% assign DDV_0_Nemaat_sediste_vo_zemjata = \"f7a7d590-3354-459b-a786-3730ea70de8a\" %}",
-        "{% assign DDV_5 = \"8fad8a0f-f932-454e-b90b-7b48b6a02e1a\" %}",
-        "{% assign DDV_5_Clen_32_4 = \"115e658e-84f8-4c46-8d0a-e9b28f317d35\" %}",
-        "{% assign DDV_5_Clen_32_a = \"d40ac9e4-f58a-4ca8-837f-266ff1ce504b\" %}",
-        "{% assign DDV_5_Uvoz = \"5a254e38-7b2a-474d-9ab0-8777e37d7d56\" %}",
-        "{% assign DDV_5_Ostanati_danoci = \"fe1aa167-d121-412d-97f2-4d69d2c748c5\" %}",
-        "{% assign DDV_10 = \"ba184918-bbf2-4585-b388-6ad7a743ac46\" %}",
-        "{% assign DDV_18 = \"d7eba1a0-d27c-465c-94ca-38e7b480266a\" %}",
-        "{% assign DDV_18_Clen_32_4 = \"9201a831-7cf6-4963-a33d-fd404c6f02dc\" %}",
-        "{% assign DDV_18_Clen_32_a = \"17b4df47-2148-40bd-a2c6-56d426d44ca0\" %}",
-        "{% assign DDV_18_Uvoz = \"31a9a48c-5733-40bf-b135-9422f3c0592e\" %}",
-        "{% assign DDV_18_Ostanati_danoci = \"72e73474-87e3-4dfc-a673-8c9066d89203\" %}",
-        "",
-        "",
-        "{% assign V1 = period | taxcode: DDV_18 | tax_exclusive_sales | reversesign | balance | round %}",
-        "{% assign V2 = period | taxcode: DDV_18 | tax_on_sales | reversesign | balance | round %}",
-        "{% assign V3 = period | taxcode: DDV_10 | tax_exclusive_sales | reversesign | balance | round %}",
-        "{% assign V4 = period | taxcode: DDV_10 | tax_on_sales | reversesign | balance | round %}",
-        "{% assign V5 = period | taxcode: DDV_5 | tax_exclusive_sales | reversesign |  balance | round %}",
-        "{% assign V6 = period | taxcode: DDV_5 | tax_on_sales | reversesign | balance | round %}",
-        "{% assign V7 = period | taxcode: DDV_0_Izvoz | tax_inclusive_sales | reversesign | balance | round %}",
-        "{% assign V8 = period | taxcode: DDV_0_So_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
-        "{% assign V9 = period | taxcode: DDV_0_Bez_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
-        "{% assign V10 = period | taxcode: DDV_0_Nemaat_sediste_vo_zemjata | tax_inclusive_sales | reversesign | balance | round %}",
-        "{% assign V11 = period | taxcode: DDV_5_Clen_32_a, DDV_18_Clen_32_a | tax_exclusive_sales | reversesign | balance | round %}",
-        "{% assign V12 = period | taxcode: DDV_18_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V13 = period | taxcode: DDV_18_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V14 = period | taxcode: DDV_5_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V15 = period | taxcode: DDV_5_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V16 = period | taxcode: DDV_18_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V17 = period | taxcode: DDV_18_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V18 = period | taxcode: DDV_5_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V19 = period | taxcode: DDV_5_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V20 = V2 | plus: V4 | plus: V6 | plus: V13  | plus: V15 | plus: V17 | plus: V19 %}",
-        "",
-        "{% assign V21 = period | taxcode: DDV_18, DDV_5 | tax_exclusive_purchases  | balance | round %}",
-        "{% assign V22 = period | taxcode: DDV_18, DDV_5 | tax_on_purchases | balance | round %}",
-        "{% assign V23 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_exclusive_purchases | balance | round %}",
-        "{% assign V24 = period | taxcode: DDV_18_Clen_32_4, DDV_5_Clen_32_4 | tax_on_purchases | balance | round %}",
-        "{% assign V25 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_exclusive_purchases | balance | round %}",
-        "{% assign V26 = period | taxcode: DDV_18_Clen_32_a, DDV_5_Clen_32_a | tax_on_purchases | balance | round %}",
-        "{% assign V27 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_exclusive_purchases |  balance | round %}",
-        "{% assign V28 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_on_purchases | balance | round %}",
-        "{% assign V29 = V22 | plus: V24 | plus: V26 | plus: V28 %}",
-        "{% assign V30 = period | taxcode: DDV_18_Ostanati_danoci, DDV_5_Ostanati_danoci | tax_on_purchases | balance | round %}",
-        "{% assign V31 = V29 | plus: V30 %}",
-        "{% assign V32 = 0 %}",
-        "",
-        "{% capture exportToXML %}{{ \"<?xml version='1.0' encoding='UTF-8'?> \" | escape }}",
-        "<ddv_04_2021>",
-        "    <danocen_mk>MK</danocen_mk>",
-        "    <edb>{{ EDB }}</edb>",
-        "    <datumpriem></datumpriem>",
-        "    <ujp_prijava_broj></ujp_prijava_broj>",
-        "    <naziv></naziv>",
-        "    <telefon></telefon>",
-        "    <email></email>",
-        "    <datumod>{{ report.From | date: 'dd/MM/yyyy' }}</datumod>",
-        "    <datumdo>{{ report.To | date: 'dd/MM/yyyy' }}</datumdo>",
-        "    <rok_podnesuvanje>{{ dueDate }}</rok_podnesuvanje>",
-        "    <ispravka></ispravka>",
-        "    <broj_ispravka></broj_ispravka>",
-        "    <input01>{{ V1 }}</input01>",
-        "    <input02>{{ V2 }}</input02>",
-        "    <input03>{{ V3 }}</input03>",
-        "    <input04>{{ V4 }}</input04>",
-        "    <input05>{{ V5 }}</input05>",
-        "    <input06>{{ V6 }}</input06>",
-        "    <input07>{{ V7 }}</input07>",
-        "    <input08>{{ V8 }}</input08>",
-        "    <input09>{{ V9 }}</input09>",
-        "    <input10>{{ V10 }}</input10>",
-        "    <input11>{{ V11 }}</input11>",
-        "    <input12>{{ V12 }}</input12>",
-        "    <input13>{{ V13 }}</input13>",
-        "    <input14>{{ V14 }}</input14>",
-        "    <input15>{{ V15 }}</input15>",
-        "    <input16>{{ V16 }}</input16>",
-        "    <input17>{{ V17 }}</input17>",
-        "    <input18>{{ V18 }}</input18>",
-        "    <input19>{{ V19 }}</input19>",
-        "    <input20>{{ V20 }}</input20>",
-        "    <input21>{{ V21 }}</input21>",
-        "    <input22>{{ V22 }}</input22>",
-        "    <input23>{{ V23 }}</input23>",
-        "    <input24>{{ V24 }}</input24>",
-        "    <input25>{{ V25 }}</input25>",
-        "    <input26>{{ V26 }}</input26>",
-        "    <input27>{{ V27 }}</input27>",
-        "    <input28>{{ V28 }}</input28>",
-        "    <input29>{{ V29 }}</input29>",
-        "    <input30>{{ V30 }}</input30>",
-        "    <input31>{{ V31 }}</input31>",
-        "    <input32>{{ V32 }}</input32>",
-        "    <vrakanje></vrakanje>",
-        "    <otstapuvanje></otstapuvanje>",
-        "    <input1></input1>",
-        "    <input2></input2>",
-        "    <input3></input3>",
-        "    <input4></input4>",
-        "    <input5></input5>",
-        "    <input6></input6>",
-        "    <drugo_opis></drugo_opis>",
-        "    <drugo_iznos></drugo_iznos>",
-        "    <vkupno_tabela></vkupno_tabela>",
-        "    <sostojba_na></sostojba_na>",
-        "    <vkupno_dinamicka></vkupno_dinamicka>",
-        "    <vkupno_neto></vkupno_neto>",
-        "    <sostavuvac_ime></sostavuvac_ime>",
-        "    <sostavuvac_prezime></sostavuvac_prezime>",
-        "    <sostavuvac_edb>{{ EMBG }}</sostavuvac_edb>",
-        "    <popolnuvac_svojstvo></popolnuvac_svojstvo>",
-        "    <odgovoren_ime></odgovoren_ime>",
-        "    <odgovoren_prezime></odgovoren_prezime>",
-        "    <odgovoren_edb></odgovoren_edb>",
-        "    <odgovoren_svojstvo></odgovoren_svojstvo>",
-        "    <pecat></pecat>",
-        "    <zabeleska></zabeleska>",
-        "</ddv_04_2021>{% endcapture %}",
-        "",
-        "<table style=\"padding: 30px\"><tr><td></td><td style=\"width: 34px\"></td><td style=\"width: 207px\"></td><td style=\"width: 35px\"></td><td style=\"width: 211px\"></td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-size: 16px;font-weight: bold;borders-no_borders;remove_row\">Даночна пријава на данокот на додадена вредност</td></tr><tr><td colSpan=\"5\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center;font-size: 16px;font-weight: bold;borders-no_borders;remove_row\">{{ report.AccountingBasis }}</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;border-top: 1px solid #000\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">Даночен број за ДДВ: MK {{ EDB }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">*Пополнува УЈП</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">Скратен назив: {{ business.Name }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;color: #fff; background-color: #000\">Датум и број на прием:</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\"> </div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">Адреса и вистинско седиште за контакт: {{ business.Address }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"3\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;text-align: center;alignment-center\">Даночен период</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">Телефон:</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right\">од</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ report.From | date: 'dd/MM/yyyy' }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right\">до</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ report.To | date: 'dd/MM/yyyy' }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">Е-пошта:</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Рок за поднесување</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ dueDate }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Исправка на ДДВ-04</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\"> </div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\"> </div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;font-weight: bold;borders-no_borders\">ПРОМЕТ НА ДОБРА И УСЛУГИ</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;font-weight: bold;border-top: 1px solid #000\">Даночна основа без ДДВ</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;font-weight: bold;border-top: 1px solid #000\">ДДВ</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders;row_below\">Оданочив промет по општа даночна стапка</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders;row_below\">01</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input;borders-no_borders;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V1 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders;row_below\">02</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input;borders-no_borders;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V2 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Оданочив промет по повластена даночна стапка 10%</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">03</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V3 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">04</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V4 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;remove_row;borders-no_borders;row_below\">Оданочив промет по повластена даночна стапка 5%</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders;row_below\">05</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V5 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders;row_below\">06</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V6 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \">Извоз</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center\">07</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V7 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\">Промет ослободен од данок со право на одбивка на претходен данок</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\">08</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V8 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 8pxalignment-rightalignment-center;remove_row;htLeft;alignment-left;font-weight: normal;borders-no_borders\">Промет ослободен од данок без право на одбивка на претходен данок</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 8pxalignment-right;text-align: center;remove_row;alignment-center;font-weight: normal;borders-no_borders\">09</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 8pxalignment-rightfont-weight: bold;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V9 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 8pxalignment-right;text-align: center;font-weight: bold;remove_row;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergeCells;font-size: 8pxalignment-right;text-align: center;alignment-center;font-weight: bold;remove_row;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\">Промет извршен спрема даночни обврзници кои немаат седиште во земјата, кој не е предмет на оданочување во земјата</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\">10</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V10 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\">Промет во земјата за кој данокот го пресметува примателот на прометот (пренесување на даночна обврска согласно член 32-а)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\">11</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V11 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;text-align: center;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_row;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;remove_row;font-weight: normal;borders-no_borders\">Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по општа даночна стапка (член 32-4)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">12</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V12 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">13</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V13 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;borders-no_borders\">Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по повластена даночна стапка (член 32-4)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: center;alignment-center;borders-no_borders\">14</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-center;font-weight: normal;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V14 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: center;alignment-center;font-weight: normal;borders-no_borders\">15</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-center;font-weight: normal;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V15 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;borders-no_borders\">Примен промет во земјата за кој данокот го пресметува примателот на прометот по општа даночна стапка (член 32-а)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">16</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V16 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">17</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V17 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;borders-no_borders\">Примен промет во земјата за кој данокот го пресметува примателот на прометот по повластена даночна стапка (член 32-а)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">18</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V18 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">19</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V19 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;remove_col;border-bottom: 1px solid #000\">Вкупен ДДВ (02+04+06+13+15+17+19)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;border-bottom: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: center;alignment-center;font-weight: bold;border-bottom: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;border-bottom: 1px solid #000\">20</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; cell-style-input;text-align: right;alignment-right;border-bottom: 1px solid #000;font-weight: normal\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V20 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;remove_col;row_below;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;borders-no_borders;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders;cell-style-normal\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;borders-no_borders;cell-style-normal\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold;borders-no_borders\">ВЛЕЗНИ ИСПОЛНУВАЊА СО ПРАВО НА ОДБИВКА</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-normal;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;cell-style-normal;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-normal;borders-no_borders\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-normal;font-weight: bold;border-top: 1px solid #000\">Даночна основа без ДДВ</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;cell-style-normal;border-top: 1px solid #000\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-normal;font-weight: bold;border-top: 1px solid #000\">ДДВ</td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;remove_col;row_below;borders-no_borders\">Влезен промет</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;row_below;alignment-center;borders-no_borders\">21</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V21 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center;borders-no_borders\">22</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V22 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;borders-no_borders\">Влезен промет за кој данокот го пресметува примателот на прометот (член 32-4)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center;borders-no_borders\">23</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V23 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center;borders-no_borders\">24</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V24 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;borders-no_borders\">Влезен промет во земјата за кој данокот го пресметува примателот на прометот (член 32-а)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center;borders-no_borders\">25</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V25 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: center;alignment-center;borders-no_borders\">26</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V26 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\">Увоз</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: center;alignment-center;borders-no_borders\">27</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;row_below;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V27 }}</div></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">28</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V28 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\">Претходни даноци за одбивање (22+24+26+28)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: center;alignment-center;borders-no_borders\">29</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;alignment-right;cell-style-input;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V29 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\">Останати даноци, претходни даноци и износи на одбивање</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;borders-no_borders;text-align: center;alignment-center\">30</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;borders-no_borders\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V30 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\">Даночен долг/побарување (Ако барате враќање на данок внесете „X“ пред поле 31)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: center;alignment-center\">31</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;alignment-right;cell-style-input\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V31 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-bottom: 1px solid #000;row_below\">Oтстапување на побарување   (Ако отстапувате побарување, внесете „Х“ пред поле 32)</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-bottom: 1px solid #000;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-bottom: 1px solid #000;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;border-bottom: 1px solid #000;text-align: center;alignment-center;row_below\">32</td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right;alignment-right;border-bottom: 1px solid #000;row_below\"><div style=\"border-width: 1px; border-color: #000; border-style: solid; padding: 3px\">{{ V32 }}</div></td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below\"> </td></tr><tr><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"><form method=\"POST\" action=\"download\">\n\t\t            <input type=\"hidden\" name=\"filename\" value=\"ДДВ-04-{{ report.From | date: 'dd.MM.yyyy' }}-{{ report.To | date: 'dd.MM.yyyy' }}.xml\">\n\t\t            <input type=\"hidden\" name=\"content\" value=\"{{ exportToXML }}\"><input type=\"submit\" value=\"Сними како XML\" class=\"btn btn-warning\" style=\"font-weight: bold\"></form></td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td><td colSpan=\"1\" style=\"vertical-align: middle; padding: 3px; \"> </td></tr></table>"
+        "<p>report.From<br data-mce-bogus=\"1\">",
+        "</p>",
+        "<p>report.To<br data-mce-bogus=\"1\">",
+        "</p>",
+        "<p>report.AccountingBasis</p>"
       ],
-      "Description@6": "Даночна пријава на данокот на додадена вредност"
+      "Description@6": "Даночна пријава на данокот на додадена вредност",
+      "NoCodeExperimental@14": true,
+      "Columns@16": 2,
+      "Items2@17": [
+        {
+          "Name@4": "Скратен назив",
+          "Column2@2": [
+            "83ee3705-075c-4157-b005-b81454e05098"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Адреса и вистинско седиште за контакт",
+          "Column2@2": [
+            "a717e6a3-3876-4996-9e92-3c6b48a9132d"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "ПРОМЕТ НА ДОБРА И УСЛУГИ",
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Оданочив промет по општа даночна стапка",
+          "Column2@2": [
+            "e44fbd65-9bfe-442d-8a77-3fbdc6fadd29"
+          ],
+          "Column3@3": [
+            "0c33bbbd-8951-420d-b253-8aa6b1ebac41"
+          ]
+        },
+        {
+          "Name@4": "Оданочив промет по повластена даночна стапка 10%",
+          "Column2@2": [
+            "34541511-b750-42da-85f7-a6eb52ed7749"
+          ],
+          "Column3@3": [
+            "25fd7c7e-fc61-420f-8e7d-5703fda15a53"
+          ]
+        },
+        {
+          "Name@4": "Оданочив промет по повластена даночна стапка 5%",
+          "Column2@2": [
+            "4ef732c5-322f-4df4-a56e-8e3e1d3878ed"
+          ],
+          "Column3@3": [
+            "e629c328-1f5a-42a0-8500-07ef6d695f49"
+          ]
+        },
+        {
+          "Name@4": "Извоз",
+          "Column2@2": [
+            "33aec3f4-873b-48d0-82d0-6ec50a46cc76"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Промет ослободен од данок со право на одбивка на претходен данок",
+          "Column2@2": [
+            "cc8335f5-67a8-4b97-b1e8-6adefeb78147"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Промет ослободен од данок без право на одбивка на претходен данок",
+          "Column2@2": [
+            "d1da57b2-1078-4b82-99e9-c44f8619de0d"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Промет извршен спрема даночни обврзници кои немаат седиште во земјата, кој не е предмет на оданочување во земјата",
+          "Column2@2": [
+            "1c1af4e2-c536-43c7-b346-bd0ec1490a2d"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Промет во земјата за кој данокот го пресметува примателот на прометот (пренесување на даночна обврска согласно член 32-а)",
+          "Column2@2": [
+            "f409e7a9-9988-43f6-9ea2-10bbcd13a50b",
+            "20f0eb2d-f459-46f7-831f-f21427f99bd6"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по општа даночна стапка (член 32-4)",
+          "Column2@2": [
+            "9044b0b3-632e-4f0c-ba45-1e7ca1ab530d"
+          ],
+          "Column3@3": [
+            "0e868367-23e7-4be2-919f-d3f0a7b85321"
+          ]
+        },
+        {
+          "Name@4": "Примен промет извршен од страна на даночни обврзници кои немаат седиште во земјата по повластена даночна стапка (член 32-4)",
+          "Column2@2": [
+            "63c369c2-7ab8-4ca9-9ffe-4290a27d1534"
+          ],
+          "Column3@3": [
+            "504d91d4-8776-42b4-9ce2-98fda187e075"
+          ]
+        },
+        {
+          "Name@4": "Примен промет во земјата за кој данокот го пресметува примателот на прометот по општа даночна стапка (член 32-а)",
+          "Column2@2": [
+            "32868623-a534-46ca-967a-5c863c20fddd"
+          ],
+          "Column3@3": [
+            "07db8974-1ea0-4c3b-baf2-701e8151effe"
+          ]
+        },
+        {
+          "Name@4": "Примен промет во земјата за кој данокот го пресметува примателот на прометот по повластена даночна стапка (член 32-а)",
+          "Column2@2": [
+            "b4e70254-f99b-4ef7-ade2-6f07116be1cc"
+          ],
+          "Column3@3": [
+            "e5541050-958d-44f5-822a-c4a9ecb30e71"
+          ]
+        },
+        {
+          "Name@4": "Вкупен ДДВ (02+04+06+13+15+17+19)",
+          "Column2@2": [],
+          "Column3@3": [
+            "0c33bbbd-8951-420d-b253-8aa6b1ebac41",
+            "25fd7c7e-fc61-420f-8e7d-5703fda15a53",
+            "e629c328-1f5a-42a0-8500-07ef6d695f49",
+            "0e868367-23e7-4be2-919f-d3f0a7b85321",
+            "504d91d4-8776-42b4-9ce2-98fda187e075",
+            "07db8974-1ea0-4c3b-baf2-701e8151effe",
+            "e5541050-958d-44f5-822a-c4a9ecb30e71"
+          ]
+        },
+        {
+          "Name@4": "ВЛЕЗНИ ИСПОЛНУВАЊА СО ПРАВО НА ОДБИВКА",
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Влезен промет",
+          "Column2@2": [
+            "3dc23eed-7734-4c7c-9871-00815ce79501",
+            "a39869df-407a-49da-857c-ff44586f6daa"
+          ],
+          "Column3@3": [
+            "9f8ac625-2dbe-461a-8105-c83789147c7b",
+            "934f9791-e2ee-40e2-9807-3f3ef9532a95"
+          ]
+        },
+        {
+          "Name@4": "Влезен промет за кој данокот го пресметува примателот на прометот (член 32-4)",
+          "Column2@2": [
+            "91093203-bc05-43f3-94a0-61deb347e14d",
+            "2e38b053-7c80-487e-b4d3-ecc612dbbd0a"
+          ],
+          "Column3@3": [
+            "5fff423a-d511-4233-9330-08575830438b",
+            "19c9918a-c64f-4611-8ab1-1582b0566a4d"
+          ]
+        },
+        {
+          "Name@4": "Влезен промет во земјата за кој данокот го пресметува примателот на прометот (член 32-а)",
+          "Column2@2": [
+            "00ecb548-5164-4a5e-8624-d6ced258c414",
+            "561bc5ed-252e-407b-8924-cb5283c3772c"
+          ],
+          "Column3@3": [
+            "7abb67d0-af31-4448-aaf0-331f33da2c29",
+            "15940ba1-44bc-47eb-a867-77cf3d48c13c"
+          ]
+        },
+        {
+          "Name@4": "Увоз",
+          "Column2@2": [
+            "fb767ea5-3085-4a38-90b6-edcf5c710ae3",
+            "d12896f6-44d4-464d-83d9-1b575d219e08"
+          ],
+          "Column3@3": [
+            "024d3dcf-3dc5-427e-82d6-3a69b744f191",
+            "3d64eb1a-590f-471b-a78c-5df48148ec2f"
+          ]
+        },
+        {
+          "Name@4": "Претходни даноци за одбивање (22+24+26+28)",
+          "Column2@2": [],
+          "Column3@3": [
+            "9f8ac625-2dbe-461a-8105-c83789147c7b",
+            "934f9791-e2ee-40e2-9807-3f3ef9532a95",
+            "5fff423a-d511-4233-9330-08575830438b",
+            "19c9918a-c64f-4611-8ab1-1582b0566a4d",
+            "7abb67d0-af31-4448-aaf0-331f33da2c29",
+            "15940ba1-44bc-47eb-a867-77cf3d48c13c",
+            "024d3dcf-3dc5-427e-82d6-3a69b744f191",
+            "3d64eb1a-590f-471b-a78c-5df48148ec2f"
+          ]
+        },
+        {
+          "Name@4": "Останати даноци, претходни даноци и износи на одбивање",
+          "Column2@2": [],
+          "Column3@3": [
+            "004a221d-b006-4d2a-9122-db89232bc8ea",
+            "99a5fda4-6d8a-4e00-adfd-e6de5cf3cc98"
+          ]
+        },
+        {
+          "Name@4": "Даночен долг/побарување (Ако барате враќање на данок внесете „X“ пред поле 31)",
+          "Column2@2": [],
+          "Column3@3": [
+            "9f8ac625-2dbe-461a-8105-c83789147c7b",
+            "934f9791-e2ee-40e2-9807-3f3ef9532a95",
+            "5fff423a-d511-4233-9330-08575830438b",
+            "19c9918a-c64f-4611-8ab1-1582b0566a4d",
+            "7abb67d0-af31-4448-aaf0-331f33da2c29",
+            "15940ba1-44bc-47eb-a867-77cf3d48c13c",
+            "024d3dcf-3dc5-427e-82d6-3a69b744f191",
+            "3d64eb1a-590f-471b-a78c-5df48148ec2f",
+            "004a221d-b006-4d2a-9122-db89232bc8ea",
+            "99a5fda4-6d8a-4e00-adfd-e6de5cf3cc98"
+          ]
+        }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ]
     }
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
@@ -273,31 +611,23 @@
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
       "ReverseCharged@11": true,
       "ReverseChargedRate@12": 5.0,
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "17b4df47-2148-40bd-a2c6-56d426d44ca0": {
       "Name@1": "ДДВ 18% (Член 32-а)",
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
       "ReverseCharged@11": true,
       "ReverseChargedRate@12": 18.0,
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "31a9a48c-5733-40bf-b135-9422f3c0592e": {
       "Name@1": "ДДВ 18% (Увоз)",
@@ -305,14 +635,10 @@
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "5a254e38-7b2a-474d-9ab0-8777e37d7d56": {
       "Name@1": "ДДВ 5% (Увоз)",
@@ -320,14 +646,10 @@
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "72e73474-87e3-4dfc-a673-8c9066d89203": {
       "Name@1": "ДДВ 18% (Останати даноци)",
@@ -335,14 +657,10 @@
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "8fad8a0f-f932-454e-b90b-7b48b6a02e1a": {
       "Name@1": "ДДВ 5%",
@@ -355,27 +673,19 @@
       "Rate@4": 18.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
       "ReverseCharged@11": true,
       "ReverseChargedRate@12": 18.0,
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "a0af1cab-581e-41bc-b711-59390b68a767": {
       "Name@1": "ДДВ 0%",
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ]
     },
     "ba184918-bbf2-4585-b388-6ad7a743ac46": {
@@ -383,22 +693,21 @@
       "TaxRate@5": 2,
       "Rate@4": 10.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Inactive@10": true
+      "Components@2": [
+        {}
+      ],
+      "CustomFields@17": {}
     },
     "d40ac9e4-f58a-4ca8-837f-266ff1ce504b": {
       "Name@1": "ДДВ 5% (Член 32-а)",
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
       "ReverseCharged@11": true,
       "ReverseChargedRate@12": 5.0,
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "d7eba1a0-d27c-465c-94ca-38e7b480266a": {
       "Name@1": "ДДВ 18%",
@@ -410,27 +719,19 @@
       "Name@1": "ДДВ 0% (Извоз)",
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "f7a7d590-3354-459b-a786-3730ea70de8a": {
       "Name@1": "ДДВ 0% (Немаат седиште во земјата)",
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     },
     "fe1aa167-d121-412d-97f2-4d69d2c748c5": {
       "Name@1": "ДДВ 5% (Останати даноци)",
@@ -438,14 +739,10 @@
       "Rate@4": 5.0,
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        },
-        {
-          "Account@4": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
-        }
+        {},
+        {}
       ],
-      "Inactive@10": true
+      "CustomFields@17": {}
     }
   }
 }
