@@ -334,6 +334,9 @@
       "TaxCode@9": "9fe15ead-2138-4f4b-b3f5-398857d08503",
       "TaxSummaryColumn@4": 3
     },
+    "508e35cf-7482-4511-8fdd-9bb301d8c2ef": {
+      "Name@1": "Other"
+    },
     "5228dc51-36e1-4406-8ebd-c769d9b38af7": {
       "Name@1": "Earnings - Lump Sum B",
       "Type@2": 4,
@@ -386,9 +389,6 @@
       "TaxCode@9": "f218a321-f83d-4d06-8d02-b52f595cc4fe",
       "TaxSummaryColumn@4": 5
     },
-    "894ec417-8cb1-49d2-9dbf-d5eab4a99e27": {
-      "Name@1": "Total GST"
-    },
     "89c1286b-3e9a-4c50-b3a9-70b116e30adc": {
       "Name@1": "Business Details - Name",
       "Type@2": 2,
@@ -422,6 +422,13 @@
       "Name@1": "Tax on Sales - GST 10% (CAPEX)",
       "Type@2": 1,
       "TaxCode@9": "3e2cb830-e229-4525-8794-2e38761b3cfd"
+    },
+    "a7dba859-df65-4f1d-8425-4372e430d803": {
+      "Name@1": "Supplier - Name",
+      "Type@2": 7,
+      "SupplierField@13": {
+        "Key@1": "Manager.Model.Supplier.Name"
+      }
     },
     "afa0525e-5bca-4145-b645-6aa0f36ed00d": {
       "Name@1": "Payslip Earnings Item - Foreign Income",
@@ -548,9 +555,6 @@
       "Type@2": 1,
       "TaxCode@9": "3e2cb830-e229-4525-8794-2e38761b3cfd",
       "TaxSummaryColumn@4": 5
-    },
-    "eae9f158-ac64-4a97-b5e6-3213881eeeea": {
-      "Name@1": "Gross amount paid"
     },
     "ec16bc43-e0c0-4002-82bf-e8e4e2305120": {
       "Name@1": "Tax liability - GST 10%",
@@ -935,350 +939,8 @@
       "FromDate@9": "2019-02-04T00:00:00",
       "ToDate@10": "2021-06-24T00:00:00",
       "Template@5": [
-        "<p>{% assign abn = business.CustomFields[\"0fba87ee-0386-401a-8d1f-302313b663f4\"] %} {% assign period = transactions | between: report.From, report.To %} {% assign period_W1_amount = period | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Gross payments' %} {% assign period_W2_amount = period | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'PAYG' | reversesign %} {% assign fyStart = report.From | set_day: 1 | set_month: 7 %} {% if fyStart > report.From %}{% assign fyStart = fyStart | add_years: -1 %}{% endif %} {% assign csv = \"Entity ABN,Period W1 value,Period W2 value,Pay period start date,Pay period end date,Employee TFN,Payroll number,Resident code,Basis of employment code,Family name,Given name,Middle name,Date of birth,Hired date,Termination date,Address 1,Address 2,Suburb,State/territory,Postcode,Country,Email,Phone,Final EOY pay indicator,Employee gross pay,Employee CDEP,Foreign income,Employee tax,Super guarantee amount,SG earnings amount,Reportable Employer Super Contribution (RESC),Car allowance,Transport allowance,Laundry allowance,Meal allowance,Travel allowance,Other allowance 1 description,Other allowance 1 value,Union fees,Workplace giving,Labour hire gross,Labour hire PAYG,Working holiday maker gross,Working holiday maker PAYG,Foreign resident gross,Foreign resident PAYG,Lump sum A indicator,Lump sum A amount,Lump sum B amount,Lump sum D amount,Lump sum E amount\" %} {% capture newLine %} {% endcapture %} {% assign transactionsPerEmployee = transactions | between: fyStart, report.To | group_by_employee %}</p>",
-        "<p>{% for e in transactionsPerEmployee %}{% assign employee_tfn = e.Key.CustomFields[\"8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7\"] %}{% assign employee_code_size = e.Key.Code | strip | size %}{% if employee_code_size > 0 %}{% assign employee_payroll_number = e.Key.Code | strip %}{% else %}{% assign employee_payroll_number = e.Key.Key %}{% endif %}{% assign employee_residency_status = e.Key.CustomFields[\"1f6483e5-5ad9-4181-a9db-117827b67a9d\"] %}{% assign employee_payment_basis_code = e.Key.CustomFields[\"6b837666-1039-4cfc-948b-5c36b30682c2\"] | slice: 0 %}{% assign employee_middle_name = \"\" %}{% assign employee_name_parts = e.Key.Name | words %}{% for employee_name_part in employee_name_parts %}{% if forloop.first == true %}{% assign employee_given_name = employee_name_part %}{% elsif forloop.last == true %}{% assign employee_family_name = employee_name_part %}{% else %}{% capture employee_middle_name %}{{ employee_middle_name }} {{ employee_name_part }}{% endcapture %}{% endif %}{% endfor %}{% assign employee_address_2 = \"\" %}{% assign employee_suburb_state = \"\" %}{% assign employee_suburb = \"\" %}{% assign employee_address_lines = e.Key.Address | lines %}{% for employee_address_line in employee_address_lines %}{% if forloop.first == true %}{% assign employee_address_1 = employee_address_line %}{% elsif forloop.last == true %}{% assign employee_suburb_state_postcode = employee_address_line %}{% else %}{% assign employee_address_2 = employee_address_2 | append: employee_address_line | append: ' ' %}{% endif %}{% endfor %}{% assign employee_suburb_state_postcode_parts = employee_suburb_state_postcode | words %}{% for employee_suburb_state_postcode_part in employee_suburb_state_postcode_parts %}{% if forloop.last == true %}{% assign employee_postcode = employee_suburb_state_postcode_part %}{% else %}{% capture employee_suburb_state %}{{ employee_suburb_state }} {{ employee_suburb_state_postcode_part }}{% endcapture %}{% endif %}{% endfor %}{% assign employee_suburb_state_parts = employee_suburb_state | words %}{% for employee_suburb_state_part in employee_suburb_state_parts %}{% if forloop.last == true %}{% assign employee_state = employee_suburb_state_part %}{% else %}{% capture employee_suburb %}{{ employee_suburb }} {{ employee_suburb_state_part }}{% endcapture %}{% endif %}{% endfor %}{% assign employee_gross_pay = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Gross payments' %}{% assign employee_cdep = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'CDEP payments' %}{% assign employee_exemptForeignEmploymentIncome = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Exempt foreign employment income' %}{% assign employee_payg = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'PAYG' | reversesign %}{% assign employee_sg_amount = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Superannuation guarantee' %}{% assign employee_ote = e.Value | where_payslip_earnings_item: '07fb0059-a29a-4d7a-8a7c-64f63311c05c', 'Yes' %}{% assign employee_resc = e.Value | where_payslip_contribution_item: '8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e', 'Reportable employer super contribution' %}{% assign employee_carAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e',Allowance - Car' %}{% assign employee_transportAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Transport' %}{% assign employee_laundryAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Laundry' %}{% assign employee_mealAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Meals' %}{% assign employee_travelAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Travel' %}{% assign employee_otherAllowance = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Allowance - Other' %}{% assign employee_unionFees = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Union / association fees' | reversesign %}{% assign employee_workplaceGiving = e.Value | where_payslip_deduction_item: 'e253ec72-1200-414a-941a-a93f4039a045', 'Workplace giving' | reversesign %}{% if employee_payment_basis_code == \"L\" %}{% assign employee_labour_hire_gross = employee_gross_pay %}{% assign employee_labour_hire_payg = employee_payg %}{% endif %}{% if employee_residency_status == \"Working Holiday Maker\" %}{% assign employee_working_holiday_gross = employee_gross_pay %}{% assign employee_working_holiday_payg = employee_payg %}{% endif %}{% if employee_residency_status == \"Non-resident\" %}{% assign employee_non_resident_gross = employee_gross_pay %}{% assign employee_non_resident_payg = employee_payg %}{% endif %}{% assign employee_lumpSumATermination = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump sum A - Termination' %}{% assign employee_lumpSumATerminationBalance = employee_lumpSumATermination | balance %}{% assign employee_lumpSumARedundancy = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum A - Redundancy' %}{% assign employee_lumpSumARedundancyBalance = employee_lumpSumARedundancy | balance %}{% assign employee_lumpSumAIndicator = \"\" %}{% assign employee_lumpSumA = nil %}{% if employee_lumpSumATerminationBalance != 0 %}{% assign employee_lumpSumAIndicator = \"T\" %}{% assign employee_lumpSumA = employee_lumpSumATermination %}{% endif %}{% if employee_lumpSumARedundancyBalance != 0 %}{% assign employee_lumpSumAIndicator = \"R\" %}{% assign employee_lumpSumA = employee_lumpSumARedundancy %}{% endif %}{% if employee_lumpSumA != nil %}{% endif %}{% assign employee_lumpSumB = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum B' %}{% assign employee_lumpSumD = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum D' %}{% assign employee_lumpSumE = e.Value | where_payslip_earnings_item: '8198caf2-1125-4f8e-9469-527583e3ea5e', 'Lump Sum E' %}{% capture csv %}{{ csv }}{{ newLine }}{{ abn }},{{ period_W1_amount | balance }},{{ period_W2_amount | balance }},{{ report.From | date: 'd/M/yyyy' }},{{ report.To | date: 'd/M/yyyy' }},\"{{ employee_tfn | strip }}\",\"{{ employee_payroll_number }}\",\"{{ employee_residency_status }}\",\"{{ employee_payment_basis_code }}\",\"{{ employee_family_name | strip }}\",\"{{ employee_given_name | strip }}\",\"{{ employee_middle_name | strip }}\",\"{{ e.Key.CustomFields.f6859bbb-1736-4e60-81f2-2703a9ea4686 | date: 'd/M/yyyy' }}\",\"\",\"\",\"{{ employee_address_1 | strip }}\",\"{{ employee_address_2 | strip }}\",\"{{ employee_suburb | strip }}\",\"{{ employee_state | strip }}\",\"{{ employee_postcode | strip }}\",\"\",\"{{ employee.Email | strip }}\",\"\",\"\",{{ employee_gross_pay | balance }},{{ employee_cdep | balance }},{{ employee_exemptForeignEmploymentIncome | balance }},{{ employee_payg | balance }},{{ employee_sg_amount | balance }},{{ employee_ote | balance }},{{ employee_resc | balance }},{{ employee_carAllowance | balance }},{{ employee_transportAllowance | balance }},{{ employee_laundryAllowance | balance }},{{ employee_mealAllowance | balance }},{{ employee_travelAllowance | balance }},\"Other\",{{ employee_otherAllowance | balance }},{{ employee_unionFees | balance }},{{ employee_workplaceGiving | balance }},{{ employee_labour_hire_gross | balance }},{{ employee_labour_hire_payg | balance }},{{ employee_working_holiday_gross | balance }},{{ employee_working_holiday_payg | balance }},{{ employee_non_resident_gross | balance }},{{ employee_non_resident_payg | balance }},\"{{ employee_lumpSumAIndicator }}\",{{ employee_lumpSumA | balance }},{{ employee_lumpSumB | balance }},{{ employee_lumpSumD | balance }},{{ employee_lumpSumE | balance }}{% endcapture %}{% endfor %}</p>",
-        "<table style=\"padding: 30px;\" data-mce-style=\"padding: 30px;\" class=\"mce-item-table\" data-mce-selected=\"1\">",
-        "<tbody>",
-        "<tr>",
-        "<td>",
-        "<br>",
-        "</td>",
-        "<td style=\"width: 247px;\" data-mce-style=\"width: 247px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;mergecells;font-size: 24px; text-align: center; alignment-center;font-weight: bold;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;mergecells;font-size: 24px; text-align: center; alignment-center;font-weight: bold;\">Single Touch Payroll Worksheet</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: center; alignment-center;font-weight: bold; font-size: 16px;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: center; alignment-center;font-weight: bold; font-size: 16px;\">For the pay period from {{ report.From }} until {{ report.To }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: center; alignment-center;font-weight: bold; font-size: 16px;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: center; alignment-center;font-weight: bold; font-size: 16px;\">Employee amounts are calculated year-to-date for the period from {{ fyStart }} until {{ report.To }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;color: #fff; background-color: #000; font-weight: bold;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;color: #fff; background-color: #000; font-weight: bold;\">{{ business.Name }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Entity ABN</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ abn }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Pay period start date</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ report.From }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Pay period end date</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ report.To }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Period W1</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right; alignment-right;font-weight: bold;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;cell-style-input;text-align: right; alignment-right;font-weight: bold;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ period_W1_amount }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Period W2</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right; alignment-right;font-weight: bold;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_below;text-align: right; alignment-right;font-weight: bold;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ period_W2_amount }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-center;cell-style-normal;font-weight: normal;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-center;cell-style-normal;font-weight: normal;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000; font-weight: bold;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_below;color: #fff; background-color: #000; font-weight: bold;\">Row #{{ forloop.index }} in CSV export</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Employee TFN</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_tfn }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Payroll number</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_payroll_number }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Resident code</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_residency_status }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Basis of employment code</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_payment_basis_code }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Family name</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_family_name }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Given name</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_given_name }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Middle name</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_middle_name }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Date of birth</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;cell-style-normal;font-weight: normal;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;cell-style-normal;font-weight: normal;\">{{ e.Key.CustomFields[\"f6859bbb-1736-4e60-81f2-2703a9ea4686\"] | date: 'd/M/yyyy' }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Address 1</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_address_1 }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Address 2</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_address_2 }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Suburb</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_suburb }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">State/territory</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_state }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Postcode</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_postcode }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Country</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Australia</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Email</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ e.Key.Email | strip }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Employee gross pay</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_gross_pay }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Employee CDEP</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_cdep }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Foreign income</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_exemptForeignEmploymentIncome }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Employee tax</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_payg }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Super guarantee amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_sg_amount }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">SG earnings amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;cell-style-input;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_ote }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Reportable Employer Super Contribution (RESC)</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_resc }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Car allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_carAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Transport allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_transportAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Laundry allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_laundryAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Meal allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_mealAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Travel allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_travelAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Other allowance</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_otherAllowance }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Union fees</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_unionFees }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Workplace giving</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;mergecells;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_workplaceGiving }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Labour hire gross</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_labour_hire_gross }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Labour hire PAYG</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_labour_hire_payg }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Working holiday maker gross</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_working_holiday_gross }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Working holiday maker PAYG</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_working_holiday_payg }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Foreign resident gross</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_non_resident_gross }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Foreign resident PAYG</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_non_resident_payg }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Lump sum A indicator</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">{{ employee_lumpSumAIndicator }}</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Lump sum A amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_lumpSumA }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;htleft;alignment-left;remove_row;remove_row;cell-style-normal;font-weight: normal;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_abovealignment-right;htleft;alignment-left;remove_row;remove_row;cell-style-normal;font-weight: normal;\">Lump sum B amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right; remove_row;remove_row;font-weight: normal;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right; remove_row;remove_row;font-weight: normal;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_lumpSumB }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Lump sum D amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_lumpSumD }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Lump sum E amount</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;row_above;text-align: right;\">",
-        "<div style=\"padding: 3px; border: 1px solid #000;\" data-mce-style=\"padding: 3px; border: 1px solid #000;\">{{ employee_lumpSumE }}</div>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px; ;font-weight: bold; color: #fff; background-color: #000;\" data-mce-style=\"vertical-align: middle; padding: 3px; ;font-weight: bold; color: #fff; background-color: #000;\">To lodge this Single Touch Payroll worksheet electronically:</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<form method=\"POST\" action=\"download\">",
-        "<input type=\"hidden\" name=\"filename\" value=\"STP Worksheet.csv\">",
-        "<input type=\"hidden\" name=\"content\" value=\"{{ csv | escape }}\">",
-        "<input type=\"submit\" value=\"Export to CSV\" class=\"btn btn-warning\" style=\"font-weight: bold;\" data-mce-style=\"font-weight: bold;\">",
-        "</form>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "<td colspan=\"1\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">",
-        "<br>",
-        "</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Export this report to CSV file by clicking on <strong>Export to CSV</strong> button</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Go to https://singletouch.com.au and login to \"Single Touch Lite\"</td>",
-        "</tr>",
-        "<tr>",
-        "<td colspan=\"2\" style=\"vertical-align: middle; padding: 3px;\" data-mce-style=\"vertical-align: middle; padding: 3px;\">Upload CSV file to SingleTouch website</td>",
-        "</tr>",
-        "</tbody>",
-        "</table>"
+        "<p>report.From</p>",
+        "<p>report.To</p>"
       ],
       "Description@6": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
       "NoCodeExperimental@14": true,
@@ -1286,38 +948,43 @@
       "Items2@17": [
         {
           "Name@4": "Summary",
-          "Column1@1": [],
           "Column2@2": [],
           "Column3@3": []
         },
         {
-          "Name@4": "Payer ABN",
-          "Column1@1": [],
+          "Name@4": "Entity ABN",
           "Column2@2": [
             "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
           ],
           "Column3@3": []
         },
         {
-          "Name@4": "W1 Total salary, wages and other payments",
-          "Column1@1": [],
+          "Name@4": "Period W1 value",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
           ],
           "Column3@3": []
         },
         {
-          "Name@4": "W2 Amount withheld from payments shown at W1",
-          "Column1@1": [],
+          "Name@4": "Period W2 value",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
           ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Pay period start date",
+          "Column2@2": [],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Pay period end date",
+          "Column2@2": [],
           "Column3@3": []
         }
       ],
       "SupplierItems@19": [
         {
-          "Column1@1": [],
           "Column2@2": [],
           "Column3@3": []
         }
@@ -1326,13 +993,11 @@
       "EmployeeItems@23": [
         {
           "Name@4": "Employee",
-          "Column1@1": [],
           "Column2@2": [],
           "Column3@3": []
         },
         {
           "Name@4": "Employee TFN",
-          "Column1@1": [],
           "Column2@2": [
             "ed2c80b3-930f-4100-8fdd-722605bde079"
           ],
@@ -1340,7 +1005,6 @@
         },
         {
           "Name@4": "Payroll number",
-          "Column1@1": [],
           "Column2@2": [
             "1d2b6715-39e3-4b42-87d5-9cc015836428"
           ],
@@ -1348,7 +1012,6 @@
         },
         {
           "Name@4": "Resident code",
-          "Column1@1": [],
           "Column2@2": [
             "d9ce4616-d10c-4d71-8b57-cfbefdaac616"
           ],
@@ -1356,7 +1019,6 @@
         },
         {
           "Name@4": "Basis of employment code",
-          "Column1@1": [],
           "Column2@2": [
             "1451c0cc-df0e-4adf-888e-4ec52303a4e7"
           ],
@@ -1364,7 +1026,6 @@
         },
         {
           "Name@4": "Family name",
-          "Column1@1": [],
           "Column2@2": [
             "44a3c9e6-e31e-4c60-8421-49704a6f63ed"
           ],
@@ -1372,7 +1033,6 @@
         },
         {
           "Name@4": "Given name",
-          "Column1@1": [],
           "Column2@2": [
             "14fc2759-de97-4c14-8802-e6962731ae46"
           ],
@@ -1380,7 +1040,6 @@
         },
         {
           "Name@4": "Middle name",
-          "Column1@1": [],
           "Column2@2": [
             "fda89d67-ba75-45ff-ad27-7372441513c5"
           ],
@@ -1388,7 +1047,6 @@
         },
         {
           "Name@4": "Date of birth",
-          "Column1@1": [],
           "Column2@2": [
             "b8d4d6f3-6e76-49a8-b362-e3ee1918c3ed"
           ],
@@ -1396,7 +1054,6 @@
         },
         {
           "Name@4": "Address 1",
-          "Column1@1": [],
           "Column2@2": [
             "8e3e0bd8-81e2-4856-bb0f-e376c19138cb"
           ],
@@ -1404,7 +1061,6 @@
         },
         {
           "Name@4": "Address 2",
-          "Column1@1": [],
           "Column2@2": [
             "936e79e7-25d4-4185-9743-f751a4d25545"
           ],
@@ -1412,7 +1068,6 @@
         },
         {
           "Name@4": "Suburb",
-          "Column1@1": [],
           "Column2@2": [
             "7b0a0677-c89c-4964-b496-6e9a0fd49e8e"
           ],
@@ -1420,7 +1075,6 @@
         },
         {
           "Name@4": "State/territory",
-          "Column1@1": [],
           "Column2@2": [
             "180ba1d9-72b0-4b5b-a4ba-d6848019022f"
           ],
@@ -1428,7 +1082,6 @@
         },
         {
           "Name@4": "Postcode",
-          "Column1@1": [],
           "Column2@2": [
             "70ae9685-435c-475b-8a36-6a3433d2a563"
           ],
@@ -1436,7 +1089,6 @@
         },
         {
           "Name@4": "Country",
-          "Column1@1": [],
           "Column2@2": [
             "f1cd420c-6865-40ab-b851-dfb88482f259"
           ],
@@ -1444,7 +1096,6 @@
         },
         {
           "Name@4": "Email",
-          "Column1@1": [],
           "Column2@2": [
             "7852d0a6-9100-43d4-84d8-50abc9642112"
           ],
@@ -1452,7 +1103,6 @@
         },
         {
           "Name@4": "Employee gross pay",
-          "Column1@1": [],
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
           ],
@@ -1460,7 +1110,6 @@
         },
         {
           "Name@4": "Employee CDEP",
-          "Column1@1": [],
           "Column2@2": [
             "029977a8-e39f-4092-ae12-7cbdd026bd35"
           ],
@@ -1468,7 +1117,6 @@
         },
         {
           "Name@4": "Foreign income",
-          "Column1@1": [],
           "Column2@2": [
             "afa0525e-5bca-4145-b645-6aa0f36ed00d"
           ],
@@ -1476,7 +1124,6 @@
         },
         {
           "Name@4": "Employee tax",
-          "Column1@1": [],
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
           ],
@@ -1484,7 +1131,6 @@
         },
         {
           "Name@4": "Super guarantee amount",
-          "Column1@1": [],
           "Column2@2": [
             "f2a6f9e4-6ce8-45e1-b20e-bac7174d5738"
           ],
@@ -1492,7 +1138,6 @@
         },
         {
           "Name@4": "SG earnings amount",
-          "Column1@1": [],
           "Column2@2": [
             "1cb2e5e2-37e1-4ca1-a3dc-0ef9c3073073"
           ],
@@ -1500,7 +1145,6 @@
         },
         {
           "Name@4": "Reportable Employer Super Contribution (RESC)",
-          "Column1@1": [],
           "Column2@2": [
             "e49a0fae-7c78-445b-836a-6bde9bf3826f"
           ],
@@ -1508,7 +1152,6 @@
         },
         {
           "Name@4": "Car allowance",
-          "Column1@1": [],
           "Column2@2": [
             "1e1414b4-f169-42a8-81c8-198ca8f2009b"
           ],
@@ -1516,7 +1159,6 @@
         },
         {
           "Name@4": "Transport allowance",
-          "Column1@1": [],
           "Column2@2": [
             "7d5cfd7a-04ae-4837-8c77-bc91aac63fbd"
           ],
@@ -1524,7 +1166,6 @@
         },
         {
           "Name@4": "Laundry allowance",
-          "Column1@1": [],
           "Column2@2": [
             "0cd95fe1-59c1-4a1a-9878-7ad4636650e3"
           ],
@@ -1532,7 +1173,6 @@
         },
         {
           "Name@4": "Meal allowance",
-          "Column1@1": [],
           "Column2@2": [
             "cce53d8b-65b7-422a-b693-d2d6efe22eb1"
           ],
@@ -1540,15 +1180,20 @@
         },
         {
           "Name@4": "Travel allowance",
-          "Column1@1": [],
           "Column2@2": [
             "2337614c-5081-428c-bede-14abf7505585"
           ],
           "Column3@3": []
         },
         {
-          "Name@4": "Other allowance",
-          "Column1@1": [],
+          "Name@4": "Other allowance 1 description",
+          "Column2@2": [
+            "508e35cf-7482-4511-8fdd-9bb301d8c2ef"
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Other allowance 1 value",
           "Column2@2": [
             "148b7600-1449-466e-80c2-498358d08e6a"
           ],
@@ -1556,7 +1201,6 @@
         },
         {
           "Name@4": "Union fees",
-          "Column1@1": [],
           "Column2@2": [
             "38fe1266-2f4c-43c1-bc57-dfa4dc1de8be"
           ],
@@ -1564,7 +1208,6 @@
         },
         {
           "Name@4": "Workplace giving",
-          "Column1@1": [],
           "Column2@2": [
             "049b43bc-1ec3-4c9f-9026-70b32cbec4d5"
           ],
@@ -1572,7 +1215,6 @@
         },
         {
           "Name@4": "Lump sum A indicator",
-          "Column1@1": [],
           "Column2@2": [
             "b463de4b-eccc-43d6-a66e-4ebc9ff7a58e"
           ],
@@ -1580,7 +1222,6 @@
         },
         {
           "Name@4": "Lump sum A amount",
-          "Column1@1": [],
           "Column2@2": [
             "d9bd6482-021a-4c94-80f3-1a7c0b3e73fa"
           ],
@@ -1588,7 +1229,6 @@
         },
         {
           "Name@4": "Lump sum B amount",
-          "Column1@1": [],
           "Column2@2": [
             "5228dc51-36e1-4406-8ebd-c769d9b38af7"
           ],
@@ -1596,7 +1236,6 @@
         },
         {
           "Name@4": "Lump sum D amount",
-          "Column1@1": [],
           "Column2@2": [
             "df5c4f51-b918-4f55-aeb4-f41d46484188"
           ],
@@ -1604,7 +1243,6 @@
         },
         {
           "Name@4": "Lump sum E amount",
-          "Column1@1": [],
           "Column2@2": [
             "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
           ],
@@ -1628,165 +1266,119 @@
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Sales",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Sales"
         },
         {
           "Name@4": "G1 Total sales (including any GST)",
-          "Column1@1": [],
           "Column2@2": [
             "bcffd352-ffa1-4973-a330-ed406d560741",
             "f2dbad50-6e60-44f9-a8a9-8183319f5f9a",
             "bf358df1-c6d2-47da-847c-54272045a11e",
             "b67866aa-4d8e-4ede-9e24-6a6e30539b37"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "G2 Export sales",
-          "Column1@1": [],
           "Column2@2": [
             "bf358df1-c6d2-47da-847c-54272045a11e"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "G3 Other GST-free sales",
-          "Column1@1": [],
           "Column2@2": [
             "f2dbad50-6e60-44f9-a8a9-8183319f5f9a"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "G4 Input taxed sales",
-          "Column1@1": [],
           "Column2@2": [
             "b67866aa-4d8e-4ede-9e24-6a6e30539b37"
-          ],
-          "Column3@3": []
+          ]
         },
         {
-          "Name@4": "Purchases",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Purchases"
         },
         {
           "Name@4": "G10 Capital purchases (including any GST)",
-          "Column1@1": [],
           "Column2@2": [
             "e95fec79-efe4-4517-8d4a-bb67cc5bceff"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "G11 Non-capital purchases (including any GST)",
-          "Column1@1": [],
           "Column2@2": [
             "c8af86d1-0a41-4174-a655-1fd765f4ec53",
             "e7226d15-4223-44ef-99b0-2a5cd1b5340f",
             "b1ac5162-ca46-4802-94a3-29ffca79929f",
             "80b84fa1-e992-4007-8e61-975847ab6168"
-          ],
-          "Column3@3": []
+          ]
         },
         {
-          "Name@4": "Summary",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Summary"
         },
         {
           "Name@4": "1A GST on sales",
-          "Column1@1": [],
           "Column2@2": [
             "5bb9a16e-34b8-457a-8a3b-879ceb12b0fa",
             "a0ebbe44-69a1-4e49-80e2-d82008d1bdb6",
             "fdaf256e-f9f1-4e2b-be7d-de2ab959ce7a"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "7A Deferred GST",
-          "Column1@1": [],
           "Column2@2": [
             "3d75688c-ed3e-424e-95f0-bce32d356b24"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "8A Total amount you owe the ATO (1A + 7A)",
-          "Column1@1": [],
           "Column2@2": [
             "5bb9a16e-34b8-457a-8a3b-879ceb12b0fa",
             "a0ebbe44-69a1-4e49-80e2-d82008d1bdb6",
             "fdaf256e-f9f1-4e2b-be7d-de2ab959ce7a",
             "3d75688c-ed3e-424e-95f0-bce32d356b24"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "1B GST on purchases",
-          "Column1@1": [],
           "Column2@2": [
             "c3fa340e-ad06-4680-acd4-fe9abecda496",
             "9df1d064-fa3e-4e49-bc1c-0ee5d4930d66",
             "4cf9c814-b841-4c86-aff0-d43564f1875e",
             "ed625525-617e-4e2d-b743-8e62957b1601"
-          ],
-          "Column3@3": []
+          ]
         },
         {
-          "Name@4": "PAYG tax withheld",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "PAYG tax withheld"
         },
         {
           "Name@4": "W1 Total salary, wages and other payments",
-          "Column1@1": [],
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "W2 Amount withheld from payments shown at W1",
-          "Column1@1": [],
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Amount owing to ATO",
-          "Column1@1": [],
           "Column2@2": [
             "ec16bc43-e0c0-4002-82bf-e8e4e2305120",
             "e0d06a42-63ab-4af8-8918-58fb73da8013",
             "d13eb51f-149d-482a-ae82-32dd36d52afe",
             "6bd39868-1bd4-4919-b06e-6d9c34e02a3b",
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ]
     },
     "6163552c-3d89-4a15-bf72-ef1df6c0a6ee": {
@@ -1804,68 +1396,48 @@
       "Items2@17": [
         {
           "Name@4": "G1 Total sales (including any GST)",
-          "Column1@1": [],
           "Column2@2": [
             "bcffd352-ffa1-4973-a330-ed406d560741",
             "f2dbad50-6e60-44f9-a8a9-8183319f5f9a"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "1A GST on sales",
-          "Column1@1": [],
           "Column2@2": [
             "5bb9a16e-34b8-457a-8a3b-879ceb12b0fa"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "1B GST on purchases",
-          "Column1@1": [],
           "Column2@2": [
             "c3fa340e-ad06-4680-acd4-fe9abecda496"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "W1 Total salary, wages and other payments",
-          "Column1@1": [],
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "W2 Amount withheld from payments shown at W1",
-          "Column1@1": [],
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Amount owing to ATO",
-          "Column1@1": [],
           "Column2@2": [
             "ec16bc43-e0c0-4002-82bf-e8e4e2305120",
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ]
     },
     "92b38154-38fc-479a-a296-2019f656d1e2": {
@@ -1932,58 +1504,34 @@
       ],
       "Description@6": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations.",
       "NoCodeExperimental@14": true,
-      "Columns@16": 2,
+      "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Section A: Payer details - this is the business that made the payment",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Section A: Payer details - this is the business that made the payment"
         },
         {
           "Name@4": "Payer name",
-          "Column1@1": [],
           "Column2@2": [
             "89c1286b-3e9a-4c50-b3a9-70b116e30adc"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Payer address",
-          "Column1@1": [],
           "Column2@2": [
             "0377bd1a-da65-4749-aa49-06527f718aba"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Payer ABN",
-          "Column1@1": [],
           "Column2@2": [
             "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
-          ],
-          "Column3@3": []
-        },
-        {
-          "Name@4": "Section B: Declaration - this section must be completed by an individual authorised by the payer.",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        },
-        {
-          "Name@4": "Section C: Payee details - there are the businesses or people you have paid",
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        },
-        {
-          "Column1@1": [],
-          "Column2@2": [
-            "894ec417-8cb1-49d2-9dbf-d5eab4a99e27"
-          ],
-          "Column3@3": [
-            "eae9f158-ac64-4a97-b5e6-3213881eeeea"
           ]
+        },
+        {
+          "Name@4": "Section B: Declaration - this section must be completed by an individual authorised by the payer."
+        },
+        {
+          "Name@4": "Section C: Payee details - there are the businesses or people you have paid"
         }
       ],
       "Suppliers@18": true,
@@ -1991,13 +1539,24 @@
       "SupplierCustomFieldValue@21": "Yes",
       "SupplierItems@19": [
         {
-          "Name@4": "Supplier - Name",
-          "Column1@1": [],
+          "Name@4": "Supplier"
+        },
+        {
+          "Name@4": "Name",
+          "Column2@2": [
+            "a7dba859-df65-4f1d-8425-4372e430d803"
+          ]
+        },
+        {
+          "Name@4": "Total GST",
           "Column2@2": [
             "c3fa340e-ad06-4680-acd4-fe9abecda496",
             "9df1d064-fa3e-4e49-bc1c-0ee5d4930d66"
-          ],
-          "Column3@3": [
+          ]
+        },
+        {
+          "Name@4": "Gross amount",
+          "Column2@2": [
             "c8af86d1-0a41-4174-a655-1fd765f4ec53",
             "e95fec79-efe4-4517-8d4a-bb67cc5bceff",
             "b1ac5162-ca46-4802-94a3-29ffca79929f"
@@ -2005,11 +1564,7 @@
         }
       ],
       "EmployeeItems@23": [
-        {
-          "Column1@1": [],
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ]
     }
   },
@@ -2042,7 +1597,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 293
+      "Version@1": 294
     }
   },
   "6d2dc48d-2053-4e45-8330-285ebd431242": {
