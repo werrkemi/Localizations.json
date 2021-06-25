@@ -987,41 +987,51 @@
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Summary"
+          "Name@4": "Summary",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "Entity ABN",
           "Column2@2": [
             "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Period W1 value",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Period W2 value",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Pay period start date",
           "Column2@2": [
             "c9116255-2ca1-4296-bb5d-716b43469efd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Pay period end date",
           "Column2@2": [
             "90e1110d-2034-49ee-bf70-3843ea9fc3b5"
-          ]
+          ],
+          "Column3@3": []
         }
       ],
       "SupplierItems@19": [
-        {}
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
       ],
       "Employees@22": true,
       "EmployeeItems@23": [
@@ -1029,217 +1039,260 @@
           "Name@4": "Employee TFN",
           "Column2@2": [
             "ed2c80b3-930f-4100-8fdd-722605bde079"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Payroll number",
           "Column2@2": [
             "1d2b6715-39e3-4b42-87d5-9cc015836428"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Resident code",
           "Column2@2": [
             "d9ce4616-d10c-4d71-8b57-cfbefdaac616"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Basis of employment code",
           "Column2@2": [
             "1451c0cc-df0e-4adf-888e-4ec52303a4e7"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Family name",
           "Column2@2": [
             "44a3c9e6-e31e-4c60-8421-49704a6f63ed"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Given name",
           "Column2@2": [
             "14fc2759-de97-4c14-8802-e6962731ae46"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Middle name",
           "Column2@2": [
             "fda89d67-ba75-45ff-ad27-7372441513c5"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Date of birth",
           "Column2@2": [
             "b8d4d6f3-6e76-49a8-b362-e3ee1918c3ed"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Address 1",
           "Column2@2": [
             "8e3e0bd8-81e2-4856-bb0f-e376c19138cb"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Address 2",
           "Column2@2": [
             "936e79e7-25d4-4185-9743-f751a4d25545"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Suburb",
           "Column2@2": [
             "7b0a0677-c89c-4964-b496-6e9a0fd49e8e"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "State/territory",
           "Column2@2": [
             "180ba1d9-72b0-4b5b-a4ba-d6848019022f"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Postcode",
           "Column2@2": [
             "70ae9685-435c-475b-8a36-6a3433d2a563"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Country",
           "Column2@2": [
             "f1cd420c-6865-40ab-b851-dfb88482f259"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Email",
           "Column2@2": [
             "7852d0a6-9100-43d4-84d8-50abc9642112"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Employee gross pay",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Employee CDEP",
           "Column2@2": [
             "029977a8-e39f-4092-ae12-7cbdd026bd35"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Foreign income",
           "Column2@2": [
             "afa0525e-5bca-4145-b645-6aa0f36ed00d"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Employee tax",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Super guarantee amount",
           "Column2@2": [
             "f2a6f9e4-6ce8-45e1-b20e-bac7174d5738"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "SG earnings amount",
           "Column2@2": [
             "1cb2e5e2-37e1-4ca1-a3dc-0ef9c3073073"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Reportable Employer Super Contribution (RESC)",
           "Column2@2": [
             "e49a0fae-7c78-445b-836a-6bde9bf3826f"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Car allowance",
           "Column2@2": [
             "1e1414b4-f169-42a8-81c8-198ca8f2009b"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Transport allowance",
           "Column2@2": [
             "7d5cfd7a-04ae-4837-8c77-bc91aac63fbd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Laundry allowance",
           "Column2@2": [
             "0cd95fe1-59c1-4a1a-9878-7ad4636650e3"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Meal allowance",
           "Column2@2": [
             "cce53d8b-65b7-422a-b693-d2d6efe22eb1"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Travel allowance",
           "Column2@2": [
             "2337614c-5081-428c-bede-14abf7505585"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Other allowance 1 description",
           "Column2@2": [
             "508e35cf-7482-4511-8fdd-9bb301d8c2ef"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Other allowance 1 value",
           "Column2@2": [
             "148b7600-1449-466e-80c2-498358d08e6a"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Union fees",
           "Column2@2": [
             "38fe1266-2f4c-43c1-bc57-dfa4dc1de8be"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Workplace giving",
           "Column2@2": [
             "049b43bc-1ec3-4c9f-9026-70b32cbec4d5"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Lump sum A indicator",
           "Column2@2": [
             "b463de4b-eccc-43d6-a66e-4ebc9ff7a58e"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Lump sum A amount",
           "Column2@2": [
             "d9bd6482-021a-4c94-80f3-1a7c0b3e73fa"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Lump sum B amount",
           "Column2@2": [
             "5228dc51-36e1-4406-8ebd-c769d9b38af7"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Lump sum D amount",
           "Column2@2": [
             "df5c4f51-b918-4f55-aeb4-f41d46484188"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Lump sum E amount",
           "Column2@2": [
             "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
-          ]
+          ],
+          "Column3@3": []
+        },
+        {
+          "Name@4": "Final EOY pay indicator",
+          "Column2@2": [
+            "18427386-c527-4a32-a87b-feea06c969e1"
+          ],
+          "Column3@3": []
         }
       ],
       "ExportToCSV@24": true
