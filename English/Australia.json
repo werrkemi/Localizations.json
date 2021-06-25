@@ -422,6 +422,10 @@
       },
       "EmployeeCustomField@15": "57a258c7-3296-4b4a-bc6c-82ba5755c222"
     },
+    "90e1110d-2034-49ee-bf70-3843ea9fc3b5": {
+      "Name@1": "Report - To",
+      "Type@2": 11
+    },
     "936e79e7-25d4-4185-9743-f751a4d25545": {
       "Name@1": "Employee - Address 2",
       "Type@2": 8,
@@ -519,6 +523,10 @@
       "Type@2": 1,
       "TaxCode@9": "8cf9d117-3142-4d9c-82ee-b57a0e22c809",
       "TaxSummaryColumn@4": 5
+    },
+    "c9116255-2ca1-4296-bb5d-716b43469efd": {
+      "Name@1": "Report - From",
+      "Type@2": 10
     },
     "cce53d8b-65b7-422a-b693-d2d6efe22eb1": {
       "Name@1": "Earnings - Allowance - Meals",
@@ -995,10 +1003,16 @@
           ]
         },
         {
-          "Name@4": "Pay period start date"
+          "Name@4": "Pay period start date",
+          "Column2@2": [
+            "c9116255-2ca1-4296-bb5d-716b43469efd"
+          ]
         },
         {
-          "Name@4": "Pay period end date"
+          "Name@4": "Pay period end date",
+          "Column2@2": [
+            "90e1110d-2034-49ee-bf70-3843ea9fc3b5"
+          ]
         }
       ],
       "SupplierItems@19": [
@@ -1225,7 +1239,8 @@
             "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
           ]
         }
-      ]
+      ],
+      "ExportToCSV@24": true
     },
     "11acbfe1-0d24-4161-b366-fe905f2bcfd9": {
       "Name@1": "Business Activity Statement — Full",
