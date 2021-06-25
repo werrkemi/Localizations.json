@@ -1021,9 +1021,6 @@
       "Employees@22": true,
       "EmployeeItems@23": [
         {
-          "Name@4": "Employee"
-        },
-        {
           "Name@4": "Employee TFN",
           "Column2@2": [
             "ed2c80b3-930f-4100-8fdd-722605bde079"
@@ -1440,6 +1437,7 @@
       "FromDate@9": "2021-06-24T00:00:00",
       "ToDate@10": "2021-06-24T00:00:00",
       "Employee@26": true,
+      "EmployeeSelect@11": "11302941-b98d-4410-9417-363ea2e84932",
       "Description@6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
       "Columns@16": 1,
       "Items2@17": [
@@ -1586,9 +1584,6 @@
       "SupplierCustomField@20": "e3f5b9dd-ee9a-4fd0-9ca9-750c9aad9b1f",
       "SupplierCustomFieldValue@21": "Yes",
       "SupplierItems@19": [
-        {
-          "Name@4": "Supplier"
-        },
         {
           "Name@4": "Name",
           "Column2@2": [
