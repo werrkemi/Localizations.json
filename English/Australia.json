@@ -72,6 +72,8 @@
     "343a8633-5d10-46ca-9d20-0beed32ebab8": {
       "Name@1": "STP - Country",
       "Position@5": 508,
+      "Type@3": 2,
+      "OptionsForDropdownList@9": "au — Australia",
       "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
@@ -203,7 +205,7 @@
         "6b837666-1039-4cfc-948b-5c36b30682c2": "F ⁠— Full-time",
         "1f6483e5-5ad9-4181-a9db-117827b67a9d": "Working Holiday Maker",
         "57a258c7-3296-4b4a-bc6c-82ba5755c222": "1 George Street",
-        "343a8633-5d10-46ca-9d20-0beed32ebab8": "Australia",
+        "343a8633-5d10-46ca-9d20-0beed32ebab8": "au — Australia",
         "0713b751-ee07-4d22-8b17-ad0131029ca0": "Altagracia",
         "11acbfb3-9557-487a-8b8b-2528a2c43c53": "Biggerstaff",
         "dc15193e-9883-4e89-a78b-7e6751db5240": "2000",
@@ -296,6 +298,9 @@
         "Key@1": "Manager.Model.Employee.CustomFields"
       },
       "EmployeeCustomField@15": "050a3828-8ba0-4db9-b560-f24a3c5e413b"
+    },
+    "18427386-c527-4a32-a87b-feea06c969e1": {
+      "Name@1": "false"
     },
     "1cb2e5e2-37e1-4ca1-a3dc-0ef9c3073073": {
       "Name@1": "Payslip Contribution Item - Superannuation guarantee",
