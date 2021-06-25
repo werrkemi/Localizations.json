@@ -560,12 +560,7 @@
       "Name@1": "Concept BTW Aangifte",
       "FromDate@9": "2020-01-01T00:00:00",
       "ToDate@10": "2020-12-31T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
-      "NoCodeExperimental@14": true,
+      "AccountingMethod@27": true,
       "Columns@16": 2,
       "Items2@17": [
         {
@@ -577,7 +572,9 @@
           ]
         },
         {
-          "Name@4": "1 Prestaties binnenland"
+          "Name@4": "1 Prestaties binnenland",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "1a Leveringen/diensten belast met hoog tarief",
@@ -599,10 +596,13 @@
           ]
         },
         {
-          "Name@4": "1c Leveringen/diensten belast met overige tarieven, behalve 0%"
+          "Name@4": "1c Leveringen/diensten belast met overige tarieven, behalve 0%",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "1d Privégebruik",
+          "Column2@2": [],
           "Column3@3": [
             "7ffd21f8-8f72-4c54-90af-8358b7c66e24"
           ]
@@ -615,10 +615,13 @@
             "5e2ffedb-97bc-43cd-9e07-3c5633c8ca92",
             "a5222777-8ef7-4b62-b4fa-5c00b79643d8",
             "eea9d513-67e3-47f9-b578-65c9f2d80233"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "2 Verleggingsregelingen binnenland"
+          "Name@4": "2 Verleggingsregelingen binnenland",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd",
@@ -636,7 +639,9 @@
           ]
         },
         {
-          "Name@4": "3 Prestaties naar of in het buitenland"
+          "Name@4": "3 Prestaties naar of in het buitenland",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "3a Leveringen naar landen buiten de EU (uitvoer)",
@@ -645,7 +650,8 @@
             "94530c14-de0d-4d17-adef-ddea4170a1d9",
             "add1d580-8b6a-4663-8c28-76f3f039ceda",
             "ec190e97-7617-409c-8aeb-7f7c660b9d93"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "3b Leveringen naar of diensten in landen binnen de EU",
@@ -654,13 +660,18 @@
             "a227c072-16bc-441c-931f-adc8a00c961b",
             "bb584ebd-02ce-41bf-97d2-8fa5155a1834",
             "6c529d39-d23f-421e-a8fc-9ce1a9c29a3f"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "3c Installatie/afstandsverkopen binnen de EU"
+          "Name@4": "3c Installatie/afstandsverkopen binnen de EU",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Name@4": "4 Prestaties vanuit het buitenland aan u verricht"
+          "Name@4": "4 Prestaties vanuit het buitenland aan u verricht",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "4a Leveringen/diensten uit landen buiten de EU",
@@ -693,10 +704,13 @@
           ]
         },
         {
-          "Name@4": "5 Voorbelasting en kleineondernemersregeling"
+          "Name@4": "5 Voorbelasting en kleineondernemersregeling",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "5a Omzetbelasting (rubrieken 1 t/m 4",
+          "Column2@2": [],
           "Column3@3": [
             "c069a0c7-9231-484b-b9b0-08686b9c2219",
             "79a00418-33ee-475d-8120-191053572709",
@@ -718,6 +732,7 @@
         },
         {
           "Name@4": "5b Voorbelasting",
+          "Column2@2": [],
           "Column3@3": [
             "57693274-6594-4f2c-a355-e833d042293d",
             "30fa5756-2b9c-4e71-89c5-8e89d1a78ce5",
@@ -739,6 +754,7 @@
         },
         {
           "Name@4": "5c Subtotaal (rubriek 5a min 5b)",
+          "Column2@2": [],
           "Column3@3": [
             "13ec178e-a1b3-47a8-b9b2-b74d4a401ced",
             "679748bc-2f5f-4c2a-a402-0ecebffbf24f",
@@ -758,6 +774,18 @@
             "e3ed98b5-5e88-4c20-bdbb-23f0f553c796"
           ]
         }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
       ]
     }
   },
@@ -775,7 +803,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 293
+      "Version@1": 294
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

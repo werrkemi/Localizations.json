@@ -164,33 +164,32 @@
       "Name@1": "GST Return",
       "FromDate@9": "2000-06-11T00:00:00",
       "ToDate@10": "2021-06-11T00:00:00",
-      "Template@5": [
-        "<p>report.AccountingBasis<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.From<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.To</p>"
-      ],
-      "NoCodeExperimental@14": true,
+      "AccountingMethod@27": true,
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Return Details"
+          "Name@4": "Return Details",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "Registration number",
           "Column2@2": [
             "3131826c-c3a7-477f-a7f0-cc61c59eb1dd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Business address",
           "Column2@2": [
             "29c6cc1e-64f1-4bd3-a576-31e0202ab86f"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "Sales and Income"
+          "Name@4": "Sales and Income",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "Total sales and income",
@@ -198,42 +197,50 @@
             "7326c6a7-fcae-45bb-8f78-3d15e01c3b65",
             "93abd2c4-e144-4571-9fc5-2acebd94d43b",
             "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Zero-rated supplies",
           "Column2@2": [
             "93abd2c4-e144-4571-9fc5-2acebd94d43b",
             "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Net GST sales and income",
           "Column2@2": [
             "7326c6a7-fcae-45bb-8f78-3d15e01c3b65"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Total GST collected on sales and income",
           "Column2@2": [
             "fec411a6-c434-4f8a-b0d0-2871e91f2e40"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Any debit adjustments",
           "Column2@2": [
             "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Total GST collected for the period",
           "Column2@2": [
             "fec411a6-c434-4f8a-b0d0-2871e91f2e40",
             "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "Purchases and Expenses"
+          "Name@4": "Purchases and Expenses",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "Total purchases and expenses",
@@ -241,36 +248,55 @@
             "5eb3dd14-1d0e-49b7-879c-b7a4770f501b",
             "c207df9f-eeb1-452d-8f56-b7bf0cc791e7",
             "19b06665-c58e-4193-934a-d3add213cedb"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Total GST credits on purchases and expenses",
           "Column2@2": [
             "1cb50dba-7093-4a20-bc5b-38a647140abd"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Any credit adjustments",
           "Column2@2": [
             "63979e7f-d987-4141-9da2-088e119c0010"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "Total GST credit",
           "Column2@2": [
             "1cb50dba-7093-4a20-bc5b-38a647140abd",
             "63979e7f-d987-4141-9da2-088e119c0010"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "Summary"
+          "Name@4": "Summary",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "GST to pay",
           "Column2@2": [
             "e990928b-fe1a-4cca-8b04-57912f4c82f3",
             "818d1ba1-311c-47a9-b1be-2c6f262f28a1"
-          ]
+          ],
+          "Column3@3": []
+        }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
         }
       ]
     }
@@ -283,7 +309,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 293
+      "Version@1": 294
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

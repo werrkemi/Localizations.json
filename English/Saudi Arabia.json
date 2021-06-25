@@ -191,12 +191,7 @@
       "Name@1": "VAT Return Form",
       "FromDate@9": "2021-06-21T00:00:00",
       "ToDate@10": "2021-06-21T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
-      "NoCodeExperimental@14": true,
+      "AccountingMethod@27": true,
       "Columns@16": 2,
       "Items2@17": [
         {
@@ -208,7 +203,9 @@
           ]
         },
         {
-          "Name@4": "VAT on Sales"
+          "Name@4": "VAT on Sales",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "1 Standard rated sales",
@@ -222,25 +219,30 @@
           ]
         },
         {
-          "Name@4": "2 Private Healthcare / Private Education sales to citizens"
+          "Name@4": "2 Private Healthcare / Private Education sales to citizens",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "3 Zero rated domestic sales",
           "Column2@2": [
             "62bd75c8-b96e-4291-a0bd-87ddf0ebceab"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "4 Exports",
           "Column2@2": [
             "78271199-f61b-48a5-9360-964d8aa36f22"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "5 Exempt sales",
           "Column2@2": [
             "eeb6ecc4-99c4-4dbf-bf6b-8e366142227c"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "6 Total Sales",
@@ -257,7 +259,9 @@
           ]
         },
         {
-          "Name@4": "VAT on Purchases"
+          "Name@4": "VAT on Purchases",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "7 Standard rated domestic purchases",
@@ -271,22 +275,28 @@
           ]
         },
         {
-          "Name@4": "8 Imports subject to VAT paid at customs"
+          "Name@4": "8 Imports subject to VAT paid at customs",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
-          "Name@4": "9 Imports subject to VAT accounted for through reverse charge mechanism"
+          "Name@4": "9 Imports subject to VAT accounted for through reverse charge mechanism",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "10 Zero rated purchases",
           "Column2@2": [
             "8ca45f07-73a4-4221-ab3e-35a9b7042565"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "11 Exempt purchases",
           "Column2@2": [
             "ebb55363-0300-490f-98f2-4ee1e3a4092a"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "12 Total purchases",
@@ -302,21 +312,36 @@
           ]
         },
         {
-          "Name@4": "Summary"
+          "Name@4": "Summary",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "13 Total VAT due for current period",
+          "Column2@2": [],
           "Column3@3": [
             "0fa4e558-e83c-4954-b265-f990c9340496",
             "e110ed85-6fd1-4c79-ab5a-f0d8167b34df"
           ]
+        }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
         }
       ]
     }
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 293
+      "Version@1": 294
     }
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {

@@ -345,15 +345,8 @@
       "Name@1": "ДДВ-04",
       "FromDate@9": "2019-01-01T00:00:00",
       "ToDate@10": "2021-03-31T00:00:00",
-      "Template@5": [
-        "<p>report.From<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.To<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
+      "AccountingMethod@27": true,
       "Description@6": "Даночна пријава на данокот на додадена вредност",
-      "NoCodeExperimental@14": true,
       "Columns@16": 2,
       "Items2@17": [
         {
@@ -591,7 +584,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 263
+      "Version@1": 294
     }
   },
   "f361339b-932a-4436-b56e-a337c1587c72": {
@@ -615,8 +608,7 @@
         {}
       ],
       "ReverseCharged@11": true,
-      "ReverseChargedRate@12": 5.0,
-      "CustomFields@17": {}
+      "ReverseChargedRate@12": 5.0
     },
     "17b4df47-2148-40bd-a2c6-56d426d44ca0": {
       "Name@1": "ДДВ 18% (Член 32-а)",
@@ -626,8 +618,7 @@
         {}
       ],
       "ReverseCharged@11": true,
-      "ReverseChargedRate@12": 18.0,
-      "CustomFields@17": {}
+      "ReverseChargedRate@12": 18.0
     },
     "31a9a48c-5733-40bf-b135-9422f3c0592e": {
       "Name@1": "ДДВ 18% (Увоз)",
@@ -637,8 +628,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "5a254e38-7b2a-474d-9ab0-8777e37d7d56": {
       "Name@1": "ДДВ 5% (Увоз)",
@@ -648,8 +638,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "72e73474-87e3-4dfc-a673-8c9066d89203": {
       "Name@1": "ДДВ 18% (Останати даноци)",
@@ -659,8 +648,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "8fad8a0f-f932-454e-b90b-7b48b6a02e1a": {
       "Name@1": "ДДВ 5%",
@@ -677,8 +665,7 @@
         {}
       ],
       "ReverseCharged@11": true,
-      "ReverseChargedRate@12": 18.0,
-      "CustomFields@17": {}
+      "ReverseChargedRate@12": 18.0
     },
     "a0af1cab-581e-41bc-b711-59390b68a767": {
       "Name@1": "ДДВ 0%",
@@ -695,8 +682,7 @@
       "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "Components@2": [
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "d40ac9e4-f58a-4ca8-837f-266ff1ce504b": {
       "Name@1": "ДДВ 5% (Член 32-а)",
@@ -706,8 +692,7 @@
         {}
       ],
       "ReverseCharged@11": true,
-      "ReverseChargedRate@12": 5.0,
-      "CustomFields@17": {}
+      "ReverseChargedRate@12": 5.0
     },
     "d7eba1a0-d27c-465c-94ca-38e7b480266a": {
       "Name@1": "ДДВ 18%",
@@ -721,8 +706,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "f7a7d590-3354-459b-a786-3730ea70de8a": {
       "Name@1": "ДДВ 0% (Немаат седиште во земјата)",
@@ -730,8 +714,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     },
     "fe1aa167-d121-412d-97f2-4d69d2c748c5": {
       "Name@1": "ДДВ 5% (Останати даноци)",
@@ -741,8 +724,7 @@
       "Components@2": [
         {},
         {}
-      ],
-      "CustomFields@17": {}
+      ]
     }
   }
 }

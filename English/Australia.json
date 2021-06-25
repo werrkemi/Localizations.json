@@ -26,10 +26,12 @@
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "050a3828-8ba0-4db9-b560-f24a3c5e413b": {
       "Name@1": "STP - State/territory",
+      "Position@5": 506,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "0713b751-ee07-4d22-8b17-ad0131029ca0": {
       "Name@1": "STP - Given name",
+      "Position@5": 500,
       "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
@@ -42,6 +44,7 @@
     },
     "0987c8fd-1720-4162-961e-64a5519b9c2c": {
       "Name@1": "STP - Lump Sum A Indicator",
+      "Position@5": 513,
       "Type@3": 2,
       "OptionsForDropdownList@9": "R — Redundancy\nT — Termination",
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
@@ -54,11 +57,13 @@
     },
     "11acbfb3-9557-487a-8b8b-2528a2c43c53": {
       "Name@1": "STP - Family name",
+      "Position@5": 502,
       "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "1f6483e5-5ad9-4181-a9db-117827b67a9d": {
-      "Name@1": "Residency Status",
+      "Name@1": "STP - Residency Status",
+      "Position@5": 511,
       "Type@3": 2,
       "OptionsForDropdownList@9": "Resident\nWorking Holiday Maker\nNon-Resident",
       "Description@11": "Single Touch Payroll requires to report residency status of each employee. https://www.ato.gov.au/Individuals/international-tax-for-individuals/work-out-your-tax-residency/",
@@ -66,6 +71,8 @@
     },
     "343a8633-5d10-46ca-9d20-0beed32ebab8": {
       "Name@1": "STP - Country",
+      "Position@5": 508,
+      "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "436f269c-126f-4055-847b-b8d146b7e1e8": {
@@ -74,10 +81,13 @@
     },
     "57a258c7-3296-4b4a-bc6c-82ba5755c222": {
       "Name@1": "STP - Address 1",
+      "Position@5": 503,
+      "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "6b837666-1039-4cfc-948b-5c36b30682c2": {
-      "Name@1": "Payment Basis",
+      "Name@1": "STP - Payment Basis",
+      "Position@5": 512,
       "Type@3": 2,
       "OptionsForDropdownList@9": "F ⁠— Full-time\nP ⁠— Part-time\nC ⁠— Casual\nL ⁠— Labour Hire\nS ⁠— Pension or Annuity",
       "Description@11": "Single Touch Payroll requires to report on what payment basis each employee is. https://www.ato.gov.au/business/employee-or-contractor/how-to-work-it-out--employee-or-contractor/",
@@ -85,6 +95,7 @@
     },
     "8067ce2d-6a48-45f1-a5a9-5e2d923e9cc7": {
       "Name@1": "Tax File Number (TFN)",
+      "Position@5": 400,
       "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
@@ -104,6 +115,8 @@
     },
     "91a2b722-99cd-41e1-b638-532793aae782": {
       "Name@1": "STP - Middle name",
+      "Position@5": 501,
+      "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "9483841a-8d21-4c77-8031-614f721878fa": {
@@ -113,10 +126,13 @@
     },
     "ce735064-e907-478f-83b0-f319b2a9a7fb": {
       "Name@1": "STP - Address 2",
+      "Position@5": 504,
+      "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "dc15193e-9883-4e89-a78b-7e6751db5240": {
       "Name@1": "STP - Postcode",
+      "Position@5": 507,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "e253ec72-1200-414a-941a-a93f4039a045": {
@@ -134,11 +150,13 @@
     },
     "f6326e38-61c9-41c6-8bda-7a9f2d594150": {
       "Name@1": "STP - Suburb",
+      "Position@5": 505,
       "Size@4": 1,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
     "f6859bbb-1736-4e60-81f2-2703a9ea4686": {
-      "Name@1": "Date of Birth",
+      "Name@1": "STP - Date of Birth",
+      "Position@5": 509,
       "Type@3": 4,
       "FormType@2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     }
@@ -952,315 +970,260 @@
       "Name@1": "Single Touch Payroll Worksheet",
       "FromDate@9": "2019-02-04T00:00:00",
       "ToDate@10": "2021-06-24T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>"
-      ],
       "Description@6": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
-      "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Summary",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Summary"
         },
         {
           "Name@4": "Entity ABN",
           "Column2@2": [
             "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Period W1 value",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Period W2 value",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         },
         {
-          "Name@4": "Pay period start date",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Pay period start date"
         },
         {
-          "Name@4": "Pay period end date",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Pay period end date"
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "Employees@22": true,
       "EmployeeItems@23": [
         {
-          "Name@4": "Employee",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Employee"
         },
         {
           "Name@4": "Employee TFN",
           "Column2@2": [
             "ed2c80b3-930f-4100-8fdd-722605bde079"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Payroll number",
           "Column2@2": [
             "1d2b6715-39e3-4b42-87d5-9cc015836428"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Resident code",
           "Column2@2": [
             "d9ce4616-d10c-4d71-8b57-cfbefdaac616"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Basis of employment code",
           "Column2@2": [
             "1451c0cc-df0e-4adf-888e-4ec52303a4e7"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Family name",
           "Column2@2": [
             "44a3c9e6-e31e-4c60-8421-49704a6f63ed"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Given name",
           "Column2@2": [
             "14fc2759-de97-4c14-8802-e6962731ae46"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Middle name",
           "Column2@2": [
             "fda89d67-ba75-45ff-ad27-7372441513c5"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Date of birth",
           "Column2@2": [
             "b8d4d6f3-6e76-49a8-b362-e3ee1918c3ed"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Address 1",
           "Column2@2": [
             "8e3e0bd8-81e2-4856-bb0f-e376c19138cb"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Address 2",
           "Column2@2": [
             "936e79e7-25d4-4185-9743-f751a4d25545"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Suburb",
           "Column2@2": [
             "7b0a0677-c89c-4964-b496-6e9a0fd49e8e"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "State/territory",
           "Column2@2": [
             "180ba1d9-72b0-4b5b-a4ba-d6848019022f"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Postcode",
           "Column2@2": [
             "70ae9685-435c-475b-8a36-6a3433d2a563"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Country",
           "Column2@2": [
             "f1cd420c-6865-40ab-b851-dfb88482f259"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Email",
           "Column2@2": [
             "7852d0a6-9100-43d4-84d8-50abc9642112"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Employee gross pay",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Employee CDEP",
           "Column2@2": [
             "029977a8-e39f-4092-ae12-7cbdd026bd35"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Foreign income",
           "Column2@2": [
             "afa0525e-5bca-4145-b645-6aa0f36ed00d"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Employee tax",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Super guarantee amount",
           "Column2@2": [
             "f2a6f9e4-6ce8-45e1-b20e-bac7174d5738"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "SG earnings amount",
           "Column2@2": [
             "1cb2e5e2-37e1-4ca1-a3dc-0ef9c3073073"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Reportable Employer Super Contribution (RESC)",
           "Column2@2": [
             "e49a0fae-7c78-445b-836a-6bde9bf3826f"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Car allowance",
           "Column2@2": [
             "1e1414b4-f169-42a8-81c8-198ca8f2009b"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Transport allowance",
           "Column2@2": [
             "7d5cfd7a-04ae-4837-8c77-bc91aac63fbd"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Laundry allowance",
           "Column2@2": [
             "0cd95fe1-59c1-4a1a-9878-7ad4636650e3"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Meal allowance",
           "Column2@2": [
             "cce53d8b-65b7-422a-b693-d2d6efe22eb1"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Travel allowance",
           "Column2@2": [
             "2337614c-5081-428c-bede-14abf7505585"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Other allowance 1 description",
           "Column2@2": [
             "508e35cf-7482-4511-8fdd-9bb301d8c2ef"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Other allowance 1 value",
           "Column2@2": [
             "148b7600-1449-466e-80c2-498358d08e6a"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Union fees",
           "Column2@2": [
             "38fe1266-2f4c-43c1-bc57-dfa4dc1de8be"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Workplace giving",
           "Column2@2": [
             "049b43bc-1ec3-4c9f-9026-70b32cbec4d5"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump sum A indicator",
           "Column2@2": [
             "b463de4b-eccc-43d6-a66e-4ebc9ff7a58e"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump sum A amount",
           "Column2@2": [
             "d9bd6482-021a-4c94-80f3-1a7c0b3e73fa"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump sum B amount",
           "Column2@2": [
             "5228dc51-36e1-4406-8ebd-c769d9b38af7"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump sum D amount",
           "Column2@2": [
             "df5c4f51-b918-4f55-aeb4-f41d46484188"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump sum E amount",
           "Column2@2": [
             "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
-          ],
-          "Column3@3": []
+          ]
         }
       ]
     },
@@ -1268,19 +1231,15 @@
       "Name@1": "Business Activity Statement — Full",
       "FromDate@9": "2020-01-01T00:00:00",
       "ToDate@10": "2020-09-24T00:00:00",
-      "Template@5": [
-        "<p>report.From<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.To<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
+      "AccountingMethod@27": true,
       "Description@6": "If your GST turnover is $10 million or more, you must report using the full reporting method.",
-      "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items2@17": [
         {
           "Name@4": "Sales"
+        },
+        {
+          "Name@4": "---"
         },
         {
           "Name@4": "G1 Total sales (including any GST)",
@@ -1309,8 +1268,12 @@
             "b67866aa-4d8e-4ede-9e24-6a6e30539b37"
           ]
         },
+        {},
         {
           "Name@4": "Purchases"
+        },
+        {
+          "Name@4": "---"
         },
         {
           "Name@4": "G10 Capital purchases (including any GST)",
@@ -1327,8 +1290,12 @@
             "80b84fa1-e992-4007-8e61-975847ab6168"
           ]
         },
+        {},
         {
           "Name@4": "Summary"
+        },
+        {
+          "Name@4": "---"
         },
         {
           "Name@4": "1A GST on sales",
@@ -1362,8 +1329,12 @@
             "ed625525-617e-4e2d-b743-8e62957b1601"
           ]
         },
+        {},
         {
           "Name@4": "PAYG tax withheld"
+        },
+        {
+          "Name@4": "---"
         },
         {
           "Name@4": "W1 Total salary, wages and other payments",
@@ -1399,13 +1370,8 @@
       "Name@1": "Business Activity Statement — Simpler",
       "FromDate@9": "2018-09-24T00:00:00",
       "ToDate@10": "2020-09-24T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
+      "AccountingMethod@27": true,
       "Description@6": "Simpler BAS is the default reporting method for small businesses with a GST turnover of less than $10 million:\n\n- you don't need to complete a GST calculation worksheet\n- if you lodge a paper BAS or annual GST return, the sections where information is no longer needed can be left blank.",
-      "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items2@17": [
         {
@@ -1458,68 +1424,54 @@
       "Name@1": "PAYG payment summary — individual non-business",
       "FromDate@9": "2021-06-24T00:00:00",
       "ToDate@10": "2021-06-24T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>",
-        "<p>report.Employee</p>"
-      ],
+      "Employee@26": true,
       "Description@6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
-      "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Payee details",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Payee details"
         },
         {
           "Name@4": "Name",
           "Column2@2": [
             "95933efa-132c-4cd0-9a18-87901e354a2f"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Address",
           "Column2@2": [
             "99a6fec5-7603-4cf1-8b1f-76753fc5e1e4"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "TFN",
           "Column2@2": [
             "ed2c80b3-930f-4100-8fdd-722605bde079"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Total tax withheld",
           "Column2@2": [
             "e01c6a94-73ea-4cdb-823f-9064ea986040"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Gross Payments",
           "Column2@2": [
             "cdf5dd74-ac7e-4c81-9424-5f2e7c5763e8"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "CDEP payments",
           "Column2@2": [
             "029977a8-e39f-4092-ae12-7cbdd026bd35"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Reportable employer superannuation contributions",
           "Column2@2": [
             "e49a0fae-7c78-445b-836a-6bde9bf3826f"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Total allowances",
@@ -1530,83 +1482,61 @@
             "2337614c-5081-428c-bede-14abf7505585",
             "1e1414b4-f169-42a8-81c8-198ca8f2009b",
             "7d5cfd7a-04ae-4837-8c77-bc91aac63fbd"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump Sum Payment A",
           "Column2@2": [
             "d9bd6482-021a-4c94-80f3-1a7c0b3e73fa"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump Sum Payment B",
           "Column2@2": [
             "5228dc51-36e1-4406-8ebd-c769d9b38af7"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump Sum Payment D",
           "Column2@2": [
             "df5c4f51-b918-4f55-aeb4-f41d46484188"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "Lump Sum Payment E",
           "Column2@2": [
             "f42ee0e4-839d-4b90-bfaf-f15b4832665b"
-          ],
-          "Column3@3": []
+          ]
         },
         {
-          "Name@4": "Payer details",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Payer details"
         },
         {
           "Name@4": "Name",
           "Column2@2": [
             "89c1286b-3e9a-4c50-b3a9-70b116e30adc"
-          ],
-          "Column3@3": []
+          ]
         },
         {
           "Name@4": "ABN",
           "Column2@2": [
             "38e3eb4a-6260-47d4-b865-c6ec654a85f1"
-          ],
-          "Column3@3": []
+          ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ]
     },
     "c4a0ccf7-9171-4e8e-b390-97f7052b1479": {
       "Name@1": "Taxable Payments Annual Report (TPAR)",
       "FromDate@9": "2019-06-24T00:00:00",
       "ToDate@10": "2021-06-24T00:00:00",
-      "Template@5": [
-        "<p>report.From<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.To<br data-mce-bogus=\"1\">",
-        "</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
+      "AccountingMethod@27": true,
       "Description@6": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations.",
-      "NoCodeExperimental@14": true,
       "Columns@16": 1,
       "Items2@17": [
         {

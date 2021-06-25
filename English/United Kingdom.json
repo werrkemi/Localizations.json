@@ -131,50 +131,55 @@
       "Name@1": "VAT Calculation Worksheet",
       "FromDate@9": "2021-06-23T00:00:00",
       "ToDate@10": "2021-06-23T00:00:00",
-      "Template@5": [
-        "<p>report.From</p>",
-        "<p>report.To</p>",
-        "<p>report.AccountingBasis</p>"
-      ],
-      "NoCodeExperimental@14": true,
+      "AccountingMethod@27": true,
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "VAT Calculations"
+          "Name@4": "VAT Calculations",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "#1 VAT due in this period on sales and other outputs",
           "Column2@2": [
             "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
             "1c415bc0-8035-4c48-8894-c5b24e8cf849"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "#2 VAT due in this period on acquisitions from other EC Member States"
+          "Name@4": "#2 VAT due in this period on acquisitions from other EC Member States",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "#3 Total VAT due (the sum of boxes 1 and 2)",
           "Column2@2": [
             "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
             "1c415bc0-8035-4c48-8894-c5b24e8cf849"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "#4 VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)",
           "Column2@2": [
             "ce8c526e-bd3a-4a70-a4ee-005e57ed2192",
             "15260a89-aa83-4d50-a30d-7d9cf812b142"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "#5 Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)",
           "Column2@2": [
             "b1bed20b-1556-4b6a-8e34-2791a68e11f6",
             "6b87284f-7e15-41b3-a669-1a78c18896fa"
-          ]
+          ],
+          "Column3@3": []
         },
         {
-          "Name@4": "Sales and Purchases Excluding VAT"
+          "Name@4": "Sales and Purchases Excluding VAT",
+          "Column2@2": [],
+          "Column3@3": []
         },
         {
           "Name@4": "#6 Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.",
@@ -184,7 +189,8 @@
             "c8f1a9ec-134c-4b8e-a93f-6b2e90d9e83e",
             "92d4316c-a171-4614-bd13-630dbb678c50",
             "8ad7f442-a5d0-43fa-b48d-b35fc4f94f17"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "#7 Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure.",
@@ -194,19 +200,34 @@
             "dcdc2602-d666-4aab-89a3-0644bfb39dc8",
             "f619ad34-d587-4d95-b374-9d581ac3a010",
             "f5222ab1-e973-47ba-99a9-4640d4864d3f"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "#8 Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States.",
           "Column2@2": [
             "7aeb3f77-855f-40d5-b925-890373cb6e5c"
-          ]
+          ],
+          "Column3@3": []
         },
         {
           "Name@4": "#9 Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States.",
           "Column2@2": [
             "e70aa0ae-6614-4d12-a64c-47b7722473c9"
-          ]
+          ],
+          "Column3@3": []
+        }
+      ],
+      "SupplierItems@19": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
+        }
+      ],
+      "EmployeeItems@23": [
+        {
+          "Column2@2": [],
+          "Column3@3": []
         }
       ]
     }
@@ -220,7 +241,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 293
+      "Version@1": 294
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
