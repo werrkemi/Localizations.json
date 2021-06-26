@@ -1301,16 +1301,13 @@
           "Text@1": "Go to www.singletouch.com.au and click Login to \"Single Touch Lite\""
         },
         {
-          "Text@1": "Single Touch Lite supports both employee year-to-date or period-only values in your CSV file. The CSV file Manager generates are period-only values. Go to \"View Entities\" and click \"Details\" link on the entity you are uploading for. Make sure \"Employee values reported\" field is set to \"Period\". Not \"Year to date\""
+          "Text@1": "Single Touch Lite supports both employee year-to-date or period values in your CSV file. The CSV file Manager generates are period values. Go to \"View Entities\" and click \"Details\" link on the entity you are uploading for. Make sure \"Employee values reported\" field is set to \"Period\". Not \"Year to date\""
         },
         {
           "Text@1": "In the top navigation under \"STP EVENTS\" click \"Upload CSV\""
         },
         {
-          "Text@1": "Click \"Export\" button below and then select exported CSV file to upload on Single Touch website, then click \"Continue\""
-        },
-        {
-          "Text@1": "Follow the steps as per Single Touch website"
+          "Text@1": "Obtain CSV file by clicking on \"Export\" button bellow. Then select this CSV file to upload on Single Touch website"
         }
       ]
     },
