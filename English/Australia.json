@@ -1295,7 +1295,24 @@
           "Column3@3": []
         }
       ],
-      "ExportToCSV@24": true
+      "ExportToCSV@24": true,
+      "Instructions@28": [
+        {
+          "Text@1": "Go to www.singletouch.com.au and click Login to \"Single Touch Lite\""
+        },
+        {
+          "Text@1": "Single Touch Lite supports both employee year-to-date or period-only values in your CSV file. The CSV file Manager generates are period-only values. Go to \"View Entities\" and click \"Details\" link on the entity you are uploading for. Make sure \"Employee values reported\" field is set to \"Period\". Not \"Year to date\""
+        },
+        {
+          "Text@1": "In the top navigation under \"STP EVENTS\" click \"Upload CSV\""
+        },
+        {
+          "Text@1": "Click \"Export\" button below and then select exported CSV file to upload on Single Touch website, then click \"Continue\""
+        },
+        {
+          "Text@1": "Follow the steps as per Single Touch website"
+        }
+      ]
     },
     "11acbfe1-0d24-4161-b366-fe905f2bcfd9": {
       "Name@1": "Business Activity Statement — Full",
@@ -1698,7 +1715,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 294
+      "Version@1": 295
     }
   },
   "6d2dc48d-2053-4e45-8330-285ebd431242": {
