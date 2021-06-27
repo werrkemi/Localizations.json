@@ -566,7 +566,6 @@
       "9": "2019-02-04T00:00:00",
       "10": "2021-06-24T00:00:00",
       "6": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
-      "16": 1,
       "17": [
         {
           "4": "Summary"
@@ -583,8 +582,8 @@
           "4": "Period W1 value",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Gross payments"
+              "7": "Gross payments",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -592,8 +591,8 @@
           "4": "Period W2 value",
           "5": [
             {
-              "6": "e253ec72-1200-414a-941a-a93f4039a045",
-              "7": "PAYG"
+              "7": "PAYG",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         },
@@ -755,8 +754,8 @@
           "4": "Employee gross pay",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Gross payments"
+              "7": "Gross payments",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -764,8 +763,8 @@
           "4": "Employee CDEP",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "CDEP payments"
+              "7": "CDEP payments",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -773,8 +772,8 @@
           "4": "Foreign income",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Exempt foreign employment income"
+              "7": "Exempt foreign employment income",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -782,8 +781,8 @@
           "4": "Employee tax",
           "5": [
             {
-              "6": "e253ec72-1200-414a-941a-a93f4039a045",
-              "7": "PAYG"
+              "7": "PAYG",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         },
@@ -791,8 +790,8 @@
           "4": "Super guarantee amount",
           "5": [
             {
-              "6": "07fb0059-a29a-4d7a-8a7c-64f63311c05c",
-              "7": "Yes"
+              "7": "Yes",
+              "10": "07fb0059-a29a-4d7a-8a7c-64f63311c05c"
             }
           ]
         },
@@ -800,8 +799,8 @@
           "4": "SG earnings amount",
           "5": [
             {
-              "6": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e",
-              "7": "Superannuation guarantee"
+              "7": "Superannuation guarantee",
+              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
             }
           ]
         },
@@ -809,8 +808,8 @@
           "4": "Reportable Employer Super Contribution (RESC)",
           "5": [
             {
-              "6": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e",
-              "7": "Reportable employer super contribution"
+              "7": "Reportable employer super contribution",
+              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
             }
           ]
         },
@@ -818,8 +817,8 @@
           "4": "Car allowance",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Car"
+              "7": "Allowance - Car",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -827,8 +826,8 @@
           "4": "Transport allowance",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Transport"
+              "7": "Allowance - Transport",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -836,8 +835,8 @@
           "4": "Laundry allowance",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Laundry"
+              "7": "Allowance - Laundry",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -845,8 +844,8 @@
           "4": "Meal allowance",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Meals"
+              "7": "Allowance - Meals",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -854,8 +853,8 @@
           "4": "Travel allowance",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Travel"
+              "7": "Allowance - Travel",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -871,8 +870,8 @@
           "4": "Other allowance 1 value",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Other"
+              "7": "Allowance - Other",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -880,8 +879,8 @@
           "4": "Union fees",
           "5": [
             {
-              "6": "e253ec72-1200-414a-941a-a93f4039a045",
-              "7": "Union / association fees"
+              "7": "Union / association fees",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         },
@@ -889,8 +888,8 @@
           "4": "Workplace giving",
           "5": [
             {
-              "6": "e253ec72-1200-414a-941a-a93f4039a045",
-              "7": "Workplace giving"
+              "7": "Workplace giving",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         },
@@ -906,8 +905,8 @@
           "4": "Lump sum A amount",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum A"
+              "7": "Lump sum A",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -915,8 +914,8 @@
           "4": "Lump sum B amount",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum B"
+              "7": "Lump sum B",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -924,8 +923,8 @@
           "4": "Lump sum D amount",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum D"
+              "7": "Lump sum D",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -933,8 +932,8 @@
           "4": "Lump sum E amount",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum E"
+              "7": "Lump sum E",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -967,9 +966,7 @@
       "1": "Business Activity Statement — Full",
       "9": "2020-01-01T00:00:00",
       "10": "2020-09-24T00:00:00",
-      "27": true,
       "6": "If your GST turnover is $10 million or more, you must report using the full reporting method.",
-      "16": 1,
       "17": [
         {
           "4": "Sales"
@@ -1179,9 +1176,7 @@
       "1": "Business Activity Statement — Simpler",
       "9": "2018-09-24T00:00:00",
       "10": "2020-09-24T00:00:00",
-      "27": true,
       "6": "Simpler BAS is the default reporting method for small businesses with a GST turnover of less than $10 million:\n\n- you don't need to complete a GST calculation worksheet\n- if you lodge a paper BAS or annual GST return, the sections where information is no longer needed can be left blank.",
-      "16": 1,
       "17": [
         {
           "4": "G1 Total sales (including any GST)",
@@ -1259,10 +1254,8 @@
       "1": "PAYG payment summary — individual non-business",
       "9": "2021-06-24T00:00:00",
       "10": "2021-06-24T00:00:00",
-      "26": true,
       "11": "11302941-b98d-4410-9417-363ea2e84932",
       "6": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
-      "16": 1,
       "17": [
         {
           "4": "Payee details"
@@ -1299,8 +1292,8 @@
           "4": "Total tax withheld",
           "5": [
             {
-              "6": "e253ec72-1200-414a-941a-a93f4039a045",
-              "7": "PAYG"
+              "7": "PAYG",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         },
@@ -1308,8 +1301,8 @@
           "4": "Gross Payments",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Gross payments"
+              "7": "Gross payments",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1317,8 +1310,8 @@
           "4": "CDEP payments",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "CDEP payments"
+              "7": "CDEP payments",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1326,8 +1319,8 @@
           "4": "Reportable employer superannuation contributions",
           "5": [
             {
-              "6": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e",
-              "7": "Reportable employer super contribution"
+              "7": "Reportable employer super contribution",
+              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
             }
           ]
         },
@@ -1335,28 +1328,28 @@
           "4": "Total allowances",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Laundry"
+              "7": "Allowance - Car",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             },
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Meals"
+              "7": "Allowance - Laundry",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             },
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Other"
+              "7": "Allowance - Meals",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             },
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Travel"
+              "7": "Allowance - Other",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             },
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Car"
+              "7": "Allowance - Transport",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             },
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Allowance - Transport"
+              "7": "Allowance - Travel",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1364,8 +1357,8 @@
           "4": "Lump Sum Payment A",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum A"
+              "7": "Lump sum A",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1373,8 +1366,8 @@
           "4": "Lump Sum Payment B",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum B"
+              "7": "Lump sum B",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1382,8 +1375,8 @@
           "4": "Lump Sum Payment D",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum D"
+              "7": "Lump sum D",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1391,8 +1384,8 @@
           "4": "Lump Sum Payment E",
           "5": [
             {
-              "6": "8198caf2-1125-4f8e-9469-527583e3ea5e",
-              "7": "Lump sum E"
+              "7": "Lump sum E",
+              "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
             }
           ]
         },
@@ -1432,9 +1425,7 @@
       "1": "Taxable Payments Annual Report (TPAR)",
       "9": "2019-06-24T00:00:00",
       "10": "2021-06-24T00:00:00",
-      "27": true,
       "6": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations.",
-      "16": 1,
       "17": [
         {
           "4": "Section A: Payer details - this is the business that made the payment"
