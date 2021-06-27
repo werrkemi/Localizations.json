@@ -1,28 +1,28 @@
 {
   "6ef13e42-ad89-4d42-9480-546e0c04a411": {
     "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71": {
-      "Name@1": "GST payable",
-      "Group@3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
+      "1": "GST payable",
+      "3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
     }
   },
   "38cf4712-6e95-4ce1-b53a-bff03edad273": {
     "38cf4712-6e95-4ce1-b53a-bff03edad273": {
-      "Name@1": "New Zealand",
-      "Address@2": "saddasdasdas\ndsasadsdadsaasdasd\nsdasadadsads",
-      "CustomFields@5": {
+      "1": "New Zealand",
+      "2": "saddasdasdas\ndsasadsdadsaasdasd\nsdasadadsads",
+      "5": {
         "0c782b45-f50c-4b69-bbf3-75f42d7670a7": "34432243AAA"
       }
     }
   },
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
     "0c782b45-f50c-4b69-bbf3-75f42d7670a7": {
-      "Name@1": "Registration number",
-      "Size@4": 1,
-      "FormType@2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+      "1": "Registration number",
+      "4": 1,
+      "2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
     },
     "436f269c-126f-4055-847b-b8d146b7e1e8": {
-      "Name@1": "Contact",
-      "Size@4": 1
+      "1": "Contact",
+      "4": 1
     }
   },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
@@ -30,236 +30,236 @@
   },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
-      "Date@1": "2019-07-20T00:00:00",
-      "Lines@11": [
+      "1": "2019-07-20T00:00:00",
+      "11": [
         {
-          "UnitPrice@18": 1000.0,
-          "TaxCode@20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          "18": 1000.0,
+          "20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
       ]
     },
     "e8e072e6-c49e-472c-9e25-a087801155bf": {
-      "Date@1": "2019-07-20T00:00:00",
-      "Lines@11": [
+      "1": "2019-07-20T00:00:00",
+      "11": [
         {
-          "UnitPrice@18": 100.0,
-          "TaxCode@20": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+          "18": 100.0,
+          "20": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
         }
       ]
     }
   },
   "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
     "a1ccb769-fd49-4b40-8cea-9b0c1b29ff37": {
-      "Date@1": "2019-07-20T00:00:00",
-      "Lines@11": [
+      "1": "2019-07-20T00:00:00",
+      "11": [
         {
-          "UnitPrice@18": 20.0,
-          "TaxCode@20": "1a88fd08-a595-4e12-97d3-85fc165eecdc"
+          "18": 20.0,
+          "20": "1a88fd08-a595-4e12-97d3-85fc165eecdc"
         },
         {
-          "UnitPrice@18": 30.0,
-          "TaxCode@20": "705acb55-550e-458a-bf9a-c4c7021dc351"
+          "18": 30.0,
+          "20": "705acb55-550e-458a-bf9a-c4c7021dc351"
         }
       ]
     },
     "b61ce315-6565-4263-bee9-f2020a40ecf0": {
-      "Date@1": "2018-09-11T00:00:00",
-      "Lines@11": [
+      "1": "2018-09-11T00:00:00",
+      "11": [
         {
-          "UnitPrice@18": 10000.0,
-          "TaxCode@20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+          "18": 10000.0,
+          "20": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
         }
       ]
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "994cef79-6da3-4fa1-9998-ad029a4358f0": {
-      "Name@1": "GST Return",
-      "FromDate@9": "2000-06-11T00:00:00",
-      "ToDate@10": "2021-06-11T00:00:00",
-      "AccountingMethod@27": true,
-      "Columns@16": 1,
-      "Items2@17": [
+      "1": "GST Return",
+      "9": "2000-06-11T00:00:00",
+      "10": "2021-06-11T00:00:00",
+      "27": true,
+      "16": 1,
+      "17": [
         {
-          "Name@4": "Return Details"
+          "4": "Return Details"
         },
         {
-          "Name@4": "Registration number",
-          "Column4@5": [
+          "4": "Registration number",
+          "5": [
             {
-              "CustomField@6": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+              "6": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
             }
           ]
         },
         {
-          "Name@4": "Business address",
-          "Column4@5": [
+          "4": "Business address",
+          "5": [
             {
-              "Field@5": {
-                "Key@1": "Manager.Model.BusinessDetails.Address"
+              "5": {
+                "1": "Manager.Model.BusinessDetails.Address"
               }
             }
           ]
         },
         {
-          "Name@4": "Sales and Income"
+          "4": "Sales and Income"
         },
         {
-          "Name@4": "Total sales and income",
-          "Column4@5": [
+          "4": "Total sales and income",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 2
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 2
             },
             {
-              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-              "TaxSummaryColumn@4": 2
+              "9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "4": 2
             },
             {
-              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
-              "TaxSummaryColumn@4": 2
+              "9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "4": 2
             }
           ]
         },
         {
-          "Name@4": "Zero-rated supplies",
-          "Column4@5": [
+          "4": "Zero-rated supplies",
+          "5": [
             {
-              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-              "TaxSummaryColumn@4": 2
+              "9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "4": 2
             },
             {
-              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
-              "TaxSummaryColumn@4": 2
+              "9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "4": 2
             }
           ]
         },
         {
-          "Name@4": "Net GST sales and income",
-          "Column4@5": [
+          "4": "Net GST sales and income",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 2
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 2
             }
           ]
         },
         {
-          "Name@4": "Total GST collected on sales and income",
-          "Column4@5": [
+          "4": "Total GST collected on sales and income",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
             }
           ]
         },
         {
-          "Name@4": "Any debit adjustments",
-          "Column4@5": [
+          "4": "Any debit adjustments",
+          "5": [
             {
-              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+              "9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
             }
           ]
         },
         {
-          "Name@4": "Total GST collected for the period",
-          "Column4@5": [
+          "4": "Total GST collected for the period",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
             },
             {
-              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+              "9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
             }
           ]
         },
         {
-          "Name@4": "Purchases and Expenses"
+          "4": "Purchases and Expenses"
         },
         {
-          "Name@4": "Total purchases and expenses",
-          "Column4@5": [
+          "4": "Total purchases and expenses",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 5
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 5
             },
             {
-              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-              "TaxSummaryColumn@4": 5
+              "9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "4": 5
             },
             {
-              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
-              "TaxSummaryColumn@4": 5
+              "9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "4": 5
             }
           ]
         },
         {
-          "Name@4": "Total GST credits on purchases and expenses",
-          "Column4@5": [
+          "4": "Total GST credits on purchases and expenses",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 3
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 3
             }
           ]
         },
         {
-          "Name@4": "Any credit adjustments",
-          "Column4@5": [
+          "4": "Any credit adjustments",
+          "5": [
             {
-              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
-              "TaxSummaryColumn@4": 3
+              "9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "4": 3
             }
           ]
         },
         {
-          "Name@4": "Total GST credit",
-          "Column4@5": [
+          "4": "Total GST credit",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 3
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 3
             },
             {
-              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
-              "TaxSummaryColumn@4": 3
+              "9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "4": 3
             }
           ]
         },
         {
-          "Name@4": "Summary"
+          "4": "Summary"
         },
         {
-          "Name@4": "GST to pay",
-          "Column4@5": [
+          "4": "GST to pay",
+          "5": [
             {
-              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-              "TaxSummaryColumn@4": 6
+              "9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "4": 6
             },
             {
-              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
-              "TaxSummaryColumn@4": 6
+              "9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "4": 6
             }
           ]
         }
       ],
-      "SupplierItems@19": [
+      "19": [
         {}
       ],
-      "EmployeeItems@23": [
+      "23": [
         {}
       ],
-      "Instructions@28": [
+      "28": [
         {}
       ]
     }
   },
   "bbe8c088-729b-4b56-a7d7-26555270eced": {
     "8f49fd7b-9dd9-4c08-b7cb-b8b7fdbe44a8": {
-      "ReportTransformation@1": "994cef79-6da3-4fa1-9998-ad029a4358f0",
-      "FromDate@4": "2021-06-25T00:00:00",
-      "ToDate@5": "2021-06-25T00:00:00",
-      "AccountingMethod@3": 1
+      "1": "994cef79-6da3-4fa1-9998-ad029a4358f0",
+      "4": "2021-06-25T00:00:00",
+      "5": "2021-06-25T00:00:00",
+      "3": 1
     }
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 295
+      "1": 295
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
@@ -267,32 +267,32 @@
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "1a88fd08-a595-4e12-97d3-85fc165eecdc": {
-      "Name@1": "GST 0%",
-      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle@13": true,
-      "SalesInvoiceTitle@14": "Tax Invoice"
+      "1": "GST 0%",
+      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "13": true,
+      "14": "Tax Invoice"
     },
     "705acb55-550e-458a-bf9a-c4c7021dc351": {
-      "Name@1": "GST Exempt",
-      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+      "1": "GST Exempt",
+      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     "d865c9b1-17b9-488b-b29b-b15c0b3c3246": {
-      "Name@1": "GST Adjustment",
-      "TaxRate@5": 1,
-      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+      "1": "GST Adjustment",
+      "5": 1,
+      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
     },
     "ee8cacde-58da-48ec-8aa9-aa6acba9c32f": {
-      "Name@1": "GST 15%",
-      "TaxRate@5": 2,
-      "Rate@4": 15.0,
-      "Account@7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "CustomSalesInvoiceTitle@13": true,
-      "SalesInvoiceTitle@14": "Tax Invoice"
+      "1": "GST 15%",
+      "5": 2,
+      "4": 15.0,
+      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "13": true,
+      "14": "Tax Invoice"
     }
   },
   "68e0d57b-4a59-453e-b8d4-6166f097eacd": {
     "44a4e27e-5a13-4d24-971f-424ebd82f355": {
-      "ToDate@2": "2019-07-20T00:00:00"
+      "2": "2019-07-20T00:00:00"
     }
   }
 }
