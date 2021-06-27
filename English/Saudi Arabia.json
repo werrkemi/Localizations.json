@@ -24,17 +24,17 @@
         {
           "5": [
             {
-              "1": "\"Amount\""
+              "1": "Amount"
             }
           ],
           "6": [
             {
-              "1": "\"VAT Amount\""
+              "1": "VAT Amount"
             }
           ]
         },
         {
-          "4": "VAT on Sales"
+          "4": "VAT on Sales\n-----------------"
         },
         {
           "4": "1 Standard rated sales",
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "4": "VAT on Purchases"
+          "4": "VAT on Purchases\n-----------------"
         },
         {
           "4": "7 Standard rated domestic purchases",
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "4": "Summary"
+          "4": "Summary\n-----------------"
         },
         {
           "4": "13 Total VAT due for current period",

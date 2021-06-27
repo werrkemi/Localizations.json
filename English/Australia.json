@@ -567,7 +567,7 @@
       "10": "2021-06-24T00:00:00",
       "17": [
         {
-          "4": "Summary"
+          "4": "Summary\n-------------"
         },
         {
           "4": "Entity ABN",
@@ -967,9 +967,10 @@
       "1": "Business Activity Statement — Full",
       "9": "2020-01-01T00:00:00",
       "10": "2020-09-24T00:00:00",
+      "16": 1,
       "17": [
         {
-          "4": "Sales"
+          "4": "Sales\n--------"
         },
         {
           "4": "G1 Total sales (including any GST)",
@@ -1020,7 +1021,7 @@
           ]
         },
         {
-          "4": "Purchases"
+          "4": "Purchases\n---------------"
         },
         {
           "4": "G10 Capital purchases (including any GST)",
@@ -1053,7 +1054,7 @@
           ]
         },
         {
-          "4": "Summary"
+          "4": "Summary\n-------------"
         },
         {
           "4": "1A GST on sales",
@@ -1116,7 +1117,7 @@
           ]
         },
         {
-          "4": "PAYG tax withheld"
+          "4": "PAYG tax withheld\n------------------------"
         },
         {
           "4": "W1 Total salary, wages and other payments",
@@ -1135,6 +1136,9 @@
               "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
+        },
+        {
+          "4": "Result\n---------"
         },
         {
           "4": "Amount owing to ATO",
@@ -1156,7 +1160,8 @@
               "4": 6
             },
             {
-              "7": "PAYG"
+              "7": "PAYG",
+              "11": "e253ec72-1200-414a-941a-a93f4039a045"
             }
           ]
         }
@@ -1259,7 +1264,7 @@
       "11": "11302941-b98d-4410-9417-363ea2e84932",
       "17": [
         {
-          "4": "Payee details"
+          "4": "Payee details\n------------------"
         },
         {
           "4": "Name",
@@ -1317,16 +1322,7 @@
           ]
         },
         {
-          "4": "Reportable employer superannuation contributions",
-          "5": [
-            {
-              "7": "Reportable employer super contribution",
-              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
-            }
-          ]
-        },
-        {
-          "4": "Total allowances",
+          "4": "Total allowances\n\n\n\n",
           "5": [
             {
               "7": "Allowance - Car",
@@ -1351,6 +1347,15 @@
             {
               "7": "Allowance - Travel",
               "10": "8198caf2-1125-4f8e-9469-527583e3ea5e"
+            }
+          ]
+        },
+        {
+          "4": "Reportable employer superannuation contributions",
+          "5": [
+            {
+              "7": "Reportable employer super contribution",
+              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
             }
           ]
         },
@@ -1391,7 +1396,7 @@
           ]
         },
         {
-          "4": "Payer details"
+          "4": "Payer details\n------------------"
         },
         {
           "4": "Name",
@@ -1430,7 +1435,7 @@
       "10": "2021-06-24T00:00:00",
       "17": [
         {
-          "4": "Section A: Payer details - this is the business that made the payment"
+          "4": "Section A: Payer details - this is the business that made the payment\n--------------------"
         },
         {
           "4": "Payer name",
@@ -1461,10 +1466,10 @@
           ]
         },
         {
-          "4": "Section B: Declaration - this section must be completed by an individual authorised by the payer."
+          "4": "Section B: Declaration - this section must be completed by an individual authorised by the payer.\n--------------------"
         },
         {
-          "4": "Section C: Payee details - there are the businesses or people you have paid"
+          "4": "Section C: Payee details - there are the businesses or people you have paid\n--------------------"
         }
       ],
       "18": true,

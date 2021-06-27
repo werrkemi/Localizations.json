@@ -37,7 +37,7 @@
       "10": "2021-06-23T00:00:00",
       "17": [
         {
-          "4": "VAT Calculations"
+          "4": "VAT Calculations\n--------------------"
         },
         {
           "4": "#1 VAT due in this period on sales and other outputs",
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "4": "Sales and Purchases Excluding VAT"
+          "4": "Sales and Purchases Excluding VAT\n--------------------"
         },
         {
           "4": "#6 Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.",

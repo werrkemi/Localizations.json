@@ -40,17 +40,17 @@
         {
           "5": [
             {
-              "1": "\"Bedrag waarover omzetbelasting wordt berekend\""
+              "1": "Bedrag waarover omzetbelasting wordt berekend"
             }
           ],
           "6": [
             {
-              "1": "\"Omzetbelasting\""
+              "1": "Omzetbelasting"
             }
           ]
         },
         {
-          "4": "1 Prestaties binnenland"
+          "4": "1 Prestaties binnenland\n--------------"
         },
         {
           "4": "1a Leveringen/diensten belast met hoog tarief",
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "4": "2 Verleggingsregelingen binnenland"
+          "4": "2 Verleggingsregelingen binnenland\n--------------"
         },
         {
           "4": "2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd",
@@ -151,7 +151,7 @@
           ]
         },
         {
-          "4": "3 Prestaties naar of in het buitenland"
+          "4": "3 Prestaties naar of in het buitenland\n--------------"
         },
         {
           "4": "3a Leveringen naar landen buiten de EU (uitvoer)",
@@ -199,7 +199,7 @@
           "4": "3c Installatie/afstandsverkopen binnen de EU"
         },
         {
-          "4": "4 Prestaties vanuit het buitenland aan u verricht"
+          "4": "4 Prestaties vanuit het buitenland aan u verricht\n--------------"
         },
         {
           "4": "4a Leveringen/diensten uit landen buiten de EU",
@@ -272,7 +272,7 @@
           ]
         },
         {
-          "4": "5 Voorbelasting en kleineondernemersregeling"
+          "4": "5 Voorbelasting en kleineondernemersregeling\n--------------"
         },
         {
           "4": "5a Omzetbelasting (rubrieken 1 t/m 4",

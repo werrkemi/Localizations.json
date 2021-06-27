@@ -79,7 +79,7 @@
       "10": "2021-06-11T00:00:00",
       "17": [
         {
-          "4": "Return Details"
+          "4": "Return Details\n------------------"
         },
         {
           "4": "Registration number",
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "4": "Sales and Income"
+          "4": "Sales and Income\n------------------"
         },
         {
           "4": "Total sales and income",
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "4": "Purchases and Expenses"
+          "4": "Purchases and Expenses\n------------------"
         },
         {
           "4": "Total purchases and expenses",
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "4": "Summary"
+          "4": "Summary\n------------------"
         },
         {
           "4": "GST to pay",
