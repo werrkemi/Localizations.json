@@ -19,531 +19,6 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
-    "012736ec-1292-4973-b6c9-5b7d6794541c": {
-      "Name@1": "TaxOnSales - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a"
-    },
-    "012f0097-c13a-4780-8253-71cb321b1c0a": {
-      "Name@1": "TaxOnPurchases - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
-      "TaxSummaryColumn@4": 3
-    },
-    "023503ea-de42-4251-93c8-a56853d4082d": {
-      "Name@1": "TaxOnPurchases - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
-      "TaxSummaryColumn@4": 3
-    },
-    "031aff4d-06ca-4efd-bf06-c1c35ea3c645": {
-      "Name@1": "NetSales - BTW 9%",
-      "Type@2": 1,
-      "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
-      "TaxSummaryColumn@4": 1
-    },
-    "09a75866-c3e7-4b83-9e64-34aa53b64bbf": {
-      "Name@1": "TaxOnPurchases - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
-      "TaxSummaryColumn@4": 3
-    },
-    "0a02e38c-33ec-4ed6-b998-0eb1d22d1219": {
-      "Name@1": "NetPurchases - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
-      "TaxSummaryColumn@4": 4
-    },
-    "0c39fbb4-a835-4ef6-96a8-49194fb7b55a": {
-      "Name@1": "TaxOnPurchases - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
-      "TaxSummaryColumn@4": 3
-    },
-    "0c6bae1b-8eae-410b-bbaa-318b94f3e72e": {
-      "Name@1": "NetSales - BTW 21%",
-      "Type@2": 1,
-      "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
-      "TaxSummaryColumn@4": 1
-    },
-    "10768248-13cb-4205-a996-9e88878255a8": {
-      "Name@1": "TaxOnSales - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
-    },
-    "13d53ad9-0104-407c-b666-c9efb025986a": {
-      "Name@1": "NetPurchases - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
-      "TaxSummaryColumn@4": 4
-    },
-    "13ec178e-a1b3-47a8-b9b2-b74d4a401ced": {
-      "Name@1": "TaxLiability - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
-      "TaxSummaryColumn@4": 6
-    },
-    "160e5e9b-feb7-4dd9-a725-9024a1087a3f": {
-      "Name@1": "TaxLiability - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
-      "TaxSummaryColumn@4": 6
-    },
-    "16e7799e-caaa-481e-afd1-083b042bcabb": {
-      "Name@1": "TaxOnSales - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b"
-    },
-    "18d2d83a-2bbe-45ff-b0d1-e7a58b300df5": {
-      "Name@1": "NetPurchases - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
-      "TaxSummaryColumn@4": 4
-    },
-    "1a994c41-1702-4cf8-b80a-5d1f46007cb2": {
-      "Name@1": "NetPurchases - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
-      "TaxSummaryColumn@4": 4
-    },
-    "1eaa35cd-b0c9-4825-90b8-a968f33c2d17": {
-      "Name@1": "NetPurchases - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
-      "TaxSummaryColumn@4": 4
-    },
-    "2270b540-c4d5-4c4f-8775-4ce618ac5272": {
-      "Name@1": "TaxLiability - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
-      "TaxSummaryColumn@4": 6
-    },
-    "288b4c85-fd09-409f-aa55-4be4712d8431": {
-      "Name@1": "TaxOnPurchases - BTW 21%",
-      "Type@2": 1,
-      "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
-      "TaxSummaryColumn@4": 3
-    },
-    "2dc80103-e2fe-4978-ab28-270d201a2ecc": {
-      "Name@1": "TaxLiability - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
-      "TaxSummaryColumn@4": 6
-    },
-    "2e6b6249-ff62-4461-9a3b-6dcd831d13f3": {
-      "Name@1": "TaxOnPurchases - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
-      "TaxSummaryColumn@4": 3
-    },
-    "30fa5756-2b9c-4e71-89c5-8e89d1a78ce5": {
-      "Name@1": "TaxOnPurchases - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
-      "TaxSummaryColumn@4": 3
-    },
-    "31e26107-0aa8-4919-9dcd-873c98285e70": {
-      "Name@1": "TaxOnPurchases - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
-      "TaxSummaryColumn@4": 3
-    },
-    "3232d229-e840-461e-bd96-52d1a76983b6": {
-      "Name@1": "TaxOnPurchases - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
-      "TaxSummaryColumn@4": 3
-    },
-    "36ebe1d5-393b-41a2-96bc-a1189d878970": {
-      "Name@1": "TaxOnPurchases - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
-      "TaxSummaryColumn@4": 3
-    },
-    "37e62024-cd65-4b3a-b114-5151bb290be6": {
-      "Name@1": "TaxLiability - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
-      "TaxSummaryColumn@4": 6
-    },
-    "3c31f747-fbab-49d6-8784-ed3023790768": {
-      "Name@1": "TaxOnPurchases - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
-      "TaxSummaryColumn@4": 3
-    },
-    "3d299898-4d59-4751-89be-b91757167a56": {
-      "Name@1": "TaxOnSales - BTW 9%",
-      "Type@2": 1,
-      "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c"
-    },
-    "3f14ef5a-93d0-4a7a-82d2-0d076b3084b4": {
-      "Name@1": "NetPurchases - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
-      "TaxSummaryColumn@4": 4
-    },
-    "48bfd84f-7ff9-4644-b791-9ba48aede312": {
-      "Name@1": "TaxOnSales - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699"
-    },
-    "4953f043-a590-45e8-a409-8495886589c2": {
-      "Name@1": "TaxLiability - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
-      "TaxSummaryColumn@4": 6
-    },
-    "4bbba65d-b63f-4b00-bb87-d4b3c42db652": {
-      "Name@1": "Omzetbelasting"
-    },
-    "53e4ef4d-e56d-47a9-9e34-5a70df6bb243": {
-      "Name@1": "TaxOnPurchases - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
-      "TaxSummaryColumn@4": 3
-    },
-    "54af3859-dcb3-4326-bfa9-6680ca38dee7": {
-      "Name@1": "NetPurchases - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
-      "TaxSummaryColumn@4": 4
-    },
-    "559a0a5b-512d-4852-8418-5a02304bddc7": {
-      "Name@1": "NetPurchases - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
-      "TaxSummaryColumn@4": 4
-    },
-    "57693274-6594-4f2c-a355-e833d042293d": {
-      "Name@1": "TaxOnPurchases - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
-      "TaxSummaryColumn@4": 3
-    },
-    "5b3290ee-5f6a-457d-a25f-336279913819": {
-      "Name@1": "TaxOnPurchases - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
-      "TaxSummaryColumn@4": 3
-    },
-    "5e2ffedb-97bc-43cd-9e07-3c5633c8ca92": {
-      "Name@1": "TaxOnSales - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23"
-    },
-    "5fe2779e-5ca1-4230-ab53-82b90464cb9e": {
-      "Name@1": "TaxOnPurchases - BTW 9%",
-      "Type@2": 1,
-      "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
-      "TaxSummaryColumn@4": 3
-    },
-    "66223779-d6c5-4d3e-b510-cbc4781f2def": {
-      "Name@1": "TaxOnPurchases - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
-      "TaxSummaryColumn@4": 3
-    },
-    "679748bc-2f5f-4c2a-a402-0ecebffbf24f": {
-      "Name@1": "TaxLiability - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
-      "TaxSummaryColumn@4": 6
-    },
-    "6a1af0a1-f77c-449b-9b55-37e468208905": {
-      "Name@1": "NetSales - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
-      "TaxSummaryColumn@4": 1
-    },
-    "6c529d39-d23f-421e-a8fc-9ce1a9c29a3f": {
-      "Name@1": "NetSales - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
-      "TaxSummaryColumn@4": 1
-    },
-    "71ec040d-1cac-444a-9380-1c7996eec334": {
-      "Name@1": "TaxLiability - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
-      "TaxSummaryColumn@4": 6
-    },
-    "79a00418-33ee-475d-8120-191053572709": {
-      "Name@1": "TaxOnSales - BTW 6%",
-      "Type@2": 1,
-      "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3"
-    },
-    "7c97158f-f0d5-4c6d-bf12-4e713d3022f6": {
-      "Name@1": "TaxOnSales - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680"
-    },
-    "7ffd21f8-8f72-4c54-90af-8358b7c66e24": {
-      "Name@1": "TaxOnSales - BTW privégebruik",
-      "Type@2": 1,
-      "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088"
-    },
-    "8069a3cd-846d-48e3-a749-43edfc081bc7": {
-      "Name@1": "NetPurchases - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
-      "TaxSummaryColumn@4": 4
-    },
-    "86d448d0-b6bf-4d74-925f-1104ffb35121": {
-      "Name@1": "TaxLiability - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
-      "TaxSummaryColumn@4": 6
-    },
-    "88e889fa-491d-4d39-81d9-47017915d98f": {
-      "Name@1": "NetPurchases - BTW 9% EU",
-      "Type@2": 1,
-      "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
-      "TaxSummaryColumn@4": 4
-    },
-    "89cdedb4-8a97-4d62-9e7d-84b9ca52b00d": {
-      "Name@1": "TaxOnSales - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea"
-    },
-    "901d0a7a-36b8-4b9d-b2cf-437ed4a029e3": {
-      "Name@1": "TaxOnPurchases - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
-      "TaxSummaryColumn@4": 3
-    },
-    "94530c14-de0d-4d17-adef-ddea4170a1d9": {
-      "Name@1": "NetSales - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
-      "TaxSummaryColumn@4": 1
-    },
-    "9481812e-d7ff-479a-af20-fceb69fedd86": {
-      "Name@1": "TaxOnPurchases - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
-      "TaxSummaryColumn@4": 3
-    },
-    "967a8a15-36e0-43ce-88bd-f3c54d1f0474": {
-      "Name@1": "TaxOnPurchases - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
-      "TaxSummaryColumn@4": 3
-    },
-    "97f47ca1-6a0b-4ffe-a844-a467e327cd29": {
-      "Name@1": "TaxOnSales - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230"
-    },
-    "981f75da-1a9c-4077-8d8b-0e1da4968726": {
-      "Name@1": "TaxOnPurchases - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
-      "TaxSummaryColumn@4": 3
-    },
-    "98c7e40f-1ee6-4708-9e9e-c686477729d6": {
-      "Name@1": "NetPurchases - BTW 0% EU",
-      "Type@2": 1,
-      "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
-      "TaxSummaryColumn@4": 4
-    },
-    "999da337-b652-45ef-9935-afb70fa03d5c": {
-      "Name@1": "TaxLiability - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
-      "TaxSummaryColumn@4": 6
-    },
-    "9d7bc201-501e-4a00-9b68-ae45fe6ba5b3": {
-      "Name@1": "TaxLiability - BTW 6%",
-      "Type@2": 1,
-      "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
-      "TaxSummaryColumn@4": 6
-    },
-    "9dad8815-6bea-497b-8852-fba017f406d2": {
-      "Name@1": "TaxOnPurchases - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
-      "TaxSummaryColumn@4": 3
-    },
-    "9ddae9d7-3612-473e-a3da-2d43b751410a": {
-      "Name@1": "TaxLiability - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
-      "TaxSummaryColumn@4": 6
-    },
-    "9f7c730d-8785-429f-bc82-250c0974c8ad": {
-      "Name@1": "TaxOnPurchases - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
-      "TaxSummaryColumn@4": 3
-    },
-    "a227c072-16bc-441c-931f-adc8a00c961b": {
-      "Name@1": "NetSales - BTW 21% EU",
-      "Type@2": 1,
-      "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
-      "TaxSummaryColumn@4": 1
-    },
-    "a3ae56b3-bfab-4fbd-85ef-3737f042ae7b": {
-      "Name@1": "TaxOnSales - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
-    },
-    "a5222777-8ef7-4b62-b4fa-5c00b79643d8": {
-      "Name@1": "TaxOnSales - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea"
-    },
-    "a98e2158-f5c0-45f6-9131-334b514ec836": {
-      "Name@1": "TaxOnPurchases - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
-      "TaxSummaryColumn@4": 3
-    },
-    "a9f3384e-630e-478e-b0b4-752c5cf05794": {
-      "Name@1": "NetSales - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
-      "TaxSummaryColumn@4": 1
-    },
-    "ac01d191-c30b-450e-8609-cfbf9bc256ba": {
-      "Name@1": "TaxOnPurchases - BTW privégebruik",
-      "Type@2": 1,
-      "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088",
-      "TaxSummaryColumn@4": 3
-    },
-    "add1d580-8b6a-4663-8c28-76f3f039ceda": {
-      "Name@1": "NetSales - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
-      "TaxSummaryColumn@4": 1
-    },
-    "b3b2d996-4613-424f-838f-3e55f1fadaad": {
-      "Name@1": "TaxOnSales - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230"
-    },
-    "b3bb18a0-c2bf-46c9-93dd-0fa0e6137cf8": {
-      "Name@1": "TaxOnPurchases - BTW 6%",
-      "Type@2": 1,
-      "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
-      "TaxSummaryColumn@4": 3
-    },
-    "ba01e59a-684e-4287-88d8-2e9747c66234": {
-      "Name@1": "TaxOnSales - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef"
-    },
-    "ba289e1a-d5b7-460b-88f1-e1a3abb1572e": {
-      "Name@1": "TaxOnSales - BTW privégebruik",
-      "Type@2": 1,
-      "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088"
-    },
-    "ba552646-2406-45a7-afc8-eb55ecc1ad91": {
-      "Name@1": "TaxLiability - BTW 21%",
-      "Type@2": 1,
-      "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
-      "TaxSummaryColumn@4": 6
-    },
-    "bb584ebd-02ce-41bf-97d2-8fa5155a1834": {
-      "Name@1": "NetSales - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
-      "TaxSummaryColumn@4": 1
-    },
-    "c069a0c7-9231-484b-b9b0-08686b9c2219": {
-      "Name@1": "TaxOnSales - BTW 21%",
-      "Type@2": 1,
-      "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d"
-    },
-    "ccb0fbfc-23c0-4cfb-9e07-94f0ccc8a6b5": {
-      "Name@1": "TaxOnSales - BTW 6% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23"
-    },
-    "d2613c26-bcbf-460f-8971-ce1304668747": {
-      "Name@1": "TaxOnSales - BTW 21% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
-    },
-    "d264f23b-7861-4b8e-9dd1-55c20dab2831": {
-      "Name@1": "TaxOnPurchases - BTW 6% EU",
-      "Type@2": 1,
-      "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
-      "TaxSummaryColumn@4": 3
-    },
-    "d47b4f76-5e0a-498c-88ac-a5f8b28d6df8": {
-      "Name@1": "TaxOnSales - BTW 0% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11"
-    },
-    "dbfa1596-3031-4d03-ba58-2dfce62d6adc": {
-      "Name@1": "NetPurchases - BTW 9% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
-      "TaxSummaryColumn@4": 4
-    },
-    "dea4c692-d255-46a4-957b-202db95a4946": {
-      "Name@1": "TaxLiability - BTW 9%",
-      "Type@2": 1,
-      "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
-      "TaxSummaryColumn@4": 6
-    },
-    "e1ca9252-9ec7-4466-9dae-74fb5a354721": {
-      "Name@1": "TaxOnSales - BTW 21%",
-      "Type@2": 1,
-      "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d"
-    },
-    "e3ed98b5-5e88-4c20-bdbb-23f0f553c796": {
-      "Name@1": "TaxLiability - BTW privégebruik",
-      "Type@2": 1,
-      "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088",
-      "TaxSummaryColumn@4": 6
-    },
-    "e40ac92e-b8d5-45f7-bb68-18b22657890a": {
-      "Name@1": "TaxOnSales - BTW 21% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
-    },
-    "e4719030-442b-4f33-83dc-0942bd605835": {
-      "Name@1": "TaxOnPurchases - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
-      "TaxSummaryColumn@4": 3
-    },
-    "e48ce40e-cb98-44ce-ac00-2c402ed273f9": {
-      "Name@1": "Bedrag waarover omzetbelasting wordt berekend"
-    },
-    "e4dd8ec5-6466-4607-acc9-24b75a7c3615": {
-      "Name@1": "TaxOnPurchases - BTW 0% verlegd",
-      "Type@2": 1,
-      "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
-      "TaxSummaryColumn@4": 3
-    },
-    "ec190e97-7617-409c-8aeb-7f7c660b9d93": {
-      "Name@1": "NetSales - BTW 9% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
-      "TaxSummaryColumn@4": 1
-    },
-    "eea9d513-67e3-47f9-b578-65c9f2d80233": {
-      "Name@1": "TaxOnSales - BTW 0% vrijgesteld",
-      "Type@2": 1,
-      "TaxCode@9": "c6b298fa-f994-47ac-b6c0-3299fbac8306"
-    },
-    "f90a88dd-4f57-45c1-9442-d32e52a88880": {
-      "Name@1": "NetSales - BTW 6%",
-      "Type@2": 1,
-      "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
-      "TaxSummaryColumn@4": 1
-    },
-    "fcc52776-ea8e-44f4-aa73-87590240fb4c": {
-      "Name@1": "TaxLiability - BTW 6% non-EU",
-      "Type@2": 1,
-      "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
-      "TaxSummaryColumn@4": 6
-    }
-  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f": {
       "Date@1": "2020-09-11T00:00:00",
@@ -564,228 +39,409 @@
       "Columns@16": 2,
       "Items2@17": [
         {
-          "Column2@2": [
-            "e48ce40e-cb98-44ce-ac00-2c402ed273f9"
+          "Column4@5": [
+            {
+              "Text@1": "\"Bedrag waarover omzetbelasting wordt berekend\""
+            }
           ],
-          "Column3@3": [
-            "4bbba65d-b63f-4b00-bb87-d4b3c42db652"
+          "Column5@6": [
+            {
+              "Text@1": "\"Omzetbelasting\""
+            }
           ]
         },
         {
-          "Name@4": "1 Prestaties binnenland",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "1 Prestaties binnenland"
         },
         {
           "Name@4": "1a Leveringen/diensten belast met hoog tarief",
-          "Column2@2": [
-            "0c6bae1b-8eae-410b-bbaa-318b94f3e72e"
+          "Column4@5": [
+            {
+              "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
+              "TaxSummaryColumn@4": 1
+            }
           ],
-          "Column3@3": [
-            "e1ca9252-9ec7-4466-9dae-74fb5a354721"
+          "Column5@6": [
+            {
+              "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d"
+            }
           ]
         },
         {
           "Name@4": "1b Leveringen/diensten belast met laag tarief",
-          "Column2@2": [
-            "f90a88dd-4f57-45c1-9442-d32e52a88880",
-            "031aff4d-06ca-4efd-bf06-c1c35ea3c645"
+          "Column4@5": [
+            {
+              "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
+              "TaxSummaryColumn@4": 1
+            }
           ],
-          "Column3@3": [
-            "e1ca9252-9ec7-4466-9dae-74fb5a354721"
+          "Column5@6": [
+            {
+              "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3"
+            },
+            {
+              "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c"
+            }
           ]
         },
         {
-          "Name@4": "1c Leveringen/diensten belast met overige tarieven, behalve 0%",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "1c Leveringen/diensten belast met overige tarieven, behalve 0%"
         },
         {
           "Name@4": "1d Privégebruik",
-          "Column2@2": [],
-          "Column3@3": [
-            "7ffd21f8-8f72-4c54-90af-8358b7c66e24"
+          "Column5@6": [
+            {
+              "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088"
+            }
           ]
         },
         {
           "Name@4": "1e Leveringen/diensten belast met 0% of niet bij u belast",
-          "Column2@2": [
-            "b3b2d996-4613-424f-838f-3e55f1fadaad",
-            "d2613c26-bcbf-460f-8971-ce1304668747",
-            "5e2ffedb-97bc-43cd-9e07-3c5633c8ca92",
-            "a5222777-8ef7-4b62-b4fa-5c00b79643d8",
-            "eea9d513-67e3-47f9-b578-65c9f2d80233"
-          ],
-          "Column3@3": []
-        },
-        {
-          "Name@4": "2 Verleggingsregelingen binnenland",
-          "Column2@2": [],
-          "Column3@3": []
-        },
-        {
-          "Name@4": "2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd",
-          "Column2@2": [
-            "3f14ef5a-93d0-4a7a-82d2-0d076b3084b4",
-            "0a02e38c-33ec-4ed6-b998-0eb1d22d1219",
-            "54af3859-dcb3-4326-bfa9-6680ca38dee7",
-            "dbfa1596-3031-4d03-ba58-2dfce62d6adc"
-          ],
-          "Column3@3": [
-            "e4dd8ec5-6466-4607-acc9-24b75a7c3615",
-            "9f7c730d-8785-429f-bc82-250c0974c8ad",
-            "9dad8815-6bea-497b-8852-fba017f406d2",
-            "31e26107-0aa8-4919-9dcd-873c98285e70"
+          "Column4@5": [
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23"
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea"
+            }
           ]
         },
         {
-          "Name@4": "3 Prestaties naar of in het buitenland",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "2 Verleggingsregelingen binnenland"
+        },
+        {
+          "Name@4": "2a Leveringen/diensten waarbij de heffing van omzetbelasting naar u is verlegd",
+          "Column4@5": [
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "ad18e082-df57-44f9-8fd0-ab3c5275d230",
+              "TaxSummaryColumn@4": 5
+            }
+          ],
+          "Column5@6": [
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
+              "TaxSummaryColumn@4": 3
+            }
+          ]
+        },
+        {
+          "Name@4": "3 Prestaties naar of in het buitenland"
         },
         {
           "Name@4": "3a Leveringen naar landen buiten de EU (uitvoer)",
-          "Column2@2": [
-            "a9f3384e-630e-478e-b0b4-752c5cf05794",
-            "94530c14-de0d-4d17-adef-ddea4170a1d9",
-            "add1d580-8b6a-4663-8c28-76f3f039ceda",
-            "ec190e97-7617-409c-8aeb-7f7c660b9d93"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "3b Leveringen naar of diensten in landen binnen de EU",
-          "Column2@2": [
-            "6a1af0a1-f77c-449b-9b55-37e468208905",
-            "a227c072-16bc-441c-931f-adc8a00c961b",
-            "bb584ebd-02ce-41bf-97d2-8fa5155a1834",
-            "6c529d39-d23f-421e-a8fc-9ce1a9c29a3f"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
-          "Name@4": "3c Installatie/afstandsverkopen binnen de EU",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "3c Installatie/afstandsverkopen binnen de EU"
         },
         {
-          "Name@4": "4 Prestaties vanuit het buitenland aan u verricht",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "4 Prestaties vanuit het buitenland aan u verricht"
         },
         {
           "Name@4": "4a Leveringen/diensten uit landen buiten de EU",
-          "Column2@2": [
-            "1a994c41-1702-4cf8-b80a-5d1f46007cb2",
-            "559a0a5b-512d-4852-8418-5a02304bddc7",
-            "1eaa35cd-b0c9-4825-90b8-a968f33c2d17",
-            "18d2d83a-2bbe-45ff-b0d1-e7a58b300df5"
+          "Column4@5": [
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "75eaae26-98a4-4e1a-9d75-91bf2b7e7b11",
+              "TaxSummaryColumn@4": 5
+            }
           ],
-          "Column3@3": [
-            "0c39fbb4-a835-4ef6-96a8-49194fb7b55a",
-            "66223779-d6c5-4d3e-b510-cbc4781f2def",
-            "2e6b6249-ff62-4461-9a3b-6dcd831d13f3",
-            "012f0097-c13a-4780-8253-71cb321b1c0a"
+          "Column5@6": [
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+              "TaxSummaryColumn@4": 3
+            }
           ]
         },
         {
           "Name@4": "4b Leveringen/diensten uit landen binnen de EU",
-          "Column2@2": [
-            "98c7e40f-1ee6-4708-9e9e-c686477729d6",
-            "8069a3cd-846d-48e3-a749-43edfc081bc7",
-            "13d53ad9-0104-407c-b666-c9efb025986a",
-            "88e889fa-491d-4d39-81d9-47017915d98f"
+          "Column4@5": [
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "d0eca2ec-e9da-40de-9be6-e2e9fb34269a",
+              "TaxSummaryColumn@4": 5
+            }
           ],
-          "Column3@3": [
-            "53e4ef4d-e56d-47a9-9e34-5a70df6bb243",
-            "967a8a15-36e0-43ce-88bd-f3c54d1f0474",
-            "d264f23b-7861-4b8e-9dd1-55c20dab2831",
-            "023503ea-de42-4251-93c8-a56853d4082d"
+          "Column5@6": [
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
+              "TaxSummaryColumn@4": 3
+            }
           ]
         },
         {
-          "Name@4": "5 Voorbelasting en kleineondernemersregeling",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "5 Voorbelasting en kleineondernemersregeling"
         },
         {
           "Name@4": "5a Omzetbelasting (rubrieken 1 t/m 4",
-          "Column2@2": [],
-          "Column3@3": [
-            "c069a0c7-9231-484b-b9b0-08686b9c2219",
-            "79a00418-33ee-475d-8120-191053572709",
-            "3d299898-4d59-4751-89be-b91757167a56",
-            "ba289e1a-d5b7-460b-88f1-e1a3abb1572e",
-            "97f47ca1-6a0b-4ffe-a844-a467e327cd29",
-            "10768248-13cb-4205-a996-9e88878255a8",
-            "ccb0fbfc-23c0-4cfb-9e07-94f0ccc8a6b5",
-            "89cdedb4-8a97-4d62-9e7d-84b9ca52b00d",
-            "d47b4f76-5e0a-498c-88ac-a5f8b28d6df8",
-            "e40ac92e-b8d5-45f7-bb68-18b22657890a",
-            "ba01e59a-684e-4287-88d8-2e9747c66234",
-            "a3ae56b3-bfab-4fbd-85ef-3737f042ae7b",
-            "012736ec-1292-4973-b6c9-5b7d6794541c",
-            "7c97158f-f0d5-4c6d-bf12-4e713d3022f6",
-            "16e7799e-caaa-481e-afd1-083b042bcabb",
-            "48bfd84f-7ff9-4644-b791-9ba48aede312"
+          "Column5@6": [
+            {
+              "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d"
+            },
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680"
+            },
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
+            },
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246"
+            },
+            {
+              "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3"
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef"
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b"
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23"
+            },
+            {
+              "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c"
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699"
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2"
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea"
+            },
+            {
+              "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088"
+            }
           ]
         },
         {
           "Name@4": "5b Voorbelasting",
-          "Column2@2": [],
-          "Column3@3": [
-            "57693274-6594-4f2c-a355-e833d042293d",
-            "30fa5756-2b9c-4e71-89c5-8e89d1a78ce5",
-            "3c31f747-fbab-49d6-8784-ed3023790768",
-            "288b4c85-fd09-409f-aa55-4be4712d8431",
-            "3232d229-e840-461e-bd96-52d1a76983b6",
-            "9481812e-d7ff-479a-af20-fceb69fedd86",
-            "901d0a7a-36b8-4b9d-b2cf-437ed4a029e3",
-            "b3bb18a0-c2bf-46c9-93dd-0fa0e6137cf8",
-            "5b3290ee-5f6a-457d-a25f-336279913819",
-            "09a75866-c3e7-4b83-9e64-34aa53b64bbf",
-            "981f75da-1a9c-4077-8d8b-0e1da4968726",
-            "5fe2779e-5ca1-4230-ab53-82b90464cb9e",
-            "36ebe1d5-393b-41a2-96bc-a1189d878970",
-            "a98e2158-f5c0-45f6-9131-334b514ec836",
-            "e4719030-442b-4f33-83dc-0942bd605835",
-            "ac01d191-c30b-450e-8609-cfbf9bc256ba"
+          "Column5@6": [
+            {
+              "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088",
+              "TaxSummaryColumn@4": 3
+            }
           ]
         },
         {
           "Name@4": "5c Subtotaal (rubriek 5a min 5b)",
-          "Column2@2": [],
-          "Column3@3": [
-            "13ec178e-a1b3-47a8-b9b2-b74d4a401ced",
-            "679748bc-2f5f-4c2a-a402-0ecebffbf24f",
-            "71ec040d-1cac-444a-9380-1c7996eec334",
-            "ba552646-2406-45a7-afc8-eb55ecc1ad91",
-            "37e62024-cd65-4b3a-b114-5151bb290be6",
-            "9ddae9d7-3612-473e-a3da-2d43b751410a",
-            "160e5e9b-feb7-4dd9-a725-9024a1087a3f",
-            "9d7bc201-501e-4a00-9b68-ae45fe6ba5b3",
-            "2dc80103-e2fe-4978-ab28-270d201a2ecc",
-            "fcc52776-ea8e-44f4-aa73-87590240fb4c",
-            "4953f043-a590-45e8-a409-8495886589c2",
-            "dea4c692-d255-46a4-957b-202db95a4946",
-            "2270b540-c4d5-4c4f-8775-4ce618ac5272",
-            "86d448d0-b6bf-4d74-925f-1104ffb35121",
-            "999da337-b652-45ef-9935-afb70fa03d5c",
-            "e3ed98b5-5e88-4c20-bdbb-23f0f553c796"
+          "Column5@6": [
+            {
+              "TaxCode@9": "33855cc4-964b-44d1-be27-cf268b0ad77d",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "93cdbadc-4a15-41ff-bf68-4ed927915680",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "ce2c6c96-4364-42a8-8cf3-8315d1a4b246",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "ad40e782-1f1c-486a-91a4-266e7001c8b3",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "1f681bc9-93fd-4e09-815f-2f1c6bc5044b",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "bddb4876-fd25-49bf-ac71-5365878268ef",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "e5f20470-dffa-4453-a0a9-42a403c04e23",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "31dce658-cff1-4212-870b-5fd04cb83b1c",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "4d895b0c-a40c-44ff-b441-9620c7619699",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "815852ae-5a5d-4688-aa9b-0b06f3982ef2",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "dd28f171-7422-44a3-937a-432e8d2970ea",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "9f2d06f9-0e16-4192-afa3-bff747910088",
+              "TaxSummaryColumn@4": 6
+            }
           ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
+      ],
+      "Instructions@28": [
+        {}
       ]
     }
   },
@@ -803,7 +459,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 294
+      "Version@1": 295
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

@@ -19,102 +19,6 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
-    "15260a89-aa83-4d50-a30d-7d9cf812b142": {
-      "Name@1": "Tax on Purchases - VAT 20%",
-      "Type@2": 1,
-      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-      "TaxSummaryColumn@4": 3
-    },
-    "1c415bc0-8035-4c48-8894-c5b24e8cf849": {
-      "Name@1": "Tax on Sales - VAT 20%",
-      "Type@2": 1,
-      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
-    },
-    "29fe2105-737d-40e3-8b3c-b7566c4b183e": {
-      "Name@1": "Net Sales - VAT 0%",
-      "Type@2": 1,
-      "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
-      "TaxSummaryColumn@4": 1
-    },
-    "64f808b3-e08e-43c8-9704-2ff45323bca0": {
-      "Name@1": "Net Purchases - VAT 0%",
-      "Type@2": 1,
-      "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
-      "TaxSummaryColumn@4": 4
-    },
-    "6b87284f-7e15-41b3-a669-1a78c18896fa": {
-      "Name@1": "Tax liability - VAT 20%",
-      "Type@2": 1,
-      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-      "TaxSummaryColumn@4": 6
-    },
-    "7aeb3f77-855f-40d5-b925-890373cb6e5c": {
-      "Name@1": "Net Sales - VAT 0% (EU)",
-      "Type@2": 1,
-      "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
-      "TaxSummaryColumn@4": 1
-    },
-    "8ad7f442-a5d0-43fa-b48d-b35fc4f94f17": {
-      "Name@1": "Net Sales - VAT Exempt",
-      "Type@2": 1,
-      "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
-      "TaxSummaryColumn@4": 1
-    },
-    "92d4316c-a171-4614-bd13-630dbb678c50": {
-      "Name@1": "Net Sales - VAT 5%",
-      "Type@2": 1,
-      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
-      "TaxSummaryColumn@4": 1
-    },
-    "b1bed20b-1556-4b6a-8e34-2791a68e11f6": {
-      "Name@1": "Tax liability - VAT 5%",
-      "Type@2": 1,
-      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
-      "TaxSummaryColumn@4": 6
-    },
-    "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2": {
-      "Name@1": "Tax on Sales - VAT 5%",
-      "Type@2": 1,
-      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752"
-    },
-    "c8f1a9ec-134c-4b8e-a93f-6b2e90d9e83e": {
-      "Name@1": "Net Sales - VAT 20%",
-      "Type@2": 1,
-      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-      "TaxSummaryColumn@4": 1
-    },
-    "ce8c526e-bd3a-4a70-a4ee-005e57ed2192": {
-      "Name@1": "Tax on Purchases - VAT 5%",
-      "Type@2": 1,
-      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
-      "TaxSummaryColumn@4": 3
-    },
-    "dcdc2602-d666-4aab-89a3-0644bfb39dc8": {
-      "Name@1": "Net Purchases - VAT 20%",
-      "Type@2": 1,
-      "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-      "TaxSummaryColumn@4": 4
-    },
-    "e70aa0ae-6614-4d12-a64c-47b7722473c9": {
-      "Name@1": "Net Purchases - VAT 0% (EU)",
-      "Type@2": 1,
-      "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
-      "TaxSummaryColumn@4": 4
-    },
-    "f5222ab1-e973-47ba-99a9-4640d4864d3f": {
-      "Name@1": "Net Purchases - VAT Exempt",
-      "Type@2": 1,
-      "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
-      "TaxSummaryColumn@4": 4
-    },
-    "f619ad34-d587-4d95-b374-9d581ac3a010": {
-      "Name@1": "Net Purchases - VAT 5%",
-      "Type@2": 1,
-      "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
-      "TaxSummaryColumn@4": 4
-    }
-  },
   "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
     "bc8d4bfd-edf4-4f89-b52d-07d0a7131d85": {
       "Date@1": "2020-09-11T00:00:00",
@@ -135,100 +39,139 @@
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "VAT Calculations",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "VAT Calculations"
         },
         {
           "Name@4": "#1 VAT due in this period on sales and other outputs",
-          "Column2@2": [
-            "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
-            "1c415bc0-8035-4c48-8894-c5b24e8cf849"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752"
+            },
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+            }
+          ]
         },
         {
-          "Name@4": "#2 VAT due in this period on acquisitions from other EC Member States",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "#2 VAT due in this period on acquisitions from other EC Member States"
         },
         {
           "Name@4": "#3 Total VAT due (the sum of boxes 1 and 2)",
-          "Column2@2": [
-            "bce806b0-aa8e-45f0-abfe-e91cc53fe2b2",
-            "1c415bc0-8035-4c48-8894-c5b24e8cf849"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+            },
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752"
+            }
+          ]
         },
         {
           "Name@4": "#4 VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)",
-          "Column2@2": [
-            "ce8c526e-bd3a-4a70-a4ee-005e57ed2192",
-            "15260a89-aa83-4d50-a30d-7d9cf812b142"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+              "TaxSummaryColumn@4": 3
+            }
+          ]
         },
         {
           "Name@4": "#5 Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)",
-          "Column2@2": [
-            "b1bed20b-1556-4b6a-8e34-2791a68e11f6",
-            "6b87284f-7e15-41b3-a669-1a78c18896fa"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+              "TaxSummaryColumn@4": 6
+            }
+          ]
         },
         {
-          "Name@4": "Sales and Purchases Excluding VAT",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Sales and Purchases Excluding VAT"
         },
         {
           "Name@4": "#6 Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.",
-          "Column2@2": [
-            "7aeb3f77-855f-40d5-b925-890373cb6e5c",
-            "29fe2105-737d-40e3-8b3c-b7566c4b183e",
-            "c8f1a9ec-134c-4b8e-a93f-6b2e90d9e83e",
-            "92d4316c-a171-4614-bd13-630dbb678c50",
-            "8ad7f442-a5d0-43fa-b48d-b35fc4f94f17"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+              "TaxSummaryColumn@4": 1
+            },
+            {
+              "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
+              "TaxSummaryColumn@4": 2
+            },
+            {
+              "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+              "TaxSummaryColumn@4": 2
+            },
+            {
+              "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "#7 Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure.",
-          "Column2@2": [
-            "e70aa0ae-6614-4d12-a64c-47b7722473c9",
-            "64f808b3-e08e-43c8-9704-2ff45323bca0",
-            "dcdc2602-d666-4aab-89a3-0644bfb39dc8",
-            "f619ad34-d587-4d95-b374-9d581ac3a010",
-            "f5222ab1-e973-47ba-99a9-4640d4864d3f"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "56769971-405e-47bd-bd13-d64de0eae752",
+              "TaxSummaryColumn@4": 4
+            },
+            {
+              "TaxCode@9": "6959fb01-3a48-486a-9bec-a0681a662f03",
+              "TaxSummaryColumn@4": 5
+            },
+            {
+              "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+              "TaxSummaryColumn@4": 5
+            },
+            {
+              "TaxCode@9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
+              "TaxSummaryColumn@4": 5
+            }
+          ]
         },
         {
           "Name@4": "#8 Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States.",
-          "Column2@2": [
-            "7aeb3f77-855f-40d5-b925-890373cb6e5c"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "#9 Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States.",
-          "Column2@2": [
-            "e70aa0ae-6614-4d12-a64c-47b7722473c9"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "70364d69-174a-4804-881e-852bdbff59e2",
+              "TaxSummaryColumn@4": 5
+            }
+          ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
+      ],
+      "Instructions@28": [
+        {}
       ]
     }
   },
@@ -241,7 +184,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 294
+      "Version@1": 295
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

@@ -28,93 +28,6 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
-  "9f669c59-5b9e-476b-93b0-116d8b8dcf9e": {
-    "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd": {
-      "Name@1": "Total Sales - GST Exempt",
-      "Type@2": 1,
-      "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
-      "TaxSummaryColumn@4": 2
-    },
-    "19b06665-c58e-4193-934a-d3add213cedb": {
-      "Name@1": "Total Purchases - GST Exempt",
-      "Type@2": 1,
-      "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
-      "TaxSummaryColumn@4": 5
-    },
-    "1cb50dba-7093-4a20-bc5b-38a647140abd": {
-      "Name@1": "Tax on Purchases - GST 15%",
-      "Type@2": 1,
-      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-      "TaxSummaryColumn@4": 3
-    },
-    "29c6cc1e-64f1-4bd3-a576-31e0202ab86f": {
-      "Name@1": "Business details - Address",
-      "Type@2": 2,
-      "BusinessDetailsField@5": {
-        "Key@1": "Manager.Model.BusinessDetails.Address"
-      }
-    },
-    "3131826c-c3a7-477f-a7f0-cc61c59eb1dd": {
-      "Name@1": "Business details - Registration number",
-      "Type@2": 2,
-      "BusinessDetailsField@5": {
-        "Key@1": "Manager.Model.BusinessDetails.CustomFields"
-      },
-      "BusinessDetailsCustomField@6": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
-    },
-    "382f9482-243d-4cdf-b9ca-9ba4f364ab4e": {
-      "Name@1": "Tax on Sales - GST Adjustment",
-      "Type@2": 1,
-      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
-    },
-    "5eb3dd14-1d0e-49b7-879c-b7a4770f501b": {
-      "Name@1": "Total Purchases - GST 15%",
-      "Type@2": 1,
-      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-      "TaxSummaryColumn@4": 5
-    },
-    "63979e7f-d987-4141-9da2-088e119c0010": {
-      "Name@1": "Tax on Purchases - GST Adjustment",
-      "Type@2": 1,
-      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
-      "TaxSummaryColumn@4": 3
-    },
-    "7326c6a7-fcae-45bb-8f78-3d15e01c3b65": {
-      "Name@1": "Total Sales - GST 15%",
-      "Type@2": 1,
-      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-      "TaxSummaryColumn@4": 2
-    },
-    "818d1ba1-311c-47a9-b1be-2c6f262f28a1": {
-      "Name@1": "Tax liability - GST Adjustment",
-      "Type@2": 1,
-      "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
-      "TaxSummaryColumn@4": 6
-    },
-    "93abd2c4-e144-4571-9fc5-2acebd94d43b": {
-      "Name@1": "Total Sales - GST 0%",
-      "Type@2": 1,
-      "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-      "TaxSummaryColumn@4": 2
-    },
-    "c207df9f-eeb1-452d-8f56-b7bf0cc791e7": {
-      "Name@1": "Total Purchases - GST 0%",
-      "Type@2": 1,
-      "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
-      "TaxSummaryColumn@4": 5
-    },
-    "e990928b-fe1a-4cca-8b04-57912f4c82f3": {
-      "Name@1": "Tax liability - GST 15%",
-      "Type@2": 1,
-      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
-      "TaxSummaryColumn@4": 6
-    },
-    "fec411a6-c434-4f8a-b0d0-2871e91f2e40": {
-      "Name@1": "Tax on Sales - GST 15%",
-      "Type@2": 1,
-      "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
-    }
-  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
       "Date@1": "2019-07-20T00:00:00",
@@ -168,148 +81,185 @@
       "Columns@16": 1,
       "Items2@17": [
         {
-          "Name@4": "Return Details",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Return Details"
         },
         {
           "Name@4": "Registration number",
-          "Column2@2": [
-            "3131826c-c3a7-477f-a7f0-cc61c59eb1dd"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "CustomField@6": "0c782b45-f50c-4b69-bbf3-75f42d7670a7"
+            }
+          ]
         },
         {
           "Name@4": "Business address",
-          "Column2@2": [
-            "29c6cc1e-64f1-4bd3-a576-31e0202ab86f"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "Field@5": {
+                "Key@1": "Manager.Model.BusinessDetails.Address"
+              }
+            }
+          ]
         },
         {
-          "Name@4": "Sales and Income",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Sales and Income"
         },
         {
           "Name@4": "Total sales and income",
-          "Column2@2": [
-            "7326c6a7-fcae-45bb-8f78-3d15e01c3b65",
-            "93abd2c4-e144-4571-9fc5-2acebd94d43b",
-            "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 2
+            },
+            {
+              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "TaxSummaryColumn@4": 2
+            },
+            {
+              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "Zero-rated supplies",
-          "Column2@2": [
-            "93abd2c4-e144-4571-9fc5-2acebd94d43b",
-            "0cfb4f9e-b9e2-436b-952f-6013c7ad39fd"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "TaxSummaryColumn@4": 2
+            },
+            {
+              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "Net GST sales and income",
-          "Column2@2": [
-            "7326c6a7-fcae-45bb-8f78-3d15e01c3b65"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 2
+            }
+          ]
         },
         {
           "Name@4": "Total GST collected on sales and income",
-          "Column2@2": [
-            "fec411a6-c434-4f8a-b0d0-2871e91f2e40"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+            }
+          ]
         },
         {
           "Name@4": "Any debit adjustments",
-          "Column2@2": [
-            "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+            }
+          ]
         },
         {
           "Name@4": "Total GST collected for the period",
-          "Column2@2": [
-            "fec411a6-c434-4f8a-b0d0-2871e91f2e40",
-            "382f9482-243d-4cdf-b9ca-9ba4f364ab4e"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f"
+            },
+            {
+              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246"
+            }
+          ]
         },
         {
-          "Name@4": "Purchases and Expenses",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Purchases and Expenses"
         },
         {
           "Name@4": "Total purchases and expenses",
-          "Column2@2": [
-            "5eb3dd14-1d0e-49b7-879c-b7a4770f501b",
-            "c207df9f-eeb1-452d-8f56-b7bf0cc791e7",
-            "19b06665-c58e-4193-934a-d3add213cedb"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 5
+            },
+            {
+              "TaxCode@9": "1a88fd08-a595-4e12-97d3-85fc165eecdc",
+              "TaxSummaryColumn@4": 5
+            },
+            {
+              "TaxCode@9": "705acb55-550e-458a-bf9a-c4c7021dc351",
+              "TaxSummaryColumn@4": 5
+            }
+          ]
         },
         {
           "Name@4": "Total GST credits on purchases and expenses",
-          "Column2@2": [
-            "1cb50dba-7093-4a20-bc5b-38a647140abd"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 3
+            }
+          ]
         },
         {
           "Name@4": "Any credit adjustments",
-          "Column2@2": [
-            "63979e7f-d987-4141-9da2-088e119c0010"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "TaxSummaryColumn@4": 3
+            }
+          ]
         },
         {
           "Name@4": "Total GST credit",
-          "Column2@2": [
-            "1cb50dba-7093-4a20-bc5b-38a647140abd",
-            "63979e7f-d987-4141-9da2-088e119c0010"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 3
+            },
+            {
+              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "TaxSummaryColumn@4": 3
+            }
+          ]
         },
         {
-          "Name@4": "Summary",
-          "Column2@2": [],
-          "Column3@3": []
+          "Name@4": "Summary"
         },
         {
           "Name@4": "GST to pay",
-          "Column2@2": [
-            "e990928b-fe1a-4cca-8b04-57912f4c82f3",
-            "818d1ba1-311c-47a9-b1be-2c6f262f28a1"
-          ],
-          "Column3@3": []
+          "Column4@5": [
+            {
+              "TaxCode@9": "ee8cacde-58da-48ec-8aa9-aa6acba9c32f",
+              "TaxSummaryColumn@4": 6
+            },
+            {
+              "TaxCode@9": "d865c9b1-17b9-488b-b29b-b15c0b3c3246",
+              "TaxSummaryColumn@4": 6
+            }
+          ]
         }
       ],
       "SupplierItems@19": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
       ],
       "EmployeeItems@23": [
-        {
-          "Column2@2": [],
-          "Column3@3": []
-        }
+        {}
+      ],
+      "Instructions@28": [
+        {}
       ]
     }
   },
   "bbe8c088-729b-4b56-a7d7-26555270eced": {
     "8f49fd7b-9dd9-4c08-b7cb-b8b7fdbe44a8": {
       "ReportTransformation@1": "994cef79-6da3-4fa1-9998-ad029a4358f0",
-      "ToDate@5": "2019-07-20T00:00:00"
+      "FromDate@4": "2021-06-25T00:00:00",
+      "ToDate@5": "2021-06-25T00:00:00",
+      "AccountingMethod@3": 1
     }
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "Version@1": 294
+      "Version@1": 295
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
