@@ -93,9 +93,7 @@
           "4": "Business address",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.BusinessDetails.Address"
-              }
+              "15": "Address"
             }
           ]
         },

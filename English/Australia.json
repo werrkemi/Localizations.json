@@ -599,9 +599,7 @@
           "4": "Pay period start date",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.ReportTransformation.FromDate"
-              }
+              "18": "FromDate"
             }
           ]
         },
@@ -609,9 +607,7 @@
           "4": "Pay period end date",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.ReportTransformation.ToDate"
-              }
+              "18": "ToDate"
             }
           ]
         }
@@ -637,9 +633,7 @@
           "4": "Payroll number",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.Object.Key"
-              }
+              "16": "Key"
             }
           ]
         },
@@ -743,9 +737,7 @@
           "4": "Email",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.Employee.Email"
-              }
+              "16": "Email"
             }
           ]
         },
@@ -1270,9 +1262,7 @@
           "4": "Name",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.Employee.Name"
-              }
+              "16": "Name"
             }
           ]
         },
@@ -1280,9 +1270,7 @@
           "4": "Address",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.Employee.Address"
-              }
+              "16": "Address"
             }
           ]
         },
@@ -1402,9 +1390,7 @@
           "4": "Name",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.BusinessDetails.Name"
-              }
+              "15": "Name"
             }
           ]
         },
@@ -1441,9 +1427,7 @@
           "4": "Payer name",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.BusinessDetails.Name"
-              }
+              "15": "Name"
             }
           ]
         },
@@ -1451,9 +1435,7 @@
           "4": "Payer address",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.BusinessDetails.Address"
-              }
+              "15": "Address"
             }
           ]
         },
@@ -1480,9 +1462,7 @@
           "4": "Name",
           "5": [
             {
-              "5": {
-                "1": "Manager.Model.Supplier.Name"
-              }
+              "17": "Name"
             }
           ]
         },
@@ -1537,6 +1517,11 @@
       "1": "07332ba3-3e82-4dc1-9451-1350f5d84e24",
       "4": "2020-12-01T00:00:00",
       "5": "2020-12-14T00:00:00"
+    },
+    "3d3a5549-7f0f-42f2-83e9-a533310fd0b2": {
+      "1": "11acbfe1-0d24-4161-b366-fe905f2bcfd9",
+      "4": "2021-06-28T00:00:00",
+      "5": "2021-06-28T00:00:00"
     },
     "716bcd40-5977-46a0-a4d0-14932385bc3c": {
       "1": "a197ee84-033b-4d6b-acd7-9a3cbfe02499",
