@@ -91,7 +91,7 @@
       "1": "STP - Payment Basis",
       "5": 512,
       "3": 2,
-      "9": "F ⁠— Full-time\nP ⁠— Part-time\nC ⁠— Casual\nL ⁠— Labour Hire\nS ⁠— Pension or Annuity",
+      "9": "F — Full-time\nP — Part-time\nC — Casual\nL — Labour Hire\nS — Pension or Annuity",
       "11": "Single Touch Payroll requires to report on what payment basis each employee is. https://www.ato.gov.au/business/employee-or-contractor/how-to-work-it-out--employee-or-contractor/",
       "2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
     },
@@ -959,7 +959,6 @@
       "1": "Business Activity Statement — Full",
       "9": "2020-01-01T00:00:00",
       "10": "2020-09-24T00:00:00",
-      "16": 1,
       "17": [
         {
           "4": "Sales\n--------"
