@@ -126,6 +126,12 @@
       "4": 1,
       "2": "6d2dc48d-2053-4e45-8330-285ebd431242"
     },
+    "b8c661cd-ff56-4862-853b-75d0f2920776": {
+      "1": "STP - Payroll number",
+      "5": 401,
+      "11": "A unique number that identifies an employee for Single Touch Payroll",
+      "2": "dadb7f95-a5dd-45c0-945d-6ad4ee28776e"
+    },
     "ce735064-e907-478f-83b0-f319b2a9a7fb": {
       "1": "STP - Address 2",
       "5": 504,
@@ -675,7 +681,7 @@
           "4": "Payroll number",
           "5": [
             {
-              "16": "Code"
+              "13": "b8c661cd-ff56-4862-853b-75d0f2920776"
             }
           ]
         },
