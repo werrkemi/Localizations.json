@@ -22,13 +22,13 @@ You need to import existing `JSON` file into Manager to get started:
 
 1. [Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format.
 2. Unzip the archive.
-3. Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive.
+3. Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive you want to work on.
 
-Once country-specific business is imported, please see [this forum topic](https://forum.manager.io/t/report-transformations-no-code-development-platform/35804). It explains how you can create country-specific report.
+Please see [this forum topic](https://forum.manager.io/t/report-transformations-no-code-development-platform/35804). It explains how you can create country-specific report within business.
 
 ## Export JSON
 
-Exported business to `JSON` format can be submitted to this repository.
+When you are done making improvements or additions, you need to export the business back to `JSON` format.
 
 Go to `Settings` tab.
 
