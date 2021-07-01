@@ -10,6 +10,12 @@ Within each folder, you will see one or more files in `JSON` format. These are M
 
 If we do not have `JSON` file for your language/country combination, please [create new issue](https://github.com/Manager-io/Localizations.json/issues/new/choose) and we will add it.
 
+Contributing involves three steps:
+
+1. Import JSON
+2. Export JSON
+3. Upload JSON
+
 ## Import JSON
 
 You need to import existing `JSON` file into Manager to get started:
@@ -40,7 +46,7 @@ This will reveal screen with `JSON` content. Click `Copy to clipboard` button ag
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/f/5f3803ff6e9e560ff4128b1be2343dee4e28136a.png)
 
-## Contributing
+## Upload JSON
 
 Here on GitHub, click on the language folder where your country resides, then click on `JSON` file of the country you are contributing to. Then click on the little pencil pencil to `Edit` (second last icon).
 
