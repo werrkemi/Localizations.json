@@ -8,25 +8,23 @@ Every language has its own folder. For example, English country-specific reports
 
 Within each folder, you will see one or more files in `JSON` format. These are Manager businesses which can be imported into Manager. Each country can contain one or more country-specific reports.
 
+If we do not have `JSON` file for your language/country combination, please create new issue and we will add it.
+
 ## Getting started
 
-Before you contribute, you need to decide whether you are creating new country or improving existing country.
-
-For new countries, since we do not have any `JSON` file, there is nothing to import. Therefore just create `New Business` in Manager and create your country-specific report in there.
-
-For existing countries, you need to import existing `JSON` file into Manager to get started:
+You need to import existing `JSON` file into Manager to get started:
 
 1. [Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format.
 2. Unzip the archive.
 3. Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive.
 
-## Creating or improving report transformations
+## Making Changes
 
 Please see this forum topic https://forum.manager.io/t/report-transformations-no-code-development-platform/35804
 
 It explains how you can create country-specific report.
 
-## Creating JSON file of the business
+## Exporting to JSON
 
 Exported business to `JSON` format can be submitted to this repository.
 
@@ -46,15 +44,7 @@ This will reveal screen with `JSON` content. Click `Copy to clipboard` button ag
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/f/5f3803ff6e9e560ff4128b1be2343dee4e28136a.png)
 
-## Creating new country
-
-Click `Add file` button, then `Create new file`.
-
-In the `Name your file...` enter name of your country and in the textarea, paste the content of `JSON` data from Manager.
-
-Click `Commit new file` button.
-
-## Updating existing country
+## Contributing
 
 Here on GitHub, click on the language folder where your country resides, then click on `JSON` file of the country you are contributing to. Then click on the little pencil pencil to `Edit` (second last icon).
 
