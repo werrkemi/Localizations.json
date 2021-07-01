@@ -12,15 +12,14 @@ namespace Localizations
         {
             Console.OutputEncoding = System.Text.UTF8Encoding.UTF8;
 
-            var keys = new HashSet<Guid>();
-            keys.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
-            keys.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
-            keys.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
-            keys.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
-            keys.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
-            keys.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
-            keys.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
-            keys.Add(new Guid("9f669c59-5b9e-476b-93b0-116d8b8dcf9e")); // Figure
+            var types = new HashSet<Guid>();
+            types.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
+            types.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
+            types.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
+            types.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
+            types.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
+            types.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
+            types.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
 
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
 #if DEBUG
@@ -28,7 +27,9 @@ namespace Localizations
 #endif
             Console.WriteLine("Project Directory: " + projectDir.FullName);
 
-            var output = new Dictionary<string, Dictionary<string, object>>();            
+            var output = new Dictionary<string, Dictionary<string, object>>();
+
+            var keys = new HashSet<Guid>();
 
             foreach (var e in projectDir.GetDirectories().OrderBy(x => x.Name))
             {
@@ -43,8 +44,17 @@ namespace Localizations
                     Console.WriteLine("Input: "+e2.FullName);
 
                     var json = JsonConvert.DeserializeObject<Dictionary<Guid, Dictionary<Guid, object>>>(File.ReadAllText(e2.FullName))
-                        .Where(x => keys.Contains(x.Key))
+                        .Where(x => types.Contains(x.Key))
                         .ToDictionary(x => x.Key, x => x.Value);
+
+                    foreach (var type in json)
+                    {
+                        foreach (var o in type.Value)
+                        {
+                            if (type.Key == o.Key) continue;
+                            keys.Add(o.Key);
+                        }
+                    }
 
                     var name = Path.GetFileNameWithoutExtension(e2.Name);
                     output[e.Name].Add(name, json);
