@@ -1,10 +1,4 @@
 {
-  "6ef13e42-ad89-4d42-9480-546e0c04a411": {
-    "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71": {
-      "1": "GST payable",
-      "3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
-    }
-  },
   "38cf4712-6e95-4ce1-b53a-bff03edad273": {
     "38cf4712-6e95-4ce1-b53a-bff03edad273": {
       "1": "New Zealand",
@@ -19,10 +13,6 @@
       "1": "Registration number",
       "4": 1,
       "2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
-    },
-    "436f269c-126f-4055-847b-b8d146b7e1e8": {
-      "1": "Contact",
-      "4": 1
     }
   },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
@@ -264,24 +254,20 @@
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "1a88fd08-a595-4e12-97d3-85fc165eecdc": {
       "1": "GST 0%",
-      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "13": true,
       "14": "Tax Invoice"
     },
     "705acb55-550e-458a-bf9a-c4c7021dc351": {
-      "1": "GST Exempt",
-      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+      "1": "GST Exempt"
     },
     "d865c9b1-17b9-488b-b29b-b15c0b3c3246": {
       "1": "GST Adjustment",
-      "5": 1,
-      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
+      "5": 1
     },
     "ee8cacde-58da-48ec-8aa9-aa6acba9c32f": {
       "1": "GST 15%",
       "5": 2,
       "4": 15.0,
-      "7": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
       "13": true,
       "14": "Tax Invoice"
     }

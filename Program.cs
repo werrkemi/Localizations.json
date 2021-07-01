@@ -52,6 +52,10 @@ namespace Localizations
                         foreach (var o in type.Value)
                         {
                             if (type.Key == o.Key) continue;
+                            if (keys.Contains(o.Key))
+                            {
+                                throw new Exception("Duplicate: "+o.Key.ToString());
+                            }
                             keys.Add(o.Key);
                         }
                     }
