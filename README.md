@@ -8,9 +8,9 @@ Every language has its own folder. For example, English country-specific reports
 
 Within each folder, you will see one or more files in `JSON` format. These are Manager businesses which can be imported into Manager. Each country can contain one or more country-specific reports.
 
-If we do not have `JSON` file for your language/country combination, please create new issue and we will add it.
+If we do not have `JSON` file for your language/country combination, please [create new issue](https://github.com/Manager-io/Localizations.json/issues/new/choose) and we will add it.
 
-## Getting started
+## Import JSON
 
 You need to import existing `JSON` file into Manager to get started:
 
@@ -18,13 +18,9 @@ You need to import existing `JSON` file into Manager to get started:
 2. Unzip the archive.
 3. Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive.
 
-## Making Changes
+Once country-specific business is imported, please see [this forum topic](https://forum.manager.io/t/report-transformations-no-code-development-platform/35804). It explains how you can create country-specific report.
 
-Please see this forum topic https://forum.manager.io/t/report-transformations-no-code-development-platform/35804
-
-It explains how you can create country-specific report.
-
-## Exporting to JSON
+## Export JSON
 
 Exported business to `JSON` format can be submitted to this repository.
 
