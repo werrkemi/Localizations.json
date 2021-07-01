@@ -12,9 +12,9 @@ Within each folder, you will see one or more files in `JSON` format. These are M
 
 Before you contribute, you need to decide whether you are creating new country or improving existing country.
 
-For new countries, since we do not have any `JSON` file, create `New Business` in Manager. The business name needs to be name of your country.
+For new countries, since we do not have any `JSON` file, there is nothing to import. Therefore just create `New Business` in Manager and create your country-specific report in there.
 
-For existing countries, you will be importing `JSON` file into Manager to get started:
+For existing countries, you need to import existing `JSON` file into Manager to get started:
 
 1. [Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format.
 2. Unzip the archive.
@@ -26,9 +26,9 @@ Please see this forum topic https://forum.manager.io/t/report-transformations-no
 
 It explains how you can create country-specific report.
 
-## Contributing
+## Creating JSON file of the business
 
-Once you are done, export business to `JSON` format which can be submitted to this repository.
+Exported business to `JSON` format can be submitted to this repository.
 
 Go to `Settings` tab.
 
@@ -46,7 +46,15 @@ This will reveal screen with `JSON` content. Click `Copy to clipboard` button ag
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/f/5f3803ff6e9e560ff4128b1be2343dee4e28136a.png)
 
-### If you are updating existing country...
+## Creating new country
+
+Click `Add file` button, then `Create new file`.
+
+In the `Name your file...` enter name of your country and in the textarea, paste the content of `JSON` data from Manager.
+
+Click `Commit new file` button.
+
+## Updating existing country
 
 Here on GitHub, click on the language folder where your country resides, then click on `JSON` file of the country you are contributing to. Then click on the little pencil pencil to `Edit` (second last icon).
 
@@ -69,11 +77,3 @@ And then `Create pull request` button once again.
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/2/1/21ac97297c80e0f4a85dcc988f8ccecac7069ea2.png)
 
 Done. Your changes have been submitted.
-
-### If you are creating new country...
-
-Click `Add file` button, then `Create new file`.
-
-In the `Name your file...` enter name of your country and in the textarea, paste the content of `JSON` data from Manager.
-
-Click `Commit new file` button.
