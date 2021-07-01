@@ -2,25 +2,33 @@
 
 This is global repository for country-specific reports which are available in [Manager](https://www.manager.io).
 
-## Tutorial
+## Project structure
 
-Anybody can contribute. Try the following tutorial to learn the workflow.
+Every language has its own folder. For example, English country-specific reports are in `English` folder. Dutch country-specific reports will be in `Nederlands` folder (Nederlands is native language name).
 
-In this tutorial, we are in New Zealand and would like to rename balance sheet account `GST payable` to `GST liability`.
+Within each folder, you will see one or more files in `JSON` format. These are Manager businesses which can be imported into Manager. Each country can contain one or more country-specific reports.
 
-[Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format. Then unzip the archive.
+## Getting started
 
-Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive. In this case, we want to import `New Zealand.json` which is in `English` directory. After importing, you will be taken to the list of businesses and `New Zealand.json` should appear.
+Before you contribute, you need to decide whether you are creating new country or improving existing country.
 
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/e/e/ee34f8d8a9907b96c5f70cae4d42fef53c60cd1d.png)
+For new countries, since we do not have any `JSON` file, create `New Business` in Manager. The business name needs to be name of your country.
 
-Congratulations. You have imported your first business from global repository. Now you can make new additions and improvements.
+For existing countries, you will be importing `JSON` file into Manager to get started:
 
-In this case, we do not want to do much. Just rename `GST payable` to `GST liability`. So we go to `Settings` tab, then `Chart of Accounts` and rename the account.
+1. [Download the latest version](https://github.com/Manager-io/Localizations.json/archive/master.zip) of this repository in ZIP format.
+2. Unzip the archive.
+3. Open Manager, click `Add Business` button. Then `Import Business` and select the JSON file from unzipped archive.
 
-![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/0/50c9eeacd92f5d885ff6859a243eab2d91fbb2d3.png)
+## Creating or improving report transformations
 
-Once we are done. We need to export this business back to `JSON` format so we can upload it back to global repository.
+Please see this forum topic https://forum.manager.io/t/report-transformations-no-code-development-platform/35804
+
+It explains how you can create country-specific report.
+
+## Contributing
+
+Once you are done, export business to `JSON` format which can be submitted to this repository.
 
 Go to `Settings` tab.
 
@@ -38,15 +46,15 @@ This will reveal screen with `JSON` content. Click `Copy to clipboard` button ag
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/5/f/5f3803ff6e9e560ff4128b1be2343dee4e28136a.png)
 
-Now come back to GitHub to the same screen where you had `New Zealand.json` open with `Raw` button. But this time, click on the little pencil pencil to `Edit` (second last icon).
+### If you are updating existing country...
+
+Here on GitHub, click on the language folder where your country resides, then click on `JSON` file of the country you are contributing to. Then click on the little pencil pencil to `Edit` (second last icon).
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/b/c/bc940c6a615642b6b343aadd21f164b8a61933d5.png)
 
 Remove the contents of the file and paste there your new JSON content. Then click on `Preview changes` tab to make sure your changes have been picked up.
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/d/b/db96f341ee952e3a03fbcd3a2c93ba0c1244e1c8.png)
-
-In this case we only renamed `GST payable` to `GST liability` so that's all we should see.
 
 Click `Propose changes` button.
 
@@ -60,4 +68,12 @@ And then `Create pull request` button once again.
 
 ![](https://aws1.discourse-cdn.com/business5/uploads/manager1/original/3X/2/1/21ac97297c80e0f4a85dcc988f8ccecac7069ea2.png)
 
-Congratulations. Your proposal to make change to global repository has been created. We will review your proposed changes and merge them so they will be available to everyone.
+Done. Your changes have been submitted.
+
+### If you are creating new country...
+
+Click `Add file` button, then `Create new file`.
+
+In the `Name your file...` enter name of your country and in the textarea, paste the content of `JSON` data from Manager.
+
+Click `Commit new file` button.
