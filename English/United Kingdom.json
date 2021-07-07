@@ -163,10 +163,10 @@
           "1": "Go to https://www.taxoptimiser.co.uk and login"
         },
         {
-          "1": "If this is your first lodgement, in the left navigation click on HMRC, then VAT Settings and set Software Template to Manager.io file"
+          "1": "If this is your first lodgement, in the left navigation click on \"HMRC\", then \"VAT Settings\" and set Software Template to \"Manager.io\" file"
         },
         {
-          "1": "In the left navigation, click on HMRC, then VAT Returns"
+          "1": "In the left navigation, click on \"HMRC\", then \"VAT Returns\""
         },
         {
           "1": "Click on the period you are making lodgement for"
@@ -175,7 +175,7 @@
           "1": "Drag and drop exported CSV file to designated location"
         },
         {
-          "1": "After upload is complete, verify the figures and click Send VAT Return button"
+          "1": "After upload is complete, verify the figures and click \"Send VAT Return\" button"
         }
       ]
     }
