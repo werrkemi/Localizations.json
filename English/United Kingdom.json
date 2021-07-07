@@ -21,8 +21,6 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "12e5e9fb-d8e8-4fce-aa33-8ba564117550": {
       "1": "VAT Calculation Worksheet",
-      "9": "2021-06-23T00:00:00",
-      "10": "2021-06-23T00:00:00",
       "17": [
         {
           "4": "VAT Calculations\n--------------------"
@@ -156,8 +154,29 @@
       "23": [
         {}
       ],
+      "24": true,
       "28": [
-        {}
+        {
+          "1": "Export this report to CSV file by clicking Export button"
+        },
+        {
+          "1": "Go to https://www.taxoptimiser.co.uk and login"
+        },
+        {
+          "1": "If this is your first lodgement, in the left navigation click on HMRC, then VAT Settings and set Software Template to Manager.io file"
+        },
+        {
+          "1": "In the left navigation, click on HMRC, then VAT Returns"
+        },
+        {
+          "1": "Click on the period you are making lodgement for"
+        },
+        {
+          "1": "Drag and drop exported CSV file to designated location"
+        },
+        {
+          "1": "After upload is complete, verify the figures and click Send VAT Return button"
+        }
       ]
     }
   },
@@ -170,7 +189,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 295
+      "1": 297
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
