@@ -821,8 +821,8 @@
           "4": "Super guarantee amount",
           "5": [
             {
-              "7": "Yes",
-              "10": "07fb0059-a29a-4d7a-8a7c-64f63311c05c"
+              "7": "Superannuation guarantee",
+              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
             }
           ]
         },
@@ -830,8 +830,8 @@
           "4": "SG earnings amount",
           "5": [
             {
-              "7": "Superannuation guarantee",
-              "12": "8ce55e79-ec7a-4e5d-a41f-84c7b7b7189e"
+              "7": "Yes",
+              "10": "07fb0059-a29a-4d7a-8a7c-64f63311c05c"
             }
           ]
         },
