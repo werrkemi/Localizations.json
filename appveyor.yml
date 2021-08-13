@@ -19,5 +19,5 @@ deploy:
   description: Localizations $(appveyor_build_version)
   provider: GitHub
   auth_token:
-    secure: 38MnTKwy7ceZJploqUo/J05xeSoguuhTjzINGlatPnHcECbKbKDLt4A5StWW9UFR
+    secure: aoSASFSikHFT4CQ3FT/0RNrtdOQuBLZb7DCW/ai7ymR8++t3wNyfcRcaFGFT+a+/
   artifact: Localizations.json
