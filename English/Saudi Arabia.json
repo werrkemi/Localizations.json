@@ -2,11 +2,16 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "c580f852-601c-4020-8aee-73ffbbf1181c": {
+      "1": "QR Code",
+      "2": 5,
+      "3": "var businessName = document.getElementById('business-name').innerText;\ndocument.getElementById('printable-content').innerHTML += '<div id=\"qrcode\" style=\"padding: 20px\"></div>';\n\nvar qrcode = new QRCode(document.getElementById(\"qrcode\"), {\n    text: businessName,\n    width: 128,\n    height: 128,\n    colorDark : \"#000000\",\n    colorLight : \"#ffffff\",\n    correctLevel : QRCode.CorrectLevel.H\n});"
+    }
+  },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "734f9a89-b048-46c5-b792-e652057c381f": {
       "1": "VAT Return Form",
-      "9": "2021-06-21T00:00:00",
-      "10": "2021-06-21T00:00:00",
       "16": 1,
       "17": [
         {
