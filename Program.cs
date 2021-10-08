@@ -13,6 +13,7 @@ namespace Localizations
             Console.OutputEncoding = System.Text.UTF8Encoding.UTF8;
 
             var types = new HashSet<Guid>();
+            types.Add(new Guid("9a8fc328-7553-469f-88ed-dc533f2160b2")); // Extension
             types.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
             types.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
             types.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
