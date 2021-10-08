@@ -1,12 +1,39 @@
 {
+  "38cf4712-6e95-4ce1-b53a-bff03edad273": {
+    "38cf4712-6e95-4ce1-b53a-bff03edad273": {
+      "1": "",
+      "2": "",
+      "5": {
+        "d96d97e8-c857-42c6-8360-443c06a13de9": "3542534543453453"
+      }
+    }
+  },
+  "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": {
+    "1e2035f8-2d40-4ad7-9c16-c23e5609fbf1": {
+      "1": "asdasddsaasd"
+    }
+  },
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
+    "d96d97e8-c857-42c6-8360-443c06a13de9": {
+      "1": "VAT ID",
+      "4": 1,
+      "8": true,
+      "2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    }
+  },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
+  },
+  "a4ddb0e3-b207-4fee-aa01-f104b6c09932": {
+    "a4ddb0e3-b207-4fee-aa01-f104b6c09932": {
+      "19": 1
+    }
   },
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
     "c580f852-601c-4020-8aee-73ffbbf1181c": {
       "1": "QR Code",
       "2": 5,
-      "3": "var businessName = document.getElementById('business-name').innerText;\ndocument.getElementById('printable-content').innerHTML += '<div id=\"qrcode\" style=\"padding: 20px\"></div>';\n\nvar qrcode = new QRCode(document.getElementById(\"qrcode\"), {\n    text: businessName,\n    width: 128,\n    height: 128,\n    colorDark : \"#000000\",\n    colorLight : \"#ffffff\",\n    correctLevel : QRCode.CorrectLevel.H\n});"
+      "3": "var data = [];\n\nvar businessName = document.getElementById('BusinessName');\nif (businessName != null) data.push('Seller - '+businessName.innerText);\n\nvar vatId = document.getElementById('d96d97e8-c857-42c6-8360-443c06a13de9');\nif (vatId != null) data.push('VAT ID - '+vatId.innerText);\n\nvar invoiceDate = document.getElementById('InvoiceDate');\nif (invoiceDate != null) data.push('Invoice date - '+invoiceDate.innerText);\n\nvar invoiceNumber = document.getElementById('InvoiceNumber');\nif (invoiceNumber != null) data.push('Invoice #'+invoiceNumber.innerText);\n\nvar vat15 = document.getElementById('VAT 15%');\nif (vat15 != null) data.push('VAT 15% - '+vat15.innerText);\n\nvar vat5 = document.getElementById('VAT 5%');\nif (vat5 != null) data.push('VAT 5% - '+vat5.innerText);\n\nvar total = document.getElementById('Total');\nif (total != null) data.push('Invoice total - '+total.innerText);\n\ndocument.getElementById('printable-content').innerHTML += '<div id=\"qrcode\" style=\"padding: 20px\"></div>';\n\nvar qrcode = new QRCode(document.getElementById(\"qrcode\"), {\n    text: data.join(' // '),\n    width: 128,\n    height: 128,\n    colorDark : \"#000000\",\n    colorLight : \"#ffffff\",\n    correctLevel : QRCode.CorrectLevel.H\n});"
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
@@ -222,9 +249,28 @@
       ]
     }
   },
+  "ad12b60b-23bf-4421-94df-8be79cef533e": {
+    "825471d8-a2df-4839-9a20-b1150d2f9dbd": {
+      "1": "2021-10-08T00:00:00",
+      "3": "1e2035f8-2d40-4ad7-9c16-c23e5609fbf1",
+      "49": [
+        {
+          "18": 4.0,
+          "19": 444.0,
+          "21": "1731afd8-40df-484c-8335-81a1451ab8f8"
+        }
+      ]
+    }
+  },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 295
+      "1": 308
+    }
+  },
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+      "14": true,
+      "3": true
     }
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
