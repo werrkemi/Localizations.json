@@ -30,6 +30,11 @@
     }
   },
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "40dc02e6-b9e2-456e-a3b0-f3bb45aae9b4": {
+      "1": "VAT Return Form",
+      "3": "document.getElementById(\"734f9a89-b048-46c5-b792-e652057c381f\").style.display = 'block'",
+      "5": "reports-view"
+    },
     "c580f852-601c-4020-8aee-73ffbbf1181c": {
       "1": "QR Code",
       "3": "var data = [];\n\nvar businessName = document.getElementById('BusinessName');\nif (businessName != null) data.push('Seller - '+businessName.innerText);\n\nvar vatId = document.getElementById('d96d97e8-c857-42c6-8360-443c06a13de9');\nif (vatId != null) data.push('VAT ID - '+vatId.innerText);\n\nvar invoiceDate = document.getElementById('InvoiceDate');\nif (invoiceDate != null) data.push('Invoice date - '+invoiceDate.innerText);\n\nvar invoiceNumber = document.getElementById('InvoiceNumber');\nif (invoiceNumber != null) data.push('Invoice #'+invoiceNumber.innerText);\n\nvar vat15 = document.getElementById('VAT 15%');\nif (vat15 != null) data.push('VAT 15% - '+vat15.innerText);\n\nvar vat5 = document.getElementById('VAT 5%');\nif (vat5 != null) data.push('VAT 5% - '+vat5.innerText);\n\nvar total = document.getElementById('Total');\nif (total != null) data.push('Invoice total - '+total.innerText);\n\ndocument.getElementById('printable-content').innerHTML += '<div id=\"qrcode\" style=\"padding: 20px\"></div>';\n\nvar qrcode = new QRCode(document.getElementById(\"qrcode\"), {\n    text: data.join(' // '),\n    width: 128,\n    height: 128,\n    colorDark : \"#000000\",\n    colorLight : \"#ffffff\",\n    correctLevel : QRCode.CorrectLevel.H\n});",
