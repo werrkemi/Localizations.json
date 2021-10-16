@@ -13,6 +13,13 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "3df91926-ee38-4c0a-91ef-41f82bbf6e32": {
+      "1": "Concept BTW Aangifte",
+      "3": "document.getElementById(\"b755a3ef-32aa-4eab-8936-0e48b057f627\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f": {
       "1": "2020-09-11T00:00:00",
