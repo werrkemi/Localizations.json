@@ -18,6 +18,13 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "f7fb2f55-8930-4ae0-9e91-9fb1ae0b51e1": {
+      "1": "GST Return",
+      "3": "document.getElementById(\"994cef79-6da3-4fa1-9998-ad029a4358f0\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
     "3db666b3-c4b9-4391-86b8-b4f0683280aa": {
       "1": "2019-07-20T00:00:00",
@@ -65,8 +72,6 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "994cef79-6da3-4fa1-9998-ad029a4358f0": {
       "1": "GST Return",
-      "9": "2000-06-11T00:00:00",
-      "10": "2021-06-11T00:00:00",
       "17": [
         {
           "4": "Return Details\n------------------"
