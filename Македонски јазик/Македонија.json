@@ -76,6 +76,13 @@
       "3": "CgEsEgEuGAM="
     }
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "9c780537-d36d-4b72-a0cc-36219801f111": {
+      "1": "ДДВ-04",
+      "3": "document.getElementById(\"3c7e1105-c3ef-4aa0-9c9e-282c548dd29e\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
     "09b64f02-7d4f-4860-bcf2-5645863d3310": {
       "1": "Сметководствени услуги",
