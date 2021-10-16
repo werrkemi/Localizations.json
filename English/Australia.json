@@ -245,6 +245,28 @@
       "2": "2019-07-06T00:00:00"
     }
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "72766a67-2dab-4cb3-95ce-4faeba933b25": {
+      "1": "Taxable Payments Annual Report (TPAR)",
+      "3": "document.getElementById(\"c4a0ccf7-9171-4e8e-b390-97f7052b1479\").style.display = 'block'",
+      "5": "reports-view"
+    },
+    "afb2997f-2213-4db4-b871-7192d4ef4564": {
+      "1": "Single Touch Payroll Worksheet",
+      "3": "document.getElementById(\"07332ba3-3e82-4dc1-9451-1350f5d84e24\").style.display = 'block'",
+      "5": "reports-view"
+    },
+    "da06cb58-591d-41df-92fe-a5be3f16c93a": {
+      "1": "Business Activity Statement",
+      "3": "document.getElementById(\"11acbfe1-0d24-4161-b366-fe905f2bcfd9\").style.display = 'block'",
+      "5": "reports-view"
+    },
+    "de9ae1f1-df47-4298-a702-dc509f75eb06": {
+      "1": "PAYG payment summary — individual non-business",
+      "3": "document.getElementById(\"92b38154-38fc-479a-a296-2019f656d1e2\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "7affe9ee-731f-4936-8acf-15cae7bcacee": {
     "726af1f5-cceb-46d8-8ef3-72699a0184a1": {
       "2": "sdaasddasdas"
