@@ -7,6 +7,13 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "732d52fa-05f0-439c-a601-cc22a46ea795": {
+      "1": "VAT Calculation Worksheet",
+      "3": "document.getElementById(\"12e5e9fb-d8e8-4fce-aa33-8ba564117550\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
     "bc8d4bfd-edf4-4f89-b52d-07d0a7131d85": {
       "1": "2020-09-11T00:00:00",
