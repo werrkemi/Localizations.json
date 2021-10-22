@@ -7,11 +7,21 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
+  "a4ddb0e3-b207-4fee-aa01-f104b6c09932": {
+    "a4ddb0e3-b207-4fee-aa01-f104b6c09932": {
+      "19": 1
+    }
+  },
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
     "732d52fa-05f0-439c-a601-cc22a46ea795": {
       "1": "VAT Calculation Worksheet",
-      "3": "document.getElementById(\"12e5e9fb-d8e8-4fce-aa33-8ba564117550\").style.display = 'block'",
+      "3": "// 12e5e9fb-d8e8-4fce-aa33-8ba564117550",
       "5": "reports-view"
+    }
+  },
+  "002b86a3-554e-4a86-9395-6c6575d1d055": {
+    "002b86a3-554e-4a86-9395-6c6575d1d055": {
+      "1": true
     }
   },
   "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
@@ -28,6 +38,8 @@
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
     "12e5e9fb-d8e8-4fce-aa33-8ba564117550": {
       "1": "VAT Calculation Worksheet",
+      "29": "2021-10-23T00:00:00",
+      "30": "2021-10-23T00:00:00",
       "17": [
         {
           "4": "VAT Calculations\n--------------------"
@@ -184,7 +196,8 @@
         {
           "1": "After upload is complete, verify the figures and click \"Send VAT Return\" button"
         }
-      ]
+      ],
+      "33": true
     }
   },
   "bbe8c088-729b-4b56-a7d7-26555270eced": {
@@ -196,7 +209,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 297
+      "1": 309
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
