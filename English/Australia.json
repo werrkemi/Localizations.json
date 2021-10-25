@@ -250,6 +250,32 @@
       "2": "2019-07-06T00:00:00"
     }
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "72766a67-2dab-4cb3-95ce-4faeba933b25": {
+      "1": "Taxable Payments Annual Report (TPAR)",
+      "3": "// c4a0ccf7-9171-4e8e-b390-97f7052b1479",
+      "7": "You may need to lodge a Taxable payments annual report (TPAR) by 28 August each year if you are a business providing:\n\n- building and construction services\n- cleaning services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- courier services - for contractor payments from 1 July 2018 (first report due by 28 August 2019)\n- road freight services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- information technology (IT) services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n- security, investigation or surveillance services – for contractor payments from 1 July 2019 (first report due by 28 August 2020)\n\nThe TPAR tells ATO about payments that are made to contractors for providing services. Contractors can include subcontractors, consultants and independent contractors. They can be operating as sole traders (individuals), companies, partnerships or trusts. ATO uses this information to identify contractors who haven't met their tax obligations.",
+      "5": "reports-view"
+    },
+    "afb2997f-2213-4db4-b871-7192d4ef4564": {
+      "1": "Single Touch Payroll Worksheet",
+      "3": "// 07332ba3-3e82-4dc1-9451-1350f5d84e24",
+      "7": "Single Touch Payroll (STP) is a new way of reporting tax and super information to ATO.\n\n- Large employers with 20 or more employees should now be reporting through STP, or have applied to ATO for a later start date.\n- Small employers with 19 or less employees will need to report through STP any time before 30 September 2019. ATO will grant deferrals to any small employer who requests additional time to start STP reporting.\n- ATO will offer micro employers (1 to 4 employees) help to transition to STP and a number of alternative options – such as allowing those who rely on a registered tax or BAS agent to report quarterly for the first two years, rather than each time payroll is run.\n\nATO claims there will be no penalties for mistakes, missed or late reports for the first year.",
+      "5": "reports-view"
+    },
+    "da06cb58-591d-41df-92fe-a5be3f16c93a": {
+      "1": "Business Activity Statement",
+      "3": "// 11acbfe1-0d24-4161-b366-fe905f2bcfd9",
+      "7": "If you are a business registered for GST you need to lodge a business activity statement (BAS).\n\nYour BAS will help you report and pay your:\n\n- goods and services tax (GST)\n- pay as you go (PAYG) instalments\n- PAYG withholding tax\n- other taxes.\n\nWhen you register for an Australian business number (ABN) and GST we will automatically send you a BAS when it is time to lodge.",
+      "5": "reports-view"
+    },
+    "de9ae1f1-df47-4298-a702-dc509f75eb06": {
+      "1": "PAYG payment summary — individual non-business",
+      "3": "// 92b38154-38fc-479a-a296-2019f656d1e2",
+      "7": "Use PAYG payment summary — individual non-business for payments to payees who:\n- are employees, company directors or office holders\n- are religious practitioners\n- receive compensation, sickness or accident payments\n- receive non-superannuation income streams\n- receive return to work payments\n- receive a non-super annuity or pension.",
+      "5": "reports-view"
+    }
+  },
   "002b86a3-554e-4a86-9395-6c6575d1d055": {
     "002b86a3-554e-4a86-9395-6c6575d1d055": {
       "1": true
@@ -1588,8 +1614,7 @@
       "14": true,
       "15": true,
       "18": true,
-      "19": true,
-      "48": true
+      "19": true
     }
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {

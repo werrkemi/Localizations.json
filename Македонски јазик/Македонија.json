@@ -81,6 +81,13 @@
       "19": 1
     }
   },
+  "9a8fc328-7553-469f-88ed-dc533f2160b2": {
+    "9c780537-d36d-4b72-a0cc-36219801f111": {
+      "1": "ДДВ-04",
+      "3": "document.getElementById(\"3c7e1105-c3ef-4aa0-9c9e-282c548dd29e\").style.display = 'block'",
+      "5": "reports-view"
+    }
+  },
   "002b86a3-554e-4a86-9395-6c6575d1d055": {
     "002b86a3-554e-4a86-9395-6c6575d1d055": {
       "1": true
