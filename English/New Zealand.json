@@ -26,7 +26,7 @@
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
     "f7fb2f55-8930-4ae0-9e91-9fb1ae0b51e1": {
       "1": "GST Return",
-      "3": "// 994cef79-6da3-4fa1-9998-ad029a4358f0",
+      "3": "document.getElementById('994cef79-6da3-4fa1-9998-ad029a4358f0').style.display = 'block'",
       "5": "reports-view"
     }
   },
@@ -249,8 +249,7 @@
       ],
       "28": [
         {}
-      ],
-      "33": true
+      ]
     }
   },
   "bbe8c088-729b-4b56-a7d7-26555270eced": {

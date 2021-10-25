@@ -32,7 +32,7 @@
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
     "40dc02e6-b9e2-456e-a3b0-f3bb45aae9b4": {
       "1": "VAT Return Form",
-      "3": "// 734f9a89-b048-46c5-b792-e652057c381f",
+      "3": "document.getElementById('734f9a89-b048-46c5-b792-e652057c381f').style.display = 'block'",
       "5": "reports-view"
     },
     "c580f852-601c-4020-8aee-73ffbbf1181c": {
@@ -258,8 +258,7 @@
       ],
       "28": [
         {}
-      ],
-      "33": true
+      ]
     }
   },
   "ad12b60b-23bf-4421-94df-8be79cef533e": {

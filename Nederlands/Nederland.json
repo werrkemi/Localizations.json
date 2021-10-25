@@ -21,7 +21,7 @@
   "9a8fc328-7553-469f-88ed-dc533f2160b2": {
     "3df91926-ee38-4c0a-91ef-41f82bbf6e32": {
       "1": "Concept BTW Aangifte",
-      "3": "// b755a3ef-32aa-4eab-8936-0e48b057f627",
+      "3": "document.getElementById('b755a3ef-32aa-4eab-8936-0e48b057f627').style.display = 'block'",
       "5": "reports-view"
     }
   },
@@ -451,8 +451,7 @@
       ],
       "28": [
         {}
-      ],
-      "33": true
+      ]
     }
   },
   "bbe8c088-729b-4b56-a7d7-26555270eced": {
