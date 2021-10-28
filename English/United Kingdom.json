@@ -4,6 +4,14 @@
       "1": "United Kingdom"
     }
   },
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
+    "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": {
+      "1": "VAT Calculation Worksheet",
+      "3": 2,
+      "9": "VAT Exempt\nVAT 5%\nVAT 0%\nVAT 0% (EU)\nVAT 20%",
+      "2": "7f368d97-8b7f-4b39-b156-dc66afd9496a"
+    }
+  },
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
     "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {}
   },
@@ -48,10 +56,12 @@
           "4": "#1 VAT due in this period on sales and other outputs",
           "5": [
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752"
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -62,10 +72,12 @@
           "4": "#3 Total VAT due (the sum of boxes 1 and 2)",
           "5": [
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed"
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752"
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -73,12 +85,14 @@
           "4": "#4 VAT reclaimed in this period on purchases and other inputs (including acquisitions from the EC)",
           "5": [
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-              "4": 3
+              "4": 3,
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752",
-              "4": 3
+              "4": 3,
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -86,12 +100,14 @@
           "4": "#5 Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)",
           "5": [
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-              "4": 6
+              "4": 6,
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752",
-              "4": 6
+              "4": 6,
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -102,24 +118,29 @@
           "4": "#6 Total value of sales and all other outputs excluding any VAT. Include your box 8 figure.",
           "5": [
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-              "4": 1
+              "4": 1,
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752",
-              "4": 1
+              "4": 1,
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "6959fb01-3a48-486a-9bec-a0681a662f03",
-              "4": 2
+              "4": 2,
+              "7": "VAT 0%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "70364d69-174a-4804-881e-852bdbff59e2",
-              "4": 2
+              "4": 2,
+              "7": "VAT 0% (EU)",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
-              "4": 2
+              "4": 2,
+              "7": "VAT Exempt",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -127,24 +148,29 @@
           "4": "#7 Total value of purchases and all other inputs excluding any VAT. Include your box 9 figure.",
           "5": [
             {
-              "9": "b926c2d8-09e4-496c-9a2c-818c8aaa36ed",
-              "4": 4
+              "4": 4,
+              "7": "VAT 20%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "56769971-405e-47bd-bd13-d64de0eae752",
-              "4": 4
+              "4": 4,
+              "7": "VAT 5%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "6959fb01-3a48-486a-9bec-a0681a662f03",
-              "4": 5
+              "4": 5,
+              "7": "VAT 0%",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "70364d69-174a-4804-881e-852bdbff59e2",
-              "4": 5
+              "4": 5,
+              "7": "VAT 0% (EU)",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             },
             {
-              "9": "42a5002c-5c8f-4def-8672-4e6f3fc09654",
-              "4": 5
+              "4": 5,
+              "7": "VAT Exempt",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -152,8 +178,9 @@
           "4": "#8 Total value of all supplies of goods and related costs, excluding any VAT, to other EC Member States.",
           "5": [
             {
-              "9": "70364d69-174a-4804-881e-852bdbff59e2",
-              "4": 2
+              "4": 2,
+              "7": "VAT 0% (EU)",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         },
@@ -161,8 +188,9 @@
           "4": "#9 Total value of acquisitions of goods and related costs, excluding any VAT, from other EC Member States.",
           "5": [
             {
-              "9": "70364d69-174a-4804-881e-852bdbff59e2",
-              "4": 5
+              "4": 5,
+              "7": "VAT 0% (EU)",
+              "19": "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b"
             }
           ]
         }
@@ -208,7 +236,7 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 309
+      "1": 310
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
@@ -216,23 +244,38 @@
   },
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
     "42a5002c-5c8f-4def-8672-4e6f3fc09654": {
-      "1": "VAT Exempt"
+      "1": "VAT Exempt",
+      "17": {
+        "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": "VAT Exempt"
+      }
     },
     "56769971-405e-47bd-bd13-d64de0eae752": {
       "1": "VAT 5%",
       "5": 2,
-      "4": 5.0
+      "4": 5.0,
+      "17": {
+        "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": "VAT 5%"
+      }
     },
     "6959fb01-3a48-486a-9bec-a0681a662f03": {
-      "1": "VAT 0%"
+      "1": "VAT 0%",
+      "17": {
+        "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": "VAT 0%"
+      }
     },
     "70364d69-174a-4804-881e-852bdbff59e2": {
-      "1": "VAT 0% (EU)"
+      "1": "VAT 0% (EU)",
+      "17": {
+        "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": "VAT 0% (EU)"
+      }
     },
     "b926c2d8-09e4-496c-9a2c-818c8aaa36ed": {
       "1": "VAT 20%",
       "5": 2,
-      "4": 20.0
+      "4": 20.0,
+      "17": {
+        "0c2354c3-9a05-42d3-b6df-f4c2ef7a519b": "VAT 20%"
+      }
     }
   },
   "68e0d57b-4a59-453e-b8d4-6166f097eacd": {
