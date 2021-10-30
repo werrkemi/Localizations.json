@@ -14,13 +14,18 @@ namespace Localizations
 
             var types = new HashSet<Guid>();
             types.Add(new Guid("9a8fc328-7553-469f-88ed-dc533f2160b2")); // Extension
-            types.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
             types.Add(new Guid("dcb382dc-a4e0-4354-a845-b7d647f610f7")); // CustomField
+            types.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
+
+            types.Add(new Guid("7f368d97-8b7f-4b39-b156-dc66afd9496a")); // TaxCode
             types.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
             types.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
-            types.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem
-            types.Add(new Guid("91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14")); // ReportTransformation
+            types.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem            
             types.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
+            types.Add(new Guid("39dde4fc-7af8-44cc-8572-3b1ff4cfb918")); // BaseCurrency
+            types.Add(new Guid("a56e89d1-7bee-4509-8b84-c9ebc3808b0c")); // DateAndNumberFormat
+            types.Add(new Guid("5770616c-0e01-46ca-a172-f7042275da6c")); // ProfitAndLossStatementGroup
+            types.Add(new Guid("26b9e4a5-ce10-4f30-94c7-23a1ca4428f9")); // ProfitAndLossStatementAccount
 
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
 #if DEBUG
