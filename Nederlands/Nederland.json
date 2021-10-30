@@ -31,12 +31,11 @@
       "5": "reports-view"
     }
   },
-  "002b86a3-554e-4a86-9395-6c6575d1d055": {
-    "002b86a3-554e-4a86-9395-6c6575d1d055": {
-      "1": true
-    }
-  },
   "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+    "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+      "8": 1,
+      "14": true
+    },
     "7ab0b0e3-58bc-45ad-bf1c-65a45b2f889f": {
       "1": "2020-09-11T00:00:00",
       "11": [
@@ -45,6 +44,85 @@
           "20": "3a57686a-7ce6-43e7-aa2a-dc5e98ad931b"
         }
       ]
+    }
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "1e191304-40ca-48dd-802d-cdd0e5d348d4": {
+      "1": "Donaties/Giften",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "692ed928-1eaa-4f10-a395-4b326a5151df": {
+      "1": "Ontvangen rente",
+      "3": "7e2b1d5f-33f4-49d8-a213-ba45ffaad0b5"
+    },
+    "69f819cc-b168-4298-8a0b-0485f14c7c50": {
+      "1": "Computerapparatuur",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "6cbf27dc-f3d1-4538-af30-a696cec6647f": {
+      "1": "Drukwerk en kantoorartikelen",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "8ded606e-43ce-41c6-a94c-a00685d99bb1": {
+      "1": "Telefoon",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "8f7823d0-01ce-46a7-b421-b94399ea1e2f": {
+      "1": "Juridische kosten",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "9614e66f-fbb5-494b-95ea-b24a3fbd70c2": {
+      "1": "Bankkosten",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "9fb3596f-2926-4d7d-81ca-5be5ac9a29eb": {
+      "1": "Elektriciteit",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "b8254799-079b-4dbf-8b49-6ced5d28da7b": {
+      "1": "Entertainment",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "bded5a3f-cd88-4511-8432-4cc9241c75dc": {
+      "1": "Reclame en promotie",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "c20e567c-46bc-438b-8f91-a7135ea829da": {
+      "1": "Reparaties en onderhoud",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "cd2e5cda-96fc-4c0f-a720-14e11020b89e": {
+      "1": "Huur",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "d20db9d8-c1db-47f1-99dd-148f153c2015": {
+      "1": "Verkopen",
+      "3": "7e2b1d5f-33f4-49d8-a213-ba45ffaad0b5"
+    },
+    "e434c82a-7c95-410c-9710-525ecdb877e1": {
+      "1": "Boekhoud kosten",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    },
+    "edf14548-f085-421e-968e-cc2693c71d5d": {
+      "1": "Autokosten",
+      "3": "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a"
+    }
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "7e2b1d5f-33f4-49d8-a213-ba45ffaad0b5": {
+      "1": "Inkomsten",
+      "5": 1
+    },
+    "9f0a7f3b-4d04-416a-aa4f-2e8591b08b9a": {
+      "1": "Uitgaven",
+      "6": 1,
+      "5": 2
+    }
+  },
+  "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+    "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+      "8": 1,
+      "14": true
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
@@ -551,7 +629,18 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 310
+      "1": 311
+    }
+  },
+  "f361339b-932a-4436-b56e-a337c1587c72": {
+    "1d1f5652-a135-405d-8f54-89ae3cd1e4d7": {
+      "1": "Stortingen"
+    },
+    "2bd9b3a8-299c-441a-8b38-1e7775b6fe55": {
+      "1": "Opnames"
+    },
+    "e94ab8da-69e7-47ad-bbd0-5b36656260e1": {
+      "1": "Winstverdeling"
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

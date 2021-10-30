@@ -27,12 +27,90 @@
       "5": "reports-view"
     }
   },
-  "002b86a3-554e-4a86-9395-6c6575d1d055": {
-    "002b86a3-554e-4a86-9395-6c6575d1d055": {
-      "1": true
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+    "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "1d01fd3a-a79c-4a98-8fa5-4d9ec573f633": {
+      "1": "Electricity",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "2dd1a747-8af5-4c7c-92e3-8a1ef117abb8": {
+      "1": "Repairs and maintenance",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "320ba2ea-1990-4159-a800-59b36e9e7581": {
+      "1": "Rent",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "3f88f8a4-6291-4781-bea3-bb7896453247": {
+      "1": "Printing and stationery",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "5b1f0f78-25ed-4fbc-8703-37c312e9b34c": {
+      "1": "Bank charges",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "69b77717-4397-49f4-a1fe-485dfb43a4be": {
+      "1": "Telephone",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "7c343e3d-6671-4b89-859f-9e8d8f4c2faf": {
+      "1": "Computer equipment",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "aa06989d-7e37-4392-a3be-33e8a3e3dff0": {
+      "1": "Legal fees",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "b09a258e-26ed-4099-88e9-1afec7f93254": {
+      "1": "Interest received",
+      "3": "6babd923-382a-46ba-81a2-90133461bd94"
+    },
+    "ba6356b2-8184-4697-aa7b-7eec7e31d82a": {
+      "1": "Advertising and promotion",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "d07cdc78-d399-4aa3-9a28-4c0756981846": {
+      "1": "Sales",
+      "3": "6babd923-382a-46ba-81a2-90133461bd94"
+    },
+    "d39aa96e-e68c-40fa-ac9b-c2899d577d3a": {
+      "1": "Entertainment",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "e2f69bea-4319-4446-bf3b-599f456fe793": {
+      "1": "Donations",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "e4f0f85f-75f9-41d1-b7ff-56a5e7a54d03": {
+      "1": "Accounting fees",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    },
+    "f80ca70a-6c85-4fa3-912d-d1c97c64d520": {
+      "1": "Motor vehicle expenses",
+      "3": "84a72de9-6bac-4bb0-8fdf-048464ec8821"
+    }
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "6babd923-382a-46ba-81a2-90133461bd94": {
+      "1": "Income",
+      "5": 1
+    },
+    "84a72de9-6bac-4bb0-8fdf-048464ec8821": {
+      "1": "Expenses",
+      "6": 1,
+      "5": 2
     }
   },
   "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+    "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+      "8": 1,
+      "14": true
+    },
     "bc8d4bfd-edf4-4f89-b52d-07d0a7131d85": {
       "1": "2020-09-11T00:00:00",
       "11": [
@@ -236,7 +314,18 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 310
+      "1": 311
+    }
+  },
+  "f361339b-932a-4436-b56e-a337c1587c72": {
+    "390d65a8-4b7d-4b6e-8f07-839ce9bf44c7": {
+      "1": "Funds contributed"
+    },
+    "c26b8159-db8a-4c2d-b2ab-472a38c2b8d9": {
+      "1": "Share of profit"
+    },
+    "c37a40a7-1e01-418e-a701-f5e9b3a72f7e": {
+      "1": "Drawings"
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {

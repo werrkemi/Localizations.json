@@ -47,9 +47,89 @@
       "5": "sales-invoice-view"
     }
   },
-  "002b86a3-554e-4a86-9395-6c6575d1d055": {
-    "002b86a3-554e-4a86-9395-6c6575d1d055": {
-      "1": true
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+    "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "0db92e43-61f9-4a4b-9e94-ebe580a7f533": {
+      "1": "Legal fees",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "1dd67a19-baf0-4c7c-a320-1ab00d08cde5": {
+      "1": "Bank charges",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "39f46b51-3dd8-4a98-9c71-a43d364ff534": {
+      "1": "Computer equipment",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "4d056c03-e357-4ac1-9f5b-d183c23a00c6": {
+      "1": "Interest received",
+      "3": "f853e2f9-ea61-43d7-9a88-e7ba54d779ba"
+    },
+    "57a0014a-5ec7-4672-8fe0-f85c639d2c76": {
+      "1": "Motor vehicle expenses",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "654698ca-7f46-4407-9185-7a11ad646800": {
+      "1": "Donations",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "7171c7ac-aea0-4442-8787-2fedb7dcf593": {
+      "1": "Electricity",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "74e6573e-3e79-4ce6-90a1-c8c00ecdbf82": {
+      "1": "Sales",
+      "3": "f853e2f9-ea61-43d7-9a88-e7ba54d779ba"
+    },
+    "7732cb81-5098-4bee-a253-f2aad368ad0e": {
+      "1": "Accounting fees",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "7db076a6-b42f-40c0-9810-752e7830a20a": {
+      "1": "Rent",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "96228fb9-c77e-4c67-af92-1e9db6bf6b4b": {
+      "1": "Repairs and maintenance",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "96689d0a-ad82-4db1-a1b3-2882538d5463": {
+      "1": "Entertainment",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "aefdb605-14b3-4617-b79b-174fa9d46513": {
+      "1": "Advertising and promotion",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "cd49d398-56e1-419f-a9f3-76d02d4ed90d": {
+      "1": "Telephone",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    },
+    "fdc15f22-6bdd-4ca1-8163-14425079ea05": {
+      "1": "Printing and stationery",
+      "3": "98aa218a-8911-444b-b4cb-90b34a2c7af4"
+    }
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "98aa218a-8911-444b-b4cb-90b34a2c7af4": {
+      "1": "Expenses",
+      "6": 1,
+      "5": 2
+    },
+    "f853e2f9-ea61-43d7-9a88-e7ba54d779ba": {
+      "1": "Income",
+      "5": 1
+    }
+  },
+  "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+    "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+      "8": 1,
+      "14": true
     }
   },
   "91c2bcbb-1f8c-4aa1-82fd-0ab38c97fb14": {
@@ -310,7 +390,18 @@
   },
   "a9a71e47-82b3-49db-8aec-898adb460a80": {
     "a9a71e47-82b3-49db-8aec-898adb460a80": {
-      "1": 310
+      "1": 311
+    }
+  },
+  "f361339b-932a-4436-b56e-a337c1587c72": {
+    "421d7f56-31d4-412f-9cdf-95baab5b6f17": {
+      "1": "Share of profit"
+    },
+    "c7088031-ea16-45ac-9d98-a93326c70585": {
+      "1": "Drawings"
+    },
+    "e8e1bf3c-778b-4a11-803d-2072dbc45b39": {
+      "1": "Funds contributed"
     }
   },
   "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
