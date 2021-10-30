@@ -21,11 +21,16 @@ namespace Localizations
             types.Add(new Guid("73af4c68-c347-4088-8846-758f1e7bc5bb")); // PayslipContributionItem
             types.Add(new Guid("0444eb18-6fc5-4d1f-be8b-c114da01832c")); // PayslipDeductionItem
             types.Add(new Guid("ab02f6ab-c91c-4fc2-b979-66a6682c200e")); // PayslipEarningsItem            
-            types.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount
-            types.Add(new Guid("39dde4fc-7af8-44cc-8572-3b1ff4cfb918")); // BaseCurrency
-            types.Add(new Guid("a56e89d1-7bee-4509-8b84-c9ebc3808b0c")); // DateAndNumberFormat
+            types.Add(new Guid("6ef13e42-ad89-4d42-9480-546e0c04a411")); // BalanceSheetAccount            
             types.Add(new Guid("5770616c-0e01-46ca-a172-f7042275da6c")); // ProfitAndLossStatementGroup
             types.Add(new Guid("26b9e4a5-ce10-4f30-94c7-23a1ca4428f9")); // ProfitAndLossStatementAccount
+            types.Add(new Guid("f361339b-932a-4436-b56e-a337c1587c72")); // SubAccount
+
+            var singletons = new HashSet<Guid>();
+            singletons.Add(new Guid("7662b887-c8d8-486e-98fd-f9dbcd41c6dc")); // Receipt form default
+            singletons.Add(new Guid("79f99d26-e43a-4ecb-a9c9-0774601a9b2e")); // Payment form default
+            singletons.Add(new Guid("39dde4fc-7af8-44cc-8572-3b1ff4cfb918")); // BaseCurrency
+            singletons.Add(new Guid("a56e89d1-7bee-4509-8b84-c9ebc3808b0c")); // DateAndNumberFormat
 
             var projectDir = new DirectoryInfo(Directory.GetCurrentDirectory());
 #if DEBUG
@@ -34,8 +39,6 @@ namespace Localizations
             Console.WriteLine("Project Directory: " + projectDir.FullName);
 
             var output = new Dictionary<string, Dictionary<string, object>>();
-
-            var keys = new HashSet<Guid>();
 
             foreach (var e in projectDir.GetDirectories().OrderBy(x => x.Name))
             {
@@ -50,19 +53,19 @@ namespace Localizations
                     Console.WriteLine("Input: "+e2.FullName);
 
                     var json = JsonConvert.DeserializeObject<Dictionary<Guid, Dictionary<Guid, object>>>(File.ReadAllText(e2.FullName))
-                        .Where(x => types.Contains(x.Key))
+                        .Where(x => types.Contains(x.Key) || singletons.Contains(x.Key))
                         .ToDictionary(x => x.Key, x => x.Value);
 
-                    foreach (var type in json)
+                    json.SelectMany(x => x.Value).ToDictionary(x => x.Key); // Ensure every object has unique key
+
+                    foreach (var e3 in singletons)
                     {
-                        foreach (var o in type.Value)
+                        if (json.ContainsKey(e3))
                         {
-                            if (type.Key == o.Key) continue;
-                            if (keys.Contains(o.Key))
-                            {
-                                throw new Exception("Duplicate: "+o.Key.ToString());
-                            }
-                            keys.Add(o.Key);
+                            var singleton = json[e3][e3];
+                            var singletonDict = new Dictionary<Guid, object>();
+                            if (singleton != null) singletonDict.Add(e3, singleton);
+                            json[e3] = singletonDict;
                         }
                     }
 
