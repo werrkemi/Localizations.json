@@ -10,4 +10,4 @@ Within each folder, you will see one or more files in `JSON` format. These are M
 
 ## Contributing
 
-See https://forum.manager.io/t/contribute-new-country-template/37706
+See https://forum.manager.io/t/contributing-new-country-template/37706
