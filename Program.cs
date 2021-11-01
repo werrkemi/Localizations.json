@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Localizations
 {
@@ -52,9 +53,24 @@ namespace Localizations
                 {
                     Console.WriteLine("Input: "+e2.FullName);
 
-                    var json = JsonConvert.DeserializeObject<Dictionary<Guid, Dictionary<Guid, object>>>(File.ReadAllText(e2.FullName))
-                        .Where(x => types.Contains(x.Key) || singletons.Contains(x.Key))
-                        .ToDictionary(x => x.Key, x => x.Value);
+                    var business = JsonConvert.DeserializeObject<Dictionary<Guid, Dictionary<Guid, JObject>>>(File.ReadAllText(e2.FullName));
+
+                    var businessDetailsKey = new Guid("38cf4712-6e95-4ce1-b53a-bff03edad273");
+                    if (business.TryGetValue(businessDetailsKey, out Dictionary<Guid, JObject> dict))
+                    {
+                        if (dict.TryGetValue(businessDetailsKey, out JObject businessDetails))
+                        {
+                            if (businessDetails.TryGetValue("6", out JToken value))
+                            {
+                                if (!string.IsNullOrWhiteSpace(value.ToString()))
+                                {
+                                    throw new Exception("Country must be empty.");
+                                }
+                            }
+                        }
+                    }
+
+                    var json = business.Where(x => types.Contains(x.Key) || singletons.Contains(x.Key)).ToDictionary(x => x.Key, x => x.Value);
 
                     json.SelectMany(x => x.Value).ToDictionary(x => x.Key); // Ensure every object has unique key
 
@@ -63,7 +79,7 @@ namespace Localizations
                         if (json.ContainsKey(e3))
                         {
                             var singleton = json[e3][e3];
-                            var singletonDict = new Dictionary<Guid, object>();
+                            var singletonDict = new Dictionary<Guid, JObject>();
                             if (singleton != null) singletonDict.Add(e3, singleton);
                             json[e3] = singletonDict;
                         }
