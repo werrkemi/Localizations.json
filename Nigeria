@@ -1,0 +1,189 @@
+{
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": {
+    "0943f78b-67e7-4c36-85d6-20f7e70d84a0": {
+      "1": "Withholding Tax (WHT) Receivable",
+      "3": "17489802-a502-4e8e-8195-9f87fff2b81a"
+    },
+    "0a6e3264-75b2-4895-81fe-b03909126416": {
+      "1": "Oil Companies Tax (Payable)",
+      "3": "1e8abd1e-0f38-4688-b884-6f06613481a3"
+    },
+    "2cdb71ef-2031-4a3e-a2c2-d0d519907706": {
+      "1": "Nigeria Content Development (NCD) Levy Payable",
+      "3": "1e8abd1e-0f38-4688-b884-6f06613481a3"
+    },
+    "3d392c11-027e-470c-a1dc-3e26cfe8b725": {
+      "1": "Input Value Added Tax (Input VAT)",
+      "3": "17489802-a502-4e8e-8195-9f87fff2b81a"
+    },
+    "6d2dbb43-ab4e-4932-81a8-0dc22fa546a0": {
+      "1": "Taxes Payable",
+      "3": "1e8abd1e-0f38-4688-b884-6f06613481a3"
+    },
+    "93c82b51-d257-495b-be9d-ca4c6d623998": {
+      "1": "Withholding Tax (WHT) Payable",
+      "3": "1e8abd1e-0f38-4688-b884-6f06613481a3"
+    },
+    "9c2c8590-32de-42c7-9a6b-af2a4a813681": {
+      "1": "Value Added Tax (VAT) Payable",
+      "3": "1e8abd1e-0f38-4688-b884-6f06613481a3"
+    }
+  },
+  "c03d1921-7a45-4eda-8742-a2d9082dcf4f": {
+    "17489802-a502-4e8e-8195-9f87fff2b81a": {
+      "1": "Current Assets",
+      "3": "4c05c221-ca57-4c7c-be62-115669302ed4"
+    },
+    "1e8abd1e-0f38-4688-b884-6f06613481a3": {
+      "1": "Current Liabilities",
+      "3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
+    }
+  },
+  "39dde4fc-7af8-44cc-8572-3b1ff4cfb918": {
+    "39dde4fc-7af8-44cc-8572-3b1ff4cfb918": {
+      "2": "Naira",
+      "4": "₦"
+    }
+  },
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+    "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+      "1": "dd-MM-yyyy",
+      "4": "HH:mm:ss",
+      "3": "CgEuEgEsGAM="
+    }
+  },
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+    "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "07414acd-49e8-4f0d-856f-9ee88690f7e3": {
+      "1": "Donations",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "0fed2f6b-93f0-4625-aae3-74dd79412412": {
+      "1": "Accounting fees",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "1296ca31-60bf-47b6-9f4e-23c1662508c8": {
+      "1": "Repairs and maintenance",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "20c11b80-f261-447b-9eae-d6aa9ee2af63": {
+      "1": "Oil Companies Tax",
+      "3": "8638d159-7a0b-41f7-8920-960de1b16cae"
+    },
+    "2303bab0-644e-49c7-b9ac-9d6cfcb83e1e": {
+      "1": "Interest received",
+      "3": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
+      "10": 2
+    },
+    "2e81baad-3577-4d27-8200-ab02c3da8f43": {
+      "1": "Legal fees",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "4d94e7c5-cf9d-48f5-9b7c-8dd9381230fe": {
+      "1": "Computer equipment",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "64f14189-b1a6-42c9-bd61-c2c9c8e56c49": {
+      "1": "Company Income Tax (CIT)",
+      "3": "8638d159-7a0b-41f7-8920-960de1b16cae"
+    },
+    "6e2e69cc-0909-4c06-b0b6-d3a71a94cdd3": {
+      "1": "Entertainment",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "70ae53ba-ea05-4d6c-90f9-2802e9a80921": {
+      "1": "Printing and stationery",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "8758ee7c-7868-4003-89df-1fe4aff48d59": {
+      "1": "Nigeria Content Development (NCD) Levy",
+      "3": "8638d159-7a0b-41f7-8920-960de1b16cae"
+    },
+    "8b4dc665-6f7b-4bb7-a69b-dff1114f30fd": {
+      "1": "Education Tax",
+      "3": "8638d159-7a0b-41f7-8920-960de1b16cae"
+    },
+    "9f5f1c29-70b7-4d08-99da-4f1170c04ff2": {
+      "1": "Bank charges",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "a06b0214-f361-4eb9-ab2b-27e2733a1976": {
+      "1": "Motor vehicle expenses",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "c54f8aea-9b83-4a2e-bb32-8a2dd7508dcf": {
+      "1": "Rent",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "c730c69d-d43c-470d-a4d7-37ceabbb1193": {
+      "1": "Advertising and promotion",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "dfc2ee31-9111-4dcc-bf2b-8fbb264cc573": {
+      "1": "Sales",
+      "3": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
+      "10": 1
+    },
+    "eb361427-f6eb-4cda-a7fe-2d23a874d70e": {
+      "1": "Telephone",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "fa0657da-aeb3-4c83-bb80-c9bfad4131cb": {
+      "1": "Electricity",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    }
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "8638d159-7a0b-41f7-8920-960de1b16cae": {
+      "1": "Taxes",
+      "6": 1,
+      "5": 4
+    },
+    "95713fac-30d3-42e4-b536-dd7bc4f7a80e": {
+      "1": "Income",
+      "5": 1
+    },
+    "fd003045-876e-439e-b923-1904453f5c30": {
+      "1": "Expenses",
+      "6": 1,
+      "5": 2
+    }
+  },
+  "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+    "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "a9a71e47-82b3-49db-8aec-898adb460a80": {
+    "a9a71e47-82b3-49db-8aec-898adb460a80": {
+      "1": 311
+    }
+  },
+  "f361339b-932a-4436-b56e-a337c1587c72": {
+    "64c9a69b-bab5-4440-84c9-b634d203d514": {
+      "1": "Drawings"
+    },
+    "9ccde0d7-306c-4519-b300-52544e506eb2": {
+      "1": "Share of profit"
+    },
+    "d0cf2393-6432-4d62-b763-e1abe5898572": {
+      "1": "Funds contributed"
+    }
+  },
+  "9601ce49-6058-4dac-9405-82f35005ea90": {
+    "49cd1e3d-e942-4958-8872-43e097bf5782": {
+      "1": "Profit/ (Loss) After Taxes",
+      "3": 5
+    },
+    "c612631a-2f4e-480a-bf7f-b759043bcb5e": {
+      "1": "Profit/ (Loss) Before Tax",
+      "3": 3
+    }
+  }
+}
