@@ -1,0 +1,527 @@
+{
+  "6ef13e42-ad89-4d42-9480-546e0c04a411": {
+    "7c89f9a7-e62c-4975-abf7-057bbc830bc3": {
+      "1": "Tax payable",
+      "3": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc"
+    }
+  },
+  "39dde4fc-7af8-44cc-8572-3b1ff4cfb918": {
+    "39dde4fc-7af8-44cc-8572-3b1ff4cfb918": {
+      "3": "INR",
+      "2": "Indian Rupee",
+      "4": "₹",
+      "5": 2
+    }
+  },
+  "dcb382dc-a4e0-4354-a845-b7d647f610f7": {
+    "48d27da1-05e8-4a61-b0ff-800e6e979584": {
+      "1": "Place of supply",
+      "3": 2,
+      "9": "01-Jammu and Kashmir\n02-Himachal Pradesh\n03-Punjab\n04-Chandigarh\n05-Uttarakhand\n06-Haryana\n07-Delhi\n08-Rajasthan\n09-Uttar Pradesh\n10-Bihar\n11-Sikkim\n12-Arunachal Pradesh\n13-Nagaland\n14-Manipur\n15-Mizoram\n16-Tripura\n17-Meghalaya\n18-Assam\n19-West Bengal\n20-Jharkhand\n21-Odisha\n22-Chhattisgarh\n23-Madhya Pradesh\n24-Gujarat\n25-Daman and Diu\n26-Dadra and Nagar Haveli\n27-Maharashtra\n28-Andhra Pradesh (Old)\n29-Karnataka\n30-Goa\n31-Lakshadweep\n32-Kerala\n33-Tamil Nadu\n34-Puducherry\n35-Andaman and Nicobar Islands\n36-Telangana\n37-Andhra Pradesh (New)\n97-Other Territories",
+      "4": 2,
+      "8": true,
+      "2": "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee"
+    },
+    "4ce9de4d-251a-4dc1-8346-62d437a1767e": {
+      "1": "State code",
+      "3": 2,
+      "9": "01-Jammu and Kashmir\n02-Himachal Pradesh\n03-Punjab\n04-Chandigarh\n05-Uttarakhand\n06-Haryana\n07-Delhi\n08-Rajasthan\n09-Uttar Pradesh\n10-Bihar\n11-Sikkim\n12-Arunachal Pradesh\n13-Nagaland\n14-Manipur\n15-Mizoram\n16-Tripura\n17-Meghalaya\n18-Assam\n19-West Bengal\n20-Jharkhand\n21-Odisha\n22-Chhattisgarh\n23-Madhya Pradesh\n24-Gujarat\n25-Daman and Diu\n26-Dadra and Nagar Haveli\n27-Maharashtra\n28-Andhra Pradesh (Old)\n29-Karnataka\n30-Goa\n31-Lakshadweep\n32-Kerala\n33-Tamil Nadu\n34-Puducherry\n35-Andaman and Nicobar Islands\n36-Telangana\n37-Andhra Pradesh (New)\n97-Other Territories",
+      "8": true,
+      "2": "6d2dc48d-2053-4e45-8330-285ebd431242"
+    },
+    "5300e67d-f2fb-4468-807f-60a50ac42e63": {
+      "1": "HSN",
+      "8": true,
+      "2": "b4ab284f-2b63-40b2-90ab-0daf35a0f7c5"
+    },
+    "65e1ee4b-fd8b-4f44-b927-c170de39da4b": {
+      "1": "HSN",
+      "8": true,
+      "2": "8c867cbb-cafd-4b34-b1af-f4187247bb82"
+    },
+    "9300e5b1-d34b-4392-802d-d537d82386d9": {
+      "1": "HSN",
+      "8": true,
+      "2": "0dbdbf8a-d80c-48e6-b453-bb7862445b7c"
+    },
+    "c5354efc-c8ed-4948-bd3e-d4f833a17cdd": {
+      "1": "GSTIN",
+      "8": true,
+      "2": "38cf4712-6e95-4ce1-b53a-bff03edad273"
+    },
+    "cd86da6e-891a-4537-a738-e9ca7b4e4eaa": {
+      "1": "HSN",
+      "8": true,
+      "2": "50ac9f9d-b5f7-4787-8b12-db520db2ad70"
+    },
+    "cdc09a93-3ecf-4b10-a1d9-beb37463c6dd": {
+      "1": "HSN",
+      "8": true,
+      "2": "c37e4421-591a-4440-90ef-c5c9421e7948"
+    },
+    "d0ed0530-4482-430d-809b-4c85aa661990": {
+      "1": "HSN",
+      "8": true,
+      "2": "7affe9ee-731f-4936-8acf-15cae7bcacee"
+    },
+    "e4fd75c3-95b1-4525-a674-479c924597ab": {
+      "1": "HSN",
+      "8": true,
+      "2": "4f819a77-dabc-4e28-8c99-172a1f595f3f"
+    }
+  },
+  "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+    "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": {
+      "1": "dd/MM/yyyy",
+      "4": "HH:mm:ss",
+      "3": "CgEuEgEsGAMYAg=="
+    }
+  },
+  "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+    "79f99d26-e43a-4ecb-a9c9-0774601a9b2e": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": {
+    "0120794f-d6e0-4a41-a2aa-3da2b7e21dac": {
+      "1": "Advertising and promotion",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "1884df38-0651-41ad-9941-9b87a098d730": {
+      "1": "Bank charges",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "316aa773-b471-4fc4-b68d-2353ad9f7135": {
+      "1": "Rent",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "3d1c53f2-e7a8-45a6-b6ee-0e8f0f658ff3": {
+      "1": "Printing and stationery",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "51d6357b-c3f8-41e7-b8aa-08f6395bf56e": {
+      "1": "Computer equipment",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "8071c9c0-2fe6-4490-8f4a-30303998162d": {
+      "1": "Entertainment",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "9b1d9138-70f2-4cc3-9731-1a627964ea06": {
+      "1": "Legal fees",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "9e40f2f1-af9e-4c61-9721-0c02672c537b": {
+      "1": "Repairs and maintenance",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "b0b31a8d-afda-4707-b21f-2b11aeb7520a": {
+      "1": "Donations",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "b4360672-5ce7-41ec-bb62-260fd56e60b8": {
+      "1": "Telephone",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "beda5c5c-e1d7-4a3a-9d5b-6ff5b81926e3": {
+      "1": "Sales",
+      "3": "95713fac-30d3-42e4-b536-dd7bc4f7a80e"
+    },
+    "c63170e7-e621-47ed-8b10-1786c6dd12e1": {
+      "1": "Electricity",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "cb4c2aec-3678-4e08-b7c6-fdf831253ee3": {
+      "1": "Motor vehicle expenses",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "e60d2e42-e550-45f0-b2e7-94ddd981a269": {
+      "1": "Accounting fees",
+      "3": "fd003045-876e-439e-b923-1904453f5c30"
+    },
+    "ed1f4f08-1c55-426b-9b27-d59316cf776d": {
+      "1": "Interest received",
+      "3": "95713fac-30d3-42e4-b536-dd7bc4f7a80e"
+    }
+  },
+  "5770616c-0e01-46ca-a172-f7042275da6c": {
+    "95713fac-30d3-42e4-b536-dd7bc4f7a80e": {
+      "1": "Income",
+      "5": 1
+    },
+    "fd003045-876e-439e-b923-1904453f5c30": {
+      "1": "Expenses",
+      "6": 1,
+      "5": 2
+    }
+  },
+  "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+    "7662b887-c8d8-486e-98fd-f9dbcd41c6dc": {
+      "8": 1,
+      "14": true
+    }
+  },
+  "ad12b60b-23bf-4421-94df-8be79cef533e": {
+    "ad12b60b-23bf-4421-94df-8be79cef533e": {
+      "49": [
+        {}
+      ],
+      "44": true
+    }
+  },
+  "a9a71e47-82b3-49db-8aec-898adb460a80": {
+    "a9a71e47-82b3-49db-8aec-898adb460a80": {
+      "1": 311
+    }
+  },
+  "f361339b-932a-4436-b56e-a337c1587c72": {
+    "29ac2088-a299-404e-b91c-70c18776f560": {
+      "1": "Share of profit"
+    },
+    "4de4de42-4065-49e2-85ef-aff1f26e580b": {
+      "1": "Drawings"
+    },
+    "9e8ef109-0f0b-4287-b578-427321152846": {
+      "1": "Funds contributed"
+    }
+  },
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+    "ac789d1f-034f-4964-a8b5-ebfffc3511f2": {
+      "2": true,
+      "44": true,
+      "45": true,
+      "35": true,
+      "43": true,
+      "9": true,
+      "14": true,
+      "4": true,
+      "17": true,
+      "3": true,
+      "5": true,
+      "38": true,
+      "13": true,
+      "23": true,
+      "46": true,
+      "10": true,
+      "15": true,
+      "39": true,
+      "7": true,
+      "6": true,
+      "20": true,
+      "32": true,
+      "47": true,
+      "11": true,
+      "33": true,
+      "21": true,
+      "22": true,
+      "18": true,
+      "19": true,
+      "12": true,
+      "41": true,
+      "27": true,
+      "42": true,
+      "26": true,
+      "30": true,
+      "31": true,
+      "16": true,
+      "40": true
+    }
+  },
+  "7f368d97-8b7f-4b39-b156-dc66afd9496a": {
+    "01462314-69d8-46f5-b4f0-9460cfcd6934": {
+      "1": "CGST + UTGST 18%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 9.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 9.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "1676d946-2c98-41c3-b38c-88770db0e6c5": {
+      "1": "CGST + SGST 0.25%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 0.125,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 0.125,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "1790b545-aba2-4c55-bd5c-3c1154c81bf8": {
+      "1": "CGST + UTGST 12%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 6.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 6.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "1b83c2aa-7221-4a72-b379-c80299b6bb9f": {
+      "1": "CGST + UTGST 0.25%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 0.125,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 0.125,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "39d6f58b-7846-4ed5-80c9-dd6ceb6d414d": {
+      "1": "CGST + UTGST 3%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 1.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 1.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "56cbda11-a302-46e4-a39d-b584e6155d30": {
+      "1": "CGST + SGST 18%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 9.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 9.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "70c9ee5b-943b-4ba4-83e2-dee08d3eafe4": {
+      "1": "CGST + SGST 5%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 2.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 2.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "74f2ebfa-9793-434e-8f5d-b8211425323d": {
+      "1": "IGST 0.25%",
+      "5": 2,
+      "4": 0.25,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "81142342-2c53-445a-ae65-d0787e6662fd": {
+      "1": "IGST 18%",
+      "5": 2,
+      "4": 18.0,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "957394df-d972-4a71-9441-f804151a88c5": {
+      "1": "IGST 28%",
+      "5": 2,
+      "4": 28.0,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "96444b4f-2331-420f-a48b-051bcea3aec4": {
+      "1": "CGST + SGST 12%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 6.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 6.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "9b7f90b6-0890-4732-8fb6-3581a2770c9f": {
+      "1": "IGST 3%",
+      "5": 2,
+      "4": 3.0,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "a7e7f1fd-744e-4c72-b42b-ca2c625d82da": {
+      "1": "IGST 12%",
+      "5": 2,
+      "4": 12.0,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "b0635b95-605f-43fc-87a3-e9b85d8b330f": {
+      "1": "CGST + SGST 3%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 1.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 1.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "b39255c3-0cc4-40e2-85a1-cca0d386bd95": {
+      "1": "CGST + SGST 28%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 14.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "SGST",
+          "2": 14.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "ca9ae0ab-573c-4607-bb62-9f723162320d": {
+      "1": "IGST 5%",
+      "5": 2,
+      "4": 5.0,
+      "7": "7c89f9a7-e62c-4975-abf7-057bbc830bc3",
+      "2": [
+        {}
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "f3ed9e8d-3234-4c9e-89d1-9b661b5c0445": {
+      "1": "CGST + UTGST 28%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 14.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 14.0,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    },
+    "f7518868-b55c-4c4e-83f4-c6e7782a1132": {
+      "1": "CGST + UTGST 5%",
+      "5": 2,
+      "6": 1,
+      "2": [
+        {
+          "1": "CGST",
+          "2": 2.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        },
+        {
+          "1": "UTGST",
+          "2": 2.5,
+          "4": "7c89f9a7-e62c-4975-abf7-057bbc830bc3"
+        }
+      ],
+      "13": true,
+      "14": "Tax Invoice"
+    }
+  }
+}
