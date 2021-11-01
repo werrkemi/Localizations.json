@@ -64,7 +64,7 @@ namespace Localizations
                             {
                                 if (!string.IsNullOrWhiteSpace(value.ToString()))
                                 {
-                                    throw new Exception("Country must be empty.");
+                                    throw new Exception($@"Do not set ""Country"" field under ""Business Details"". Country field under business details in {e2.Name} is set to {value.ToString()}");
                                 }
                             }
                         }
